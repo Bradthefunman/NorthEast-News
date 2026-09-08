@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bradthefunman.github.io/NorthEast-News/sitemap.xml
