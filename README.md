@@ -17,6 +17,7 @@ Open [http://localhost:8080](http://localhost:8080). Do not open `index.html` di
 ```text
 index.html                 Homepage and section layout
 article.html               Reusable article-page shell
+archive.html               Chronological archive with topic filters
 about.html                 Standards and contact page
 404.html                   GitHub Pages fallback page
 assets/css/styles.css      Responsive newsroom styling
@@ -51,6 +52,8 @@ Every story is one object in `data/articles.json` with these fields:
 | `image`, `imageAlt` | Optional legitimately licensed image and accessible alt text; use `null` for the visual fallback |
 | `visualLabel` | Text shown inside the no-image visual fallback |
 | `sourceName`, `sourceUrl` | Originating reporting used for verification and visible attribution |
+| `topic`, `topicLabel` | Publishing topic used by the archive filters; topics are `new-hampshire`, `massachusetts`, `rhode-island`, `breaking`, `tech`, `markets` and `misc` |
+| `archive` | Marks backdated launch-archive context pieces; archive items are never allowed to drive the live breaking-news bar |
 
 ## Automated Publisher Instructions
 
@@ -73,6 +76,8 @@ To publish one story:
 
 The homepage automatically sorts stories by `publishedAt`, finds the featured story, fills the NH/New England/Tech/Markets/More sections, updates the breaking bar and generates related-story links. No HTML redesign is needed for a normal article publication.
 
+The archive page exposes the full chronological collection and filters by the seven publishing topics. The launch archive contains 20 backdated context pieces in each topic, scheduled at four articles per day before the original launch stories.
+
 ## Homepage and site configuration
 
 Edit the `CONFIG` object near the top of `assets/js/app.js` to change `siteName`, `siteUrl`, or the JSON data paths. Leave `siteUrl` empty until the permanent domain exists. Once the real domain is connected, set it once there and update the absolute URLs in `robots.txt`, `sitemap.xml` and `feed.xml`.
@@ -88,3 +93,4 @@ For another static host, upload the repository root as-is. There is no build com
 ## Editorial and product follow-ups
 
 Before public launch, connect a newsroom inbox, replace the demo content with a reviewed publishing workflow, add a licensed image source, connect a newsletter provider, add delayed/live market data with a clear timestamp, and add automated sitemap/RSS generation. Analytics, advertising, weather, push notifications and social publishing can be layered on without changing the article schema.
+

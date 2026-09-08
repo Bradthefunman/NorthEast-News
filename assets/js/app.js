@@ -74,6 +74,7 @@
   }
 
   function typeLabel(article) {
+    if (article.archive) return 'Archive';
     if (article.breaking) return 'Breaking';
     if (article.developing) return 'Developing';
     if (article.analysis) return 'Analysis';
@@ -86,6 +87,11 @@
 
   function latestItem(article) {
     return '<article class="latest-item"><a class="story-link" href="' + getStoryUrl(article) + '">' + visual(article) + '</a><div class="story-info"><a class="story-link" href="' + getStoryUrl(article) + '"><span class="story-type">' + escapeHTML(typeLabel(article)) + '</span><h3>' + escapeHTML(article.headline) + '</h3></a><p class="story-summary">' + escapeHTML(article.dek || article.summary) + '</p><div class="story-meta">' + metadata(article) + '</div></div></article>';
+  }
+
+  function archiveItem(article) {
+    const topic = article.topicLabel ? '<span class="archive-topic">' + escapeHTML(article.topicLabel) + '</span>' : '';
+    return '<article class="latest-item archive-item"><a class="story-link" href="' + getStoryUrl(article) + '">' + visual(article) + '</a><div class="story-info"><a class="story-link" href="' + getStoryUrl(article) + '"><span class="story-type">' + escapeHTML(typeLabel(article)) + '</span><h3>' + escapeHTML(article.headline) + '</h3></a><p class="story-summary">' + escapeHTML(article.dek || article.summary) + '</p><div class="story-meta">' + (topic ? topic : '') + metadata(article) + '</div></div></article>';
   }
 
   function secondaryCard(article) {
@@ -134,6 +140,14 @@
       return '<div class="market-item"><small>' + escapeHTML(item.name) + '</small><strong>' + escapeHTML(item.value) + '</strong><span class="' + directionClass + '">' + escapeHTML(item.change) + '</span></div>';
     }).join('');
     setContent('market-snapshot', cards + '<div class="market-disclaimer">' + escapeHTML(snapshot.disclaimer || 'Market figures are reported snapshots, not live data.') + '</div>');
+  }
+
+  function renderArchive(filter) {
+    const archive = state.articles.slice().sort(function (a, b) { return new Date(b.publishedAt) - new Date(a.publishedAt); });
+    const filtered = filter && filter !== 'all' ? archive.filter(function (article) { return article.topic === filter; }) : archive;
+    setContent('archive-count', filtered.length + ' stories');
+    setContent('archive-feed', filtered.map(archiveItem).join(''));
+    document.querySelectorAll('[data-topic-filter]').forEach(function (button) { button.classList.toggle('active', button.getAttribute('data-topic-filter') === (filter || 'all')); });
   }
 
   function updateBreaking(featured, articles) {
@@ -198,6 +212,10 @@
       state.articles = Array.isArray(articleData) ? articleData : articleData.articles || [];
       state.marketSnapshot = responses[1].ok ? await responses[1].json() : null;
       if (document.body.id === 'homepage') renderHome();
+      if (document.body.id === 'archive-page') {
+        renderArchive('all');
+        document.querySelectorAll('[data-topic-filter]').forEach(function (button) { button.addEventListener('click', function () { renderArchive(button.getAttribute('data-topic-filter')); }); });
+      }
       document.dispatchEvent(new CustomEvent('ne-news-ready'));
     } catch (error) {
       console.error('NorthEast News data error:', error);
@@ -214,3 +232,4 @@
     loadData();
   });
 }());
+

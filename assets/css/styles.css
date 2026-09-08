@@ -228,6 +228,18 @@ img { display: block; width: 100%; max-width: 100%; height: 100%; object-fit: co
 .contact-panel h2 { color: #fff; }
 .contact-panel p:not(.eyebrow) { max-width: 650px; margin-bottom: 22px; color: #c4d0d3; }
 
+.archive-page { padding-top: 62px; padding-bottom: 80px; }
+.archive-header { display: flex; align-items: end; justify-content: space-between; gap: 30px; padding-bottom: 30px; border-bottom: 1px solid var(--border); }
+.archive-header h1 { margin: 0 0 10px; color: var(--navy); font-family: var(--serif); font-size: clamp(2.8rem, 6vw, 5rem); letter-spacing: -.06em; line-height: .95; }
+.archive-header p:not(.eyebrow) { max-width: 610px; margin: 0; color: var(--muted); }
+.archive-header strong { flex: 0 0 auto; padding-bottom: 5px; color: var(--red); font-size: .73rem; letter-spacing: .08em; text-transform: uppercase; }
+.archive-filters { display: flex; flex-wrap: wrap; gap: 8px; padding: 22px 0; }
+.archive-filters button { padding: 8px 11px; border: 1px solid var(--border); background: #fff; color: var(--navy); font-size: .7rem; font-weight: 800; }
+.archive-filters button:hover, .archive-filters button:focus-visible, .archive-filters button.active { border-color: var(--navy); background: var(--navy); color: #fff; }
+.archive-feed { border-top: 2px solid var(--navy); }
+.archive-item { grid-template-columns: 145px minmax(0, 1fr); }
+.archive-topic { margin-right: 13px; color: var(--red); font-size: .65rem; font-weight: 900; letter-spacing: .06em; text-transform: uppercase; }
+
 @media (max-width: 900px) {
   .page-width { width: min(100% - 28px, 720px); }
   .utility-note, .newsletter-link { display: none; }
@@ -296,6 +308,9 @@ img { display: block; width: 100%; max-width: 100%; height: 100%; object-fit: co
   .article-visual { min-height: 230px; }
   .article-body { font-size: 1.04rem; }
   .about-page { padding-top: 46px; }
+  .archive-page { padding-top: 45px; }
+  .archive-header { display: block; }
+  .archive-header strong { display: block; margin-top: 18px; }
   .about-grid { grid-template-columns: 1fr; gap: 26px; padding-top: 32px; }
   .about-hero h1 { font-size: 3rem; }
   .contact-panel { padding: 22px; }
@@ -308,3 +323,4 @@ img { display: block; width: 100%; max-width: 100%; height: 100%; object-fit: co
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
 }
+
