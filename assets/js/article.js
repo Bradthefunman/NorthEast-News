@@ -1,113 +1,64 @@
 (function () {
   'use strict';
-
-  function escapeHTML(value) {
-    return String(value || '').replace(/[&<>'"]/g, function (character) {
-      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[character];
-    });
+  function api() { return window.NENews || {}; }
+  function intersect(a, b) {
+    var right = (b || []).map(function (x) { return String(x).toLowerCase(); });
+    return (a || []).reduce(function (n, x) { return n + (right.indexOf(String(x).toLowerCase()) !== -1 ? 1 : 0); }, 0);
   }
-
-  function formatDate(value, options) {
-    const date = new Date(value);
-    if (Number.isNaN(date.getTime())) return '';
-    return new Intl.DateTimeFormat('en-US', Object.assign({ timeZone: 'America/New_York' }, options || {})).format(date);
+  function related(article, all) {
+    var anchor = new Date(article.updatedAt || article.publishedAt || 0).getTime();
+    return api().sortArticles(all).filter(function (item) { return item.id !== article.id && item.slug !== article.slug; }).map(function (item) {
+      var score = 0;
+      if (item.category && item.category === article.category) score += 4;
+      if (item.topic && item.topic === article.topic) score += 4;
+      if (item.state && item.state === article.state) score += 3;
+      if (item.city && article.city && item.city.toLowerCase() === article.city.toLowerCase()) score += 5;
+      score += intersect(article.tags, item.tags) * 3;
+      if (Math.abs(new Date(item.updatedAt || item.publishedAt || 0).getTime() - anchor) < 14 * 86400000) score += 1;
+      return { item: item, score: score };
+    }).filter(function (row) { return row.score > 0; }).sort(function (a, b) {
+      return b.score - a.score || new Date(b.item.publishedAt) - new Date(a.item.publishedAt);
+    }).slice(0, 5).map(function (row) { return row.item; });
   }
-
-  function formatDateTime(value) {
-    return formatDate(value, { month: 'long', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit' });
+  function setMeta(kind, key, value) {
+    var selector = 'meta[' + kind + '="' + key + '"]', element = document.querySelector(selector);
+    if (!element) { element = document.createElement('meta'); element.setAttribute(kind, key); document.head.appendChild(element); }
+    if (value) element.setAttribute('content', value);
   }
-
-  function visualClass(article) {
-    if (article.breaking) return 'visual-breaking';
-    if (article.category === 'new-hampshire') return 'visual-new-hampshire';
-    if (article.category === 'new-england') return 'visual-new-england';
-    if (article.category === 'tech') return 'visual-tech';
-    if (article.category === 'markets') return 'visual-markets';
-    return 'visual-more';
+  function canonical(article) {
+    var config = api().CONFIG || {};
+    return article.canonicalUrl || (config.siteUrl ? config.siteUrl.replace(/\/$/, '') + '/article.html?slug=' + encodeURIComponent(article.slug) : window.location.href);
   }
-
-  function categoryLabel(article) {
-    return { 'new-hampshire': 'New Hampshire', 'new-england': 'New England', tech: 'Tech', markets: 'Markets', more: 'More' }[article.category] || 'News';
+  function render(article, all) {
+    var site = api(), url = canonical(article), description = article.seoDescription || article.dek || article.summary || '';
+    var image = article.image ? site.absoluteUrl(article.image) : site.absoluteUrl((site.CONFIG.organization && site.CONFIG.organization.logo) || 'assets/og-default.svg');
+    var publisherLogo = site.absoluteUrl((site.CONFIG.organization && site.CONFIG.organization.logo) || 'assets/og-default.svg');
+    var place = [article.city, site.stateLabel(article)].filter(Boolean).join(', ') || article.location || 'New England';
+    var body = Array.isArray(article.body) ? article.body : [article.body || ''], relatedItems = related(article, all);
+    var relatedMarkup = relatedItems.length ? '<section class="related-stories" aria-labelledby="related-heading"><div class="section-heading"><div><p class="eyebrow">More from the file</p><h2 id="related-heading">Related stories</h2></div></div>' + relatedItems.map(function (item) { return '<a class="related-story" href="' + site.articleUrl(item) + '"><small>' + site.escapeHTML(site.typeLabel(item)) + '</small><h3>' + site.escapeHTML(item.headline) + '</h3><span>' + site.escapeHTML([item.city, site.stateLabel(item), site.formatFullDate(item.publishedAt)].filter(Boolean).join(' · ')) + '</span></a>'; }).join('') + '</section>' : '';
+    var tags = (article.tags || []).map(function (tag) { return '<a href="' + site.rootPath('search/?q=' + encodeURIComponent(tag)) + '">' + site.escapeHTML(tag) + '</a>'; }).join('');
+    var source = article.sourceUrl ? '<div class="article-source">Source attribution: <a href="' + site.escapeHTML(article.sourceUrl) + '" target="_blank" rel="noopener noreferrer">' + site.escapeHTML(article.sourceName || 'the originating source') + '</a>. NorthEast News wrote an original summary and will update this item as confirmed facts change.</div>' : '';
+    var schema = { '@context': 'https://schema.org', '@type': 'NewsArticle', headline: article.headline, description: description, datePublished: article.publishedAt, dateModified: article.updatedAt || article.publishedAt, articleSection: site.categoryLabel(article), keywords: (article.tags || []).join(', '), mainEntityOfPage: { '@type': 'WebPage', '@id': url }, author: { '@type': 'Organization', name: article.author || 'NorthEast News' }, publisher: { '@type': 'Organization', name: 'NorthEast News', logo: { '@type': 'ImageObject', url: publisherLogo } }, image: [image] };
+    document.title = (article.seoTitle || article.headline) + ' | NorthEast News';
+    setMeta('name', 'description', description); setMeta('property', 'og:title', article.seoTitle || article.headline); setMeta('property', 'og:description', description); setMeta('property', 'og:url', url); setMeta('property', 'og:image', image);
+    setMeta('name', 'twitter:title', article.seoTitle || article.headline); setMeta('name', 'twitter:description', description); setMeta('name', 'twitter:image', image);
+    var canonicalLink = document.querySelector('link[rel="canonical"]'); if (canonicalLink) canonicalLink.href = url;
+    var old = document.getElementById('article-schema'); if (old) old.remove();
+    var shell = document.getElementById('article-shell');
+    shell.innerHTML = '<div class="article-layout"><div><header class="article-header"><span class="story-type">' + site.escapeHTML(site.typeLabel(article)) + '</span><h1>' + site.escapeHTML(article.headline) + '</h1><p class="article-dek">' + site.escapeHTML(description) + '</p><div class="article-byline"><span>By ' + site.escapeHTML(article.author || 'NorthEast News Desk') + '</span><span><a href="' + site.rootPath('search/?q=' + encodeURIComponent(article.state || article.location || 'New England')) + '">' + site.escapeHTML(place) + '</a></span><span>Published ' + site.escapeHTML(site.formatDateTime(article.publishedAt)) + '</span>' + (article.updatedAt && article.updatedAt !== article.publishedAt ? '<span>Updated ' + site.escapeHTML(site.formatDateTime(article.updatedAt)) + '</span>' : '') + '</div></header>' + site.visualArticle(article) + '<div class="article-share" aria-label="Share this story"><span class="share-label">Share</span><button class="share-button" data-share="native" type="button" hidden>Share</button><button class="share-button" data-share="facebook" type="button">Facebook</button><button class="share-button" data-share="x" type="button">X</button><button class="share-button" data-share="linkedin" type="button">LinkedIn</button><a class="share-button" data-share="email" href="mailto:?subject=' + encodeURIComponent(article.headline) + '&body=' + encodeURIComponent(url) + '">Email</a><button class="share-button" data-share="copy" type="button">Copy link</button><small class="share-feedback" aria-live="polite"></small></div><div class="article-body">' + body.map(function (paragraph) { return '<p>' + site.escapeHTML(paragraph) + '</p>'; }).join('') + '</div>' + (article.tags && article.tags.length ? '<div class="article-tags" aria-label="Story tags">' + tags + '</div>' : '') + source + '<div class="article-tools"><a class="share-button" href="' + site.rootPath('archive.html') + '">← Back to all news</a></div></div><aside class="article-side"><div class="ad-slot ad-rectangle" aria-label="Advertisement"><span>ADVERTISEMENT</span></div>' + relatedMarkup + '</aside></div><script type="application/ld+json" id="article-schema">' + JSON.stringify(schema).replace(/<\/script/gi, '<\\/script') + '</script>';
+    shell.hidden = false; var loading = document.getElementById('article-loading'); if (loading) loading.hidden = true; var missing = document.getElementById('article-missing'); if (missing) missing.hidden = true; bindShare(url, article.headline);
   }
-
-  function articleUrl(article) {
-    return 'article.html?slug=' + encodeURIComponent(article.slug);
-  }
-
-  function storyVisual(article) {
-    const image = article.image ? '<img src="' + escapeHTML(article.image) + '" alt="' + escapeHTML(article.imageAlt || article.headline) + '">' : '<span class="visual-label">' + escapeHTML(article.visualLabel || categoryLabel(article)) + '</span>';
-    return '<div class="article-visual story-visual ' + visualClass(article) + '">' + image + '</div>';
-  }
-
-  function typeLabel(article) {
-    if (article.breaking) return 'Breaking';
-    if (article.developing) return 'Developing';
-    if (article.analysis) return 'Analysis';
-    return categoryLabel(article);
-  }
-
-  function renderArticle(article, allArticles) {
-    const location = [article.city, article.state].filter(Boolean).join(', ') || article.location || 'New England';
-    const updated = article.updatedAt && article.updatedAt !== article.publishedAt ? '<span>Updated ' + escapeHTML(formatDateTime(article.updatedAt)) + '</span>' : '';
-    const paragraphs = (article.body || []).map(function (paragraph) { return '<p>' + escapeHTML(paragraph) + '</p>'; }).join('');
-    const source = article.sourceUrl ? '<div class="article-source">Source attribution: reporting was informed by <a href="' + escapeHTML(article.sourceUrl) + '" target="_blank" rel="noreferrer">' + escapeHTML(article.sourceName || 'the originating source') + '</a>. NorthEast News has written an original summary and will update this item as confirmed facts change.</div>' : '';
-    const related = allArticles.filter(function (item) { return item.id !== article.id && (item.category === article.category || (article.tags || []).some(function (tag) { return (item.tags || []).includes(tag); })); }).slice(0, 3);
-    const relatedMarkup = related.length ? '<section class="related-stories" aria-labelledby="related-heading"><h2 id="related-heading">Keep reading</h2>' + related.map(function (item) { return '<a class="related-story" href="' + articleUrl(item) + '"><small>' + escapeHTML(categoryLabel(item)) + '</small><h3>' + escapeHTML(item.headline) + '</h3></a>'; }).join('') + '</section>' : '';
-    const canonicalUrl = window.NENews && window.NENews.CONFIG.siteUrl ? window.NENews.CONFIG.siteUrl.replace(/\/$/, '') + '/' + articleUrl(article) : '';
-    const shareUrl = canonicalUrl || window.location.href;
-    const articleSchema = { '@context': 'https://schema.org', '@type': 'NewsArticle', headline: article.headline, description: article.dek || article.summary, datePublished: article.publishedAt, dateModified: article.updatedAt || article.publishedAt, articleSection: categoryLabel(article), mainEntityOfPage: shareUrl, author: { '@type': 'Organization', name: article.author || 'NorthEast News' }, publisher: { '@type': 'Organization', name: 'NorthEast News' } };
-
-    document.title = article.headline + ' | NorthEast News';
-    const descriptionMeta = document.querySelector('meta[name="description"]');
-    if (descriptionMeta) descriptionMeta.setAttribute('content', article.dek || article.summary || 'Reporting from NorthEast News.');
-    const ogTitle = document.querySelector('meta[property="og:title"]');
-    const ogDescription = document.querySelector('meta[property="og:description"]');
-    const ogUrl = document.querySelector('meta[property="og:url"]');
-    if (ogTitle) ogTitle.setAttribute('content', article.headline);
-    if (ogDescription) ogDescription.setAttribute('content', article.dek || article.summary || '');
-    if (ogUrl) ogUrl.setAttribute('content', canonicalUrl);
-    const canonical = document.querySelector('link[rel="canonical"]');
-    if (canonical) canonical.setAttribute('href', canonicalUrl);
-
-    const shell = document.getElementById('article-shell');
-    shell.innerHTML = '<div class="article-layout"><div><header class="article-header"><span class="story-type">' + escapeHTML(typeLabel(article)) + '</span><h1>' + escapeHTML(article.headline) + '</h1><p class="article-dek">' + escapeHTML(article.dek || article.summary || '') + '</p><div class="article-byline"><span>By ' + escapeHTML(article.author || 'NorthEast News Desk') + '</span><span>' + escapeHTML(location) + '</span><span>Published ' + escapeHTML(formatDateTime(article.publishedAt)) + '</span>' + updated + '</div></header>' + storyVisual(article) + '<div class="article-tools"><span class="share-label">Share</span><button class="share-button" data-share="copy" type="button">Copy link</button><button class="share-button" data-share="x" type="button">Post to X</button><button class="share-button" data-share="facebook" type="button">Facebook</button></div><div class="article-body">' + paragraphs + '</div>' + source + '<div class="article-tools"><a class="share-button" href="index.html">← Back to all news</a></div></div><aside class="article-side"><div class="ad-slot ad-rectangle" aria-label="Advertisement"><span>ADVERTISEMENT</span></div>' + relatedMarkup + '</aside></div><script type="application/ld+json" id="article-schema">' + JSON.stringify(articleSchema) + '</script>';
-    shell.hidden = false;
-    document.getElementById('article-loading').hidden = true;
-    document.getElementById('article-missing').hidden = true;
-    bindShareButtons(shareUrl, article.headline);
-  }
-
-  function bindShareButtons(url, title) {
+  function bindShare(url, title) {
     document.querySelectorAll('[data-share]').forEach(function (button) {
-      button.addEventListener('click', async function () {
-        const action = button.getAttribute('data-share');
-        if (action === 'copy') {
-          try { await navigator.clipboard.writeText(url); button.textContent = 'Copied'; } catch (error) { window.prompt('Copy this story link:', url); }
-          return;
-        }
-        const encodedUrl = encodeURIComponent(url);
-        if (action === 'x') window.open('https://twitter.com/intent/tweet?url=' + encodedUrl + '&text=' + encodeURIComponent(title), '_blank', 'noopener,noreferrer');
-        if (action === 'facebook') window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodedUrl, '_blank', 'noopener,noreferrer');
-      });
+      var action = button.getAttribute('data-share');
+      if (action === 'native') { if (navigator.share) { button.hidden = false; button.addEventListener('click', function () { navigator.share({ title: title, text: title, url: url }).catch(function () {}); }); } return; }
+      if (action === 'copy') { button.addEventListener('click', function () { var feedback = document.querySelector('.share-feedback'), done = function () { button.textContent = 'Copied'; if (feedback) feedback.textContent = 'Link copied to clipboard.'; setTimeout(function () { button.textContent = 'Copy link'; }, 1800); }; if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(url).then(done).catch(function () { window.prompt('Copy this story link:', url); }); else window.prompt('Copy this story link:', url); }); return; }
+      if (action === 'facebook') button.addEventListener('click', function () { window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url), '_blank', 'noopener,noreferrer'); });
+      if (action === 'x') button.addEventListener('click', function () { window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(title) + '&url=' + encodeURIComponent(url), '_blank', 'noopener,noreferrer'); });
+      if (action === 'linkedin') button.addEventListener('click', function () { window.open('https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(url), '_blank', 'noopener,noreferrer'); });
     });
   }
-
-  function showMissing() {
-    const loading = document.getElementById('article-loading');
-    const missing = document.getElementById('article-missing');
-    if (loading) loading.hidden = true;
-    if (missing) missing.hidden = false;
-  }
-
-  function loadArticle() {
-    const params = new URLSearchParams(window.location.search);
-    const slug = params.get('slug');
-    if (!slug || !window.NENews || !window.NENews.state.articles.length) return;
-    const article = window.NENews.state.articles.find(function (item) { return item.slug === slug; });
-    if (article) renderArticle(article, window.NENews.state.articles); else showMissing();
-  }
-
-  document.addEventListener('DOMContentLoaded', loadArticle);
-  document.addEventListener('ne-news-ready', loadArticle);
-  document.addEventListener('ne-news-error', showMissing);
+  function missing() { var loading = document.getElementById('article-loading'); if (loading) loading.hidden = true; var shell = document.getElementById('article-shell'); if (shell) shell.hidden = true; var target = document.getElementById('article-missing'); if (target) target.hidden = false; }
+  function load() { var slug = new URLSearchParams(window.location.search).get('slug'); if (!slug || !api().state || !api().state.articles.length) return; var article = api().state.articles.find(function (item) { return item.slug === slug; }); if (article) render(article, api().state.articles); else missing(); }
+  document.addEventListener('DOMContentLoaded', load); document.addEventListener('ne-news-ready', load);
 }());

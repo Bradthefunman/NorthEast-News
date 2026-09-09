@@ -1,0 +1,11 @@
+{
+  "siteName": "NorthEast News",
+  "siteUrl": "https://bradthefunman.github.io/NorthEast-News",
+  "description": "Independent regional reporting for New Hampshire, Massachusetts, Rhode Island and New England.",
+  "dataUrl": "data/articles.json",
+  "marketDataUrl": "data/market-snapshot.json",
+  "businessesUrl": "data/businesses.json",
+  "timezone": "America/New_York",
+  "forms": { "newsletter": "", "tips": "", "sponsorship": "", "contact": "" },
+  "organization": { "name": "NorthEast News", "logo": "assets/og-default.svg" }
+}

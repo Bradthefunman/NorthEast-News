@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+const fs=require('fs'),path=require('path'),root=path.resolve(__dirname,'..');
+const raw=JSON.parse(fs.readFileSync(path.join(root,'data/articles.json'),'utf8')),articles=Array.isArray(raw)?raw:raw.articles||[],ids=new Set(),slugs=new Set();
+for(const a of articles){if(!a.id||!a.slug||!a.headline||!a.publishedAt)throw new Error('Missing core article field');if(ids.has(a.id)||slugs.has(a.slug))throw new Error('Duplicate id or slug: '+a.slug);ids.add(a.id);slugs.add(a.slug);}
+for(const route of ['new-hampshire','massachusetts','rhode-island','search','business-directory','about','editorial-standards','corrections','privacy','terms','advertise','tips','contact'])if(!fs.existsSync(path.join(root,route,'index.html')))throw new Error('Missing route: '+route);
+console.log('Validated '+articles.length+' articles and all public routes.');

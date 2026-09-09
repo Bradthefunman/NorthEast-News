@@ -3,16 +3,13 @@
   "slug": "replace-with-unique-lowercase-slug",
   "headline": "Replace with an original, specific headline",
   "dek": "One or two sentences summarizing the verified news and why it matters.",
-  "body": [
-    "Write the original opening paragraph with the most important verified fact.",
-    "Add context, attribution and what readers should expect next. Do not copy source language or invent quotes, numbers or events."
-  ],
+  "body": ["Write original paragraphs with verified facts, attribution and context."],
   "category": "new-hampshire",
   "topic": "new-hampshire",
   "topicLabel": "New Hampshire",
   "tags": ["New Hampshire", "REPLACE_WITH_TOPIC_TAG"],
   "state": "NH",
-  "city": "REPLACE_WITH_CITY_OR_NULL",
+  "city": null,
   "location": "REPLACE_WITH_LOCATION",
   "author": "NorthEast News Desk",
   "publishedAt": "2026-09-08T12:00:00-04:00",
@@ -25,7 +22,9 @@
   "archive": false,
   "image": null,
   "imageAlt": null,
-  "visualLabel": "New Hampshire",
+  "seoTitle": null,
+  "seoDescription": null,
+  "canonicalUrl": null,
   "sourceName": "REPLACE_WITH_SOURCE_NAME",
   "sourceUrl": "https://example.com/verified-source"
 }
