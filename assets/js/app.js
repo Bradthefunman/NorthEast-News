@@ -138,9 +138,17 @@
   function updateBreaking() {
     var bar = document.getElementById('breaking'), headline = document.getElementById('breaking-headline');
     if (!bar || !headline) return;
-    var article = sortArticles(state.articles).find(function (item) { return item.breaking === true && item.archive !== true; });
+    var article = sortArticles(state.articles).find(function (item) { return (item.breaking === true || item.developing === true) && item.archive !== true; });
     if (!article) { bar.hidden = true; return; }
     bar.hidden = false; headline.textContent = article.headline; headline.href = articleUrl(article);
+    var label = bar.querySelector('.breaking-label');
+    if (label) {
+      var indicator = label.querySelector('i');
+      label.textContent = '';
+      if (indicator) label.appendChild(indicator);
+      label.appendChild(document.createTextNode(article.breaking === true ? ' Breaking' : ' Developing'));
+    }
+    bar.setAttribute('aria-label', article.breaking === true ? 'Breaking news' : 'Developing story');
     var time = bar.querySelector('time');
     if (time) { time.textContent = formatDate(article.updatedAt || article.publishedAt, { hour: 'numeric', minute: '2-digit' }); time.dateTime = article.updatedAt || article.publishedAt; }
   }
@@ -193,7 +201,7 @@
   }
   function enhanceNavigation() {
     var nav = document.querySelector('.nav-inner'); if (!nav) return;
-    nav.innerHTML = [['Home', rootPath('index.html')], ['New Hampshire', rootPath('new-hampshire/')], ['Massachusetts', rootPath('massachusetts/')], ['Rhode Island', rootPath('rhode-island/')], ['Breaking', rootPath('search/?q=breaking')], ['Tech', rootPath('search/?q=tech')], ['Markets', rootPath('search/?q=markets')], ['Search', rootPath('search/')], ['More', rootPath('archive.html')]].map(function (item) { return '<a href="' + item[1] + '">' + item[0] + '</a>'; }).join('');
+    nav.innerHTML = [['Home', rootPath('index.html')], ['New Hampshire', rootPath('new-hampshire/')], ['Massachusetts', rootPath('massachusetts/')], ['Rhode Island', rootPath('rhode-island/')], ['Breaking', rootPath('breaking/')], ['Tech', rootPath('tech/')], ['Markets', rootPath('markets/')], ['Search', rootPath('search/')], ['More', rootPath('archive.html')]].map(function (item) { return '<a href="' + item[1] + '">' + item[0] + '</a>'; }).join('');
     var current = window.location.pathname;
     nav.querySelectorAll('a').forEach(function (link) { try { if (current === new URL(link.href).pathname) link.classList.add('active'); } catch (error) {} });
   }
@@ -210,13 +218,38 @@
     if (document.querySelector('link[data-feature-styles]')) return;
     var link = document.createElement('link'); link.rel = 'stylesheet'; link.href = rootPath('assets/css/features.css'); link.dataset.featureStyles = 'true'; document.head.appendChild(link);
   }
+  function ensureHomeUtilityLinks() {
+    if (document.body.id !== 'homepage' || document.getElementById('home-utility-links')) return;
+    var main = document.querySelector('main'); if (!main) return;
+    var section = document.createElement('section');
+    section.id = 'home-utility-links';
+    section.className = 'home-utility-links';
+    section.setAttribute('aria-labelledby', 'home-utility-heading');
+    section.innerHTML = '<div><p class="eyebrow">Stay connected</p><h2 id="home-utility-heading">Keep following the region.</h2><p>Search the file, send a tip or explore local businesses as reviewed listings become available.</p></div><div class="home-utility-actions"><a class="button-link" href="' + rootPath('search/') + '">Search the news →</a><a class="button-link secondary" href="' + rootPath('tips/') + '">Submit a news tip</a><a class="button-link secondary" href="' + rootPath('business-directory/') + '">Business directory</a><a class="button-link secondary" href="' + rootPath('advertise/') + '">Advertise</a></div>';
+    main.appendChild(section);
+  }
   function submitForm(form, type) {
     var message = form.querySelector('[data-form-message]') || document.getElementById('newsletter-message'), endpoint = defaults.forms && defaults.forms[type], data = {};
     Array.prototype.forEach.call(new FormData(form).entries(), function (entry) { if (entry[0] !== '_honey') data[entry[0]] = entry[1]; });
     var honeypot = form.querySelector('[name="_honey"]'); if (honeypot && honeypot.value) return;
     if (!endpoint) { if (message) { message.textContent = type === 'newsletter' ? 'Newsletter signup is not active yet; your email was not stored.' : 'This form is ready, but delivery has not been connected yet.'; message.className = 'form-status'; } return; }
     if (message) { message.textContent = 'Sending…'; message.className = 'form-status'; }
-    fetch(endpoint, { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify(data) }).then(function (response) { if (!response.ok) throw new Error('Submission failed'); form.reset(); if (message) { message.textContent = type === 'newsletter' ? 'You’re on the list.' : 'Thanks — your submission was sent.'; message.className = 'form-status success'; } }).catch(function () { if (message) { message.textContent = 'We could not send that right now. Please try again later.'; message.className = 'form-status error'; } });
+    fetch(endpoint, { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify(data) }).then(function (response) {
+      return response.json().catch(function () { return {}; }).then(function (payload) {
+        if (!response.ok) {
+          if (type === 'newsletter' && (response.status === 409 || payload.status === 'already_subscribed' || payload.alreadySubscribed === true)) {
+            if (message) { message.textContent = 'That email is already subscribed.'; message.className = 'form-status success'; }
+            return;
+          }
+          throw new Error('Submission failed');
+        }
+        if (type === 'newsletter' && (payload.status === 'already_subscribed' || payload.alreadySubscribed === true)) {
+          if (message) { message.textContent = 'That email is already subscribed.'; message.className = 'form-status success'; }
+          return;
+        }
+        form.reset(); if (message) { message.textContent = type === 'newsletter' ? 'You’re on the list.' : 'Thanks — your submission was sent.'; message.className = 'form-status success'; }
+      });
+    }).catch(function () { if (message) { message.textContent = 'We could not send that right now. Please try again later.'; message.className = 'form-status error'; } });
   }
   function bindForms() {
     document.querySelectorAll('form[data-form-type]').forEach(function (form) { if (form.dataset.bound) return; form.dataset.bound = 'true'; form.addEventListener('submit', function (event) { event.preventDefault(); submitForm(form, form.dataset.formType); }); });
@@ -236,11 +269,12 @@
     var articleData = await responses[0].json(); state.articles = Array.isArray(articleData) ? articleData : (articleData.articles || []); state.marketSnapshot = responses[1].ok ? await responses[1].json() : null; state.ready = true;
     if (document.body.id === 'homepage') renderHome();
     if (document.body.id === 'archive-page') { renderArchive('all'); document.querySelectorAll('[data-topic-filter]').forEach(function (button) { button.addEventListener('click', function () { renderArchive(button.getAttribute('data-topic-filter')); }); }); }
+    updateBreaking();
     document.dispatchEvent(new CustomEvent('ne-news-ready'));
   }
   function ready() {
     window.NENews = { CONFIG: defaults, state: state, rootPath: rootPath, absoluteUrl: absoluteUrl, articleUrl: articleUrl, escapeHTML: escapeHTML, formatDate: formatDate, formatDateTime: formatDateTime, formatFullDate: formatFullDate, sortArticles: sortArticles, categoryLabel: categoryLabel, stateLabel: stateLabel, typeLabel: typeLabel, stateMatches: stateMatches, storyCard: storyCard, latestItem: latestItem, visualArticle: visualArticle, searchMatches: searchMatches, searchMarkup: searchMarkup };
-    initDate(); enhanceNavigation(); enhanceFooter(); ensureFeatureStyles(); ensureBreakingBar(); bindMenu(); bindSearch(); bindForms();
+    initDate(); enhanceNavigation(); enhanceFooter(); ensureFeatureStyles(); ensureBreakingBar(); ensureHomeUtilityLinks(); bindMenu(); bindSearch(); bindForms();
     loadData().catch(function (error) { console.error('NorthEast News data error:', error); document.dispatchEvent(new CustomEvent('ne-news-error')); });
   }
   document.addEventListener('DOMContentLoaded', ready);

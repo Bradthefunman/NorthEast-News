@@ -12,13 +12,13 @@ Open http://localhost:8080. The site reads articles from data/articles.json.
 
 ## Architecture
 
-index.html is the homepage shell. article.html is the canonical article shell; normal stories are data objects, not hand-coded pages. assets/js/app.js owns shared navigation, data loading, homepage/archive rendering, search, breaking logic, footer, forms and path handling. assets/js/article.js owns article rendering, metadata, NewsArticle JSON-LD, sharing and scored related stories. assets/js/landing.js renders state pages from the same article data. data/site-config.json centralizes the site URL, data paths and form endpoints. data/businesses.json is intentionally empty until legitimate listings are reviewed. scripts/generate-sitemap.js generates sitemap.xml and robots.txt from the URL and every article slug.
+index.html is the homepage shell. article.html is the canonical article shell; normal stories are data objects, not hand-coded pages. assets/js/app.js owns shared navigation, data loading, homepage/archive rendering, search, breaking/developing logic, footer, forms and path handling. assets/js/article.js owns article rendering, metadata, NewsArticle JSON-LD, sharing and scored related stories. assets/js/landing.js renders state pages and assets/js/category.js renders category pages from the same article data. data/site-config.json centralizes the site URL, data paths and form endpoints. data/businesses.json is intentionally empty until legitimate listings are reviewed. scripts/generate-sitemap.js generates sitemap.xml and robots.txt from the URL and every article slug.
 
 templates/business-listing.json documents the directory record shape: name, category, city, state, description, website, phone, address, logo and featured. It is not a public listing.
 
 ## Public routes
 
-/, /new-hampshire/, /massachusetts/, /rhode-island/, /search/, /archive.html, /business-directory/, /tips/, /advertise/, /about/, /editorial-standards/, /corrections/, /privacy/, /terms/ and /contact/. Older .html pages remain available for compatibility.
+/, /new-hampshire/, /massachusetts/, /rhode-island/, /breaking/, /tech/, /markets/, /misc/, /search/, /archive.html, /business-directory/, /tips/, /advertise/, /about/, /editorial-standards/, /corrections/, /privacy/, /terms/ and /contact/. Older .html pages remain available for compatibility.
 
 ## Automated publishing
 
