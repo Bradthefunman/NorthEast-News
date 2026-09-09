@@ -23,6 +23,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Validate and generate crawl files
+        run: |
+          node scripts/validate-site.js
+          node scripts/generate-sitemap.js
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload static site
