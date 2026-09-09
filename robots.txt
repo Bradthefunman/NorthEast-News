@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Disallow: /submissions/
-Sitemap: https://bradthefunman.github.io/NorthEast-News/sitemap.xml
+Sitemap: https://www.northenews.com/sitemap.xml

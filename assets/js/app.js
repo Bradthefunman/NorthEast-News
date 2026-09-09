@@ -3,7 +3,7 @@
 
   var defaults = {
     siteName: 'NorthEast News',
-    siteUrl: 'https://bradthefunman.github.io/NorthEast-News',
+    siteUrl: 'https://www.northenews.com',
     description: 'Independent regional reporting for New Hampshire, Massachusetts, Rhode Island and New England.',
     dataUrl: 'data/articles.json',
     marketDataUrl: 'data/market-snapshot.json',
