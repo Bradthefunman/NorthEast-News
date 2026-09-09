@@ -260,10 +260,15 @@
     var canonical = document.querySelector('link[rel="canonical"]'); if (canonical) canonical.href = pageCanonical();
     var urlMeta = document.querySelector('meta[property="og:url"]'); if (urlMeta) urlMeta.content = pageCanonical();
   }
+  function ensureSiteSchema() {
+    if (document.getElementById('site-schema')) return;
+    var organization = defaults.organization || {}, schema = { '@context': 'https://schema.org', '@type': 'Organization', name: organization.name || defaults.siteName, url: defaults.siteUrl, logo: absoluteUrl(organization.logo || 'assets/og-default.svg') };
+    var script = document.createElement('script'); script.type = 'application/ld+json'; script.id = 'site-schema'; script.textContent = JSON.stringify(schema).replace(/<\/script/gi, '<\\/script'); document.head.appendChild(script);
+  }
   function initDate() { var element = document.getElementById('current-date'); if (element) element.textContent = formatDate(new Date().toISOString(), { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' }); }
   async function loadData() {
     var configResponse = await fetch(rootPath('data/site-config.json')); if (configResponse.ok) Object.assign(defaults, await configResponse.json());
-    updatePageMeta();
+    updatePageMeta(); ensureSiteSchema();
     var responses = await Promise.all([fetch(rootPath(defaults.dataUrl)), fetch(rootPath(defaults.marketDataUrl))]);
     if (!responses[0].ok) throw new Error('Article data request failed');
     var articleData = await responses[0].json(); state.articles = Array.isArray(articleData) ? articleData : (articleData.articles || []); state.marketSnapshot = responses[1].ok ? await responses[1].json() : null; state.ready = true;
