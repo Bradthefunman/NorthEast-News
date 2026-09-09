@@ -1,0 +1,12 @@
+{
+  "name": "REPLACE_WITH_VERIFIED_BUSINESS_NAME",
+  "category": "REPLACE_WITH_CATEGORY",
+  "city": "REPLACE_WITH_CITY",
+  "state": "NH",
+  "description": "Short factual description based on a reviewed business record.",
+  "website": "https://example.com",
+  "phone": null,
+  "address": null,
+  "logo": null,
+  "featured": false
+}

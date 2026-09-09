@@ -13,6 +13,10 @@
     organization: { name: 'NorthEast News', logo: 'assets/og-default.svg' }
   };
   var state = { articles: [], marketSnapshot: null, ready: false };
+  var appRootPath = '';
+  try {
+    if (document.currentScript && document.currentScript.src) appRootPath = new URL(document.currentScript.src, window.location.href).pathname.replace(/\/assets\/js\/app\.js$/, '');
+  } catch (error) {}
   var labels = {
     'new-hampshire': 'New Hampshire', 'new-england': 'New England',
     massachusetts: 'Massachusetts', 'rhode-island': 'Rhode Island',
@@ -29,6 +33,7 @@
       var configured = new URL(defaults.siteUrl || '', window.location.href).pathname.replace(/\/$/, '');
       if (configured && configured !== '/' && (window.location.pathname.indexOf(configured) === 0 || window.location.hostname.indexOf('github.io') !== -1)) return configured;
     } catch (error) {}
+    if (appRootPath) return appRootPath;
     return window.location.pathname.indexOf('/NorthEast-News') !== -1 ? '/NorthEast-News' : '';
   }
   function rootPath(path) {
@@ -115,7 +120,7 @@
     var needle = String(query || '').trim().toLowerCase();
     if (!needle) return [];
     return sortArticles(state.articles).filter(function (article) {
-      return [article.headline, article.dek, article.summary, article.body && article.body.join(' '), article.category, article.topic, article.topicLabel, article.state, article.city, article.location, (article.tags || []).join(' ')].join(' ').toLowerCase().indexOf(needle) !== -1;
+      return [article.headline, article.dek, article.summary, Array.isArray(article.body) ? article.body.join(' ') : article.body, article.category, article.topic, article.topicLabel, article.state, article.city, article.location, (article.tags || []).join(' ')].join(' ').toLowerCase().indexOf(needle) !== -1;
     });
   }
   function excerpt(article, query) {
@@ -138,6 +143,13 @@
     bar.hidden = false; headline.textContent = article.headline; headline.href = articleUrl(article);
     var time = bar.querySelector('time');
     if (time) { time.textContent = formatDate(article.updatedAt || article.publishedAt, { hour: 'numeric', minute: '2-digit' }); time.dateTime = article.updatedAt || article.publishedAt; }
+  }
+  function ensureBreakingBar() {
+    if (document.getElementById('breaking')) return;
+    var header = document.querySelector('.site-header'); if (!header) return;
+    var bar = document.createElement('section'); bar.id = 'breaking'; bar.className = 'breaking-strip'; bar.hidden = true; bar.setAttribute('aria-label', 'Breaking news');
+    bar.innerHTML = '<div class="page-width breaking-inner"><span class="breaking-label"><i></i> Breaking</span><a id="breaking-headline" href="#"></a><span class="breaking-time">Latest update <time></time></span></div>';
+    header.insertAdjacentElement('afterend', bar);
   }
   function renderHome() {
     var articles = sortArticles(state.articles);
@@ -228,7 +240,7 @@
   }
   function ready() {
     window.NENews = { CONFIG: defaults, state: state, rootPath: rootPath, absoluteUrl: absoluteUrl, articleUrl: articleUrl, escapeHTML: escapeHTML, formatDate: formatDate, formatDateTime: formatDateTime, formatFullDate: formatFullDate, sortArticles: sortArticles, categoryLabel: categoryLabel, stateLabel: stateLabel, typeLabel: typeLabel, stateMatches: stateMatches, storyCard: storyCard, latestItem: latestItem, visualArticle: visualArticle, searchMatches: searchMatches, searchMarkup: searchMarkup };
-    initDate(); enhanceNavigation(); enhanceFooter(); ensureFeatureStyles(); bindMenu(); bindSearch(); bindForms();
+    initDate(); enhanceNavigation(); enhanceFooter(); ensureFeatureStyles(); ensureBreakingBar(); bindMenu(); bindSearch(); bindForms();
     loadData().catch(function (error) { console.error('NorthEast News data error:', error); document.dispatchEvent(new CustomEvent('ne-news-error')); });
   }
   document.addEventListener('DOMContentLoaded', ready);
