@@ -13,6 +13,7 @@
       if (item.topic && item.topic === article.topic) score += 4;
       if (item.state && item.state === article.state) score += 3;
       if (item.city && article.city && item.city.toLowerCase() === article.city.toLowerCase()) score += 5;
+      if (item.location && article.location && item.location.toLowerCase() === article.location.toLowerCase()) score += 4;
       score += intersect(article.tags, item.tags) * 3;
       if (Math.abs(new Date(item.updatedAt || item.publishedAt || 0).getTime() - anchor) < 14 * 86400000) score += 1;
       return { item: item, score: score };
