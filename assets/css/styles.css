@@ -85,7 +85,8 @@ img { display: block; width: 100%; max-width: 100%; height: 100%; object-fit: co
 .lead-story, .secondary-stories { background: var(--white); }
 .lead-story { min-height: 470px; }
 .secondary-stories { display: grid; grid-template-rows: repeat(3, 1fr); }
-.hero-card { display: grid; grid-template-rows: 230px auto; height: 100%; }
+.hero-card { min-width: 0; }
+.hero-card > .story-link { display: grid; grid-template-rows: 230px auto; min-height: 100%; }
 .hero-card .story-visual { height: 230px; }
 .hero-card .story-info { display: flex; flex-direction: column; align-items: flex-start; justify-content: center; padding: 30px 34px 34px; }
 .hero-card h2 { max-width: 760px; margin: 10px 0 12px; color: var(--navy); font-family: var(--serif); font-size: clamp(1.8rem, 3.3vw, 3.2rem); letter-spacing: -.045em; line-height: 1.02; }
@@ -332,7 +333,7 @@ img { display: block; width: 100%; max-width: 100%; height: 100%; object-fit: co
   .icon-button { font-size: 1.65rem; }
   .ad-leaderboard { min-height: 58px; margin-top: 12px; }
   .page-intro h1 { font-size: 2.55rem; }
-  .hero-card { grid-template-rows: 180px auto; }
+  .hero-card > .story-link { grid-template-rows: 180px auto; }
   .hero-card .story-visual { height: 180px; }
   .hero-card .story-info { padding: 22px 20px 24px; }
   .hero-card h2 { font-size: 2rem; }
