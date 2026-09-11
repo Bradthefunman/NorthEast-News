@@ -1,0 +1,88 @@
+name: Refresh market snapshot
+
+on:
+  schedule:
+    - cron: '*/15 13-21 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: market-snapshot
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch market quotes
+        run: |
+          python3 - <<'PY'
+          import datetime
+          import json
+          import pathlib
+          import urllib.parse
+          import urllib.request
+
+          symbols = [
+              ("Dow Jones", "^DJI"),
+              ("S&P 500", "^GSPC"),
+              ("Nasdaq", "^IXIC"),
+          ]
+          items = []
+          for name, symbol in symbols:
+              endpoint = "https://query1.finance.yahoo.com/v8/finance/chart/" + urllib.parse.quote(symbol, safe="") + "?interval=1m&range=1d"
+              request = urllib.request.Request(endpoint, headers={"User-Agent": "NorthEast-News market snapshot"})
+              with urllib.request.urlopen(request, timeout=20) as response:
+                  payload = json.load(response)
+              result = (payload.get("chart") or {}).get("result") or []
+              if not result:
+                  raise RuntimeError("No quote returned for " + symbol)
+              meta = result[0].get("meta") or {}
+              price = meta.get("regularMarketPrice")
+              previous = meta.get("previousClose") or meta.get("chartPreviousClose")
+              if price is None or previous is None:
+                  raise RuntimeError("Incomplete quote returned for " + symbol)
+              change = round(float(price) - float(previous), 2)
+              percent = meta.get("regularMarketChangePercent")
+              if percent is None:
+                  percent = (change / float(previous)) * 100
+              direction = "up" if change > 0 else "down" if change < 0 else "flat"
+              sign = "+" if change > 0 else "−" if change < 0 else ""
+              percent_sign = "+" if percent > 0 else "−" if percent < 0 else ""
+              items.append({
+                  "name": name,
+                  "value": round(float(price), 2),
+                  "change": f"{sign}{abs(change):,.2f} ({percent_sign}{abs(float(percent)):.2f}%)",
+                  "direction": direction,
+              })
+
+          snapshot = {
+              "asOf": datetime.datetime.now(datetime.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
+              "items": items,
+              "disclaimer": "Yahoo Finance chart feed; quotes may be delayed and can show the last market close when markets are closed.",
+          }
+          path = pathlib.Path("data/market-snapshot.json")
+          existing = json.loads(path.read_text())
+          if existing.get("items") == snapshot["items"] and existing.get("disclaimer") == snapshot["disclaimer"]:
+              print("Market values have not changed; leaving the snapshot untouched.")
+          else:
+              path.write_text(json.dumps(snapshot, indent=2) + "\n")
+              print("Updated market snapshot.")
+          PY
+
+      - name: Commit refreshed snapshot
+        run: |
+          if git diff --quiet -- data/market-snapshot.json; then
+            echo "No market snapshot changes to publish."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/market-snapshot.json
+          git commit -m "Refresh market snapshot"
+          git push

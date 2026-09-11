@@ -116,6 +116,23 @@
     return '<article class="latest-item"><a class="story-link" href="' + articleUrl(article) + '">' + visual(article) + '</a><div class="story-info"><a class="story-link" href="' + articleUrl(article) + '"><span class="story-type">' + escapeHTML(typeLabel(article)) + '</span><h3>' + escapeHTML(article.headline) + '</h3></a><p class="story-summary">' + escapeHTML(article.dek || article.summary || '') + '</p><div class="story-meta">' + metadata(article) + '</div></div></article>';
   }
   function setContent(id, html) { var element = document.getElementById(id); if (element) element.innerHTML = html; }
+  function formatMarketValue(value) {
+    if (value == null || value === '') return 'Unavailable';
+    if (typeof value === 'number') return new Intl.NumberFormat('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(value);
+    return String(value);
+  }
+  function marketSnapshotMarkup(snapshot) {
+    if (!snapshot || !Array.isArray(snapshot.items) || !snapshot.items.length) return '<div class="market-loading">Market prices are temporarily unavailable.</div>';
+    var items = snapshot.items.map(function (item) {
+      var direction = item.direction === 'up' || item.direction === 'down' ? item.direction : 'flat';
+      return '<div class="market-item"><small>' + escapeHTML(item.name) + '</small><strong>' + escapeHTML(formatMarketValue(item.value)) + '</strong><span class="market-change-' + direction + '">' + escapeHTML(item.change || '—') + '</span></div>';
+    }).join('');
+    var updated = snapshot.asOf ? ' Updated ' + formatDateTime(snapshot.asOf) + '.' : '';
+    return items + '<div class="market-disclaimer">' + escapeHTML((snapshot.disclaimer || 'Reported market snapshot.') + updated) + '</div>';
+  }
+  function renderMarketSnapshot(snapshot) {
+    setContent('market-snapshot', marketSnapshotMarkup(snapshot));
+  }
   function searchMatches(query) {
     var needle = String(query || '').trim().toLowerCase();
     if (!needle) return [];
@@ -221,8 +238,7 @@
     var picks = articles.filter(function (item) { return item.trending; }).slice(0, 40);
     var pickItems = (picks.length ? picks : articles.slice(0, 40)).slice(0, 40);
     setContent('trending-list', pickItems.map(function (item) { return '<a class="trending-item" href="' + articleUrl(item) + '"><div><h3>' + escapeHTML(item.headline) + '</h3><small>' + escapeHTML(typeLabel(item)) + ' · ' + escapeHTML(formatDate(item.publishedAt, { hour: 'numeric', minute: '2-digit' })) + '</small></div></a>'; }).join(''));
-    var market = state.marketSnapshot;
-    if (market && Array.isArray(market.items)) setContent('market-snapshot', market.items.map(function (item) { return '<div class="market-item"><small>' + escapeHTML(item.name) + '</small><strong>' + escapeHTML(item.value) + '</strong><span>' + escapeHTML(item.change) + '</span></div>'; }).join('') + '<div class="market-disclaimer">' + escapeHTML(market.disclaimer || 'Reported snapshot, not live data.') + '</div>');
+    renderMarketSnapshot(state.marketSnapshot);
     updateBreaking();
   }
   function renderArchive(filter) {
@@ -319,6 +335,7 @@
     var responses = await Promise.all([fetch(rootPath(defaults.dataUrl)), fetch(rootPath(defaults.marketDataUrl))]);
     if (!responses[0].ok) throw new Error('Article data request failed');
     var articleData = await responses[0].json(); state.articles = Array.isArray(articleData) ? articleData : (articleData.articles || []); state.marketSnapshot = responses[1].ok ? await responses[1].json() : null; state.ready = true;
+    renderMarketSnapshot(state.marketSnapshot);
     if (document.body.id === 'homepage') renderHome();
     if (document.body.id === 'archive-page') { renderArchive('all'); document.querySelectorAll('[data-topic-filter]').forEach(function (button) { button.addEventListener('click', function () { renderArchive(button.getAttribute('data-topic-filter')); }); }); }
     updateBreaking();
