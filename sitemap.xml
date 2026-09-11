@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.northenews.com/</loc><lastmod>2026-09-10</lastmod><priority>1.0</priority></url>
-  <url><loc>https://www.northenews.com/new-hampshire/</loc><lastmod>2026-09-10</lastmod><priority>0.9</priority></url>
-  <url><loc>https://www.northenews.com/massachusetts/</loc><lastmod>2026-09-10</lastmod><priority>0.8</priority></url>
-  <url><loc>https://www.northenews.com/rhode-island/</loc><lastmod>2026-09-10</lastmod><priority>0.8</priority></url>
-  <url><loc>https://www.northenews.com/breaking/</loc><lastmod>2026-09-10</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/tech/</loc><lastmod>2026-09-10</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/markets/</loc><lastmod>2026-09-10</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/misc/</loc><lastmod>2026-09-10</lastmod><priority>0.5</priority></url>
-  <url><loc>https://www.northenews.com/search/</loc><lastmod>2026-09-10</lastmod><priority>0.6</priority></url>
-  <url><loc>https://www.northenews.com/archive.html</loc><lastmod>2026-09-10</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.northenews.com/</loc><lastmod>2026-09-11</lastmod><priority>1.0</priority></url>
+  <url><loc>https://www.northenews.com/new-hampshire/</loc><lastmod>2026-09-11</lastmod><priority>0.9</priority></url>
+  <url><loc>https://www.northenews.com/massachusetts/</loc><lastmod>2026-09-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.northenews.com/rhode-island/</loc><lastmod>2026-09-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.northenews.com/breaking/</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.northenews.com/tech/</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.northenews.com/markets/</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.northenews.com/misc/</loc><lastmod>2026-09-11</lastmod><priority>0.5</priority></url>
+  <url><loc>https://www.northenews.com/search/</loc><lastmod>2026-09-11</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.northenews.com/archive.html</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://www.northenews.com/business-directory/</loc><lastmod>2026-09-10</lastmod><priority>0.6</priority></url>
   <url><loc>https://www.northenews.com/about/</loc><lastmod>2026-09-10</lastmod><priority>0.4</priority></url>
   <url><loc>https://www.northenews.com/editorial-standards/</loc><lastmod>2026-09-10</lastmod><priority>0.4</priority></url>
@@ -921,6 +921,90 @@
   </url>
   <url>
     <loc>https://www.northenews.com/article.html?slug=anthony-volpe-returns-with-grand-slam-as-yankees-sweep-rockies</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.northenews.com/article.html?slug=rundlett-students-adapt-as-new-middle-school-construction-ramps-up</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.northenews.com/article.html?slug=nashua-community-college-opens-new-enrichment-classes-to-teens-and-adults</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.northenews.com/article.html?slug=lexington-woman-pleads-guilty-in-11-million-ponzi-scheme</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.northenews.com/article.html?slug=salem-police-chief-recalls-september-11-work-as-nypd-detective</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.northenews.com/article.html?slug=rhode-island-blaze-orange-rule-begins-as-archery-season-opens</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.northenews.com/article.html?slug=rhode-island-weekend-offers-comedy-folk-music-and-polka</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.northenews.com/article.html?slug=indonesian-parents-file-first-legal-challenge-over-free-school-meals</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.northenews.com/article.html?slug=mi5-chief-warns-next-strategic-shock-may-emerge-beyond-current-focus</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.northenews.com/article.html?slug=ukraine-expands-battlefield-use-of-unmanned-ground-vehicles</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.northenews.com/article.html?slug=texas-judge-says-tiktok-misled-users-about-child-safety-controls</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.northenews.com/article.html?slug=gasoline-expected-to-lift-august-u-s-inflation-reading</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.northenews.com/article.html?slug=novartis-investors-scrutinize-deal-strategy-after-clinical-setbacks</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.northenews.com/article.html?slug=49ers-beat-rams-27-7-in-first-nfl-regular-season-game-in-australia</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.northenews.com/article.html?slug=como-wins-4-1-in-dream-champions-league-debut</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
