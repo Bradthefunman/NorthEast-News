@@ -24,6 +24,10 @@ templates/business-listing.json documents the directory record shape: name, cate
 
 Copy templates/new-story.json, replace placeholders with verified original story data, append it to data/articles.json, and do not manually add article HTML. Set breaking, developing, featured and archive only when editorially true. Run the JSON check, node --check commands, node scripts/validate-site.js and node scripts/generate-sitemap.js. The site automatically supplies responsive article presentation, dates, source attribution, share buttons, Web Share support, related stories, search visibility, canonical URL, Open Graph metadata and NewsArticle schema.
 
+## Desktop publisher
+
+The optional macOS publisher in `publisher/` edits the same article schema, shows the site's live placeholder treatment, keeps local drafts outside the repository, and performs the guarded pull, validation, sitemap generation, commit and push workflow. Build it on macOS with `publisher/build-app.sh`; see `publisher/README.md` for the full contract and run instructions.
+
 ## Forms and newsletter
 
 Static hosting cannot safely store submissions by itself. Newsletter, tips, sponsorship and contact forms use HTTPS JSON endpoint keys in data/site-config.json and never commit submissions or subscriber emails. Until an endpoint is supplied, forms explicitly say delivery is inactive and do not pretend to store information. Honeypot fields and browser validation are included. Configure the endpoints with a secure form provider or serverless function.
