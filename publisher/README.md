@@ -15,7 +15,7 @@ Choose the local checkout of this repository the first time the app opens. The a
 
 ## Publishing contract
 
-The app reads and writes `data/articles.json` using the same object shape documented in `templates/new-story.json`. New articles keep `body` as an array of strings. The editor stores simple Markdown-style blocks inside those strings, and `assets/js/article.js` renders the supported inline formatting safely without changing the schema.
+The app reads and writes `data/articles.json` using the same object shape documented in `templates/new-story.json`. New articles keep `body` as an array of strings. The editor stores simple Markdown-style blocks inside those strings, and `assets/js/article.js` renders the supported inline formatting safely without changing the schema. Source name and source URL are optional; if a source URL is supplied, it must use `http` or `https`.
 
 The publisher:
 

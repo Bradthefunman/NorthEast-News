@@ -27,6 +27,7 @@ static NSString * const NENErrorDomain = @"com.northeastnews.publisher";
 }
 
 - (void)applicationDidFinishLaunching:(NSNotification *)notification {
+    [self installMainMenu];
     WKWebViewConfiguration *configuration = [[WKWebViewConfiguration alloc] init];
     [configuration.userContentController addScriptMessageHandler:self name:@"publisher"];
     self.webView = [[WKWebView alloc] initWithFrame:NSZeroRect configuration:configuration];
@@ -44,6 +45,28 @@ static NSString * const NENErrorDomain = @"com.northeastnews.publisher";
     [self.window makeKeyAndOrderFront:nil];
     [NSApp activateIgnoringOtherApps:YES];
     [self loadInterface];
+}
+
+- (void)installMainMenu {
+    NSMenu *mainMenu = [[NSMenu alloc] initWithTitle:@"Main Menu"];
+    NSMenuItem *appItem = [[NSMenuItem alloc] initWithTitle:@"NorthEast News Publisher" action:nil keyEquivalent:@""];
+    NSMenu *appMenu = [[NSMenu alloc] initWithTitle:@"NorthEast News Publisher"];
+    [appMenu addItemWithTitle:@"Quit NorthEast News Publisher" action:@selector(terminate:) keyEquivalent:@"q"];
+    appItem.submenu = appMenu;
+    [mainMenu addItem:appItem];
+
+    NSMenuItem *editItem = [[NSMenuItem alloc] initWithTitle:@"Edit" action:nil keyEquivalent:@""];
+    NSMenu *editMenu = [[NSMenu alloc] initWithTitle:@"Edit"];
+    [editMenu addItemWithTitle:@"Undo" action:@selector(undo:) keyEquivalent:@"z"];
+    [editMenu addItemWithTitle:@"Redo" action:@selector(redo:) keyEquivalent:@"Z"];
+    [editMenu addItem:[NSMenuItem separatorItem]];
+    [editMenu addItemWithTitle:@"Cut" action:@selector(cut:) keyEquivalent:@"x"];
+    [editMenu addItemWithTitle:@"Copy" action:@selector(copy:) keyEquivalent:@"c"];
+    [editMenu addItemWithTitle:@"Paste" action:@selector(paste:) keyEquivalent:@"v"];
+    [editMenu addItemWithTitle:@"Select All" action:@selector(selectAll:) keyEquivalent:@"a"];
+    editItem.submenu = editMenu;
+    [mainMenu addItem:editItem];
+    NSApp.mainMenu = mainMenu;
 }
 
 - (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender { return YES; }
@@ -382,7 +405,6 @@ static NSString * const NENErrorDomain = @"com.northeastnews.publisher";
     if (![self.allowedCategories containsObject:category]) NEN_BUILD_FAIL(@"Select one of the existing NorthEast News categories.");
     NSString *sourceURL = [self text:form[@"sourceUrl"]], *sourceName = [self text:form[@"sourceName"]];
     if (sourceURL.length && ![self isHTTPURL:sourceURL]) NEN_BUILD_FAIL(@"Source URL must be a valid http or https URL.");
-    if (![self bool:form[@"archive"]] && (!sourceURL.length || !sourceName.length)) NEN_BUILD_FAIL(@"Live stories need both a source name and a source URL. Archive/context stories may omit them.");
     NSString *timestamp = [self normalizeTimestamp:[self text:form[@"publishedAt"]] timezone:[self text:config[@"timezone"]] error:error];
     if (!timestamp) return nil;
     BOOL editing = existing != nil;

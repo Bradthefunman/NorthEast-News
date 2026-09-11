@@ -2,7 +2,7 @@
 
 Copy templates/new-story.json, replace its placeholders, and append one object to data/articles.json. The site owns presentation and infrastructure; the publishing agent supplies story-specific data only.
 
-Core fields are id, slug, headline, dek, body, category or topic, publishedAt, sourceName and sourceUrl. Keep body as an array of original paragraph strings and timestamps as ISO 8601 values with a timezone. The desktop publisher may store lightweight Markdown-style blocks (headings, lists, quotes and safe inline emphasis/links) inside those strings; the site renderer preserves the same array-based contract.
+Core fields are id, slug, headline, dek, body, category or topic and publishedAt. Source name and source URL are optional attribution fields. Keep body as an array of original paragraph strings and timestamps as ISO 8601 values with a timezone. The desktop publisher may store lightweight Markdown-style blocks (headings, lists, quotes and safe inline emphasis/links) inside those strings; the site renderer preserves the same array-based contract.
 
 Use category new-hampshire, new-england, tech, markets or more. Use topic new-hampshire, massachusetts, rhode-island, breaking, tech, markets or misc. Set state to NH, MA or RI for local coverage when supported. City, location, image, imageAlt, seoTitle, seoDescription and canonicalUrl are optional. Leave canonicalUrl null so it is derived from data/site-config.json.
 
