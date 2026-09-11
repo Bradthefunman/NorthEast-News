@@ -159,6 +159,52 @@
     bar.innerHTML = '<div class="page-width breaking-inner"><span class="breaking-label"><i></i> Breaking</span><a id="breaking-headline" href="#"></a><span class="breaking-time">Latest update <time></time></span></div>';
     header.insertAdjacentElement('afterend', bar);
   }
+  function weatherDescription(code) {
+    var labels = {
+      0: 'Clear sky', 1: 'Mostly clear', 2: 'Partly cloudy', 3: 'Overcast',
+      45: 'Fog', 48: 'Freezing fog', 51: 'Light drizzle', 53: 'Drizzle', 55: 'Heavy drizzle',
+      56: 'Freezing drizzle', 57: 'Heavy freezing drizzle', 61: 'Light rain', 63: 'Rain', 65: 'Heavy rain',
+      66: 'Freezing rain', 67: 'Heavy freezing rain', 71: 'Light snow', 73: 'Snow', 75: 'Heavy snow',
+      77: 'Snow grains', 80: 'Rain showers', 81: 'Rain showers', 82: 'Heavy showers',
+      85: 'Snow showers', 86: 'Heavy snow showers', 95: 'Thunderstorms', 96: 'Thunderstorms', 99: 'Thunderstorms'
+    };
+    return labels[Number(code)] || 'Current conditions';
+  }
+  function weatherIcon(code) {
+    var value = Number(code);
+    if (value === 0) return '☀️';
+    if (value === 1 || value === 2) return '⛅';
+    if (value === 3) return '☁️';
+    if (value === 45 || value === 48) return '🌫️';
+    if (value >= 51 && value <= 67) return '🌧️';
+    if (value >= 71 && value <= 86) return '🌨️';
+    if (value >= 95) return '⛈️';
+    return '🌤️';
+  }
+  function weatherNumber(value, suffix) {
+    return Number.isFinite(Number(value)) ? Math.round(Number(value)) + suffix : '—';
+  }
+  function weatherDay(value) {
+    var date = new Date(String(value || '') + 'T12:00:00');
+    return Number.isNaN(date.getTime()) ? '' : new Intl.DateTimeFormat('en-US', { weekday: 'short', timeZone: defaults.timezone }).format(date);
+  }
+  async function loadNewHampshireWeather() {
+    var target = document.getElementById('nh-weather-content');
+    if (!target) return;
+    var endpoint = 'https://api.open-meteo.com/v1/forecast?latitude=43.2067&longitude=-71.5370&current=temperature_2m,apparent_temperature,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,weather_code&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=America%2FNew_York&forecast_days=5';
+    try {
+      var response = await fetch(endpoint);
+      if (!response.ok) throw new Error('Weather request failed');
+      var data = await response.json(), current = data.current || {}, daily = data.daily || {};
+      var days = (daily.time || []).slice(0, 5).map(function (date, index) {
+        return '<div class="nh-weather-day"><strong>' + escapeHTML(weatherDay(date)) + '</strong><span class="nh-weather-day-icon" aria-hidden="true">' + weatherIcon((daily.weather_code || [])[index]) + '</span><b>' + escapeHTML(weatherNumber((daily.temperature_2m_max || [])[index], '°')) + '</b><small>' + escapeHTML(weatherNumber((daily.temperature_2m_min || [])[index], '°')) + '</small><em>' + escapeHTML(weatherDescription((daily.weather_code || [])[index])) + '</em></div>';
+      }).join('');
+      target.innerHTML = '<div class="nh-weather-now"><div class="nh-weather-current"><span class="nh-weather-icon" aria-hidden="true">' + weatherIcon(current.weather_code) + '</span><div><strong>' + escapeHTML(weatherNumber(current.temperature_2m, '°')) + '</strong><span>' + escapeHTML(weatherDescription(current.weather_code)) + '</span></div></div><div class="nh-weather-details"><strong>Concord, New Hampshire</strong><span>Feels like ' + escapeHTML(weatherNumber(current.apparent_temperature, '°')) + ' · Wind ' + escapeHTML(weatherNumber(current.wind_speed_10m, ' mph')) + '</span></div></div><div class="nh-weather-forecast" aria-label="Five-day New Hampshire forecast">' + days + '</div>';
+    } catch (error) {
+      target.innerHTML = '<p class="weather-status">Weather data is temporarily unavailable. Please check back shortly.</p>';
+    }
+  }
+
   function renderHome() {
     var articles = sortArticles(state.articles);
     if (!articles.length) { setContent('lead-story', '<div class="missing-state"><p class="eyebrow">News feed unavailable</p><h2>We are refreshing the newsroom.</h2></div>'); return; }
@@ -172,8 +218,9 @@
     setContent('tech-grid', articles.filter(function (item) { return item.category === 'tech' || item.topic === 'tech'; }).slice(0, 3).map(storyCard).join(''));
     setContent('more-grid', articles.filter(function (item) { return item.category === 'more' || item.topic === 'misc'; }).slice(0, 3).map(storyCard).join(''));
     setContent('markets-grid', articles.filter(function (item) { return item.category === 'markets' || item.topic === 'markets'; }).slice(0, 2).map(storyCard).join(''));
-    var picks = articles.filter(function (item) { return item.trending; });
-    setContent('trending-list', (picks.length ? picks : articles.slice(0, 5)).map(function (item) { return '<a class="trending-item" href="' + articleUrl(item) + '"><div><h3>' + escapeHTML(item.headline) + '</h3><small>' + escapeHTML(typeLabel(item)) + ' · ' + escapeHTML(formatDate(item.publishedAt, { hour: 'numeric', minute: '2-digit' })) + '</small></div></a>'; }).join(''));
+    var picks = articles.filter(function (item) { return item.trending; }).slice(0, 40);
+    var pickItems = (picks.length ? picks : articles.slice(0, 40)).slice(0, 40);
+    setContent('trending-list', pickItems.map(function (item) { return '<a class="trending-item" href="' + articleUrl(item) + '"><div><h3>' + escapeHTML(item.headline) + '</h3><small>' + escapeHTML(typeLabel(item)) + ' · ' + escapeHTML(formatDate(item.publishedAt, { hour: 'numeric', minute: '2-digit' })) + '</small></div></a>'; }).join(''));
     var market = state.marketSnapshot;
     if (market && Array.isArray(market.items)) setContent('market-snapshot', market.items.map(function (item) { return '<div class="market-item"><small>' + escapeHTML(item.name) + '</small><strong>' + escapeHTML(item.value) + '</strong><span>' + escapeHTML(item.change) + '</span></div>'; }).join('') + '<div class="market-disclaimer">' + escapeHTML(market.disclaimer || 'Reported snapshot, not live data.') + '</div>');
     updateBreaking();
@@ -279,7 +326,7 @@
   }
   function ready() {
     window.NENews = { CONFIG: defaults, state: state, rootPath: rootPath, absoluteUrl: absoluteUrl, articleUrl: articleUrl, escapeHTML: escapeHTML, formatDate: formatDate, formatDateTime: formatDateTime, formatFullDate: formatFullDate, sortArticles: sortArticles, categoryLabel: categoryLabel, stateLabel: stateLabel, typeLabel: typeLabel, stateMatches: stateMatches, storyCard: storyCard, latestItem: latestItem, visualArticle: visualArticle, searchMatches: searchMatches, searchMarkup: searchMarkup };
-    initDate(); enhanceNavigation(); enhanceFooter(); ensureFeatureStyles(); ensureBreakingBar(); ensureHomeUtilityLinks(); bindMenu(); bindSearch(); bindForms();
+    initDate(); enhanceNavigation(); enhanceFooter(); ensureFeatureStyles(); ensureBreakingBar(); ensureHomeUtilityLinks(); bindMenu(); bindSearch(); bindForms(); loadNewHampshireWeather();
     loadData().catch(function (error) { console.error('NorthEast News data error:', error); document.dispatchEvent(new CustomEvent('ne-news-error')); });
   }
   document.addEventListener('DOMContentLoaded', ready);
