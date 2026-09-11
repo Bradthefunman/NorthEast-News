@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-11T20:37:36Z",
+  "asOf": "2026-09-11T22:47:09Z",
   "items": [
     {
       "name": "Dow Jones",
@@ -15,7 +15,7 @@
     },
     {
       "name": "Nasdaq",
-      "value": 26333.04,
+      "value": 26333.03,
       "change": "+251.31 (+0.96%)",
       "direction": "up"
     }
