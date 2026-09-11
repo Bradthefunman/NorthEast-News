@@ -67,3 +67,12 @@
     max-height: 180px;
   }
 }
+
+/* Standardize state landing pages with the same single-lead format as categories. */
+#landing-lead {
+  grid-template-columns: 1fr;
+}
+
+#landing-lead .hero-card {
+  grid-column: 1 / -1;
+}
