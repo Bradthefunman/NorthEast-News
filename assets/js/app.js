@@ -235,8 +235,8 @@
     setContent('tech-grid', articles.filter(function (item) { return item.category === 'tech' || item.topic === 'tech'; }).slice(0, 6).map(storyCard).join(''));
     setContent('more-grid', articles.filter(function (item) { return item.category === 'more' || item.topic === 'misc'; }).slice(0, 6).map(storyCard).join(''));
     setContent('markets-grid', articles.filter(function (item) { return item.category === 'markets' || item.topic === 'markets'; }).slice(0, 6).map(storyCard).join(''));
-    var picks = articles.filter(function (item) { return item.trending; }).slice(0, 40);
-    var pickItems = (picks.length ? picks : articles.slice(0, 40)).slice(0, 40);
+    var picks = articles.filter(function (item) { return item.trending; }).slice(0, 50);
+    var pickItems = (picks.length ? picks : articles.slice(0, 50)).slice(0, 50);
     setContent('trending-list', pickItems.map(function (item) { return '<a class="trending-item" href="' + articleUrl(item) + '"><div><h3>' + escapeHTML(item.headline) + '</h3><small>' + escapeHTML(typeLabel(item)) + ' · ' + escapeHTML(formatDate(item.publishedAt, { hour: 'numeric', minute: '2-digit' })) + '</small></div></a>'; }).join(''));
     renderMarketSnapshot(state.marketSnapshot);
     updateBreaking();
