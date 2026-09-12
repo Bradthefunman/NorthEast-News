@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.northenews.com/</loc><lastmod>2026-09-11</lastmod><priority>1.0</priority></url>
-  <url><loc>https://www.northenews.com/new-hampshire/</loc><lastmod>2026-09-11</lastmod><priority>0.9</priority></url>
-  <url><loc>https://www.northenews.com/massachusetts/</loc><lastmod>2026-09-11</lastmod><priority>0.8</priority></url>
-  <url><loc>https://www.northenews.com/rhode-island/</loc><lastmod>2026-09-11</lastmod><priority>0.8</priority></url>
-  <url><loc>https://www.northenews.com/breaking/</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/tech/</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/markets/</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/misc/</loc><lastmod>2026-09-11</lastmod><priority>0.5</priority></url>
-  <url><loc>https://www.northenews.com/search/</loc><lastmod>2026-09-11</lastmod><priority>0.6</priority></url>
-  <url><loc>https://www.northenews.com/archive.html</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/business-directory/</loc><lastmod>2026-09-11</lastmod><priority>0.6</priority></url>
-  <url><loc>https://www.northenews.com/about/</loc><lastmod>2026-09-11</lastmod><priority>0.4</priority></url>
-  <url><loc>https://www.northenews.com/editorial-standards/</loc><lastmod>2026-09-11</lastmod><priority>0.4</priority></url>
-  <url><loc>https://www.northenews.com/corrections/</loc><lastmod>2026-09-11</lastmod><priority>0.4</priority></url>
-  <url><loc>https://www.northenews.com/privacy/</loc><lastmod>2026-09-11</lastmod><priority>0.3</priority></url>
-  <url><loc>https://www.northenews.com/terms/</loc><lastmod>2026-09-11</lastmod><priority>0.3</priority></url>
-  <url><loc>https://www.northenews.com/advertise/</loc><lastmod>2026-09-11</lastmod><priority>0.6</priority></url>
-  <url><loc>https://www.northenews.com/tips/</loc><lastmod>2026-09-11</lastmod><priority>0.6</priority></url>
-  <url><loc>https://www.northenews.com/contact/</loc><lastmod>2026-09-11</lastmod><priority>0.4</priority></url>
+  <url><loc>https://www.northenews.com/</loc><lastmod>2026-09-12</lastmod><priority>1.0</priority></url>
+  <url><loc>https://www.northenews.com/new-hampshire/</loc><lastmod>2026-09-12</lastmod><priority>0.9</priority></url>
+  <url><loc>https://www.northenews.com/massachusetts/</loc><lastmod>2026-09-12</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.northenews.com/rhode-island/</loc><lastmod>2026-09-12</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.northenews.com/breaking/</loc><lastmod>2026-09-12</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.northenews.com/tech/</loc><lastmod>2026-09-12</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.northenews.com/markets/</loc><lastmod>2026-09-12</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.northenews.com/misc/</loc><lastmod>2026-09-12</lastmod><priority>0.5</priority></url>
+  <url><loc>https://www.northenews.com/search/</loc><lastmod>2026-09-12</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.northenews.com/archive.html</loc><lastmod>2026-09-12</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.northenews.com/business-directory/</loc><lastmod>2026-09-12</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.northenews.com/about/</loc><lastmod>2026-09-12</lastmod><priority>0.4</priority></url>
+  <url><loc>https://www.northenews.com/editorial-standards/</loc><lastmod>2026-09-12</lastmod><priority>0.4</priority></url>
+  <url><loc>https://www.northenews.com/corrections/</loc><lastmod>2026-09-12</lastmod><priority>0.4</priority></url>
+  <url><loc>https://www.northenews.com/privacy/</loc><lastmod>2026-09-12</lastmod><priority>0.3</priority></url>
+  <url><loc>https://www.northenews.com/terms/</loc><lastmod>2026-09-12</lastmod><priority>0.3</priority></url>
+  <url><loc>https://www.northenews.com/advertise/</loc><lastmod>2026-09-12</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.northenews.com/tips/</loc><lastmod>2026-09-12</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.northenews.com/contact/</loc><lastmod>2026-09-12</lastmod><priority>0.4</priority></url>
   <url><loc>https://www.northenews.com/article.html?slug=nh-primary-day-opens-a-new-chapter-in-the-states-political-map</loc><lastmod>2026-09-08</lastmod><priority>0.7</priority></url>
   <url><loc>https://www.northenews.com/article.html?slug=what-to-watch-in-new-hampshires-open-senate-primary</loc><lastmod>2026-09-08</lastmod><priority>0.7</priority></url>
   <url><loc>https://www.northenews.com/article.html?slug=a-quick-guide-to-primary-day-in-new-hampshire</loc><lastmod>2026-09-08</lastmod><priority>0.7</priority></url>
@@ -674,4 +674,18 @@
   <url><loc>https://www.northenews.com/article.html?slug=markets-kroger-cuts-sales-forecast-consumer-spending</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://www.northenews.com/article.html?slug=misc-siniakova-townsend-us-open-career-grand-slam</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://www.northenews.com/article.html?slug=misc-michael-kors-ny-fashion-week-2027-collection</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.northenews.com/article.html?slug=nh-kimball-castle-fire-teen-charges</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.northenews.com/article.html?slug=nh-colleges-economic-impact-enrollment-shifts</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.northenews.com/article.html?slug=ma-dorchester-blue-hill-avenue-stabbing-charge</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.northenews.com/article.html?slug=ma-cathedral-pines-joint-patrol-arrest</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.northenews.com/article.html?slug=ri-cranston-cooking-oil-theft-arrests</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.northenews.com/article.html?slug=ri-east-providence-rehoboth-110-story-memorial-climb</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.northenews.com/article.html?slug=breaking-afghan-woman-first-terrorism-removal-court-deportation</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.northenews.com/article.html?slug=breaking-first-us-horse-screwworm-case-texas</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.northenews.com/article.html?slug=tech-openai-agents-rubygems-incident</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.northenews.com/article.html?slug=tech-tesla-semi-europe-launch-details</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.northenews.com/article.html?slug=markets-tsx-friday-tech-led-rebound</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.northenews.com/article.html?slug=markets-europe-stocks-friday-gain-weekly-loss</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.northenews.com/article.html?slug=misc-byron-buxton-season-ending-hip-surgery</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.northenews.com/article.html?slug=misc-celine-dion-first-full-concert-six-years</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
 </urlset>
