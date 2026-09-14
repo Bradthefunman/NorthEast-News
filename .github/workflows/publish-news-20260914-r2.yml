@@ -1,0 +1,52 @@
+name: Publish NorthEast News batch
+on:
+  push:
+    branches:
+      - news-publisher-20260914-1852-r2
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Append and validate batch
+        shell: bash
+        run: |
+          if [ ! -f data/article-batch-20260914.json ]; then
+            echo "Batch already published; nothing to do."
+            exit 0
+          fi
+          node <<'NODE'
+          const fs = require('fs');
+          const articlePath = 'data/articles.json';
+          const batchPath = 'data/article-batch-20260914.json';
+          const raw = JSON.parse(fs.readFileSync(articlePath, 'utf8'));
+          const batch = JSON.parse(fs.readFileSync(batchPath, 'utf8'));
+          if (!Array.isArray(batch)) throw new Error('Batch must be an array');
+          const articles = Array.isArray(raw) ? raw : raw.articles;
+          if (!Array.isArray(articles)) throw new Error('Unsupported articles schema');
+          const ids = new Set(articles.map(a => a.id));
+          const slugs = new Set(articles.map(a => a.slug));
+          for (const a of batch) {
+            if (!a.id || !a.slug || ids.has(a.id) || slugs.has(a.slug)) {
+              throw new Error('Duplicate or missing id/slug: ' + (a.slug || '<missing>'));
+            }
+            ids.add(a.id);
+            slugs.add(a.slug);
+          }
+          const next = articles.concat(batch);
+          const out = Array.isArray(raw) ? next : { ...raw, articles: next };
+          fs.writeFileSync(articlePath, JSON.stringify(out, null, 2) + '\n');
+          console.log('Article count after append:', next.length);
+          NODE
+          node scripts/generate-sitemap.js
+          node scripts/validate-site.js
+          rm data/article-batch-20260914.json .github/workflows/publish-news-20260914-r2.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Publish 14 NorthEast News articles"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
