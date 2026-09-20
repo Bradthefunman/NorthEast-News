@@ -375,7 +375,7 @@ static NSString * const NENErrorDomain = @"com.northeastnews.publisher";
         if (createdImagePath.length) [publishPaths addObject:[self relativePath:createdImagePath from:repoURL]];
         [self status:@"Preparing commit…" detail:@"Staging only the dynamic article, generated and selected-image allowlist."];
         NSMutableArray *allow=[NSMutableArray array];
-        NSDictionary *publishStatus=[self run:git arguments:@[@"status",@"--porcelain"] cwd:self.repositoryPath]; NSString *statusText=[self text:publishStatus[@"output"]];
+        NSDictionary *publishStatus=[self run:git arguments:@[@"status",@"--porcelain"] cwd:self.repositoryPath]; NSString *statusText=publishStatus[@"output"];
         for (NSString *line in [statusText componentsSeparatedByCharactersInSet:NSCharacterSet.newlineCharacterSet]) {
             if (line.length<4) continue; NSString *relative=[line substringFromIndex:3];
             BOOL allowed=[publishPaths containsObject:relative];
