@@ -180,7 +180,7 @@ static NSString * const NENErrorDomain = @"com.northeastnews.publisher";
     if (!identifier.length || [identifier rangeOfString:@"^[a-z0-9][a-z0-9._-]*$" options:NSRegularExpressionSearch].location == NSNotFound || [identifier containsString:@".."] || [identifier containsString:@"/"] || [identifier containsString:@"\\"]) return nil;
     NSString *path = [self.repositoryPath stringByAppendingPathComponent:[NSString stringWithFormat:@"data/articles/%@.json", identifier]];
     id object = [self readJSONAtPath:path];
-    return [object isKindOfClass:[NSDictionary class]] && [self text:object[@"id"]].length && [self text:object[@"id"]].isEqualToString(identifier) ? object : nil;
+    return [object isKindOfClass:[NSDictionary class]] && [self text:object[@"id"]].length && [[self text:object[@"id"]] isEqualToString:identifier] ? object : nil;
 }
 - (NSDictionary *)catalogRecordForArticle:(NSDictionary *)article {
     NSMutableDictionary *record = [NSMutableDictionary dictionary];
@@ -363,7 +363,7 @@ static NSString * const NENErrorDomain = @"com.northeastnews.publisher";
         if (createdImagePath.length) [publishPaths addObject:[self relativePath:createdImagePath from:repoURL]];
         [self status:@"Preparing commit…" detail:@"Staging only the dynamic article, generated and selected-image allowlist."];
         NSMutableArray *allow=[NSMutableArray array];
-        NSString *statusText=[self text:[[self run:git arguments:@[@"status",@"--porcelain"] cwd:self.repositoryPath][@"output"]];
+        NSDictionary *publishStatus=[self run:git arguments:@[@"status",@"--porcelain"] cwd:self.repositoryPath]; NSString *statusText=[self text:publishStatus[@"output"]];
         for (NSString *line in [statusText componentsSeparatedByCharactersInSet:NSCharacterSet.newlineCharacterSet]) {
             if (line.length<4) continue; NSString *relative=[line substringFromIndex:3];
             BOOL allowed=[publishPaths containsObject:relative] || [relative hasPrefix:@"data/search/"];
