@@ -1,0 +1,36 @@
+{
+  "analysis" : false,
+  "archive" : false,
+  "author" : "NorthEast News Desk",
+  "body" : [
+    "This article exists only in the disposable QA clone.",
+    "It verifies the per-article publication transaction."
+  ],
+  "breaking" : false,
+  "canonicalUrl" : null,
+  "category" : "new-hampshire",
+  "city" : null,
+  "dek" : "Throwaway QA article for the local bare-remote publish test.",
+  "developing" : false,
+  "featured" : false,
+  "headline" : "Disposable publisher flow verification story",
+  "id" : "disposable-publisher-flow-verification-story",
+  "image" : null,
+  "imageAlt" : "",
+  "location" : "NH",
+  "publishedAt" : "2026-09-20T12:00:00-04:00",
+  "seoDescription" : null,
+  "seoTitle" : null,
+  "slug" : "disposable-publisher-flow-verification-story",
+  "sourceName" : null,
+  "sourceUrl" : null,
+  "state" : "NH",
+  "tags" : [
+
+  ],
+  "topic" : "new-hampshire",
+  "topicLabel" : "New Hampshire",
+  "trending" : false,
+  "updatedAt" : "2026-09-20T12:00:00-04:00",
+  "visualLabel" : "New Hampshire"
+}
