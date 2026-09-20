@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Microsoft plans to expand its global data-center capacity to about 38 gigawatts by 2032, more than triple its current footprint, Bloomberg News reported Thursday through people familiar with the plans.",
+    "The company now operates about 12 gigawatts of capacity, according to the report, but only about 2 gigawatts is dedicated to AI-specific chips. Roughly one-third of the planned 38-gigawatt total is expected to serve specialized AI hardware. Microsoft did not immediately respond to Reuters’ request for comment.",
+    "The scale reflects the computing and electricity demands of generative-AI products such as Copilot and ChatGPT. Microsoft has forecast $50 billion in capital spending for its fiscal first quarter of 2027 and $175 billion for calendar 2026.",
+    "Bloomberg also reported that Microsoft intends to spread some long-term data-center leases over 25 years instead of 15, reducing annual reported capital expenditures. The capacity target remains a reported plan rather than a company announcement, and bringing it online would require power agreements, construction, networking equipment and large supplies of advanced chips across multiple regions."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "Redmond",
+  "dek": "Bloomberg reported a target of roughly 38 gigawatts, with about one-third expected to support AI-specific chips; Microsoft did not immediately comment.",
+  "developing": false,
+  "featured": false,
+  "headline": "Microsoft plans to triple data-center capacity by 2032, report says",
+  "id": "tech-microsoft-38-gigawatt-data-center-plan-2032",
+  "image": null,
+  "imageAlt": "",
+  "location": "Redmond, Washington",
+  "publishedAt": "2026-09-11T00:42:00-04:00",
+  "slug": "microsoft-plans-to-triple-data-center-capacity-by-2032-report-says",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/microsoft-plans-38-gigawatts-data-center-capacity-by-2032-bloomberg-news-reports-2026-09-10/",
+  "state": "WA",
+  "tags": [
+    "Microsoft",
+    "data centers",
+    "artificial intelligence",
+    "cloud computing"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-11T00:42:00-04:00",
+  "visualLabel": "AI infrastructure"
+}

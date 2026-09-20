@@ -1,0 +1,40 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Reuters and video platform CuttingRoom announced an integration designed to let newsrooms search, edit and publish Reuters footage through an AI-assisted browser workflow. The partnership connects Reuters’ Model Context Protocol server with CuttingRoom’s ShortCut editing system.",
+    "Editors can use plain-language instructions to find relevant clips and perform production tasks including cuts, audio mixing, color correction, captions and platform-specific formatting. Reuters material can be placed on the same timeline as a newsroom’s own video, reducing the need to move files among separate tools during production.",
+    "The companies said each newsroom retains control over its data and can configure editorial rules for the AI workflow. That governance layer matters because faster editing does not remove the need for source verification, rights management or human review before publication. The integration is aimed at repetitive production work around trusted footage rather than automated reporting without oversight. For publishers, the practical test will be whether the system can shorten turnaround time while consistently preserving context, attribution and house standards across broadcast, web and social formats."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "tech",
+  "city": "London",
+  "dek": "The integration connects verified Reuters footage with CuttingRoom’s browser editor and plain-language production tools.",
+  "developing": false,
+  "featured": false,
+  "headline": "Reuters and CuttingRoom launch AI-assisted newsroom video workflow",
+  "id": "tech-reuters-cuttingroom-ai-video-workflow-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "London, United Kingdom",
+  "publishedAt": "2026-09-12T14:42:00-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "tech-reuters-cuttingroom-ai-video-workflow",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/media-center/reuters-cuttingroom-partner-provide-newsrooms-with-ai-assisted-video-editing-2026-09-12/",
+  "state": "United Kingdom",
+  "tags": [
+    "Reuters",
+    "CuttingRoom",
+    "Video editing",
+    "Artificial intelligence"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-12T14:42:00-04:00",
+  "visualLabel": "Media technology"
+}

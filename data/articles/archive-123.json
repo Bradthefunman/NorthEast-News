@@ -1,0 +1,32 @@
+{
+  "analysis": true,
+  "archive": true,
+  "author": "NorthEast News Archive Desk",
+  "body": [
+    "Archive explainer: Developing: Why an old alert can mislead without a timestamp.",
+    "Backdated context piece; recheck current records before republishing as live news."
+  ],
+  "breaking": false,
+  "category": "more",
+  "dek": "Backdated archive brief: Developing: Why an old alert can mislead without a timestamp.",
+  "developing": false,
+  "featured": false,
+  "headline": "Developing: Why an old alert can mislead without a timestamp",
+  "id": "archive-123",
+  "image": null,
+  "imageAlt": "",
+  "location": "New England",
+  "publishedAt": "2026-08-08T11:00:00-04:00",
+  "slug": "breaking-developing-why-an-old-alert-can-mislead-without-a-timestamp",
+  "state": "",
+  "tags": [
+    "breaking / developing",
+    "archive",
+    "new england"
+  ],
+  "topic": "breaking",
+  "topicLabel": "Breaking / Developing",
+  "trending": false,
+  "updatedAt": "2026-08-08T11:00:00-04:00",
+  "visualLabel": "Breaking / Developing"
+}

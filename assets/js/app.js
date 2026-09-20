@@ -5,7 +5,8 @@
     siteName: 'NorthEast News',
     siteUrl: 'https://www.northenews.com',
     description: 'Independent regional reporting for New Hampshire, Massachusetts, Rhode Island and New England.',
-    dataUrl: 'data/articles.json',
+    articleIndexUrl: 'data/article-index.json',
+    searchManifestUrl: 'data/search/manifest.json',
     marketDataUrl: 'data/market-snapshot.json',
     businessesUrl: 'data/businesses.json',
     timezone: 'America/New_York',
@@ -59,9 +60,74 @@
   }
   function formatDateTime(value) { return formatDate(value, { month: 'long', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit' }); }
   function formatFullDate(value) { return formatDate(value, { month: 'long', day: 'numeric', year: 'numeric' }); }
-  function sortArticles(items) {
-    return (items || []).slice().sort(function (a, b) {
-      return new Date(b.updatedAt || b.publishedAt || 0) - new Date(a.updatedAt || a.publishedAt || 0);
+  function timestamp(value) { var time = Date.parse(value); return Number.isFinite(time) ? time : 0; }
+  function compareArticles(a, b) {
+    return (timestamp(b.updatedAt) || timestamp(b.publishedAt)) - (timestamp(a.updatedAt) || timestamp(a.publishedAt)) ||
+      timestamp(b.publishedAt) - timestamp(a.publishedAt) ||
+      String(a.id || '').localeCompare(String(b.id || '')) ||
+      String(a.slug || '').localeCompare(String(b.slug || ''));
+  }
+  function sortArticles(items) { return (items || []).slice().sort(compareArticles); }
+  function dataError(kind, message) { var error = new Error(message); error.kind = kind; return error; }
+  var articleCache = new Map(), searchState = { manifest: null, documents: null, loading: null };
+  function catalogEntryById(id) { return state.articles.find(function (item) { return item.id === id; }); }
+  function catalogEntryBySlug(slug) { return state.articles.find(function (item) { return item.slug === slug; }); }
+  function articlePath(entry) {
+    if (!entry || typeof entry.file !== 'string' || !/^data\/articles\/[a-z0-9][a-z0-9._-]*\.json$/.test(entry.file) || entry.file.indexOf('..') !== -1 || entry.file.split('/').pop() !== entry.id + '.json') throw dataError('malformed-data', 'The article catalog contains an unsafe file path.');
+    return rootPath(entry.file);
+  }
+  function validateLoadedArticle(article, entry) {
+    if (!article || typeof article !== 'object' || article.id !== entry.id || article.slug !== entry.slug || !Array.isArray(article.body)) throw dataError('malformed-data', 'The article file does not match its catalog record.');
+    return article;
+  }
+  function loadArticleById(id) {
+    var entry = catalogEntryById(id);
+    if (!entry) return Promise.reject(dataError('not-found', 'That article was not found in the catalog.'));
+    if (articleCache.has(entry.id)) return Promise.resolve(articleCache.get(entry.id));
+    var url; try { url = articlePath(entry); } catch (error) { return Promise.reject(error); }
+    return fetch(url).then(function (response) {
+      if (response.status === 404) throw dataError('not-found', 'That article file was not found.');
+      if (!response.ok) throw dataError('network', 'The article could not be loaded right now.');
+      return response.json();
+    }).then(function (article) {
+      var loaded = validateLoadedArticle(article, entry); articleCache.set(entry.id, loaded); return loaded;
+    }).catch(function (error) {
+      if (error && error.kind) throw error;
+      throw dataError('malformed-data', 'The article file is malformed or unreadable.');
+    });
+  }
+  function loadArticleBySlug(slug) {
+    var entry = catalogEntryBySlug(slug);
+    return entry ? loadArticleById(entry.id) : Promise.reject(dataError('not-found', 'That article was not found in the catalog.'));
+  }
+  function ensureSearchIndex() {
+    if (searchState.documents) return Promise.resolve(searchState.documents);
+    if (searchState.loading) return searchState.loading;
+    searchState.loading = fetch(rootPath(defaults.searchManifestUrl)).then(function (response) {
+      if (!response.ok) throw dataError('network', 'Search is temporarily unavailable.');
+      return response.json();
+    }).then(function (manifest) {
+      if (!manifest || manifest.schemaVersion !== 1 || !Array.isArray(manifest.shards)) throw dataError('malformed-data', 'The search manifest is malformed.');
+      searchState.manifest = manifest;
+      return Promise.all(manifest.shards.map(function (shard) {
+        return fetch(rootPath(shard.file)).then(function (response) { if (!response.ok) throw dataError('network', 'A search shard could not be loaded.'); return response.json(); });
+      }));
+    }).then(function (shards) {
+      var docs = {}; shards.forEach(function (shard) { Object.keys(shard.documents || {}).forEach(function (id) { docs[id] = shard.documents[id]; }); });
+      searchState.documents = docs; return docs;
+    }).catch(function (error) { searchState.loading = null; throw error && error.kind ? error : dataError('malformed-data', 'Search data is malformed.'); });
+    return searchState.loading;
+  }
+  function searchMatches(query) {
+    var needle = String(query || '').trim().toLowerCase();
+    if (!needle) return Promise.resolve([]);
+    return ensureSearchIndex().then(function (documents) {
+      return sortArticles(state.articles.filter(function (article) {
+        var doc = documents[article.id]; return doc && String(doc.text || '').indexOf(needle) !== -1;
+      })).map(function (article) {
+        var doc = documents[article.id], copy = Object.assign({}, article);
+        copy.__searchExcerpt = doc.excerpt || ''; return copy;
+      });
     });
   }
   function categoryLabel(article) {
@@ -133,15 +199,8 @@
   function renderMarketSnapshot(snapshot) {
     setContent('market-snapshot', marketSnapshotMarkup(snapshot));
   }
-  function searchMatches(query) {
-    var needle = String(query || '').trim().toLowerCase();
-    if (!needle) return [];
-    return sortArticles(state.articles).filter(function (article) {
-      return [article.headline, article.dek, article.summary, Array.isArray(article.body) ? article.body.join(' ') : article.body, article.category, article.topic, article.topicLabel, article.state, article.city, article.location, (article.tags || []).join(' ')].join(' ').toLowerCase().indexOf(needle) !== -1;
-    });
-  }
   function excerpt(article, query) {
-    var source = article.dek || article.summary || ((article.body || [])[0]) || '';
+    var source = article.__searchExcerpt || article.dek || article.summary || ((article.body || [])[0]) || '';
     var index = query ? source.toLowerCase().indexOf(String(query).toLowerCase()) : -1;
     if (index > 55) source = '…' + source.slice(index - 30);
     return source.length > 170 ? source.slice(0, 167) + '…' : source;
@@ -249,12 +308,18 @@
   }
   function bindSearch() {
     var toggle = document.getElementById('search-toggle'), panel = document.getElementById('search-panel'), close = document.getElementById('search-close'), input = document.getElementById('search-input'), results = document.getElementById('search-results');
-    if (!toggle || !panel || !input || !results) return;
-    function openSearch() { panel.hidden = false; toggle.setAttribute('aria-expanded', 'true'); input.focus(); }
-    function closeSearch() { panel.hidden = true; toggle.setAttribute('aria-expanded', 'false'); }
-    toggle.addEventListener('click', function () { panel.hidden ? openSearch() : closeSearch(); });
+    if (!input || !results) return;
+    function openSearch() { if (panel) { panel.hidden = false; toggle.setAttribute('aria-expanded', 'true'); } input.focus(); }
+    function closeSearch() { if (panel) { panel.hidden = true; toggle.setAttribute('aria-expanded', 'false'); } }
+    if (toggle) toggle.addEventListener('click', function () { panel.hidden ? openSearch() : closeSearch(); });
     if (close) close.addEventListener('click', closeSearch);
-    input.addEventListener('input', function () { results.innerHTML = searchMarkup(searchMatches(input.value), input.value.trim()); });
+    input.addEventListener('input', function () {
+      var value = input.value.trim(); if (!value) { results.innerHTML = ''; return; }
+      results.innerHTML = '<p class="empty-state">Searching the archive…</p>';
+      searchMatches(value).then(function (items) { results.innerHTML = searchMarkup(items, value); }).catch(function (error) {
+        results.innerHTML = '<p class="empty-state">' + escapeHTML(error.message || 'Search is temporarily unavailable.') + '</p>';
+      });
+    });
   }
   function bindMenu() {
     var button = document.getElementById('menu-toggle'), nav = document.getElementById('site-nav');
@@ -332,9 +397,11 @@
   async function loadData() {
     var configResponse = await fetch(rootPath('data/site-config.json')); if (configResponse.ok) Object.assign(defaults, await configResponse.json());
     updatePageMeta(); ensureSiteSchema();
-    var responses = await Promise.all([fetch(rootPath(defaults.dataUrl)), fetch(rootPath(defaults.marketDataUrl))]);
-    if (!responses[0].ok) throw new Error('Article data request failed');
-    var articleData = await responses[0].json(); state.articles = Array.isArray(articleData) ? articleData : (articleData.articles || []); state.marketSnapshot = responses[1].ok ? await responses[1].json() : null; state.ready = true;
+    var responses = await Promise.all([fetch(rootPath(defaults.articleIndexUrl)), fetch(rootPath(defaults.marketDataUrl))]);
+    if (!responses[0].ok) throw new Error('Article catalog request failed');
+    var articleData = await responses[0].json();
+    if (!articleData || articleData.schemaVersion !== 1 || !Array.isArray(articleData.articles)) throw new Error('Article catalog is malformed');
+    state.articles = articleData.articles; state.marketSnapshot = responses[1].ok ? await responses[1].json() : null; state.ready = true;
     renderMarketSnapshot(state.marketSnapshot);
     if (document.body.id === 'homepage') renderHome();
     if (document.body.id === 'archive-page') { renderArchive('all'); document.querySelectorAll('[data-topic-filter]').forEach(function (button) { button.addEventListener('click', function () { renderArchive(button.getAttribute('data-topic-filter')); }); }); }
@@ -342,7 +409,7 @@
     document.dispatchEvent(new CustomEvent('ne-news-ready'));
   }
   function ready() {
-    window.NENews = { CONFIG: defaults, state: state, rootPath: rootPath, absoluteUrl: absoluteUrl, articleUrl: articleUrl, escapeHTML: escapeHTML, formatDate: formatDate, formatDateTime: formatDateTime, formatFullDate: formatFullDate, sortArticles: sortArticles, categoryLabel: categoryLabel, stateLabel: stateLabel, typeLabel: typeLabel, stateMatches: stateMatches, storyCard: storyCard, latestItem: latestItem, visualArticle: visualArticle, searchMatches: searchMatches, searchMarkup: searchMarkup };
+    window.NENews = { CONFIG: defaults, state: state, rootPath: rootPath, absoluteUrl: absoluteUrl, articleUrl: articleUrl, escapeHTML: escapeHTML, formatDate: formatDate, formatDateTime: formatDateTime, formatFullDate: formatFullDate, sortArticles: sortArticles, compareArticles: compareArticles, loadArticleById: loadArticleById, loadArticleBySlug: loadArticleBySlug, categoryLabel: categoryLabel, stateLabel: stateLabel, typeLabel: typeLabel, stateMatches: stateMatches, storyCard: storyCard, latestItem: latestItem, visualArticle: visualArticle, searchMatches: searchMatches, searchMarkup: searchMarkup };
     initDate(); enhanceNavigation(); enhanceFooter(); ensureFeatureStyles(); ensureBreakingBar(); ensureHomeUtilityLinks(); bindMenu(); bindSearch(); bindForms(); loadNewHampshireWeather();
     loadData().catch(function (error) { console.error('NorthEast News data error:', error); document.dispatchEvent(new CustomEvent('ne-news-error')); });
   }

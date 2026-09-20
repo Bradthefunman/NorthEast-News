@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Stoughton officials decided Tuesday night to cancel the town’s contract with Flock Safety, the company whose automated license-plate reader cameras have drawn mounting privacy scrutiny across Massachusetts.",
+    "WCVB reported that residents raised concerns about the technology before the town acted. Flock systems capture vehicle plates and associated time and location information, data that police can search during investigations. The debate has centered on who may access those records, how long they are retained and how broadly they may be shared.",
+    "The Stoughton decision came as Quincy’s City Council considered the future of similar cameras but delayed its own decision. The two meetings show that communities are reaching different procedural stages while weighing public-safety claims against privacy and oversight questions.",
+    "WCVB’s initial report did not provide complete details on the timing for deactivation, equipment removal or any financial terms tied to Stoughton’s cancellation. Those implementation questions will determine how quickly data collection ends and whether town records remain available under existing retention rules."
+  ],
+  "breaking": false,
+  "category": "massachusetts",
+  "city": "Stoughton",
+  "dek": "Town officials ended the license-plate reader agreement after residents raised privacy concerns, while Quincy delayed a separate decision.",
+  "developing": false,
+  "featured": false,
+  "headline": "Stoughton ends Flock camera contract after privacy pushback",
+  "id": "ma-stoughton-ends-flock-camera-contract-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Stoughton, Massachusetts",
+  "publishedAt": "2026-09-09T04:45:00-04:00",
+  "slug": "stoughton-ends-flock-camera-contract-after-privacy-pushback",
+  "sourceName": "WCVB",
+  "sourceUrl": "https://www.wcvb.com/article/quincy-council-flock-cameras-meeting/73644571",
+  "state": "MA",
+  "tags": [
+    "Stoughton",
+    "Flock Safety",
+    "privacy",
+    "license plate readers"
+  ],
+  "topic": "massachusetts",
+  "topicLabel": "Massachusetts",
+  "trending": false,
+  "updatedAt": "2026-09-09T04:45:00-04:00",
+  "visualLabel": "Technology policy"
+}

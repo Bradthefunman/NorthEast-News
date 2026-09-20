@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Britain’s government has given air-traffic-control provider NATS one week to investigate the systems failure that halted flights Tuesday and stranded travelers across the country.",
+    "Flights resumed at major airports Wednesday, but airlines were still working through displaced aircraft and crews. Reuters reported that the hours-long outage led to about 2,000 cancellations and affected hundreds of thousands of passengers. It was the second major NATS failure in three years.",
+    "Transport Minister Heidi Alexander summoned NATS chief executive Martin Rolfe for an explanation. She told Parliament that the available evidence did not point to a cyberattack, while saying the disruption should not have happened. The Civil Aviation Authority will conduct a separate independent review expected to report within six months.",
+    "NATS said this week’s problem affected its flight-data system and differed from the issue behind the 2023 shutdown. Passengers may continue to see knock-on delays while airlines return planes and crews to their planned routes."
+  ],
+  "breaking": false,
+  "category": "breaking",
+  "city": "London",
+  "dek": "Flights resumed after Tuesday’s systems failure, but airlines and passengers continued to face disruption from roughly 2,000 cancellations.",
+  "developing": false,
+  "featured": false,
+  "headline": "UK gives air-traffic provider one week to investigate nationwide outage",
+  "id": "breaking-uk-nats-outage-investigation-week-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "United Kingdom",
+  "publishedAt": "2026-09-09T22:44:00-04:00",
+  "slug": "uk-gives-air-traffic-provider-one-week-to-investigate-nationwide-outage",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/uk/uk-flights-resume-airports-warn-ongoing-disruption-air-traffic-outage-2026-09-09/",
+  "state": "United Kingdom",
+  "tags": [
+    "United Kingdom",
+    "air travel",
+    "NATS",
+    "aviation"
+  ],
+  "topic": "breaking",
+  "topicLabel": "Breaking / Developing",
+  "trending": false,
+  "updatedAt": "2026-09-09T22:44:00-04:00",
+  "visualLabel": "Developing"
+}

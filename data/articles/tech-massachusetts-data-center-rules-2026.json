@@ -1,0 +1,39 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Massachusetts will require new data centers to secure local community support before receiving state permits under an executive order announced Tuesday by Gov. Maura Healey, NBC Boston reported.",
+    "The framework calls for a community benefits agreement with the host community and bars state agencies from using nondisclosure agreements with developers. Projects must also supply their own clean energy or pay into a ratepayer protection fund.",
+    "Developers will need to show that proposed facilities will not harm water supplies or the environment and will provide community benefits such as jobs. The rules apply to new data centers, not ongoing legal disputes involving already established facilities.",
+    "The order adds a new layer to Massachusetts’ debate over AI infrastructure. Supporters point to jobs and investment, while critics are focused on electricity, water, noise and air-pollution concerns. The state has roughly 50 data centers, most in Greater Boston.",
+    "The order is designed to make those tradeoffs part of the permitting process before construction begins."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "dek": "Gov. Maura Healey’s executive order ties state permits for new facilities to community agreements, energy protections and environmental review.",
+  "developing": false,
+  "featured": false,
+  "headline": "New Massachusetts data-center rules require local support and clean energy",
+  "id": "tech-massachusetts-data-center-rules-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Massachusetts",
+  "publishedAt": "2026-09-08T16:54:00-04:00",
+  "slug": "massachusetts-data-center-rules-require-local-support-and-clean-energy",
+  "sourceName": "NBC Boston",
+  "sourceUrl": "https://www.nbcboston.com/news/local/data-centers-ai-massachusetts-maura-healey-announcement/4010850/",
+  "state": "MA",
+  "tags": [
+    "Massachusetts",
+    "data centers",
+    "AI",
+    "energy",
+    "policy"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-08T16:54:00-04:00",
+  "visualLabel": "AI infrastructure policy"
+}

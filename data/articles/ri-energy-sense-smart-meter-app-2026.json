@@ -1,0 +1,37 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Rhode Island Energy residential customers with smart meters can use a free app to see household electricity use in real time. The Sense software analyzes voltage and amperage patterns at the meter, then estimates which appliances are running and how much they contribute to monthly costs.",
+    "The tool can separate major loads such as refrigerators, air conditioners, laundry equipment and electric vehicles. Customers can compare one month with another, watch total consumption and identify equipment that may be drawing power unexpectedly. It is designed as an awareness tool rather than a remote-control system.",
+    "The added detail arrives as state regulators allow higher electric and gas distribution rates. More than $170 million in customer credits tied to PPL Corporation’s acquisition commitments will temporarily soften the increase. Utility advocates caution that information about consumption cannot by itself solve the broader affordability problem for households already limiting their use.",
+    "Still, device-level estimates can help customers find changes within their control, such as a malfunctioning heater or an inefficient appliance. The app does not alter the price of electricity, and its usefulness depends on a home having a compatible smart meter, but it gives customers more context than a bill showing only total kilowatt-hours."
+  ],
+  "breaking": false,
+  "category": "rhode-island",
+  "dek": "The free Sense tool identifies household power draws through smart meters, offering more detail as distribution rates rise.",
+  "developing": false,
+  "featured": false,
+  "headline": "Rhode Island Energy app gives customers real-time usage view",
+  "id": "ri-energy-sense-smart-meter-app-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Rhode Island",
+  "publishedAt": "2026-09-11T06:43:00-04:00",
+  "slug": "rhode-island-energy-app-gives-customers-real-time-usage-view",
+  "sourceName": "Ocean State Media",
+  "sourceUrl": "https://www.oceanstatemedia.org/economy/2026-09-01/as-utility-rates-rise-a-new-app-helps-rhode-islanders-track-energy-use-in-real-time",
+  "state": "Rhode Island",
+  "tags": [
+    "Rhode Island Energy",
+    "Sense",
+    "smart meters",
+    "utility bills"
+  ],
+  "topic": "rhode-island",
+  "topicLabel": "Rhode Island",
+  "trending": false,
+  "updatedAt": "2026-09-11T06:43:00-04:00",
+  "visualLabel": "Energy"
+}

@@ -1,0 +1,32 @@
+{
+  "analysis": true,
+  "archive": true,
+  "author": "NorthEast News Archive Desk",
+  "body": [
+    "Archive explainer: The practical limits of automation in customer service.",
+    "Backdated context piece; recheck current records before republishing as live news."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "dek": "Backdated archive brief: The practical limits of automation in customer service.",
+  "developing": false,
+  "featured": false,
+  "headline": "The practical limits of automation in customer service",
+  "id": "archive-075",
+  "image": null,
+  "imageAlt": "",
+  "location": "New England tech watch",
+  "publishedAt": "2026-08-20T11:00:00-04:00",
+  "slug": "tech-the-practical-limits-of-automation-in-customer-service",
+  "state": "MA",
+  "tags": [
+    "tech",
+    "archive",
+    "new england"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-08-20T11:00:00-04:00",
+  "visualLabel": "Tech"
+}

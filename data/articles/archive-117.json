@@ -1,0 +1,32 @@
+{
+  "analysis": true,
+  "archive": true,
+  "author": "NorthEast News Archive Desk",
+  "body": [
+    "Archive explainer: How software teams think about reliability before launch.",
+    "Backdated context piece; recheck current records before republishing as live news."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "dek": "Backdated archive brief: How software teams think about reliability before launch.",
+  "developing": false,
+  "featured": false,
+  "headline": "How software teams think about reliability before launch",
+  "id": "archive-117",
+  "image": null,
+  "imageAlt": "",
+  "location": "New England tech watch",
+  "publishedAt": "2026-08-09T17:00:00-04:00",
+  "slug": "tech-how-software-teams-think-about-reliability-before-launch",
+  "state": "MA",
+  "tags": [
+    "tech",
+    "archive",
+    "new england"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-08-09T17:00:00-04:00",
+  "visualLabel": "Tech"
+}

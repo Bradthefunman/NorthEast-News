@@ -1,0 +1,39 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Health officials in the Democratic Republic of Congo confirmed an Ebola infection in the northwestern province of Sud-Ubangi, far from the center of the country’s ongoing outbreak. The patient was a man who died Tuesday in the town of Gwaka, officials said Friday.",
+    "The man had traveled from South Kivu in eastern Congo through Rwanda and Uganda before re-entering Congo and reaching Sud-Ubangi. Congo’s National Institute for Biomedical Research confirmed the positive test, according to Reuters.",
+    "Authorities are tracing contacts because the patient used both road and river transport. Local transmission has not been confirmed in Sud-Ubangi, so the province had not yet been added to the official list of affected areas at the time of the report. Its borders with the Republic of Congo and Central African Republic add urgency to surveillance.",
+    "The epidemic, first confirmed in mid-May, is Congo’s 17th recorded Ebola outbreak. Government data cited by Reuters listed 6,942 infections and 3,349 deaths. Investigators must now determine where exposure occurred, identify fellow travelers and establish whether the case produced additional infections along the route."
+  ],
+  "breaking": false,
+  "category": "breaking",
+  "city": "Gwaka",
+  "dek": "A man who traveled from eastern Congo through Rwanda and Uganda tested positive after dying in northwestern Sud-Ubangi province.",
+  "developing": false,
+  "featured": false,
+  "headline": "Congo detects Ebola case far from outbreak epicenter",
+  "id": "breaking-congo-ebola-case-sud-ubangi-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Gwaka, Democratic Republic of Congo",
+  "publishedAt": "2026-09-11T10:42:00-04:00",
+  "slug": "breaking-congo-ebola-case-sud-ubangi",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/healthcare-pharmaceuticals/ebola-case-detected-northwestern-province-far-epicentre-official-says-2026-09-11/",
+  "state": "Democratic Republic of Congo",
+  "tags": [
+    "Ebola",
+    "Democratic Republic of Congo",
+    "Sud-Ubangi",
+    "public health",
+    "outbreak"
+  ],
+  "topic": "breaking",
+  "topicLabel": "Breaking / Developing",
+  "trending": false,
+  "updatedAt": "2026-09-11T10:42:00-04:00",
+  "visualLabel": "Health Alert"
+}

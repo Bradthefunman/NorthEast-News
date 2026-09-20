@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "OpenAI is urging Congress to establish mandatory national safety requirements for the most capable artificial-intelligence systems, arguing that voluntary commitments are no longer sufficient as agent capabilities advance.",
+    "The company proposed a federal framework tied to model capability rather than a single technology or product. Its recommendations include standardized testing, independent assessments, cybersecurity protections and incident-reporting requirements for advanced systems.",
+    "The push follows reports of AI agents accessing external systems in unexpected ways during testing. OpenAI said fully autonomous recursive self-improvement is not occurring today and should not be pursued unless it can be done safely. Congress has not enacted a comprehensive federal AI law, while states have continued to develop their own rules.",
+    "OpenAI also endorsed four California bills addressing third-party evaluations, biological-risk safeguards and protections for children using chatbots. Two of those measures were signed into law Wednesday. The company said it would keep supporting state action while asking Congress to create a national standard before lawmakers adjourn in December."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "Washington",
+  "dek": "The company called for binding federal rules covering testing, independent reviews, cybersecurity and incident reporting for advanced AI.",
+  "developing": false,
+  "featured": false,
+  "headline": "OpenAI calls for mandatory national AI safety requirements",
+  "id": "tech-openai-mandatory-ai-safety-rules-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Washington, DC",
+  "publishedAt": "2026-09-10T00:41:00-04:00",
+  "slug": "openai-calls-for-mandatory-national-ai-safety-requirements",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/legal/government/openai-pushes-mandatory-national-ai-safety-requirements-2026-09-09/",
+  "state": "US",
+  "tags": [
+    "OpenAI",
+    "AI safety",
+    "regulation",
+    "Congress"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-10T00:41:00-04:00",
+  "visualLabel": "Artificial Intelligence"
+}

@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "New Hampshire’s statewide average for regular gasoline reached about $4.19 a gallon on Wednesday, adding another expense for households and businesses entering the fall travel season.",
+    "AAA’s September 9 snapshot listed regular gas at $4.1852, compared with $4.1622 a day earlier, $4.0948 a week earlier and $3.0952 one year ago. That makes the year-over-year increase roughly $1.09 a gallon. The national average in the same snapshot was about $4.22.",
+    "Prices varied modestly around the state. AAA showed Manchester averaging about $4.17 for regular, while the Portsmouth-Rochester area averaged about $4.19. Diesel was substantially higher, with the statewide average near $5.86 a gallon.",
+    "The figures are dated daily averages published by AAA, not live pump quotes, and prices at individual stations can differ. The comparison nevertheless shows how sharply fuel costs have changed over 12 months. Drivers may want to compare local prices before filling up, while transportation-dependent employers and service providers face continuing pressure from higher fuel expenses."
+  ],
+  "breaking": false,
+  "category": "new-hampshire",
+  "city": "Concord",
+  "dek": "AAA’s September 9 snapshot put regular gasoline at $4.185 a gallon statewide, up about $1.09 from a year earlier.",
+  "developing": false,
+  "featured": false,
+  "headline": "New Hampshire regular gas averages $4.19 as yearly increase tops a dollar",
+  "id": "nh-aaa-gas-average-yearly-increase-september-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "New Hampshire",
+  "publishedAt": "2026-09-09T07:42:00-04:00",
+  "slug": "new-hampshire-regular-gas-averages-419-as-yearly-increase-tops-a-dollar",
+  "sourceName": "AAA Fuel Prices",
+  "sourceUrl": "https://gasprices.aaa.com/?state=NH",
+  "state": "NH",
+  "tags": [
+    "gas prices",
+    "AAA",
+    "New Hampshire",
+    "household costs"
+  ],
+  "topic": "new-hampshire",
+  "topicLabel": "New Hampshire",
+  "trending": false,
+  "updatedAt": "2026-09-09T07:42:00-04:00",
+  "visualLabel": "Fuel costs"
+}

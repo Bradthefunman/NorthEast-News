@@ -1,0 +1,39 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "The Boston Zoning Commission has adopted rules for small clean-energy infrastructure, creating a consolidated local permitting process required under the Massachusetts State Climate Act. The framework covers facilities such as solar panels, wind turbines, battery storage and short transmission lines.",
+    "The zoning change also sets dimensional and use regulations for battery energy storage systems. State law requires cities and towns to offer the permitting process by October 1, 2026, and Boston said the new rules align with its plans to expand electric-grid capacity.",
+    "City planners will next develop design guidelines intended to fit projects into neighborhood settings and address public-space safety. The rules are designed to make requirements more predictable for smaller projects while preserving local review of their placement and form.",
+    "Boston’s 2030 Climate Action Plan calls for a 50% reduction in community-wide greenhouse-gas emissions by 2030 and carbon neutrality by 2050. The city says permitting changes are one piece of that strategy, alongside electrification and grid upgrades. Actual projects will still need to meet the new zoning, design and safety standards before construction."
+  ],
+  "breaking": false,
+  "category": "massachusetts",
+  "city": "Boston",
+  "dek": "The framework creates a consolidated local permitting process and adds standards for battery storage systems.",
+  "developing": false,
+  "featured": false,
+  "headline": "Boston adopts zoning rules for small clean-energy infrastructure",
+  "id": "ma-boston-small-clean-energy-zoning-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Boston, Massachusetts",
+  "publishedAt": "2026-09-11T10:42:00-04:00",
+  "slug": "ma-boston-small-clean-energy-zoning",
+  "sourceName": "City of Boston",
+  "sourceUrl": "https://www.boston.gov/news/city-boston-adopts-small-clean-energy-infrastructure-zoning",
+  "state": "Massachusetts",
+  "tags": [
+    "Boston",
+    "clean energy",
+    "zoning",
+    "battery storage",
+    "permitting"
+  ],
+  "topic": "massachusetts",
+  "topicLabel": "Massachusetts",
+  "trending": false,
+  "updatedAt": "2026-09-11T10:42:00-04:00",
+  "visualLabel": "Energy"
+}

@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Asian equity markets moved lower Thursday as investors weighed oil prices above $100 a barrel, elevated bond yields and upcoming U.S. inflation reports.",
+    "Reuters reported that MSCI’s broad Asia-Pacific index outside Japan fell about 1% in early trading, while Japan’s Nikkei and South Korea’s KOSPI each declined more than 1%. Brent crude traded near $101 a barrel after crossing $100 on Wednesday amid widening attacks on shipping in the Middle East.",
+    "U.S. 10-year Treasury yields held around 4.84%, near their highest level since 2023. Higher oil and borrowing costs renewed inflation concerns before U.S. producer-price and consumer-price data due Thursday and Friday. Those readings may shape expectations for the Federal Reserve’s September 15–16 policy meeting.",
+    "The figures reflect market conditions reported during Asian trading and are not live quotes. Investors are also preparing for European Central Bank and Bank of Japan decisions, with the interaction between energy costs, currencies and interest rates likely to drive near-term volatility."
+  ],
+  "breaking": false,
+  "category": "markets",
+  "city": "Singapore",
+  "dek": "Asia-Pacific shares fell as oil stayed above $100 and U.S. Treasury yields held near their highest level since 2023.",
+  "developing": false,
+  "featured": false,
+  "headline": "Asian stocks slide as oil and bond yields pressure risk appetite",
+  "id": "markets-asian-stocks-oil-bond-yields-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Singapore",
+  "publishedAt": "2026-09-10T00:41:00-04:00",
+  "slug": "asian-stocks-slide-as-oil-and-bond-yields-pressure-risk-appetite",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-09-10/",
+  "state": "International",
+  "tags": [
+    "Asian markets",
+    "Brent crude",
+    "Treasury yields",
+    "inflation"
+  ],
+  "topic": "markets",
+  "topicLabel": "Markets / Stocks",
+  "trending": false,
+  "updatedAt": "2026-09-10T00:41:00-04:00",
+  "visualLabel": "Global Markets"
+}

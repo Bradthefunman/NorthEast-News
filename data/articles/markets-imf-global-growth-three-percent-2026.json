@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "The International Monetary Fund said the global economy remains on track to expand about 3% in 2026, although elevated energy prices and debt leave the outlook unusually uncertain.",
+    "An IMF spokesperson told Reuters that the economy had absorbed the Middle East war’s energy shock better than initially feared. Countries used reserves, shifted energy sources and reduced demand, but the fund cautioned that the shock is not over and that oil and gas prices remain high.",
+    "The IMF’s July estimate was 3.0%, below the average 3.5% growth recorded in 2024 and 2025. The organization plans to issue a revised forecast during its October meetings with the World Bank in Bangkok.",
+    "Public debt is approaching 100% of global economic output, the highest level since World War Two, according to the IMF. The fund also said progress in lowering inflation has stalled. For markets, the combination matters because slower growth, persistent inflation and heavy government borrowing can pull interest rates, currencies and asset valuations in different directions."
+  ],
+  "breaking": false,
+  "category": "markets",
+  "city": "Washington",
+  "dek": "The fund said the world economy has absorbed the energy shock better than feared, while elevated prices and near-record public debt remain concerns.",
+  "developing": false,
+  "featured": false,
+  "headline": "IMF sees 3% global growth but warns risks remain high",
+  "id": "markets-imf-global-growth-three-percent-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Washington, DC",
+  "publishedAt": "2026-09-10T14:45:00-04:00",
+  "slug": "imf-sees-three-percent-global-growth-but-warns-risks-remain-high",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/china/imf-say-global-growth-track-reach-3-2026-risks-remain-high-2026-09-10/",
+  "state": "International",
+  "tags": [
+    "IMF",
+    "global growth",
+    "public debt",
+    "energy"
+  ],
+  "topic": "markets",
+  "topicLabel": "Markets / Stocks",
+  "trending": false,
+  "updatedAt": "2026-09-10T14:45:00-04:00",
+  "visualLabel": "Global economy"
+}

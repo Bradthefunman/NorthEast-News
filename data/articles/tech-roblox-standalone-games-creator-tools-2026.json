@@ -1,0 +1,41 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Roblox plans to let developers distribute games created on its platform as standalone apps for mobile devices, PCs and consoles, the company announced Friday at its developers conference. Roblox will supply the underlying technology and services while creators gain another route to reach players outside the main Roblox app.",
+    "By the end of 2026, players are also expected to be able to open games in Google's Chrome browser from an Experience Details page without first downloading an app. Support for additional browsers is planned later. Roblox will also allow games to combine online and offline modes, creating room for single-player campaigns and play without a network connection.",
+    "The company is expanding its AI-assisted development tools as well. Build, launched in July, lets users create and publish a playable game from a text prompt. Roblox said about 9,000 games have been published with it and that 71% of those creators had not previously used Roblox Studio. A Scene Generator scheduled for later this year will turn text prompts and reference images into functional layouts, while new non-player characters will be able to help playtest games."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "tech",
+  "city": null,
+  "dek": "New tools will extend Roblox experiences beyond the main app and add offline modes, browser play and AI-assisted creation features.",
+  "developing": false,
+  "featured": false,
+  "headline": "Roblox will let creators distribute games as standalone apps",
+  "id": "tech-roblox-standalone-games-creator-tools-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "United States",
+  "publishedAt": "2026-09-11T16:42:00-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "tech-roblox-standalone-games-creator-tools",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/technology/roblox-expands-tools-help-creators-build-distribute-games-2026-09-11/",
+  "state": "US",
+  "tags": [
+    "Roblox",
+    "game development",
+    "creator tools",
+    "AI",
+    "apps"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-11T16:42:00-04:00",
+  "visualLabel": "Gaming"
+}

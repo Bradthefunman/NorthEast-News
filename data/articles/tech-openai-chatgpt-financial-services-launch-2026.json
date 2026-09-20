@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "OpenAI launched ChatGPT for Financial Services on Thursday, a specialized product aimed initially at investment bankers and equity researchers who work with large volumes of licensed market and company data.",
+    "The service combines OpenAI’s latest model with built-in information from providers including LSEG, PitchBook and Daloopa. It also includes material from LSEG News, Crunchbase and Quartr, covering areas such as earnings transcripts, financial statements and company fundamentals. Firms with existing subscriptions can connect additional services through integrations.",
+    "Morgan Stanley and Evercore served as design partners. OpenAI said the product builds on ChatGPT Enterprise security controls, including role-based access and encryption. Compliance teams can export workspace logs into audit processes, an important requirement for firms operating under recordkeeping and supervision rules.",
+    "Users can conduct research across multiple sources, build financial models and create client materials using their own templates, according to the company. OpenAI plans to broaden the available data and expand the service beyond investment banking and equity research. The launch reflects growing competition to adapt general-purpose AI systems for regulated, data-intensive industries."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "San Francisco",
+  "dek": "The specialized service combines AI tools with licensed financial datasets and controls designed for regulated firms.",
+  "developing": false,
+  "featured": false,
+  "headline": "OpenAI launches ChatGPT product for financial services",
+  "id": "tech-openai-chatgpt-financial-services-launch-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "San Francisco, CA",
+  "publishedAt": "2026-09-10T16:43:00-04:00",
+  "slug": "openai-launches-chatgpt-product-for-financial-services",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/openai-launches-chatgpt-financial-services-industry-2026-09-10/",
+  "state": "United States",
+  "tags": [
+    "OpenAI",
+    "financial services",
+    "enterprise AI",
+    "data governance"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-10T16:43:00-04:00",
+  "visualLabel": "Financial AI"
+}

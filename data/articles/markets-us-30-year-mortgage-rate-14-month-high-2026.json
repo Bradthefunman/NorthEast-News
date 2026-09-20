@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "The average rate on a U.S. 30-year fixed mortgage rose six basis points to 6.85% in the week ended September 4, the highest level since June 2025, according to Mortgage Bankers Association data reported by Reuters.",
+    "Higher borrowing costs weighed on demand. Applications to refinance existing mortgages fell 6.2% from the previous week, while total mortgage applications declined 2.7%. The figures measure application activity and do not represent a real-time quote available to every borrower.",
+    "Mortgage rates often track movements in longer-term Treasury yields. The 10-year Treasury yield approached 4.8% Tuesday, near its highest level since October 2023, as investors weighed inflation, federal borrowing and heavy demand for capital. Higher oil prices and geopolitical conflict have added to inflation concerns.",
+    "Markets are now watching producer-price data Thursday, consumer-price data Friday and the Federal Reserve’s September 15–16 meeting. Those releases may reshape expectations for monetary policy, but mortgage offers will still vary by lender, borrower credit, down payment and loan structure."
+  ],
+  "breaking": false,
+  "category": "markets",
+  "city": "Washington",
+  "dek": "The average 30-year fixed rate rose to 6.85% in the latest weekly survey as refinancing and total mortgage applications declined.",
+  "developing": false,
+  "featured": false,
+  "headline": "U.S. 30-year mortgage rate reaches 14-month high",
+  "id": "markets-us-30-year-mortgage-rate-14-month-high-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "United States",
+  "publishedAt": "2026-09-09T08:43:00-04:00",
+  "slug": "us-30-year-mortgage-rate-reaches-14-month-high",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/us-fixed-30-year-mortgage-rate-climbs-highest-since-june-2025-2026-09-09/",
+  "state": "National",
+  "tags": [
+    "mortgage rates",
+    "housing",
+    "Treasury yields",
+    "Federal Reserve"
+  ],
+  "topic": "markets",
+  "topicLabel": "Markets / Stocks",
+  "trending": false,
+  "updatedAt": "2026-09-09T08:43:00-04:00",
+  "visualLabel": "Housing finance"
+}

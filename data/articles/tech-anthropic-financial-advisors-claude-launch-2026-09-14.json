@@ -1,0 +1,41 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Anthropic launched a set of Claude tools for financial advisers on Monday, connecting the chatbot with investment analytics and wealth-management software, Reuters reported.",
+    "The product, called Claude for Financial Advisors, is designed to help firms prepare for client meetings, review portfolios and handle follow-up work. Anthropic said the offering connects with platforms and services from companies including BlackRock, Charles Schwab and Addepar.",
+    "Reuters reported that the tool also works with Envestnet, iCapital, Orion, Wealthbox, Wealth.com and Zocks. The launch follows OpenAI’s release of a version of ChatGPT aimed at investment bankers and equity researchers.",
+    "Anthropic’s expansion into financial services reflects the growing effort by AI companies to turn general-purpose chatbots into specialized workplace software. Financial firms are likely to evaluate the tools alongside existing compliance, privacy and human-review requirements.",
+    "The announcement arrives as investors and technology leaders debate the cost, pace and safety of frontier-AI development. Anthropic is presenting the financial-adviser product as a productivity tool for professional workflows rather than a replacement for licensed advice."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "tech",
+  "city": "San Francisco",
+  "dek": "Anthropic introduced a version of Claude that connects with investment analytics and wealth-management software used by financial firms.",
+  "developing": false,
+  "featured": false,
+  "headline": "Anthropic launches Claude tools for financial advisers",
+  "id": "tech-anthropic-financial-advisors-claude-launch-2026-09-14",
+  "image": null,
+  "imageAlt": null,
+  "location": "San Francisco, California",
+  "publishedAt": "2026-09-14T17:14:00-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "tech-anthropic-financial-advisors-claude-launch",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/anthropic-targets-financial-advisers-with-new-claude-tool-2026-09-14/",
+  "state": "California",
+  "tags": [
+    "Technology",
+    "Artificial Intelligence",
+    "Finance",
+    "Anthropic"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-14T17:14:00-04:00"
+}

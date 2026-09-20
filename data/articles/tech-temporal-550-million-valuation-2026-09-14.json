@@ -1,0 +1,40 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Temporal has raised $550 million in a late-stage funding round led by Lightspeed, taking the software company’s reported valuation to $12.55 billion, Reuters reported Monday.",
+    "Temporal develops open-source workflow software that helps applications and artificial-intelligence agents recover when tasks fail. Its tools are designed to preserve progress and resume work instead of forcing a system to restart an entire process.",
+    "The company said it has more than 4,300 customers, including OpenAI, Snap, Nvidia, Netflix and JPMorgan, according to Reuters. Temporal has about 570 employees and an annualized revenue run rate above $250 million, the report said.",
+    "The financing reflects continued investor interest in infrastructure for AI applications, where reliability and recovery are important as systems handle longer, more complex jobs. The new valuation is more than double the company’s previous reported level, giving Temporal additional capital to expand its platform and customer base.",
+    "The report remains subject to further verified updates as officials continue reviewing the circumstances."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "tech",
+  "city": null,
+  "dek": "Workflow-software company Temporal has raised $550 million in a late-stage funding round led by Lightspeed, lifting its reported valuation to $12.55 billion.",
+  "developing": false,
+  "featured": false,
+  "headline": "Temporal raises $550 million as valuation more than doubles to $12.55 billion",
+  "id": "tech-temporal-550-million-valuation-2026-09-14",
+  "image": null,
+  "imageAlt": null,
+  "location": "United States",
+  "publishedAt": "2026-09-14T18:41:00-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "tech-temporal-550-million-valuation",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/temporals-valuation-spikes-126-billion-lightspeed-led-funding-round-2026-09-14/",
+  "state": null,
+  "tags": [
+    "Tech",
+    "Venture Capital",
+    "Artificial Intelligence"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-14T18:41:00-04:00"
+}

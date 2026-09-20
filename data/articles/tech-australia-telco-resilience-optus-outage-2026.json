@@ -1,0 +1,40 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Australia’s government pledged Sunday to strengthen the resilience of national telecommunications networks after an Optus outage disrupted voice service and some emergency calls. The 76-minute technical problem affected customers in Victoria, South Australia, Tasmania and the Northern Territory, according to the country’s second-largest carrier.",
+    "Optus described the customer impact as intermittent call dropouts. The government response raises the issue beyond one company’s technical repair, focusing attention on how carriers maintain access to police, fire and ambulance services during network failures. Officials had not yet detailed a specific regulatory package or timetable for new requirements.",
+    "The disruption follows a separate Optus network failure last year that prevented hundreds of people from reaching emergency services and was linked to two deaths. That history increases scrutiny of redundancy, incident response and customer communication across the sector. The latest pledge signals that Canberra expects resilience work to cover the broader telecom system, not only Optus’s immediate outage review."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "tech",
+  "city": "Sydney",
+  "dek": "The government’s response follows a 76-minute disruption that affected voice calls and some emergency-service connections across several regions.",
+  "developing": false,
+  "featured": false,
+  "headline": "Australia pledges stronger telecom resilience after Optus outage",
+  "id": "tech-australia-telco-resilience-optus-outage-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Sydney, Australia",
+  "publishedAt": "2026-09-12T22:44:00-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "tech-australia-telco-resilience-optus-outage",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/media-telecom/australia-vows-bolster-resilience-telco-networks-after-optus-outage-2026-09-13/",
+  "state": "New South Wales",
+  "tags": [
+    "Optus",
+    "Australia",
+    "telecommunications",
+    "emergency calls"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-12T22:44:00-04:00",
+  "visualLabel": "Telecommunications"
+}

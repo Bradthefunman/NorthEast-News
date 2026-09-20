@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "A Hong Kong court convicted Dow Jones, publisher of The Wall Street Journal, of willfully preventing former reporter Selina Cheng from exercising her right to become an officer of a trade union.",
+    "Reuters reported that the case was brought under Hong Kong’s Trade Unions Ordinance. The court found against the company on the union-rights charge but acquitted it of unlawfully dismissing Cheng, ruling that prosecutors had not excluded the company’s restructuring explanation beyond a reasonable doubt.",
+    "Cheng was elected chair of the Hong Kong Journalists Association in 2024. The case has drawn attention because it tests legal protections for labor organizing within an international news organization at a time of heightened concern about media freedom in Hong Kong.",
+    "Dow Jones said it disagreed with the conviction and was evaluating its next steps. Each charge carries a maximum fine of HK$100,000, and sentencing was expected later. The mixed verdict leaves both the labor-rights finding and the acquittal important: the court recognized an unlawful effort to block union participation while declining to find that the dismissal itself met the criminal standard."
+  ],
+  "breaking": false,
+  "category": "breaking",
+  "city": "Hong Kong",
+  "dek": "A court found the Wall Street Journal publisher unlawfully blocked former reporter Selina Cheng from becoming a union officer, while acquitting it on a separate dismissal charge.",
+  "developing": false,
+  "featured": false,
+  "headline": "Hong Kong court convicts Dow Jones over reporter’s union bid",
+  "id": "breaking-dow-jones-hong-kong-union-conviction-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Hong Kong",
+  "publishedAt": "2026-09-10T10:45:00-04:00",
+  "slug": "hong-kong-court-convicts-dow-jones-over-reporters-union-bid",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/media-telecom/hong-kong-court-convicts-wall-street-journal-publisher-blocking-ex-reporter-2026-09-10/",
+  "state": "INTL",
+  "tags": [
+    "Dow Jones",
+    "Wall Street Journal",
+    "Hong Kong",
+    "press freedom"
+  ],
+  "topic": "breaking",
+  "topicLabel": "Breaking / Developing",
+  "trending": false,
+  "updatedAt": "2026-09-10T10:45:00-04:00",
+  "visualLabel": "Media rights"
+}

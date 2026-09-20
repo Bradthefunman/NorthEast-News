@@ -1,0 +1,40 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Anthropic chief executive Dario Amodei is calling on leading artificial-intelligence companies to deliberately slow the rate at which their models gain new capabilities. The proposal, reported by Reuters, frames pacing as a way to preserve time for governments, researchers and companies to manage risks before systems advance further.",
+    "Amodei outlined a three-step framework rather than advocating a halt to development. His argument is that even moderated progress would remain rapid, while a more controlled cadence could improve evaluation, safeguards and public preparation. The recommendation arrives as major labs compete to release more capable agents and reasoning systems, with capital spending and product plans increasingly tied to short model cycles.",
+    "The appeal does not itself create a binding industry standard, and rivals have not committed to a shared slowdown. Coordinated pacing would also raise practical questions about measurement, enforcement and international competition. Still, a chief executive asking peers to constrain capability growth adds a notable voice to the safety debate. The next signal will be whether Anthropic changes its own release schedule or turns the framework into specific technical and governance commitments."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "tech",
+  "city": "San Francisco",
+  "dek": "Dario Amodei outlined a framework for moderating capability gains so safeguards and public preparation have more time to catch up.",
+  "developing": false,
+  "featured": false,
+  "headline": "Anthropic CEO urges slower AI capability growth",
+  "id": "tech-anthropic-amodei-slower-ai-capability-growth-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "San Francisco, California",
+  "publishedAt": "2026-09-12T10:42:00-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "tech-anthropic-amodei-slower-ai-capability-growth",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/anthropic-ceo-urges-ai-companies-slow-model-development-2026-09-12/",
+  "state": "California",
+  "tags": [
+    "Anthropic",
+    "Dario Amodei",
+    "Artificial Intelligence",
+    "AI Safety"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-12T10:42:00-04:00",
+  "visualLabel": "AI Safety"
+}

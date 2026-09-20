@@ -1,0 +1,41 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Boston Logan International Airport has installed eight artificial-intelligence-powered holograms to help travelers find gates, restaurants, baggage claim and other locations. The assistants, named “Amelia” after aviation pioneer Amelia Earhart, are positioned across every terminal, both before and after security checkpoints.",
+    "The system can provide step-by-step directions in several languages and display a QR code so travelers can carry those instructions on their phones. Airport officials said Amelia can be programmed with thousands of locations and described the deployment as the largest use of this hologram technology at any airport. Logan expects the units to handle about 100,000 interactions during their first year.",
+    "Massport says the goal is to supplement its customer-service staff, not replace employees. The current version is focused on common wayfinding questions, while a planned second phase would make the system more conversational and capable of answering a broader range of requests. The installation gives Logan a visible test of how generative AI and projection technology can be integrated into busy public spaces."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "tech",
+  "city": "Boston",
+  "dek": "The airport’s new “Amelia” assistants offer directions in every terminal and can send step-by-step routes to travelers’ phones by QR code.",
+  "developing": false,
+  "featured": false,
+  "headline": "Boston Logan deploys eight multilingual AI holograms",
+  "id": "tech-boston-logan-amelia-ai-holograms-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Boston, Massachusetts",
+  "publishedAt": "2026-09-12T06:44:00-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "tech-boston-logan-amelia-ai-holograms",
+  "sourceName": "NBC10 Boston",
+  "sourceUrl": "https://www.nbcboston.com/news/local/boston-logan-customer-service-ai-rep-amelia/4013044/",
+  "state": "MA",
+  "tags": [
+    "Boston Logan Airport",
+    "Artificial Intelligence",
+    "Amelia",
+    "Massport",
+    "Travel Technology"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-12T06:44:00-04:00",
+  "visualLabel": "Airport Tech"
+}

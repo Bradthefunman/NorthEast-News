@@ -1,0 +1,32 @@
+{
+  "analysis": true,
+  "archive": true,
+  "author": "NorthEast News Archive Desk",
+  "body": [
+    "Archive explainer: AI adoption is becoming an operations question for New England companies.",
+    "Backdated context piece; recheck current records before republishing as live news."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "dek": "Backdated archive brief: AI adoption is becoming an operations question for New England companies.",
+  "developing": false,
+  "featured": false,
+  "headline": "AI adoption is becoming an operations question for New England companies",
+  "id": "archive-005",
+  "image": null,
+  "imageAlt": "",
+  "location": "New England tech watch",
+  "publishedAt": "2026-09-06T17:00:00-04:00",
+  "slug": "tech-ai-adoption-is-becoming-an-operations-question-for-new-england-companies",
+  "state": "MA",
+  "tags": [
+    "tech",
+    "archive",
+    "new england"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-06T17:00:00-04:00",
+  "visualLabel": "Tech"
+}

@@ -1,0 +1,37 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "A Texas judge has ruled that TikTok violated the state’s consumer-protection law by misleading users about how its Restricted Mode handled material considered inappropriate for minors, Reuters reported early Friday.",
+    "Judge Cory Liu found that the platform’s public description suggested certain content would not be allowed, while internal treatment meant some material was instead made harder to find. Texas filed the case in January 2025, challenging whether the company accurately represented its safety controls.",
+    "The ruling does not finish the litigation. The case is expected to move toward trial, with scheduling anticipated next month, and the court has not yet determined penalties or other remedies. TikTok did not immediately provide Reuters with an after-hours response.",
+    "The decision focuses on how technology companies describe parental and youth-safety tools, not simply whether those tools exist. For platforms, the distinction matters because a feature marketed as blocking content can create different expectations than one that reduces its visibility. The outcome may influence how social-media services explain filtering systems and document the gap between product labels and internal enforcement."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "dek": "A state judge found the platform’s description of Restricted Mode did not match how some content was handled; penalties and remedies remain unresolved.",
+  "developing": false,
+  "featured": false,
+  "headline": "Texas judge says TikTok misled users about child-safety controls",
+  "id": "tech-tiktok-texas-child-safety-ruling-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Texas",
+  "publishedAt": "2026-09-11T02:44:00-04:00",
+  "slug": "texas-judge-says-tiktok-misled-users-about-child-safety-controls",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/legal/litigation/texas-judge-rules-tiktok-misled-users-child-safety-feature-2026-09-11/",
+  "state": "TX",
+  "tags": [
+    "TikTok",
+    "child safety",
+    "social media",
+    "Texas"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-11T02:44:00-04:00",
+  "visualLabel": "Platform Safety"
+}

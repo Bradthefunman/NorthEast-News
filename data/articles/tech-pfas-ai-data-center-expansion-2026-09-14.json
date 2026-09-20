@@ -1,0 +1,41 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Demand from artificial-intelligence data centers and semiconductor plants is driving new expansion plans among major PFAS manufacturers, according to a survey by chemicals campaign group ChemSec reported by The Guardian.",
+    "ChemSec reviewed the 10 largest PFAS producers and found that nearly all had plans to increase output at sites in Europe, Asia and North America. PFAS are used in semiconductor manufacturing and in some next-generation cooling systems for data centers.",
+    "The Guardian reported that Japan-based Daikin is building a data-center business, while France-based Arkema is adding a $60 million production unit in Kentucky to serve cooling demand. U.S. producer Chemours also describes advanced data centers and AI hardware as growth markets for liquid-cooling products.",
+    "The expansion plans are drawing criticism because PFAS are highly resistant to heat, water and corrosion and can persist in the environment. Advocates warn that growing production could increase long-term health, cleanup and regulatory liabilities.",
+    "ChemSec’s survey also identified exceptions: Archroma is shifting toward PFAS-free alternatives, and BASF has said it plans to leave PFAS production by 2028. The survey reflects campaigners’ findings and company plans, not a new government production mandate."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "tech",
+  "city": null,
+  "dek": "A ChemSec review cited by The Guardian says nearly all of the 10 largest PFAS manufacturers plan higher output for semiconductor and cooling demand.",
+  "developing": false,
+  "featured": false,
+  "headline": "AI data-center demand pushes PFAS producers toward expansion, survey says",
+  "id": "tech-pfas-ai-data-center-expansion-2026-09-14",
+  "image": null,
+  "imageAlt": null,
+  "location": "Global technology industry",
+  "publishedAt": "2026-09-14T18:58:39-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "tech-pfas-ai-data-center-expansion",
+  "sourceName": "The Guardian",
+  "sourceUrl": "https://www.theguardian.com/environment/2026/sep/14/pfas-firms-tidal-wave-forever-chemicals-ai-industry-demand-datacentres",
+  "state": "Global",
+  "tags": [
+    "Tech",
+    "Artificial Intelligence",
+    "Data Centers",
+    "PFAS"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-14T18:58:39-04:00"
+}

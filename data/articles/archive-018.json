@@ -1,0 +1,32 @@
+{
+  "analysis": true,
+  "archive": true,
+  "author": "NorthEast News Archive Desk",
+  "body": [
+    "Archive explainer: Breaking desk guide: separating an alert from a verified report.",
+    "Backdated context piece; recheck current records before republishing as live news."
+  ],
+  "breaking": false,
+  "category": "more",
+  "dek": "Backdated archive brief: Breaking desk guide: separating an alert from a verified report.",
+  "developing": false,
+  "featured": false,
+  "headline": "Breaking desk guide: separating an alert from a verified report",
+  "id": "archive-018",
+  "image": null,
+  "imageAlt": "",
+  "location": "New England",
+  "publishedAt": "2026-09-03T14:00:00-04:00",
+  "slug": "breaking-breaking-desk-guide-separating-an-alert-from-a-verified-report",
+  "state": "",
+  "tags": [
+    "breaking / developing",
+    "archive",
+    "new england"
+  ],
+  "topic": "breaking",
+  "topicLabel": "Breaking / Developing",
+  "trending": false,
+  "updatedAt": "2026-09-03T14:00:00-04:00",
+  "visualLabel": "Breaking / Developing"
+}

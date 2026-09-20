@@ -102,6 +102,7 @@ static NSString * const NENErrorDomain = @"com.northeastnews.publisher";
     else if ([action isEqualToString:@"stage-image"]) [self stageImage:body];
     else if ([action isEqualToString:@"save-draft"]) [self saveDraft:body[@"draft"]];
     else if ([action isEqualToString:@"delete-draft"]) [self deleteDraft:body[@"draftId"]];
+    else if ([action isEqualToString:@"load-article"]) [self loadArticleForEditing:body[@"id"]];
     else if ([action isEqualToString:@"publish-article"]) [self publish:body[@"article"]];
     else if ([action isEqualToString:@"open-story"]) [self openStory:body[@"slug"]];
 }
@@ -132,7 +133,7 @@ static NSString * const NENErrorDomain = @"com.northeastnews.publisher";
 - (void)chooseRepository {
     NSOpenPanel *panel = [NSOpenPanel openPanel];
     panel.title = @"Choose the NorthEast News repository";
-    panel.message = @"Select the local Git checkout that contains data/articles.json.";
+    panel.message = @"Select the local Git checkout that contains data/article-index.json and data/articles/.";
     panel.canChooseFiles = NO;
     panel.canChooseDirectories = YES;
     panel.allowsMultipleSelection = NO;
@@ -141,9 +142,9 @@ static NSString * const NENErrorDomain = @"com.northeastnews.publisher";
 
 - (void)selectRepository:(NSURL *)url showError:(BOOL)showError {
     NSString *path = url.standardizedURL.path;
-    NSString *articles = [path stringByAppendingPathComponent:@"data/articles.json"];
-    if (![[NSFileManager defaultManager] fileExistsAtPath:articles]) {
-        if (showError) [self sendError:@"That folder does not contain data/articles.json. Choose the NorthEast News repository root." action:nil];
+    NSString *articleIndex = [path stringByAppendingPathComponent:@"data/article-index.json"], *articleDirectory = [path stringByAppendingPathComponent:@"data/articles"];
+    if (![[NSFileManager defaultManager] fileExistsAtPath:articleIndex] || ![[NSFileManager defaultManager] fileExistsAtPath:articleDirectory isDirectory:nil]) {
+        if (showError) [self sendError:@"That folder does not contain data/article-index.json and data/articles/. Choose the NorthEast News repository root." action:nil];
         return;
     }
     self.repositoryPath = path;
@@ -170,10 +171,28 @@ static NSString * const NENErrorDomain = @"com.northeastnews.publisher";
 }
 
 - (NSArray *)readArticles {
-    id object = [self readJSONAtPath:[self.repositoryPath stringByAppendingPathComponent:@"data/articles.json"]];
-    if ([object isKindOfClass:[NSArray class]]) return object;
+    id object = [self readJSONAtPath:[self.repositoryPath stringByAppendingPathComponent:@"data/article-index.json"]];
     if ([object isKindOfClass:[NSDictionary class]] && [object[@"articles"] isKindOfClass:[NSArray class]]) return object[@"articles"];
     return @[];
+}
+- (NSDictionary *)readArticleById:(NSString *)articleId {
+    NSString *identifier = [self text:articleId];
+    if (!identifier.length || [identifier rangeOfString:@"^[a-z0-9][a-z0-9._-]*$" options:NSRegularExpressionSearch].location == NSNotFound || [identifier containsString:@".."] || [identifier containsString:@"/"] || [identifier containsString:@"\\"]) return nil;
+    NSString *path = [self.repositoryPath stringByAppendingPathComponent:[NSString stringWithFormat:@"data/articles/%@.json", identifier]];
+    id object = [self readJSONAtPath:path];
+    return [object isKindOfClass:[NSDictionary class]] && [self text:object[@"id"]].length && [[self text:object[@"id"]] isEqualToString:identifier] ? object : nil;
+}
+- (NSDictionary *)catalogRecordForArticle:(NSDictionary *)article {
+    NSMutableDictionary *record = [NSMutableDictionary dictionary];
+    NSArray *fields = @[@"id",@"slug",@"headline",@"dek",@"summary",@"category",@"topic",@"topicLabel",@"tags",@"state",@"city",@"location",@"author",@"publishedAt",@"updatedAt",@"breaking",@"developing",@"analysis",@"featured",@"trending",@"archive",@"image",@"imageAlt",@"visualLabel"];
+    for (NSString *field in fields) record[field] = article[field] ?: ([field isEqualToString:@"tags"] ? @[] : ([field isEqualToString:@"breaking"] || [field isEqualToString:@"developing"] || [field isEqualToString:@"analysis"] || [field isEqualToString:@"featured"] || [field isEqualToString:@"trending"] || [field isEqualToString:@"archive"] ? @NO : [NSNull null]));
+    record[@"file"] = [NSString stringWithFormat:@"data/articles/%@.json", [self text:article[@"id"]]];
+    return record;
+}
+- (void)loadArticleForEditing:(NSString *)articleId {
+    NSDictionary *article = [self readArticleById:articleId];
+    if (!article) { [self sendError:@"That article file could not be loaded." action:nil]; return; }
+    [self emit:@{ @"type": @"article-loaded", @"article": article }];
 }
 
 - (NSArray *)stateValues {
@@ -277,7 +296,7 @@ static NSString * const NENErrorDomain = @"com.northeastnews.publisher";
     dispatch_async(dispatch_get_global_queue(QOS_CLASS_USER_INITIATED, 0), ^{
         NSDictionary *result = nil;
         NSError *error = nil;
-        if ([self performPublish:form result:&result error:&error]) [self emit:@{ @"type": @"publish-success", @"article": result[@"article"], @"url": result[@"url"] ?: @"" }];
+        if ([self performPublish:form result:&result error:&error]) [self emit:@{ @"type": @"publish-success", @"article": result[@"article"], @"catalog": result[@"catalog"], @"url": result[@"url"] ?: @"" }];
         else [self sendError:error.localizedDescription action:@"publish"];
     });
 }
@@ -286,115 +305,100 @@ static NSString * const NENErrorDomain = @"com.northeastnews.publisher";
 #define NEN_FAIL(message) do { if (error) *error = [NSError errorWithDomain:NENErrorDomain code:1 userInfo:@{NSLocalizedDescriptionKey:(message)}]; return NO; } while (0)
     if (!self.repositoryPath.length) NEN_FAIL(@"Choose the NorthEast News repository before publishing.");
     if (![[NSFileManager defaultManager] fileExistsAtPath:[self.repositoryPath stringByAppendingPathComponent:@".git"]]) NEN_FAIL(@"The selected folder is not a Git repository.");
-    NSString *git = [self resolveCommand:@"git"];
-    if (!git) NEN_FAIL(@"Git was not found on this Mac.");
-
+    NSString *git = [self resolveCommand:@"git"], *node = [self resolveCommand:@"node"];
+    if (!git || !node) NEN_FAIL(@"Git and Node.js are required to publish the generated article catalog and search shards.");
     [self status:@"Checking repository…" detail:@"Looking for unrelated local changes."];
-    NSDictionary *gitStatus = [self run:git arguments:@[@"status", @"--porcelain"] cwd:self.repositoryPath];
-    if ([gitStatus[@"status"] intValue] != 0) NEN_FAIL([self commandError:gitStatus]);
+    NSDictionary *gitStatus=[self run:git arguments:@[@"status",@"--porcelain"] cwd:self.repositoryPath];
+    if ([gitStatus[@"status"] intValue]!=0) NEN_FAIL([self commandError:gitStatus]);
     if ([self text:gitStatus[@"output"]].length) NEN_FAIL(@"The repository has local changes. Commit or stash them before publishing so unrelated work is not overwritten.");
-
     [self status:@"Downloading latest repository…" detail:@"Syncing the current branch with GitHub using a fast-forward-only pull."];
-    NSDictionary *pull = [self run:git arguments:@[@"pull", @"--ff-only"] cwd:self.repositoryPath];
-    if ([pull[@"status"] intValue] != 0) { NSString *message = [NSString stringWithFormat:@"Git could not fast-forward the repository. Resolve the branch state manually, then try again.\n%@", [self commandError:pull]]; NEN_FAIL(message); }
-
-    NSArray *latest = [self readArticles];
-    NSDictionary *config = [self readConfig];
-    NSString *editingId = [self text:form[@"editingId"]];
-    NSDictionary *existing = nil;
-    for (NSDictionary *item in latest) if ([item[@"id"] isKindOfClass:[NSString class]] && [item[@"id"] isEqualToString:editingId]) { existing = item; break; }
-    if (editingId.length && !existing) NEN_FAIL(@"The article changed or was removed while syncing. Reload the repository and try again.");
-
-    [self status:@"Validating article…" detail:@"Checking fields, dates, IDs and slugs against the latest article file."];
-    NSDictionary *article = [self buildArticle:form existing:existing allArticles:latest config:config error:error];
-    if (!article) return NO;
-    NSMutableArray *candidate = [latest mutableCopy];
-    NSUInteger editIndex = NSNotFound;
-    for (NSUInteger i = 0; i < candidate.count; i++) if ([candidate[i][@"id"] isKindOfClass:[NSString class]] && [candidate[i][@"id"] isEqualToString:editingId]) { editIndex = i; break; }
-    if (editIndex != NSNotFound) candidate[editIndex] = article; else [candidate addObject:article];
-    if ([self bool:article[@"featured"]]) {
-        for (NSUInteger i = 0; i < candidate.count; i++) {
-            if (i == (editIndex == NSNotFound ? candidate.count - 1 : editIndex)) continue;
-            if ([candidate[i] isKindOfClass:[NSDictionary class]]) {
-                NSMutableDictionary *other = [candidate[i] mutableCopy];
-                other[@"featured"] = @NO;
-                candidate[i] = other;
-            }
-        }
-    }
-    if (![self validateCandidate:candidate repository:self.repositoryPath error:error]) return NO;
-
-    NSURL *repoURL = [NSURL fileURLWithPath:self.repositoryPath];
-    NSArray *backupNames = @[@"data/articles.json", @"sitemap.xml", @"robots.txt"];
-    NSMutableDictionary *backups = [NSMutableDictionary dictionary];
-    for (NSString *path in backupNames) { NSData *data = [NSData dataWithContentsOfURL:[repoURL URLByAppendingPathComponent:path]]; backups[path] = data ?: [NSNull null]; }
-    NSString *createdImagePath = nil;
-    NSMutableArray *publishPaths = [@[@"data/articles.json", @"sitemap.xml", @"robots.txt"] mutableCopy];
-    BOOL commitCreated = NO;
+    NSDictionary *pull=[self run:git arguments:@[@"pull",@"--ff-only"] cwd:self.repositoryPath];
+    if ([pull[@"status"] intValue]!=0) { NSString *message=[NSString stringWithFormat:@"Git could not fast-forward the repository. Resolve the branch state manually, then try again.\n%@",[self commandError:pull]]; NEN_FAIL(message); }
+    NSArray *latest=[self readArticles]; NSDictionary *config=[self readConfig]; NSString *editingId=[self text:form[@"editingId"]];
+    NSDictionary *existing=editingId.length?[self readArticleById:editingId]:nil;
+    if (editingId.length&&!existing) NEN_FAIL(@"The article changed or was removed while syncing. Reload the repository and try again.");
+    [self status:@"Validating article…" detail:@"Checking fields, dates, IDs and slugs against the latest catalog."];
+    NSDictionary *article=[self buildArticle:form existing:existing allArticles:latest config:config error:error]; if (!article) return NO;
+    NSDictionary *priorFeatured=nil;
+    if ([self bool:article[@"featured"]]) for (NSDictionary *record in latest) if ([self bool:record[@"featured"]] && ![[self text:record[@"id"]] isEqualToString:[self text:article[@"id"]]]) { priorFeatured=[self readArticleById:record[@"id"]]; break; }
+    if ([self bool:article[@"featured"]] && !priorFeatured && latest.count) { /* A missing prior featured record is safe; the validator will catch a malformed catalog. */ }
+    NSURL *repoURL=[NSURL fileURLWithPath:self.repositoryPath];
+    NSString *target=[NSString stringWithFormat:@"data/articles/%@.json",[self text:article[@"id"]]];
+    if (!editingId.length && [[NSFileManager defaultManager] fileExistsAtPath:[self.repositoryPath stringByAppendingPathComponent:target]]) NEN_FAIL(@"An article file already exists for that ID. Reload the repository and choose a different ID.");
+    NSMutableArray *publishPaths=[NSMutableArray arrayWithObjects:target,@"data/article-index.json",@"data/search/manifest.json",@"sitemap.xml",@"robots.txt",nil];
+    if (priorFeatured) [publishPaths addObject:[NSString stringWithFormat:@"data/articles/%@.json",[self text:priorFeatured[@"id"]]]];
+    NSString *publishedMonth=[[self text:article[@"publishedAt"]] length]>=7?[[self text:article[@"publishedAt"]] substringToIndex:7]:@"";
+    if (publishedMonth.length==7) [publishPaths addObject:[NSString stringWithFormat:@"data/search/%@.json",publishedMonth]];
+    NSString *searchFolder=[self.repositoryPath stringByAppendingPathComponent:@"data/search"];
+    for (NSString *name in [[NSFileManager defaultManager] contentsOfDirectoryAtPath:searchFolder error:nil] ?: @[]) if ([name.pathExtension isEqualToString:@"json"]) { NSString *relative=[@"data/search/" stringByAppendingString:name]; if (![publishPaths containsObject:relative]) [publishPaths addObject:relative]; }
+    NSMutableDictionary *backups=[NSMutableDictionary dictionary];
+    for (NSString *relative in publishPaths) { NSData *data=[NSData dataWithContentsOfURL:[repoURL URLByAppendingPathComponent:relative]]; backups[relative]=data?:[NSNull null]; }
+    NSString *createdImagePath=nil; BOOL commitCreated=NO;
 #define NEN_ABORT() do { [self restoreBackups:backups repoURL:repoURL git:git paths:publishPaths imagePath:createdImagePath]; return NO; } while (0)
 #define NEN_FAIL_AFTER_BACKUP(message) do { [self restoreBackups:backups repoURL:repoURL git:git paths:publishPaths imagePath:createdImagePath]; NEN_FAIL(message); } while (0)
     @try {
-        [self status:@"Writing article…" detail:@"Saving the same data/articles.json contract used by automated agents."];
-        NSData *json = [NSJSONSerialization dataWithJSONObject:candidate options:NSJSONWritingPrettyPrinted | NSJSONWritingSortedKeys error:error];
-        if (!json || ![json writeToURL:[repoURL URLByAppendingPathComponent:@"data/articles.json"] options:NSDataWritingAtomic error:error]) NEN_ABORT();
-        NSString *sourcePath = [self text:form[@"imagePath"]];
-        NSString *imageValue = [self text:article[@"image"]];
-        if (sourcePath.length && [imageValue hasPrefix:@"pending:"] && ![self isRepositoryPath:sourcePath]) {
-            NSDictionary *stored = [self storeImage:sourcePath slug:[self text:article[@"slug"]] repoURL:repoURL error:error];
-            if (!stored) NEN_ABORT();
-            NSMutableDictionary *updatedArticle = [article mutableCopy];
-            updatedArticle[@"image"] = stored[@"relativePath"];
-            if (editIndex != NSNotFound) candidate[editIndex] = updatedArticle; else candidate[candidate.count - 1] = updatedArticle;
-            article = updatedArticle;
-            createdImagePath = stored[@"absolutePath"];
-            [publishPaths addObject:stored[@"relativePath"]];
-            json = [NSJSONSerialization dataWithJSONObject:candidate options:NSJSONWritingPrettyPrinted | NSJSONWritingSortedKeys error:error];
-            if (!json || ![json writeToURL:[repoURL URLByAppendingPathComponent:@"data/articles.json"] options:NSDataWritingAtomic error:error]) NEN_ABORT();
+        [self status:@"Writing article…" detail:@"Saving the stable-id individual article file."];
+        NSData *json=[NSJSONSerialization dataWithJSONObject:article options:NSJSONWritingPrettyPrinted|NSJSONWritingSortedKeys error:error];
+        if (!json || ![json writeToURL:[repoURL URLByAppendingPathComponent:target] options:NSDataWritingAtomic error:error]) NEN_ABORT();
+        if (priorFeatured) {
+            NSMutableDictionary *previous=[priorFeatured mutableCopy]; previous[@"featured"]=@NO;
+            NSData *previousJSON=[NSJSONSerialization dataWithJSONObject:previous options:NSJSONWritingPrettyPrinted|NSJSONWritingSortedKeys error:error];
+            NSString *previousPath=[NSString stringWithFormat:@"data/articles/%@.json",[self text:previous[@"id"]]];
+            if (!previousJSON || ![previousJSON writeToURL:[repoURL URLByAppendingPathComponent:previousPath] options:NSDataWritingAtomic error:error]) NEN_ABORT();
         }
-
-        if (![self generateCrawlFilesWithConfig:config articles:candidate repoURL:repoURL error:error]) NEN_ABORT();
-        [self status:@"Validating site…" detail:@"Running the repository validator and checking generated crawl files."];
-        if (![self validateCandidate:candidate repository:self.repositoryPath error:error]) NEN_ABORT();
-        NSString *node = [self resolveCommand:@"node"];
-        if (node) {
-            NSDictionary *validation = [self run:node arguments:@[@"scripts/validate-site.js"] cwd:self.repositoryPath];
-            if ([validation[@"status"] intValue] != 0) { NSString *message = [NSString stringWithFormat:@"The NorthEast News site validator failed. No commit was created.\n%@", [self commandError:validation]]; NEN_FAIL_AFTER_BACKUP(message); }
+        NSString *sourcePath=[self text:form[@"imagePath"]], *imageValue=[self text:article[@"image"]];
+        if (sourcePath.length && [imageValue hasPrefix:@"pending:"]) {
+            NSDictionary *stored=[self storeImage:sourcePath slug:[self text:article[@"slug"]] repoURL:repoURL error:error]; if (!stored) NEN_ABORT();
+            NSMutableDictionary *updated=[article mutableCopy]; updated[@"image"]=stored[@"relativePath"]; article=updated; createdImagePath=stored[@"absolutePath"];
+            NSData *updatedJSON=[NSJSONSerialization dataWithJSONObject:article options:NSJSONWritingPrettyPrinted|NSJSONWritingSortedKeys error:error];
+            if (!updatedJSON || ![updatedJSON writeToURL:[repoURL URLByAppendingPathComponent:target] options:NSDataWritingAtomic error:error]) NEN_ABORT();
         }
-
-        [self status:@"Preparing commit…" detail:@"Staging only the article, generated crawl files and selected image."];
-        NSDictionary *add = [self run:git arguments:[@[@"add", @"--"] arrayByAddingObjectsFromArray:publishPaths] cwd:self.repositoryPath];
-        if ([add[@"status"] intValue] != 0) { NSString *message = [NSString stringWithFormat:@"Git could not stage the publisher changes: %@", [self commandError:add]]; NEN_FAIL_AFTER_BACKUP(message); }
-        NSDictionary *staged = [self run:git arguments:@[@"diff", @"--cached", @"--name-only"] cwd:self.repositoryPath];
-        NSSet *allowed = [NSSet setWithArray:publishPaths];
-        NSMutableSet *stagedPaths = [NSMutableSet set];
-        for (NSString *path in [[self text:staged[@"output"]] componentsSeparatedByCharactersInSet:NSCharacterSet.newlineCharacterSet]) if (path.length) [stagedPaths addObject:path];
-        NSMutableSet *unexpected = [stagedPaths mutableCopy]; [unexpected minusSet:allowed];
-        if (unexpected.count) NEN_FAIL_AFTER_BACKUP(@"Unexpected files were staged. Nothing was committed; inspect the repository before trying again.");
+        for (NSString *script in @[@"scripts/generate-catalog.js",@"scripts/generate-search.js",@"scripts/generate-sitemap.js"]) {
+            NSDictionary *generated=[self run:node arguments:@[script] cwd:self.repositoryPath];
+            if ([generated[@"status"] intValue]!=0) NEN_ABORT();
+        }
+        [self status:@"Validating site…" detail:@"Running the repository validator against every individual article and generated file."];
+        if (![self validateCandidate:@[article] repository:self.repositoryPath error:error]) NEN_ABORT();
+        NSDictionary *validation=[self run:node arguments:@[@"scripts/validate-site.js"] cwd:self.repositoryPath];
+        if ([validation[@"status"] intValue]!=0) { NSString *message=[NSString stringWithFormat:@"The NorthEast News site validator failed. No commit was created.\n%@",[self commandError:validation]]; NEN_FAIL_AFTER_BACKUP(message); }
+        if (createdImagePath.length) [publishPaths addObject:[self relativePath:createdImagePath from:repoURL]];
+        [self status:@"Preparing commit…" detail:@"Staging only the dynamic article, generated and selected-image allowlist."];
+        NSMutableArray *allow=[NSMutableArray array];
+        NSDictionary *publishStatus=[self run:git arguments:@[@"status",@"--porcelain"] cwd:self.repositoryPath]; NSString *statusText=[self text:publishStatus[@"output"]];
+        for (NSString *line in [statusText componentsSeparatedByCharactersInSet:NSCharacterSet.newlineCharacterSet]) {
+            if (line.length<4) continue; NSString *relative=[line substringFromIndex:3];
+            BOOL allowed=[publishPaths containsObject:relative] || [relative hasPrefix:@"data/search/"];
+            if (!allowed) { NSString *message=[NSString stringWithFormat:@"Unexpected file changed during publish: %@",relative]; NEN_FAIL_AFTER_BACKUP(message); }
+            if (![allow containsObject:relative]) [allow addObject:relative];
+        }
+        [publishPaths addObjectsFromArray:allow];
+        NSDictionary *add=[self run:git arguments:[@[@"add",@"--"] arrayByAddingObjectsFromArray:allow] cwd:self.repositoryPath];
+        if ([add[@"status"] intValue]!=0) NEN_FAIL_AFTER_BACKUP([self commandError:add]);
+        NSDictionary *staged=[self run:git arguments:@[@"diff",@"--cached",@"--name-only"] cwd:self.repositoryPath];
+        NSMutableSet *stagedPaths=[NSMutableSet set]; for (NSString *line in [[self text:staged[@"output"]] componentsSeparatedByCharactersInSet:NSCharacterSet.newlineCharacterSet]) if (line.length) [stagedPaths addObject:line];
+        NSMutableSet *unexpected=[stagedPaths mutableCopy]; [unexpected minusSet:[NSSet setWithArray:publishPaths]];
+        if (unexpected.count) NEN_FAIL_AFTER_BACKUP(@"Unexpected files were staged. Nothing was committed.");
         if (!stagedPaths.count) NEN_FAIL_AFTER_BACKUP(@"There are no changes to publish.");
-
-        NSString *commitMessage = [NSString stringWithFormat:@"%@: %@", editingId.length ? @"Update" : @"Publish", [self text:article[@"headline"]]];
-        NSDictionary *commit = [self run:git arguments:@[@"commit", @"-m", commitMessage] cwd:self.repositoryPath];
-        if ([commit[@"status"] intValue] != 0) { NSString *message = [NSString stringWithFormat:@"Git could not create the publish commit: %@", [self commandError:commit]]; NEN_FAIL_AFTER_BACKUP(message); }
-        commitCreated = YES;
-        [self status:@"Pushing to GitHub…" detail:@"Sending the verified commit to the repository remote."];
-        NSDictionary *push = [self run:git arguments:@[@"push"] cwd:self.repositoryPath];
-        if ([push[@"status"] intValue] != 0) { NSString *message = [NSString stringWithFormat:@"The article was committed locally, but GitHub rejected the push.\n%@", [self commandError:push]]; NEN_FAIL(message); }
-        NSString *draftId = [self text:form[@"draftId"]]; if (draftId.length) [self deleteDraftFile:draftId];
-        NSString *site = [[self text:config[@"siteUrl"]] stringByTrimmingCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"/"]];
-        if (!site.length) site = @"https://www.northenews.com";
-        NSString *url = [NSString stringWithFormat:@"%@/article.html?slug=%@", site, [self urlEncode:[self text:article[@"slug"]]]];
-        if (result) *result = @{ @"article": article, @"url": url };
+        NSString *commitMessage=[NSString stringWithFormat:@"%@: %@",editingId.length?@"Update":@"Publish",[self text:article[@"headline"]]];
+        NSDictionary *commit=[self run:git arguments:@[@"commit",@"-m",commitMessage] cwd:self.repositoryPath];
+        if ([commit[@"status"] intValue]!=0) NEN_FAIL_AFTER_BACKUP([self commandError:commit]);
+        commitCreated=YES; [self status:@"Pushing to GitHub…" detail:@"Sending the verified commit to the configured remote."];
+        NSDictionary *push=[self run:git arguments:@[@"push"] cwd:self.repositoryPath];
+        if ([push[@"status"] intValue]!=0) { NSString *message=[NSString stringWithFormat:@"The article was committed locally, but GitHub rejected the push.\n%@",[self commandError:push]]; NEN_FAIL(message); }
+        NSString *draftId=[self text:form[@"draftId"]]; if (draftId.length) [self deleteDraftFile:draftId];
+        NSString *site=[[self text:config[@"siteUrl"]] stringByTrimmingCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"/"]]; if (!site.length) site=@"https://www.northenews.com";
+        NSString *url=[NSString stringWithFormat:@"%@/article.html?slug=%@",site,[self urlEncode:[self text:article[@"slug"]]]];
+        if (result) *result=@{@"article":article,@"catalog":[self catalogRecordForArticle:article],@"url":url};
         return YES;
     } @catch (NSException *exception) {
         if (!commitCreated) [self restoreBackups:backups repoURL:repoURL git:git paths:publishPaths imagePath:createdImagePath];
-        if (error) *error = [NSError errorWithDomain:NENErrorDomain code:2 userInfo:@{NSLocalizedDescriptionKey:exception.reason ?: @"The publisher stopped unexpectedly."}];
+        if (error) *error=[NSError errorWithDomain:NENErrorDomain code:2 userInfo:@{NSLocalizedDescriptionKey:exception.reason?:@"The publisher stopped unexpectedly."}];
         return NO;
     }
 #undef NEN_FAIL_AFTER_BACKUP
 #undef NEN_ABORT
 #undef NEN_FAIL
 }
-
 - (NSDictionary *)buildArticle:(NSDictionary *)form existing:(NSDictionary *)existing allArticles:(NSArray *)allArticles config:(NSDictionary *)config error:(NSError **)error {
 #define NEN_BUILD_FAIL(message) do { if (error) *error = [NSError errorWithDomain:NENErrorDomain code:3 userInfo:@{NSLocalizedDescriptionKey:(message)}]; return nil; } while (0)
     NSString *headline = [self text:form[@"headline"]], *bodyText = [self text:form[@"body"]], *category = [self text:form[@"category"]], *state = [self text:form[@"state"]];
@@ -412,7 +416,7 @@ static NSString * const NENErrorDomain = @"com.northeastnews.publisher";
     NSString *slug = [self slugify:[self text:form[@"slug"]].length ? [self text:form[@"slug"]] : headline];
     if (!slug.length) NEN_BUILD_FAIL(@"A usable slug could not be generated from the headline.");
     NSString *idValue = editing ? oldId : ([self text:form[@"articleId"]].length ? [self text:form[@"articleId"]] : [self uniqueID:slug articles:allArticles]);
-    if (!idValue.length) NEN_BUILD_FAIL(@"A unique article ID could not be generated.");
+    if (!idValue.length || [idValue rangeOfString:@"^[a-z0-9][a-z0-9._-]*$" options:NSRegularExpressionSearch].location == NSNotFound || [idValue containsString:@".."] || [idValue containsString:@"/"] || [idValue containsString:@"\\"]) NEN_BUILD_FAIL(@"Article ID must match the safe filename pattern [a-z0-9][a-z0-9._-]*.");
     for (NSDictionary *item in allArticles) {
         NSString *itemId = [self text:item[@"id"]];
         if ([itemId isEqualToString:idValue] && ![itemId isEqualToString:oldId]) NEN_BUILD_FAIL(@"That article ID is already in use.");
@@ -522,7 +526,7 @@ static NSString * const NENErrorDomain = @"com.northeastnews.publisher";
 - (void)restoreBackups:(NSDictionary *)backups repoURL:(NSURL *)repoURL git:(NSString *)git paths:(NSArray *)paths imagePath:(NSString *)imagePath {
     if (git.length && paths.count) [self run:git arguments:[@[@"reset", @"--"] arrayByAddingObjectsFromArray:paths] cwd:repoURL.path];
     NSFileManager *fileManager = NSFileManager.defaultManager;
-    for (NSString *relativePath in backups) {
+    for (NSString *relativePath in [NSOrderedSet orderedSetWithArray:paths]) {
         NSURL *url = [repoURL URLByAppendingPathComponent:relativePath];
         id backup = backups[relativePath];
         if ([backup isKindOfClass:[NSData class]]) [backup writeToURL:url options:NSDataWritingAtomic error:nil];

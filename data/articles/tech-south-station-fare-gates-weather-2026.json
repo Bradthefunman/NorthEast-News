@@ -1,0 +1,39 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "The MBTA’s new high-tech fare gates at South Station are designed to scan commuter-rail passes, tickets and phones before passengers board and again when they arrive. The project cost $3.5 million and was intended to improve fare collection.",
+    "But WBUR found 19 of the station’s 40 gates covered by tarps during a recent rainy weekday morning. The covered gates meant passengers using tracks 8 through 13 could not scan tickets in the normal way.",
+    "Keolis said it first noticed the weather-related problem early this year and that gates on part of the concourse have been covered about 10% of the time since February. The issue adds a basic durability question to a technology project aimed at making transit more efficient.",
+    "South Station handles about 110,000 passengers a day, making even a partial gate shutdown visible to commuters. The episode also highlights the gap between installing new equipment and testing how it performs under the weather conditions Boston riders regularly face."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "Boston",
+  "dek": "Nearly half the commuter-rail gates were covered during a recent rainy morning, limiting ticket scanning at Boston’s busiest station.",
+  "developing": false,
+  "featured": false,
+  "headline": "South Station’s high-tech fare gates hit a weather problem",
+  "id": "tech-south-station-fare-gates-weather-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "South Station, Boston, MA",
+  "publishedAt": "2026-09-08T16:45:00-04:00",
+  "slug": "south-station-fare-gates-hit-weather-problem-on-mbta-commuter-rail",
+  "sourceName": "WBUR",
+  "sourceUrl": "https://www.wbur.org/news/2026/09/08/south-station-fare-gates-boston-mbta",
+  "state": "MA",
+  "tags": [
+    "Tech",
+    "Boston",
+    "MBTA",
+    "transit",
+    "South Station"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-08T16:45:00-04:00",
+  "visualLabel": "Transit technology"
+}

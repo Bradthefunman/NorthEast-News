@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "China’s industry ministry has set a 2030 goal for large-scale deployment of autonomous vehicles, pairing expansion plans with tighter oversight of vehicle production, road safety and software updates.",
+    "The roadmap calls for automated driving on highways, urban expressways and selected city streets. It also aims to produce multiple Chinese automakers ranked among the world’s top 10 by sales and to increase the global influence of Chinese brands and technical standards.",
+    "Safety is central to the plan: the ministry wants autonomous vehicles to achieve better safety performance than human drivers. Regulators also intend to create special approval pathways for some components and low-volume vehicles while strengthening antitrust enforcement and product-quality supervision.",
+    "The document addresses the industry’s capacity problem as well as its technology ambitions. Officials plan to discourage overinvestment, eliminate inefficient production and encourage consolidation across automakers and battery manufacturers. China also wants deeper research and investment partnerships with foreign companies. The roadmap sets policy direction, but broad deployment will still depend on technical validation, local road approvals and enforcement of the new rules."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "Beijing",
+  "dek": "A new industry roadmap calls for self-driving systems on highways, urban expressways and selected city roads while tightening safety and software rules.",
+  "developing": false,
+  "featured": false,
+  "headline": "China targets large-scale autonomous-vehicle deployment by 2030",
+  "id": "tech-china-autonomous-vehicle-roadmap-2030",
+  "image": null,
+  "imageAlt": "",
+  "location": "China",
+  "publishedAt": "2026-09-11T00:42:00-04:00",
+  "slug": "china-targets-large-scale-autonomous-vehicle-deployment-by-2030",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/autos-transportation/china-targets-mass-deployment-self-driving-vehicles-by-2030-2026-09-11/",
+  "state": "China",
+  "tags": [
+    "autonomous vehicles",
+    "China",
+    "electric vehicles",
+    "transportation"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-11T00:42:00-04:00",
+  "visualLabel": "Autonomous vehicles"
+}

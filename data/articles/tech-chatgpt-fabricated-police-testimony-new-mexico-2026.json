@@ -1,0 +1,39 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "New Mexico’s Supreme Court said a defense lawyer submitted a murder-appeal brief containing police testimony and witnesses fabricated by ChatGPT. The court fined attorney Stephen Aarons $5,000, held him in contempt and said it would refer the matter to a disciplinary board.",
+    "Aarons told Reuters he used ChatGPT to summarize a computer-generated trial transcript and other case material. He acknowledged failing to understand how readily the system could invent facts and described the filing as an honest mistake. OpenAI did not immediately comment to Reuters.",
+    "The justices said the brief contained false testimony from wholly invented witnesses. The underlying appeal involves Oscar Renee Sandoval, who was convicted of murdering the mother of his children and sentenced to life in prison. A public defender took over the still-pending appeal on September 2.",
+    "Courts have previously sanctioned lawyers over AI-generated citations and misstatements, but this filing extended to purported evidence in a criminal case. The decision underscores that generative tools can produce fluent but unsupported material and that lawyers remain responsible for checking every factual assertion before submitting it to a court."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "Santa Fe",
+  "dek": "The state Supreme Court fined a defense lawyer $5,000 after a murder-appeal brief included invented witnesses and testimony.",
+  "developing": false,
+  "featured": false,
+  "headline": "New Mexico high court says ChatGPT fabricated police testimony",
+  "id": "tech-chatgpt-fabricated-police-testimony-new-mexico-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Santa Fe, New Mexico",
+  "publishedAt": "2026-09-11T10:42:00-04:00",
+  "slug": "tech-chatgpt-fabricated-police-testimony-new-mexico",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/legal/government/chatgpt-invented-fake-police-testimony-murder-appeal-new-mexico-high-court-says-2026-09-11/",
+  "state": "New Mexico",
+  "tags": [
+    "ChatGPT",
+    "New Mexico Supreme Court",
+    "legal technology",
+    "AI hallucinations",
+    "court filings"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-11T10:42:00-04:00",
+  "visualLabel": "AI Reliability"
+}

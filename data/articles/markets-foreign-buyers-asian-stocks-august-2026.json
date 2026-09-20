@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Foreign investors returned to net buying of Asian equities in August after nine consecutive months of selling, Reuters reported using LSEG market-flow data.",
+    "Investors purchased a net $4.72 billion of shares in Taiwan, South Korea, India, Indonesia, Thailand, Vietnam and the Philippines during the month. They added another $1.52 billion through Tuesday’s close in September. Those figures are historical snapshots and do not represent live flows.",
+    "The shift was concentrated around technology exporters linked to artificial-intelligence spending. Taiwan received $11.15 billion of net inflows in August, while South Korea still recorded an $8.65 billion outflow for a fourth consecutive month. Early September data showed foreign buying returning to both markets.",
+    "Corporate results helped improve sentiment: Asian companies beat analyst earnings estimates by an average 10.2% in the latest quarter, according to LSEG data cited by Reuters. Profit growth was 44.7% from a year earlier across the sample, with technology growth at 88.3%. The concentration suggests renewed AI exposure, rather than a uniform return to every Asian market."
+  ],
+  "breaking": false,
+  "category": "markets",
+  "city": "Singapore",
+  "dek": "LSEG data showed $4.72 billion of net purchases across seven Asian markets in August, led by renewed interest in AI-linked exporters.",
+  "developing": false,
+  "featured": false,
+  "headline": "Foreign investors return to Asian stocks after nine-month selloff",
+  "id": "markets-foreign-buyers-asian-stocks-august-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Asia-Pacific",
+  "publishedAt": "2026-09-10T04:43:00-04:00",
+  "slug": "foreign-investors-return-to-asian-stocks-after-nine-month-selloff",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/asia-pacific/asian-stocks-draw-foreign-buyers-after-nine-month-selloff-2026-09-10/",
+  "state": "INTL",
+  "tags": [
+    "Asian stocks",
+    "foreign investment",
+    "AI stocks",
+    "LSEG"
+  ],
+  "topic": "markets",
+  "topicLabel": "Markets / Stocks",
+  "trending": false,
+  "updatedAt": "2026-09-10T04:43:00-04:00",
+  "visualLabel": "Capital flows"
+}

@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Oil futures extended their rally Friday and were on course for their first weekly finish above $100 a barrel since mid-May as conflict-related shipping risks tightened supply expectations.",
+    "At 00:45 GMT, Brent crude was quoted at $108.68 a barrel and U.S. West Texas Intermediate at $103.45, both about 1% higher in the Reuters report. Each benchmark had gained more than 6% Thursday and was up nearly 13% for the week. These are time-stamped market levels, not live prices.",
+    "The advance followed new disruptions around the Red Sea and Strait of Hormuz, including the Houthi seizure of Yemen’s port city of Mocha and attacks affecting regional shipping. Rising transport and insurance costs are adding to concern about how much crude and refined fuel can move through key routes.",
+    "OPEC also cut its forecast for 2026 oil-demand growth to 380,000 barrels per day, its fifth consecutive downward revision, while reporting that August output fell by 640,000 barrels per day. The combination of reduced supply and weaker demand projections leaves prices highly sensitive to further military or shipping developments."
+  ],
+  "breaking": false,
+  "category": "markets",
+  "city": "London",
+  "dek": "Brent and U.S. crude extended gains after shipping and supply disruptions, while OPEC again lowered its 2026 demand-growth forecast.",
+  "developing": false,
+  "featured": false,
+  "headline": "Oil benchmarks head for first $100-plus weekly finish since May",
+  "id": "markets-oil-100-weekly-finish-september-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Global oil markets",
+  "publishedAt": "2026-09-10T22:42:00-04:00",
+  "slug": "oil-benchmarks-head-for-first-100-plus-weekly-finish-since-may",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/energy/oil-prices-set-end-week-over-100-first-time-nearly-4-months-2026-09-11/",
+  "state": "Global",
+  "tags": [
+    "oil",
+    "Brent",
+    "WTI",
+    "OPEC"
+  ],
+  "topic": "markets",
+  "topicLabel": "Markets / Stocks",
+  "trending": false,
+  "updatedAt": "2026-09-10T22:42:00-04:00",
+  "visualLabel": "Oil markets"
+}

@@ -1,0 +1,37 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Ukrainian forces are expanding their use of unmanned ground vehicles for logistics, casualty evacuation and combat missions, turning small tracked and wheeled robots into a more routine part of front-line operations.",
+    "Ukraine’s Defense Ministry said operators had completed more than 50,000 logistics and evacuation missions this year as of June, Reuters reported. The machines can move ammunition and supplies, carry explosives toward targets and retrieve wounded personnel while reducing the time soldiers spend exposed in contested areas.",
+    "The Third Army Corps has set a goal of replacing roughly one-third of front-line personnel with robotic systems by the end of the year. One unit, NC13, operates ground vehicles almost daily, illustrating how quickly battlefield experimentation is moving into regular use.",
+    "The technology still faces major limits. Rubble, trenches, buildings, mud and broken terrain can stop or disable vehicles, while communications and electronic interference complicate remote control. Even so, Ukraine’s manpower constraints are accelerating investment and field testing. The effort offers an unusually immediate view of how ground robotics may change military logistics before fully autonomous systems become practical."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "dek": "Ground robots are carrying supplies, explosives and wounded troops as Ukrainian units test how far automation can offset manpower shortages.",
+  "developing": false,
+  "featured": false,
+  "headline": "Ukraine expands battlefield use of unmanned ground vehicles",
+  "id": "tech-ukraine-unmanned-ground-vehicles-front-line-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Ukraine",
+  "publishedAt": "2026-09-11T02:44:00-04:00",
+  "slug": "ukraine-expands-battlefield-use-of-unmanned-ground-vehicles",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/aerospace-defense/behind-killer-robots-ukraines-new-warfare-revolution-2026-09-11/",
+  "state": "Ukraine",
+  "tags": [
+    "Ukraine",
+    "robotics",
+    "unmanned ground vehicles",
+    "defense technology"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-11T02:44:00-04:00",
+  "visualLabel": "Defense Technology"
+}

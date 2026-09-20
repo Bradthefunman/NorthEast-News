@@ -1,0 +1,32 @@
+{
+  "analysis": true,
+  "archive": true,
+  "author": "NorthEast News Archive Desk",
+  "body": [
+    "Archive explainer: Tech policy increasingly reaches the New England economy.",
+    "Backdated context piece; recheck current records before republishing as live news."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "dek": "Backdated archive brief: Tech policy increasingly reaches the New England economy.",
+  "developing": false,
+  "featured": false,
+  "headline": "Tech policy increasingly reaches the New England economy",
+  "id": "archive-131",
+  "image": null,
+  "imageAlt": "",
+  "location": "New England tech watch",
+  "publishedAt": "2026-08-06T11:00:00-04:00",
+  "slug": "tech-tech-policy-increasingly-reaches-the-new-england-economy",
+  "state": "MA",
+  "tags": [
+    "tech",
+    "archive",
+    "new england"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-08-06T11:00:00-04:00",
+  "visualLabel": "Tech"
+}

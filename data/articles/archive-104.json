@@ -1,0 +1,32 @@
+{
+  "analysis": true,
+  "archive": true,
+  "author": "NorthEast News Archive Desk",
+  "body": [
+    "Archive explainer: A practical guide to delayed market data.",
+    "Backdated context piece; recheck current records before republishing as live news."
+  ],
+  "breaking": false,
+  "category": "markets",
+  "dek": "Backdated archive brief: A practical guide to delayed market data.",
+  "developing": false,
+  "featured": false,
+  "headline": "A practical guide to delayed market data",
+  "id": "archive-104",
+  "image": null,
+  "imageAlt": "",
+  "location": "Markets",
+  "publishedAt": "2026-08-13T08:00:00-04:00",
+  "slug": "markets-a-practical-guide-to-delayed-market-data",
+  "state": "MA",
+  "tags": [
+    "markets / stocks",
+    "archive",
+    "new england"
+  ],
+  "topic": "markets",
+  "topicLabel": "Markets / Stocks",
+  "trending": false,
+  "updatedAt": "2026-08-13T08:00:00-04:00",
+  "visualLabel": "Markets / Stocks"
+}

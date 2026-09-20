@@ -1,0 +1,41 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Palantir Technologies, Nvidia and Booz Allen Hamilton could restrict or stop using some advanced AI models unless developers provide stronger guarantees around intellectual property and data handling, Reuters reported Monday.",
+    "The report said Palantir has pressed Anthropic for an irrevocable zero-data-retention commitment before making its models available through Palantir software. Nvidia is limiting Anthropic’s use to less-sensitive tasks and is relying on its own Nemotron models for internal work, according to the report.",
+    "Booz Allen has barred employees from using Anthropic’s commercial model for proprietary cybersecurity work, Reuters said. Microsoft is pitching isolated cloud environments and its own AI offerings to customers concerned about how model providers handle data.",
+    "The concerns reflect a growing tension in enterprise AI adoption: companies want the productivity benefits of powerful models but remain cautious about confidential information, customer records and proprietary code.",
+    "Reuters said the companies did not immediately respond to requests for comment. Both Anthropic and OpenAI say they do not train on customer data by default unless customers opt in, while still collecting anonymized metadata to improve products."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "tech",
+  "city": "Redmond",
+  "dek": "A report says major technology companies are seeking stronger data protections before using advanced AI models for sensitive work.",
+  "developing": false,
+  "featured": false,
+  "headline": "Palantir and Nvidia weigh tighter limits on AI models over data concerns",
+  "id": "tech-palantir-nvidia-ai-model-use-data-fears-2026-09-14",
+  "image": null,
+  "imageAlt": null,
+  "location": "United States",
+  "publishedAt": "2026-09-14T17:14:00-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "tech-palantir-nvidia-ai-model-use-data-fears",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/palantir-nvidia-curb-ai-model-use-over-data-fears-information-reports-2026-09-14/",
+  "state": "Washington",
+  "tags": [
+    "Technology",
+    "Artificial Intelligence",
+    "Cybersecurity",
+    "Data Privacy"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-14T17:14:00-04:00"
+}

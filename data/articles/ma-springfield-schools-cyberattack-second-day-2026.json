@@ -1,0 +1,34 @@
+{
+  "analysis": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Springfield Public Schools will remain closed Wednesday as the western Massachusetts district works to contain and assess a cyberattack that disrupted key systems and forced Tuesday’s shutdown.",
+    "Mayor Domenic Sarno described the incident as a severe, “level 4” attack, according to reporting by NEPM and New Hampshire Public Radio. Officials said malicious traffic was first detected Sept. 1, and families were notified later in the week as investigators worked to understand the scope.",
+    "The district said it cannot currently access student health records or the information used to manage transportation and food service. School email is also unavailable, so administrators are relying on text messages and social media for public updates. Students and families have been told not to use school-issued laptops while technicians check for the risk of malware spreading.",
+    "City government systems were not affected, officials said. The extended closure is a meaningful escalation from the initial one-day disruption, and leaders warned that schools could remain closed longer. The district has not publicly attributed the attack or given a timetable for restoring full service."
+  ],
+  "breaking": false,
+  "category": "new-england",
+  "dek": "The district will remain shut Wednesday as officials work without access to student health, transportation and food-service systems.",
+  "developing": false,
+  "featured": false,
+  "headline": "Springfield schools stay closed as severe cyberattack response continues",
+  "id": "ma-springfield-schools-cyberattack-second-day-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Springfield, Massachusetts",
+  "publishedAt": "2026-09-08T20:45:00-04:00",
+  "slug": "springfield-schools-stay-closed-as-severe-cyberattack-response-continues",
+  "sourceName": "NEPM via New Hampshire Public Radio",
+  "sourceUrl": "https://www.nhpr.org/2026-09-08/springfield-still-trying-to-resolve-cyber-attack-after-closing-schools",
+  "state": "MA",
+  "tags": [
+    "Massachusetts",
+    "Springfield",
+    "schools",
+    "cybersecurity"
+  ],
+  "trending": false,
+  "updatedAt": "2026-09-08T20:45:00-04:00",
+  "visualLabel": "Cybersecurity"
+}

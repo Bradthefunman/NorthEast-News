@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Boston Logan International Airport is expected to add TSA PreCheck E-gates using facial-comparison technology, along with 3D scanners designed to inspect bags without requiring travelers to unpack them manually.",
+    "TSA Administrator David Cummins told CBS News Boston that PreCheck travelers would be able to keep a driver’s license and boarding pass in their pocket while moving through the gate. The bag scanners would create a three-dimensional view that lets screeners digitally inspect contents.",
+    "Travelers outside PreCheck are also expected to see walk-through body-scanning technology that does not require passengers to raise their hands. The report did not provide a firm installation date, so travelers should not assume the new process is available on a particular trip until Logan or TSA confirms it.",
+    "A separate program allowing some PreCheck members without tickets to accompany arriving or departing travelers is operating at 13 airports. Logan has not joined that program; an airport spokesperson said officials are monitoring it. That distinction matters because the planned screening equipment and visitor-access policy are separate changes."
+  ],
+  "breaking": false,
+  "category": "massachusetts",
+  "city": "Boston",
+  "dek": "TSA says facial-comparison gates and 3D bag scanners are coming to Logan, while a separate visitor-access program remains under review.",
+  "developing": false,
+  "featured": false,
+  "headline": "Logan Airport plans E-gates and scanners that digitally unpack bags",
+  "id": "ma-logan-airport-tsa-egates-3d-bag-scanners-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Boston, Massachusetts",
+  "publishedAt": "2026-09-09T06:43:00-04:00",
+  "slug": "logan-airport-plans-e-gates-and-scanners-that-digitally-unpack-bags",
+  "sourceName": "CBS News Boston",
+  "sourceUrl": "https://www.cbsnews.com/boston/news/logan-airport-security-changes/",
+  "state": "MA",
+  "tags": [
+    "Logan Airport",
+    "TSA PreCheck",
+    "airport security",
+    "Boston"
+  ],
+  "topic": "massachusetts",
+  "topicLabel": "Massachusetts",
+  "trending": false,
+  "updatedAt": "2026-09-09T06:43:00-04:00",
+  "visualLabel": "Airport security"
+}

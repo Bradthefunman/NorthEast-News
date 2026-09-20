@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Large companies and public bodies are putting critical digital infrastructure under more direct board-level scrutiny as cyber threats, export controls and geopolitical conflict expose technology dependencies, a Capgemini survey found.",
+    "The survey covered executives at 1,300 large organizations in 11 countries, Reuters reported. Respondents increasingly treated cloud services, data, artificial-intelligence models and other digital systems like energy supplies or physical supply chains that require risk assessments and contingency plans.",
+    "Nearly half said replacing a critical provider would take between three months and a year. More than a third expected the switch to take longer than a year, suggesting that contractual access alone does not guarantee a quick recovery when a major vendor becomes unavailable.",
+    "The response is not necessarily a wholesale shift away from established providers. Organizations are focusing on whether important workloads can move, whether proprietary assets remain under their control and whether alternate suppliers are practical. That emphasis turns technical resilience into a governance and business-continuity issue, not solely an information-technology concern."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "Global",
+  "dek": "A survey of 1,300 organizations found that replacing a critical provider could take months or longer, pushing resilience into board discussions.",
+  "developing": false,
+  "featured": false,
+  "headline": "Boards elevate digital-infrastructure resilience as risks grow",
+  "id": "tech-boards-digital-infrastructure-resilience-capgemini-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Global",
+  "publishedAt": "2026-09-09T04:45:00-04:00",
+  "slug": "boards-elevate-digital-infrastructure-resilience-as-risks-grow",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/boards-prepare-digital-infrastructure-shocks-survey-says-2026-09-08/",
+  "state": "International",
+  "tags": [
+    "digital infrastructure",
+    "cybersecurity",
+    "Capgemini",
+    "business continuity"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-09T04:45:00-04:00",
+  "visualLabel": "Infrastructure"
+}

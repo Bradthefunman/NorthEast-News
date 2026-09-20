@@ -1,0 +1,39 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "An AI-assisted documentary about Diesel founder Renzo Rosso is screening out of competition at the Venice Film Festival, offering a prominent test of how generated imagery can be used in nonfiction filmmaking. “Be Brave” was directed by Francesco Carrozzini and produced by Lorenzo Mieli.",
+    "The film combines interviews and archival material with AI-generated visuals. The synthetic sequences reconstruct moments from Rosso’s childhood and other periods for which no original footage exists, Reuters reported. That makes the technology part of the documentary’s visual language rather than a substitute for every source image.",
+    "The approach arrives amid intense debate over whether generative systems can expand creative choices or displace film workers. The filmmakers and Rosso argued that AI should be understood and governed as a tool while maintaining that human judgment remains essential to storytelling.",
+    "Venice’s decision to include the film places that debate inside one of cinema’s most established festivals. The screening does not resolve questions about disclosure, authorship or labor, but it gives audiences a concrete work to evaluate. How clearly the generated scenes are distinguished from documented history will remain central to the project’s reception."
+  ],
+  "breaking": false,
+  "category": "more",
+  "city": "Venice",
+  "dek": "“Be Brave” combines interviews and archive material with generated scenes to reconstruct moments from Diesel founder Renzo Rosso’s life.",
+  "developing": false,
+  "featured": false,
+  "headline": "AI-assisted documentary tests cinema’s boundaries at Venice",
+  "id": "misc-be-brave-ai-documentary-venice-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Venice, Italy",
+  "publishedAt": "2026-09-11T08:41:00-04:00",
+  "slug": "ai-assisted-documentary-tests-cinemas-boundaries-at-venice",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/media-telecom/ai-powered-documentary-tests-cinemas-boundaries-venice-2026-09-10/",
+  "state": "Italy",
+  "tags": [
+    "Venice Film Festival",
+    "documentary",
+    "artificial intelligence",
+    "Renzo Rosso",
+    "cinema"
+  ],
+  "topic": "misc",
+  "topicLabel": "Misc.",
+  "trending": false,
+  "updatedAt": "2026-09-11T08:41:00-04:00",
+  "visualLabel": "Film"
+}

@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "A Small Craft Advisory is scheduled to take effect Wednesday evening across Rhode Island Sound and continue through Thursday evening as winds strengthen over coastal waters.",
+    "In its 7:04 a.m. forecast, the National Weather Service said southerly winds of 5 to 10 knots would increase to 10 to 15 knots Wednesday afternoon, with gusts reaching 20 knots. Seas were forecast at 2 to 3 feet.",
+    "Conditions are expected to become more hazardous overnight. The forecast calls for southwest winds increasing to 20 to 25 knots after midnight, gusts up to 35 knots and seas around 3 feet. On Thursday, gusts could reach 30 knots before winds ease later in the day, with a chance of showers.",
+    "The Weather Service notes that reported seas are significant wave heights—the average of the highest one-third of waves—and individual waves can be more than twice as high. Boaters should check the latest marine forecast before departure because advisory timing and local conditions can change."
+  ],
+  "breaking": false,
+  "category": "rhode-island",
+  "city": "Narragansett",
+  "dek": "The National Weather Service expects southwest gusts up to 35 knots overnight, with the advisory continuing through Thursday evening.",
+  "developing": false,
+  "featured": false,
+  "headline": "Small Craft Advisory starts Wednesday evening on Rhode Island Sound",
+  "id": "ri-sound-small-craft-advisory-september-9-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Rhode Island Sound",
+  "publishedAt": "2026-09-09T07:42:00-04:00",
+  "slug": "small-craft-advisory-starts-wednesday-evening-on-rhode-island-sound",
+  "sourceName": "National Weather Service",
+  "sourceUrl": "https://forecast.weather.gov/shmrn.php?mz=anz235",
+  "state": "RI",
+  "tags": [
+    "Rhode Island Sound",
+    "Small Craft Advisory",
+    "marine forecast",
+    "National Weather Service"
+  ],
+  "topic": "rhode-island",
+  "topicLabel": "Rhode Island",
+  "trending": false,
+  "updatedAt": "2026-09-09T07:42:00-04:00",
+  "visualLabel": "Marine weather"
+}

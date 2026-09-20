@@ -1,0 +1,32 @@
+{
+  "analysis": true,
+  "archive": true,
+  "author": "NorthEast News Archive Desk",
+  "body": [
+    "Archive explainer: Breaking desk guide: why attribution matters in fast coverage.",
+    "Backdated context piece; recheck current records before republishing as live news."
+  ],
+  "breaking": false,
+  "category": "more",
+  "dek": "Backdated archive brief: Breaking desk guide: why attribution matters in fast coverage.",
+  "developing": false,
+  "featured": false,
+  "headline": "Breaking desk guide: why attribution matters in fast coverage",
+  "id": "archive-060",
+  "image": null,
+  "imageAlt": "",
+  "location": "New England",
+  "publishedAt": "2026-08-24T08:00:00-04:00",
+  "slug": "breaking-breaking-desk-guide-why-attribution-matters-in-fast-coverage",
+  "state": "",
+  "tags": [
+    "breaking / developing",
+    "archive",
+    "new england"
+  ],
+  "topic": "breaking",
+  "topicLabel": "Breaking / Developing",
+  "trending": false,
+  "updatedAt": "2026-08-24T08:00:00-04:00",
+  "visualLabel": "Breaking / Developing"
+}

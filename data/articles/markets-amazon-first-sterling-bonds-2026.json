@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Amazon began selling its first sterling-denominated bonds Wednesday, opening a new currency market for the company as it finances heavy spending on artificial-intelligence infrastructure.",
+    "Lead managers were marketing four tranches with maturities of three, six, 12 and 19 years, Reuters reported. Initial price guidance ranged from about 70 basis points over comparable British government bonds for the shortest maturity to roughly 110 basis points for the longest.",
+    "Those spreads were preliminary indications, not final pricing. The deal was expected to be priced later Wednesday, and the eventual size and borrowing costs could change as investors submit orders.",
+    "Large technology companies have increasingly issued debt in currencies beyond the U.S. dollar, including euros, Swiss francs and yen. Doing so can broaden the investor base and match financing with global operations. Amazon’s sterling debut also illustrates the scale of capital needed for data centers, chips and network capacity. The transaction is a financing development, not a real-time signal about Amazon’s share price, and investors should use final deal documents for confirmed terms."
+  ],
+  "breaking": false,
+  "category": "markets",
+  "city": "London",
+  "dek": "The company began marketing four pound-denominated maturities as large technology firms diversify funding for heavy AI investment.",
+  "developing": false,
+  "featured": false,
+  "headline": "Amazon enters sterling bond market for first time",
+  "id": "markets-amazon-first-sterling-bonds-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "London, United Kingdom",
+  "publishedAt": "2026-09-09T03:41:00-04:00",
+  "slug": "amazon-enters-sterling-bond-market-for-first-time",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/finance/amazon-starts-selling-first-sterling-bonds-lead-managers-say-2026-09-09/",
+  "state": "International",
+  "tags": [
+    "Amazon",
+    "sterling bonds",
+    "corporate debt",
+    "AI infrastructure"
+  ],
+  "topic": "markets",
+  "topicLabel": "Markets / Stocks",
+  "trending": false,
+  "updatedAt": "2026-09-09T03:41:00-04:00",
+  "visualLabel": "Bond market"
+}

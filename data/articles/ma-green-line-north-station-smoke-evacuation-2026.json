@@ -1,0 +1,39 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Passengers were evacuated from a Green Line train at North Station after smoke was reported from the roof overnight, according to the MBTA. The Boston Fire Department responded to the transit hub while riders left the affected train.",
+    "The passengers were placed on another train, 7News WHDH reported. The MBTA removed the smoky car from service, separating it from normal operations so the agency could address the problem. The initial account did not specify which Green Line branch the train was serving or how many riders were aboard.",
+    "Officials had not released a cause in the first report, and no information about injuries was included. The limited details mean the event remains an operational incident rather than evidence of a broader service problem. Removing the train allowed other traffic through North Station to continue with the affected equipment out of circulation.",
+    "North Station is a major connection point for Green and Orange Line passengers, commuter rail riders and travelers using nearby bus routes. Even a short evacuation there can create crowding and missed connections. Riders should check MBTA alerts for any follow-up service changes or findings from the inspection."
+  ],
+  "breaking": false,
+  "category": "massachusetts",
+  "city": "Boston",
+  "dek": "Passengers transferred to another train after smoke was seen coming from the roof of a Green Line car overnight, the MBTA said.",
+  "developing": false,
+  "featured": false,
+  "headline": "Green Line train evacuated at North Station after smoke report",
+  "id": "ma-green-line-north-station-smoke-evacuation-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Boston, Massachusetts",
+  "publishedAt": "2026-09-11T08:41:00-04:00",
+  "slug": "green-line-train-evacuated-at-north-station-after-smoke-report",
+  "sourceName": "7News WHDH",
+  "sourceUrl": "https://whdh.com/news/green-line-train-at-north-station-evacuated-due-to-smoke/",
+  "state": "Massachusetts",
+  "tags": [
+    "Boston",
+    "MBTA",
+    "Green Line",
+    "North Station",
+    "transit"
+  ],
+  "topic": "massachusetts",
+  "topicLabel": "Massachusetts",
+  "trending": false,
+  "updatedAt": "2026-09-11T08:41:00-04:00",
+  "visualLabel": "Transit"
+}

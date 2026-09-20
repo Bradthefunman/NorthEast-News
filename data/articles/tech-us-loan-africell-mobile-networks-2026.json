@@ -1,0 +1,39 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "The U.S. Export-Import Bank plans to lend nearly $100 million to Africell to expand mobile-network technology sourced from American and allied suppliers, Reuters reported Friday.",
+    "Africell, founded in 2001, is the only American-owned telecommunications operator in Africa. It serves about 15 million customers in Angola, Gambia, the Democratic Republic of Congo and Sierra Leone and has used equipment from companies including HP, Nokia, Dell and Oracle.",
+    "The financing is part of Washington’s effort to promote alternatives to Huawei infrastructure abroad. Counterpoint Research estimates Huawei holds about 52% of Africa’s 5G infrastructure market. U.S. officials have long raised security concerns about Huawei equipment; the company denies allegations that it could be used to spy on users.",
+    "Africell previously received a $100 million U.S. development-finance loan in 2018. The new package would help fund updated network hardware and reinforces the role of public financing in competition over global communications infrastructure, data security and technology standards."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "Washington",
+  "dek": "The Export-Import Bank financing would support equipment from American and allied suppliers as Washington counters Huawei’s reach in Africa.",
+  "developing": false,
+  "featured": false,
+  "headline": "U.S. plans nearly $100 million Africell loan for mobile networks",
+  "id": "tech-us-loan-africell-mobile-networks-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Washington, D.C.",
+  "publishedAt": "2026-09-11T12:40:00-04:00",
+  "slug": "tech-us-loan-africell-mobile-networks",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/china/trump-administration-lend-100-million-africell-countering-huawei-africa-2026-09-11/",
+  "state": "District of Columbia",
+  "tags": [
+    "Africell",
+    "telecommunications",
+    "5G",
+    "Huawei",
+    "Export-Import Bank"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-11T12:40:00-04:00",
+  "visualLabel": "Telecommunications"
+}

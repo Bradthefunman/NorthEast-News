@@ -1,0 +1,32 @@
+{
+  "analysis": true,
+  "archive": true,
+  "author": "NorthEast News Archive Desk",
+  "body": [
+    "Archive explainer: The stories that fall between traditional news sections.",
+    "Backdated context piece; recheck current records before republishing as live news."
+  ],
+  "breaking": false,
+  "category": "more",
+  "dek": "Backdated archive brief: The stories that fall between traditional news sections.",
+  "developing": false,
+  "featured": false,
+  "headline": "The stories that fall between traditional news sections",
+  "id": "archive-140",
+  "image": null,
+  "imageAlt": "",
+  "location": "New England",
+  "publishedAt": "2026-08-04T08:00:00-04:00",
+  "slug": "misc-the-stories-that-fall-between-traditional-news-sections",
+  "state": "",
+  "tags": [
+    "misc.",
+    "archive",
+    "new england"
+  ],
+  "topic": "misc",
+  "topicLabel": "Misc.",
+  "trending": false,
+  "updatedAt": "2026-08-04T08:00:00-04:00",
+  "visualLabel": "Misc."
+}

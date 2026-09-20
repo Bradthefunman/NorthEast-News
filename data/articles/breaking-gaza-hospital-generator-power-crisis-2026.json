@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Hospitals and displaced families in Gaza are struggling to keep generators running as shortages of engine oil and replacement parts worsen an already severe electricity crisis.",
+    "At Nasser Hospital in Khan Younis, one of four generators was out of service, Reuters reported. Staff were rotating power cuts to reduce the load on the remaining units, leaving patients who depend on ventilators, nebulizers and other powered equipment waiting for limited electricity.",
+    "Gaza has had no grid power since 2023, making generators central to hospitals, ambulances, water pumps and shelters. Médecins Sans Frontières warned that dwindling oil and parts threaten those services. Residents told Reuters that privately generated electricity now costs about 20 times its earlier price, putting it beyond the reach of many families.",
+    "Israel’s COGAT agency said a monitored mechanism facilitates the entry of equipment while seeking to prevent advanced items from reaching Hamas and to ensure supplies reach civilians. Aid groups say current access remains insufficient. With roughly two million people living largely in displacement sites, further generator failures could quickly interrupt medical and water services."
+  ],
+  "breaking": false,
+  "category": "breaking",
+  "city": "Khan Younis",
+  "dek": "Engine-oil and spare-parts shortages are forcing medical facilities to ration generator power while aid groups warn that essential services are at risk.",
+  "developing": false,
+  "featured": false,
+  "headline": "Generator failures deepen power crisis at Gaza hospitals",
+  "id": "breaking-gaza-hospital-generator-power-crisis-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Gaza Strip",
+  "publishedAt": "2026-09-10T22:42:00-04:00",
+  "slug": "generator-failures-deepen-power-crisis-at-gaza-hospitals",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/energy/gazas-hospitals-homes-struggle-keep-generators-running-oil-shortages-bite-2026-09-10/",
+  "state": "Gaza",
+  "tags": [
+    "Gaza",
+    "hospitals",
+    "generators",
+    "humanitarian crisis"
+  ],
+  "topic": "breaking",
+  "topicLabel": "Breaking / Developing",
+  "trending": false,
+  "updatedAt": "2026-09-10T22:42:00-04:00",
+  "visualLabel": "Developing"
+}

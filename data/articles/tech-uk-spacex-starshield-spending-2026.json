@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Britain has spent nearly $40 million on SpaceX satellite services for military communications, deepening its use of both Starshield and Starlink systems.",
+    "The British defense ministry told Reuters it has about 1,000 Starshield terminals and 500 Starlink terminals. It reported spending roughly 13 million pounds on Starshield equipment and airtime and 16.5 million pounds on Starlink.",
+    "The disclosure makes Britain the first country outside the United States to publicly acknowledge adopting Starshield, the SpaceX service marketed for military and intelligence missions. Starlink is the company’s better-known consumer and commercial network.",
+    "Satellite terminals can provide communications when fixed infrastructure is unavailable, but the purchase also concentrates an important capability with a U.S. private company. European governments have been discussing how to strengthen their own defense technology and reduce dependence on outside systems. Britain’s deployment shows how quickly commercially derived satellite networks have become part of government communications planning, even as questions about resilience, control and long-term supplier dependence remain."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "London",
+  "dek": "Britain disclosed about 1,000 Starshield and 500 Starlink terminals, making it the first country outside the U.S. to acknowledge Starshield adoption.",
+  "developing": false,
+  "featured": false,
+  "headline": "UK spends nearly $40 million on SpaceX satellite services",
+  "id": "tech-uk-spacex-starshield-spending-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "United Kingdom",
+  "publishedAt": "2026-09-10T14:45:00-04:00",
+  "slug": "uk-spends-nearly-40-million-on-spacex-satellite-services",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/media-telecom/uk-deepens-reliance-musks-spacex-spending-nearly-40-million-satellite-services-2026-09-10/",
+  "state": "International",
+  "tags": [
+    "SpaceX",
+    "Starshield",
+    "Starlink",
+    "United Kingdom"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-10T14:45:00-04:00",
+  "visualLabel": "Satellite technology"
+}

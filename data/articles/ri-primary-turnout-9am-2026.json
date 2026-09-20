@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Rhode Island had recorded 61,488 primary ballots by 9 a.m. Wednesday, equal to 7.8% of registered voters, according to Ocean State Media’s election coverage. The figure includes ballots cast before Election Day as well as the first two hours of in-person voting.",
+    "More than 37,000 Rhode Islanders voted early, over twice the early-vote total reported for the 2022 primary. That head start means the morning count should not be read as an Election Day-only measure or used by itself to forecast the final turnout.",
+    "Most polling places opened at 7 a.m. and are scheduled to close at 8 p.m. Mail ballots must also arrive by 8 p.m. to be counted, subject to state election rules. Voters can confirm their polling location through the Rhode Island secretary of state.",
+    "The 2022 primary drew total turnout of 44.4%, providing historical context but not a prediction for Wednesday. The 61,488 figure is a time-stamped snapshot and will change as election officials post additional in-person, early and mail-ballot data through the evening."
+  ],
+  "breaking": false,
+  "category": "rhode-island",
+  "city": "Providence",
+  "dek": "Early voting helped lift the morning total as polling places opened statewide for Rhode Island’s September 9 primary.",
+  "developing": false,
+  "featured": false,
+  "headline": "Rhode Island primary turnout reaches 61,488 by 9 a.m.",
+  "id": "ri-primary-turnout-9am-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Rhode Island",
+  "publishedAt": "2026-09-09T12:43:00-04:00",
+  "slug": "rhode-island-primary-turnout-reaches-61488-by-9-am",
+  "sourceName": "Ocean State Media",
+  "sourceUrl": "https://www.oceanstatemedia.org/election2026",
+  "state": "RI",
+  "tags": [
+    "Rhode Island primary",
+    "elections",
+    "voter turnout",
+    "early voting"
+  ],
+  "topic": "rhode-island",
+  "topicLabel": "Rhode Island",
+  "trending": false,
+  "updatedAt": "2026-09-09T12:43:00-04:00",
+  "visualLabel": "Rhode Island"
+}

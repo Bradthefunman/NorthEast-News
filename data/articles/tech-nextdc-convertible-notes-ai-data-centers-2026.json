@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Australian data-center operator NEXTDC said Wednesday it plans to raise A$1.1 billion, about $796 million, through convertible notes as it expands infrastructure for artificial-intelligence workloads.",
+    "The notes are scheduled to mature in September 2031 and include a holder option in September 2029. Reuters reported that the initial conversion price will carry a 32.5% to 37.5% premium to a reference share price, with related capped-call transactions intended to limit dilution.",
+    "Proceeds are earmarked for expansion of the company’s data-center pipeline, transaction costs and general corporate purposes. NEXTDC expects fiscal 2027 capital spending of A$5.25 billion to A$5.75 billion, roughly 55% to 70% above fiscal 2026.",
+    "The financing highlights how quickly AI demand is pushing infrastructure companies to spend before new capacity begins generating revenue. It also arrives as Australian developers face tighter access to electricity and water. NEXTDC shares closed Wednesday at A$12.79, up 2.2%; that figure is a dated market close reported by Reuters, not a live quote."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "Brisbane",
+  "dek": "The Australian operator plans convertible notes to fund expansion while projecting sharply higher capital spending for fiscal 2027.",
+  "developing": false,
+  "featured": false,
+  "headline": "NEXTDC seeks $796 million as AI data-center spending accelerates",
+  "id": "tech-nextdc-convertible-notes-ai-data-centers-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Australia",
+  "publishedAt": "2026-09-09T07:42:00-04:00",
+  "slug": "nextdc-seeks-796-million-as-ai-data-center-spending-accelerates",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/asia-pacific/australian-data-centre-operator-nextdc-raise-795-mln-ai-infrastructure-2026-09-09/",
+  "state": "International",
+  "tags": [
+    "NEXTDC",
+    "data centers",
+    "AI infrastructure",
+    "convertible notes"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-09T07:42:00-04:00",
+  "visualLabel": "Data centers"
+}

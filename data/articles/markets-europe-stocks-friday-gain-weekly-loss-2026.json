@@ -1,0 +1,41 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "European shares rose Friday but finished a difficult week under pressure from inflation concerns and higher bond yields. The pan-European STOXX 600 gained 0.5% to close at 639.1, Reuters reported, while France's CAC 40 added 0.8%. Telecommunications companies and banks led the regional gains.",
+    "The daily advance was not enough to prevent the STOXX 600's steepest weekly loss since early July. Oil fell more than 3% from a five-month high during Friday's session, offering some relief, but elevated energy costs remained a concern for inflation and corporate margins. Recent central-bank signals also kept attention on the possibility of tighter policy.",
+    "Individual moves showed that company-specific news still mattered alongside the macroeconomic backdrop. German online broker FlatexDEGIRO fell 7.9% after the resignation of its supervisory-board chairman. The index levels and percentage changes are Friday closing figures, not live quotes. Investors enter the next week balancing the benefit of the late-session rebound against persistent uncertainty over energy supply, borrowing costs and the pace at which inflation might ease."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "markets",
+  "city": null,
+  "dek": "The STOXX 600 closed at 639.1 after a Friday rebound, though inflation worries and rising bond yields produced its sharpest weekly loss since July.",
+  "developing": false,
+  "featured": false,
+  "headline": "European stocks gain Friday but record sharp weekly loss",
+  "id": "markets-europe-stocks-friday-gain-weekly-loss-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Europe",
+  "publishedAt": "2026-09-11T20:44:00-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "markets-europe-stocks-friday-gain-weekly-loss",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/markets/europe/european-stocks-rise-head-sharp-weekly-declines-2026-09-11/",
+  "state": "Europe",
+  "tags": [
+    "STOXX 600",
+    "European stocks",
+    "inflation",
+    "bond yields",
+    "market close"
+  ],
+  "topic": "markets",
+  "topicLabel": "Markets / Stocks",
+  "trending": false,
+  "updatedAt": "2026-09-11T20:44:00-04:00",
+  "visualLabel": "Market close"
+}

@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Cambridge-based AI music startup Suno launched a new suite of generation models Wednesday in partnership with Warner Music Group and BMG, using licensed music from participating artists.",
+    "Reuters reported that the flagship v6 model is intended for more precise creative goals, while v6-Wild is aimed at exploration. Both will be available to Pro and Premier subscribers. A lighter v6-mini model is available without charge.",
+    "The launch follows copyright disputes over how generative music systems train and produce songs. Suno settled a lawsuit with Warner Music last year and signed licensing agreements. The company said it is also developing opt-in experiences in which individual artists can choose to participate and receive payment.",
+    "The arrangement offers an early test of whether AI music platforms and record companies can create products that address compensation and consent concerns while preserving user-facing generation tools. Important details—including which artists participate, how payments are calculated and how generated tracks are labeled—will shape whether the model becomes a broader industry template."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "Cambridge",
+  "dek": "The v6 suite includes paid flagship and exploratory models plus a free mini version, with artist participation described as opt-in.",
+  "developing": false,
+  "featured": false,
+  "headline": "Suno launches licensed AI music models with Warner Music and BMG",
+  "id": "tech-suno-v6-models-warner-bmg-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Cambridge, Massachusetts",
+  "publishedAt": "2026-09-09T07:42:00-04:00",
+  "slug": "suno-launches-licensed-ai-music-models-with-warner-music-and-bmg",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/legal/litigation/suno-releases-new-ai-music-models-partnership-with-warner-music-bmg-2026-09-09/",
+  "state": "International",
+  "tags": [
+    "Suno",
+    "AI music",
+    "Warner Music",
+    "BMG"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-09T07:42:00-04:00",
+  "visualLabel": "AI music"
+}

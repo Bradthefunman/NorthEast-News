@@ -1,0 +1,38 @@
+{
+  "analysis": true,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "U.S. stocks moved lower Tuesday as software shares came under pressure from renewed concerns that artificial intelligence could disrupt established software businesses, Reuters reported.",
+    "The S&P 500 fell 0.58% to 7,673.52 in the reported session, while Salesforce, Intuit and ServiceNow each declined between 4% and 5%. The S&P software and services index fell 1.4% for a second straight day.",
+    "Investors were also watching the next inflation report and the possibility that interest-rate expectations could change. Semiconductor shares were stronger after Qualcomm’s new Amazon partnership, showing how the same AI trend can weigh on software companies while supporting chip demand. Figures are reported, not live quotes.",
+    "The split illustrates how markets are sorting winners and losers inside the AI trade rather than treating technology as one category. Companies selling infrastructure may benefit from spending while firms worried about software substitution face a different question about future pricing power."
+  ],
+  "breaking": false,
+  "category": "markets",
+  "dek": "Salesforce, Intuit and ServiceNow were among the software names under pressure as investors turned to inflation data and the pace of AI adoption.",
+  "developing": false,
+  "featured": false,
+  "headline": "Software stocks fall as investors weigh the next AI disruption",
+  "id": "markets-software-ai-selloff-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "U.S. markets",
+  "publishedAt": "2026-09-08T16:45:00-04:00",
+  "slug": "software-stocks-fall-as-investors-weigh-ai-disruption",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/wall-st-futures-slip-oil-surge-puts-markets-edge-2026-09-08/",
+  "state": "",
+  "tags": [
+    "Markets",
+    "stocks",
+    "software",
+    "AI",
+    "Federal Reserve"
+  ],
+  "topic": "markets",
+  "topicLabel": "Markets / Stocks",
+  "trending": false,
+  "updatedAt": "2026-09-08T16:45:00-04:00",
+  "visualLabel": "Software markets"
+}

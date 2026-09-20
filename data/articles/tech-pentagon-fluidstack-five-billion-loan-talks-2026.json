@@ -1,0 +1,37 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "The Pentagon is discussing a loan of about $5 billion to AI cloud startup Fluidstack, the Wall Street Journal reported Thursday, as the United States looks to expand the domestic supply chain behind data centers.",
+    "Reuters said the potential financing would come from the Defense Department’s Office of Strategic Capital. The money would support manufacturing capacity for selected data-center components rather than directly fund construction of a new AI facility, according to the report.",
+    "Neither the Defense Department nor Fluidstack immediately commented to Reuters. The talks therefore do not represent a completed loan, and the final amount or terms could change.",
+    "The proposal follows a national-emergency order issued last month that restricted some foreign equipment used by the U.S. power grid. The Office of Strategic Capital has also backed companies in areas such as rare-earth materials and drones. A Fluidstack loan would extend that industrial-policy approach to the computing and electrical hardware needed for large AI systems, where shortages or foreign dependence could slow data-center deployment."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "dek": "The proposed financing would support domestic production of data-center components as Washington treats AI infrastructure as a strategic supply-chain priority.",
+  "developing": false,
+  "featured": false,
+  "headline": "Pentagon discusses $5 billion Fluidstack loan, WSJ reports",
+  "id": "tech-pentagon-fluidstack-five-billion-loan-talks-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "United States",
+  "publishedAt": "2026-09-10T20:43:00-04:00",
+  "slug": "pentagon-discusses-five-billion-dollar-fluidstack-loan-wsj-reports",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/technology/pentagon-talks-lend-5-billion-ai-cloud-startup-fluidstack-wsj-reports-2026-09-10/",
+  "state": "United States",
+  "tags": [
+    "Fluidstack",
+    "Pentagon",
+    "AI infrastructure",
+    "data centers"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-10T20:43:00-04:00",
+  "visualLabel": "AI infrastructure"
+}

@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Visa, Mastercard and Ant International have launched an effort to create common standards for identifying and verifying artificial-intelligence agents that can complete purchases on behalf of users.",
+    "The Know-Your-Agent interoperability framework is designed to help card networks, digital wallets, agent platforms and online marketplaces recognize trusted software across payment ecosystems. Each participant would retain its own approval and risk-management processes, the companies said.",
+    "The proposal combines concepts from existing systems: Visa’s Trusted Agent Protocol, Mastercard Verifiable Intent and Ant International’s Agentic Mobile Protocol. The companies said a shared approach could reduce integration work, speed the introduction of agent-based commerce and give payment providers better visibility into risk.",
+    "The collaboration will run through BuildFin.ai, a platform convened by the Monetary Authority of Singapore that brings financial institutions, technology companies and researchers together on AI tools for finance. The framework arrives as the industry prepares for agents to move beyond product recommendations and place orders. Technical details, adoption schedules and the list of participating merchants remain important next steps."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "Singapore",
+  "dek": "The companies launched a Know-Your-Agent framework intended to verify software that can make purchases for users across payment systems.",
+  "developing": false,
+  "featured": false,
+  "headline": "Visa, Mastercard and Ant build trust standard for shopping AI agents",
+  "id": "tech-visa-mastercard-ant-ai-agent-trust-framework-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Singapore",
+  "publishedAt": "2026-09-10T02:43:00-04:00",
+  "slug": "visa-mastercard-and-ant-build-trust-standard-for-shopping-ai-agents",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/technology/payment-firms-visa-mastercard-ant-international-team-up-ai-agent-trust-framework-2026-09-10/",
+  "state": "INTL",
+  "tags": [
+    "Visa",
+    "Mastercard",
+    "Ant International",
+    "AI agents"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-10T02:43:00-04:00",
+  "visualLabel": "Payments"
+}

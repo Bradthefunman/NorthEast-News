@@ -1,0 +1,41 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "U.S. Senate negotiators are considering a draft framework that would give developers of advanced artificial-intelligence systems a duty of care to address known major risks before release. Reuters reported that the proposal focuses on catastrophic harms, including the possibility that a model could materially assist the development of nuclear or biological weapons.",
+    "Under the draft, federal authorities could block a model release judged unsafe, while companies would retain the ability to challenge that decision in court. The discussions also include testing through national laboratories and possible limits on overlapping state rules. Those provisions remain under negotiation and could change before any legislation is introduced or brought to a vote.",
+    "The talks involve Republican senators John Thune and Ted Cruz and Democratic senators Amy Klobuchar and Maria Cantwell, according to Reuters. Supporters of a federal framework argue that one national standard could clarify expectations for frontier-model testing; critics of preemption have warned that it could narrow states’ ability to respond. No final agreement or legislative timetable has been announced, leaving the scope and enforcement structure unresolved."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "tech",
+  "city": "Washington",
+  "dek": "A draft under discussion would require major developers to address known catastrophic risks and could allow the government to block unsafe model releases.",
+  "developing": false,
+  "featured": false,
+  "headline": "Senate negotiators weigh duty-of-care rule for frontier AI",
+  "id": "tech-senate-frontier-ai-duty-of-care-draft-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Washington, D.C.",
+  "publishedAt": "2026-09-12T00:40:00-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "tech-senate-frontier-ai-duty-of-care-draft",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/legal/litigation/us-senate-negotiators-consider-requiring-ai-firms-mitigate-known-major-risks-2026-09-11/",
+  "state": "DC",
+  "tags": [
+    "artificial intelligence",
+    "U.S. Senate",
+    "AI safety",
+    "frontier models",
+    "regulation"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-12T00:40:00-04:00",
+  "visualLabel": "AI Policy"
+}

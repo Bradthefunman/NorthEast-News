@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "German Chancellor Friedrich Merz said Wednesday that an attempted drone attack at Leipzig/Halle Airport had been prepared in Russia over an extended period and was specifically aimed at Germany.",
+    "Speaking to the lower house of parliament, Merz said major damage and injuries were narrowly avoided. Reuters reported his comments as Germany continues assessing the incident and its wider security implications.",
+    "Russia has rejected involvement. Its foreign minister characterized the accusation as escalatory, leaving the central claim disputed between Berlin and Moscow. Reuters’ initial report did not provide public evidence independently establishing who planned or directed the drone operation.",
+    "The allegation is significant because Leipzig/Halle is a major cargo airport and because unmanned-aircraft incidents have become a growing concern around European infrastructure. This remains a developing story: investigators may release additional technical findings, and statements from either government should be treated as claims until supported by evidence from the inquiry. Further official updates could materially change the initial assessment."
+  ],
+  "breaking": false,
+  "category": "breaking",
+  "city": "Leipzig",
+  "dek": "Chancellor Friedrich Merz said a disaster was narrowly avoided; Russia has denied involvement in the airport incident.",
+  "developing": false,
+  "featured": false,
+  "headline": "Germany says Leipzig airport drone attack was prepared in Russia",
+  "id": "breaking-germany-leipzig-airport-drone-russia-claim-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Leipzig, Germany",
+  "publishedAt": "2026-09-09T07:42:00-04:00",
+  "slug": "germany-says-leipzig-airport-drone-attack-was-prepared-in-russia",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/merz-says-disaster-narrowly-averted-russia-prepared-drone-attack-airport-2026-09-09/",
+  "state": "International",
+  "tags": [
+    "Germany",
+    "Leipzig airport",
+    "drones",
+    "Russia"
+  ],
+  "topic": "breaking",
+  "topicLabel": "Breaking / Developing",
+  "trending": false,
+  "updatedAt": "2026-09-09T07:42:00-04:00",
+  "visualLabel": "Developing"
+}

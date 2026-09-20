@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Lynn police are tightening access to the department’s Flock license-plate camera system after an audit found a concerning pattern of searches, Police Chief Christopher Reddy told the City Council on Tuesday night.",
+    "The revised policy will require monthly audits, stronger access controls and written acknowledgements of the rules from users. Data retention will fall from 30 days to seven, and initial access will be limited to 23 department members ranked lieutenant or higher. Any additions will require the chief’s direction.",
+    "The department also plans a public transparency portal showing categories of data that trigger alerts and the organizations receiving shared information. Lynn intends to limit data sharing to Massachusetts law-enforcement agencies, according to Boston 25 News.",
+    "Two officers were placed on paid administrative leave in mid-August after an earlier audit identified the search pattern, and an internal-affairs investigation was opened. The department has not publicly resolved that review. Automated plate readers can support investigations involving stolen vehicles, missing people and violent crime, but the policy changes reflect continued scrutiny over who can search the systems and how long records remain available."
+  ],
+  "breaking": false,
+  "category": "massachusetts",
+  "city": "Lynn",
+  "dek": "The police department is reducing data retention to seven days, limiting users and adding mandatory monthly audits.",
+  "developing": false,
+  "featured": false,
+  "headline": "Lynn tightens Flock camera access after audit flags search pattern",
+  "id": "ma-lynn-flock-camera-safeguards-audit-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Lynn, MA",
+  "publishedAt": "2026-09-09T09:41:00-04:00",
+  "slug": "lynn-tightens-flock-camera-access-after-audit-flags-search-pattern",
+  "sourceName": "Boston 25 News",
+  "sourceUrl": "https://www.boston25news.com/news/local/lynn-police-tighten-flock-camera-access-after-audit-finds-concerning-pattern/3J42JZWY75B3DBAAYXQVJGD2MY/",
+  "state": "MA",
+  "tags": [
+    "Lynn",
+    "Flock cameras",
+    "privacy",
+    "police"
+  ],
+  "topic": "massachusetts",
+  "topicLabel": "Massachusetts",
+  "trending": false,
+  "updatedAt": "2026-09-09T09:41:00-04:00",
+  "visualLabel": "Camera policy"
+}

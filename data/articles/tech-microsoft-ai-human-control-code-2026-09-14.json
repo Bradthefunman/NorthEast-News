@@ -1,0 +1,40 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Microsoft has drafted a code of conduct for artificial intelligence that would require its systems to remain responsive to human correction and shutdown, Reuters reported Monday. The proposal also calls for AI systems to communicate in ways people can understand when they are uncertain or face conflicting instructions.",
+    "The company plans to seek public feedback for six weeks. Microsoft’s AI chief said the responses will help shape how the company trains future models, making the draft an early attempt to turn broad safety principles into a set of expectations for product development.",
+    "The proposal does not itself change the behavior of every Microsoft system, and it is not a government rule. Its importance is in the questions it puts on the table: who can interrupt an AI system, how that intervention should work and how users can understand what a model is doing as its capabilities expand."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "tech",
+  "city": "Redmond",
+  "dek": "Microsoft proposed a public code of conduct saying its AI systems should remain open to correction, shutdown and human oversight.",
+  "developing": false,
+  "featured": false,
+  "headline": "Microsoft drafts code of conduct to keep its AI under human control",
+  "id": "tech-microsoft-ai-human-control-code-2026-09-14",
+  "image": null,
+  "imageAlt": null,
+  "location": "Redmond, Washington",
+  "publishedAt": "2026-09-14T12:42:00-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "tech-microsoft-ai-human-control-code",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/legal/litigation/microsoft-drafts-code-conduct-keep-its-ai-under-human-control-2026-09-14/",
+  "state": "Washington",
+  "tags": [
+    "Microsoft",
+    "artificial intelligence",
+    "AI safety",
+    "technology policy"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-14T12:42:00-04:00",
+  "visualLabel": "Artificial intelligence"
+}

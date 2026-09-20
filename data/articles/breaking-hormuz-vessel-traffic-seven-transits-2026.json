@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Commercial vessel traffic through the Strait of Hormuz fell into single digits Thursday, according to preliminary ship-tracking data that underscores how sharply war and shipping restrictions have disrupted one of the world’s most important energy corridors.",
+    "Kpler recorded seven transits, down from 11 Wednesday and below the recent 10-day average of 15, Reuters reported. Five vessels entered the strait and two exited. The tracked cargoes included fertilizer, grain, steel, dry bulk material and petroleum products.",
+    "The count may not capture vessels traveling with Automatic Identification System transponders switched off. Before the Iran war began February 28, roughly 125 large commercial ships typically passed through the strait each day, carrying a significant share of global crude-oil and liquefied-natural-gas supplies.",
+    "Traffic data can change as tracking services receive new signals, so the Thursday count remains preliminary. Still, the decline adds a fresh measure of stress on maritime trade as a U.S. blockade has halted Iranian crude exports and instability has spread to nearby routes. Traders, shippers and consumers are watching the corridor for further restrictions or attacks."
+  ],
+  "breaking": false,
+  "category": "breaking",
+  "city": "Strait of Hormuz",
+  "dek": "Preliminary Kpler data recorded sharply fewer commercial crossings Thursday than the recent average as war and shipping restrictions squeeze a critical energy route.",
+  "developing": false,
+  "featured": false,
+  "headline": "Hormuz vessel traffic falls to seven transits, tracking data shows",
+  "id": "breaking-hormuz-vessel-traffic-seven-transits-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Strait of Hormuz",
+  "publishedAt": "2026-09-11T00:42:00-04:00",
+  "slug": "hormuz-vessel-traffic-falls-to-seven-transits-tracking-data-shows",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/middle-east/hormuz-shipping-traffic-falls-single-digits-data-shows-2026-09-11/",
+  "state": "International",
+  "tags": [
+    "Strait of Hormuz",
+    "shipping",
+    "oil",
+    "Middle East"
+  ],
+  "topic": "breaking",
+  "topicLabel": "Breaking / Developing",
+  "trending": false,
+  "updatedAt": "2026-09-11T00:42:00-04:00",
+  "visualLabel": "Developing"
+}

@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Positron AI said Thursday that it raised $875 million in a funding round valuing the AI-chip startup at $5 billion, more than four times its valuation seven months earlier.",
+    "PitchBook data cited by Reuters showed that Positron raised $230 million in February at a $1.06 billion valuation. The new financing includes a $375 million Series C at a $3.5 billion pre-money valuation and a Series C-1 of as much as $500 million led by NEA and Silicon Graphics founder Jim Clark.",
+    "The company plans to use the proceeds to finish the design of Asimov, its next-generation processor, with production targeted for the second half of 2027. Positron focuses on inference, the stage in which trained AI models respond to user requests, a market where specialized chips are challenging Nvidia’s position.",
+    "Positron said its planned Titan system will combine four to eight Asimov chips in one node for very large models and long context windows. It is also deploying more than 50 racks of its first-generation Atlas inference system at Oracle Cloud Infrastructure, according to the company."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "Reno",
+  "dek": "The startup said the round values it at $5 billion and will fund final design work on its Asimov processor.",
+  "developing": false,
+  "featured": false,
+  "headline": "Positron raises $875 million for next-generation AI inference chip",
+  "id": "tech-positron-ai-funding-asimov-chip-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Reno, NV",
+  "publishedAt": "2026-09-10T16:43:00-04:00",
+  "slug": "positron-raises-875-million-for-next-generation-ai-inference-chip",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/ai-chip-startup-positrons-valuation-skyrockets-latest-funding-round-2026-09-10/",
+  "state": "United States",
+  "tags": [
+    "Positron AI",
+    "AI chips",
+    "inference",
+    "semiconductors"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-10T16:43:00-04:00",
+  "visualLabel": "AI chips"
+}

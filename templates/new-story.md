@@ -1,6 +1,6 @@
 # NorthEast News — New story contract
 
-Copy templates/new-story.json, replace its placeholders, and append one object to data/articles.json. The site owns presentation and infrastructure; the publishing agent supplies story-specific data only.
+Copy templates/new-story.json, replace its placeholders, and create `data/articles/<stable-id>.json`. The site owns presentation and infrastructure; the publishing agent supplies story-specific data only.
 
 Core fields are id, slug, headline, dek, body, category or topic and publishedAt. Source name and source URL are optional attribution fields. Keep body as an array of original paragraph strings and timestamps as ISO 8601 values with a timezone. The desktop publisher may store lightweight Markdown-style blocks (headings, lists, quotes and safe inline emphasis/links) inside those strings; the site renderer preserves the same array-based contract.
 
@@ -10,10 +10,12 @@ Set breaking true only while a story is genuinely breaking. Set developing true 
 
 Before publishing, verify the story, avoid fabricated quotes or figures, check duplicate ids/slugs, then run:
 
-    python3 -m json.tool data/articles.json >/dev/null
+    python3 -m json.tool data/articles/<stable-id>.json >/dev/null
     node --check assets/js/app.js
     node --check assets/js/article.js
+    node scripts/generate-catalog.js
+    node scripts/generate-search.js
     node scripts/validate-site.js
     node scripts/generate-sitemap.js
 
-Do not create an HTML file for a normal article. article.html and the shared JavaScript automatically provide header/footer, state/category links, timestamps, source attribution, share controls, related stories, search indexing, canonical URL, Open Graph tags and NewsArticle structured data. The deployment workflow regenerates sitemap.xml and robots.txt from the article file.
+Do not create an HTML file for a normal article. article.html and the shared JavaScript automatically provide header/footer, state/category links, timestamps, source attribution, share controls, related stories, search indexing, canonical URL, Open Graph tags and NewsArticle structured data. The deployment workflow validates the generated catalog/search shards and regenerates sitemap.xml and robots.txt from the individual article files.

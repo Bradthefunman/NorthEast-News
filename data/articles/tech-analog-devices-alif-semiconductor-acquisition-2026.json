@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Massachusetts-based Analog Devices has agreed to acquire Alif Semiconductor for $1.35 billion in cash, a deal aimed at expanding the chipmaker’s capabilities in on-device artificial intelligence, Reuters reported Wednesday.",
+    "Analog Devices specializes in sensing, signal processing and power-management technology. Alif develops processors designed to run AI workloads at the edge, where devices can analyze information and respond locally instead of sending every task to a distant data center.",
+    "Combining those portfolios could give customers a more integrated path for building intelligent industrial and commercial systems. Edge processing can reduce latency and network dependence for applications that need rapid decisions, though product integration and customer adoption will determine how quickly the acquisition affects revenue.",
+    "The announcement describes a strategic acquisition, not a completed integration. Cash purchase prices do not include every potential closing adjustment or future cost, and regulatory or customary closing conditions may still apply. For Analog Devices, the transaction adds specialized AI processing to a broad hardware portfolio at a time when chipmakers are competing to move more machine-learning work from centralized servers into physical devices."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "Wilmington",
+  "dek": "The cash acquisition is intended to combine Analog Devices’ sensing portfolio with Alif’s edge-AI processors.",
+  "developing": false,
+  "featured": false,
+  "headline": "Analog Devices to buy Alif Semiconductor for $1.35 billion",
+  "id": "tech-analog-devices-alif-semiconductor-acquisition-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Wilmington, MA",
+  "publishedAt": "2026-09-09T09:41:00-04:00",
+  "slug": "analog-devices-to-buy-alif-semiconductor-for-1-35-billion",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/technology/analog-devices-buy-alif-semiconductor-135-billion-2026-09-09/",
+  "state": "MA",
+  "tags": [
+    "Analog Devices",
+    "Alif Semiconductor",
+    "edge AI",
+    "semiconductors"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-09T09:41:00-04:00",
+  "visualLabel": "Chip deal"
+}

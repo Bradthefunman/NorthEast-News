@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "U.S. exchange-traded fund investors are favoring short- and intermediate-term bonds as concern grows that inflation and heavy borrowing could keep long-term interest rates elevated, Reuters reported Wednesday.",
+    "Short-term Treasury ETFs drew about $12.2 billion during the 20 trading sessions through September 8, while intermediate-term Treasury funds received roughly $5.7 billion. Morningstar data through August showed a similar pattern: intermediate core bond ETFs attracted $54.2 billion and short-term funds $25.3 billion, compared with $2.5 billion for long-term products.",
+    "Shorter maturities generally move less when interest-rate expectations change, which can make them attractive when investors want income without taking as much duration risk. They still carry market and credit risks, and flows show where money has moved rather than what will perform best.",
+    "Rising oil prices, government financing needs and competition for capital have pushed yields higher. The positioning suggests investors are seeking flexibility while they wait for clearer inflation data and central-bank signals instead of making a larger commitment to long-dated bonds."
+  ],
+  "breaking": false,
+  "category": "markets",
+  "city": "New York",
+  "dek": "Recent ETF flows show demand concentrating in short and intermediate bonds while long-term funds attract far less money.",
+  "developing": false,
+  "featured": false,
+  "headline": "Bond ETF investors favor shorter maturities as rate risks rise",
+  "id": "markets-bond-etf-shorter-maturities-rate-risk-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "New York, NY",
+  "publishedAt": "2026-09-09T08:43:00-04:00",
+  "slug": "bond-etf-investors-favor-shorter-maturities-as-rate-risks-rise",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/us-etf-investors-favour-shorter-tenor-bonds-interest-rate-risks-rise-2026-09-09/",
+  "state": "NY",
+  "tags": [
+    "bond ETFs",
+    "Treasuries",
+    "interest rates",
+    "investing"
+  ],
+  "topic": "markets",
+  "topicLabel": "Markets / Stocks",
+  "trending": false,
+  "updatedAt": "2026-09-09T08:43:00-04:00",
+  "visualLabel": "Fixed income"
+}

@@ -1,0 +1,32 @@
+{
+  "analysis": true,
+  "archive": true,
+  "author": "NorthEast News Archive Desk",
+  "body": [
+    "Archive explainer: How universities feed the region’s technology workforce.",
+    "Backdated context piece; recheck current records before republishing as live news."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "dek": "Backdated archive brief: How universities feed the region’s technology workforce.",
+  "developing": false,
+  "featured": false,
+  "headline": "How universities feed the region’s technology workforce",
+  "id": "archive-068",
+  "image": null,
+  "imageAlt": "",
+  "location": "New England tech watch",
+  "publishedAt": "2026-08-22T08:00:00-04:00",
+  "slug": "tech-how-universities-feed-the-region-s-technology-workforce",
+  "state": "MA",
+  "tags": [
+    "tech",
+    "archive",
+    "new england"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-08-22T08:00:00-04:00",
+  "visualLabel": "Tech"
+}

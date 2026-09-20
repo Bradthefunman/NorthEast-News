@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Indonesia produced the world’s highest fire-related carbon dioxide emissions during the first week of September as wildfires burned through drought-stricken forest and peatland on Borneo and Sumatra.",
+    "Fire Emissions Watch, developed by the European Union’s Copernicus climate service, estimated 19.7 million metric tons from September 1 through September 7. That was more than one-third of the global total and 273% above Indonesia’s seasonal average, though below the same week in the severe 2015 fire year.",
+    "Authorities described the current season as the country’s most intense in 11 years. More than 13,000 hotspots were recorded from August 1 through September 8. In Pontianak, West Kalimantan, the air-quality index reached 394 on Wednesday; readings above 300 are considered hazardous.",
+    "The emergency remains developing because El Niño-driven heat and drought can sustain fires into October. Satellite estimates may also miss low-temperature or underground peat fires. Later field assessments will be needed to measure burned area, health effects and cross-border haze, while current air-quality readings can vary by place and hour."
+  ],
+  "breaking": false,
+  "category": "breaking",
+  "city": "Pontianak",
+  "dek": "Satellite-based estimates put Indonesia’s fire emissions at 19.7 million metric tons of carbon dioxide from September 1–7 as drought fuels a severe season.",
+  "developing": false,
+  "featured": false,
+  "headline": "Indonesia wildfire emissions rise to world’s highest",
+  "id": "breaking-indonesia-wildfire-emissions-world-highest-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Borneo and Sumatra, Indonesia",
+  "publishedAt": "2026-09-09T06:43:00-04:00",
+  "slug": "indonesia-wildfire-emissions-rise-to-worlds-highest",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/environment/indonesian-wildfire-emissions-surge-worlds-highest-data-shows-2026-09-09/",
+  "state": "International",
+  "tags": [
+    "Indonesia",
+    "wildfires",
+    "El Niño",
+    "air quality"
+  ],
+  "topic": "breaking",
+  "topicLabel": "Breaking / Developing",
+  "trending": false,
+  "updatedAt": "2026-09-09T06:43:00-04:00",
+  "visualLabel": "Wildfires"
+}

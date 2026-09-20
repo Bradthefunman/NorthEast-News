@@ -1,0 +1,41 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Anthropic’s planned expansion in Cambridge is arriving alongside renewed warnings from current and former artificial-intelligence researchers about the risks posed by increasingly capable systems. The company plans a larger presence at One Kendall Square, placing more of its workforce near the universities and laboratories that anchor the region’s technology sector.",
+    "NBC10 Boston reported that former Anthropic and OpenAI researcher Jacob Coxon this week warned that frontier models could become dangerous on a short timeline. Other experts have focused on the growing autonomy of AI agents, which can plan and perform multiple steps with less human direction. The concerns include whether developers and regulators can test systems thoroughly enough before broad deployment.",
+    "Anthropic said Cambridge is a natural base because of its scientific and academic institutions. The local expansion also makes the national AI-safety debate more immediate for Massachusetts, where residents interviewed by NBC10 expressed both concern and optimism. A recent NBC News poll cited by the station found broad public unease about AI and a belief that government oversight has not kept pace with the technology."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "tech",
+  "city": "Cambridge",
+  "dek": "The company is preparing a larger Kendall Square presence as current and former industry researchers raise concerns about increasingly autonomous systems.",
+  "developing": false,
+  "featured": false,
+  "headline": "Anthropic’s Cambridge expansion draws fresh AI-safety scrutiny",
+  "id": "tech-anthropic-cambridge-expansion-safety-scrutiny-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Cambridge, Massachusetts",
+  "publishedAt": "2026-09-12T06:44:00-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "tech-anthropic-cambridge-expansion-ai-safety-scrutiny",
+  "sourceName": "NBC10 Boston",
+  "sourceUrl": "https://www.nbcboston.com/news/local/ai-cambridge-mass/4013557/",
+  "state": "MA",
+  "tags": [
+    "Anthropic",
+    "Cambridge",
+    "Kendall Square",
+    "AI Safety",
+    "Artificial Intelligence"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-12T06:44:00-04:00",
+  "visualLabel": "AI Safety"
+}

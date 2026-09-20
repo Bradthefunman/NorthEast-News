@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Two separate incidents disrupted passenger rail service between Boston and Providence on Wednesday afternoon, affecting both MBTA Commuter Rail and Amtrak riders.",
+    "NBC 10 reported that firefighters responded after smoke came from the locomotive of a commuter train stopped at Ruggles Station in Boston. The train had originated at Wickford Junction. No injuries were reported, and the affected train was removed from service.",
+    "Elsewhere on the corridor, police activity south of Boston delayed trains between the two cities. The MBTA said at least one Providence Line train ended its trip at Attleboro, where passengers were transferred to shuttle buses. Officials had not publicly described the police investigation by early Wednesday evening.",
+    "The combination left travelers facing delays during the evening commute on a corridor shared by regional and intercity trains. Riders were advised to monitor notices from the MBTA and Amtrak before heading to stations, because equipment and crews can remain out of position even after the immediate incidents are cleared."
+  ],
+  "breaking": false,
+  "category": "massachusetts",
+  "city": "Boston",
+  "dek": "A fire at Ruggles Station and a separate police response south of Boston caused delays and shuttle-bus transfers Wednesday afternoon.",
+  "developing": false,
+  "featured": false,
+  "headline": "Locomotive fire and police activity disrupt Boston-Providence trains",
+  "id": "ma-boston-providence-rail-disruptions-sept-9-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Boston, MA",
+  "publishedAt": "2026-09-09T22:44:00-04:00",
+  "slug": "locomotive-fire-and-police-activity-disrupt-boston-providence-trains",
+  "sourceName": "NBC 10 WJAR",
+  "sourceUrl": "https://turnto10.com/news/local/massachusetts-bay-transportation-authority-mbta-train-fire-ruggles-station-boston-massachusetts-september-9-2026",
+  "state": "MA",
+  "tags": [
+    "MBTA",
+    "commuter rail",
+    "Ruggles Station",
+    "Providence Line"
+  ],
+  "topic": "massachusetts",
+  "topicLabel": "Massachusetts",
+  "trending": false,
+  "updatedAt": "2026-09-09T22:44:00-04:00",
+  "visualLabel": "Transit"
+}

@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "California Governor Gavin Newsom signed a package of 13 bills imposing new safeguards on social media platforms, artificial-intelligence chatbots and technology products used by children.",
+    "One measure bars platforms from exposing users under 16 to engagement features defined as psychologically exploitative, including infinite-scroll feeds and algorithmic autoplay. Another prohibits the manufacture and sale of toys containing AI companion chatbots for four years. Related provisions require parental controls and safety assessments for chatbot programs.",
+    "The package also expands criminal sanctions for child sexual abuse material to cover digitally altered or AI-generated depictions of minors. Newsom described the measures as the country’s broadest youth-technology protections, while supporters in both parties said existing safeguards had not kept pace with product design.",
+    "The Electronic Frontier Foundation criticized the social-media restrictions as a threat to privacy and free expression, illustrating the legal debate likely to follow implementation. California joins states including Utah, Texas, Florida and New York in regulating minors’ access to major platforms, but the details and enforcement models differ. Agencies must still define portions of the rules before the requirements take full effect."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "Sacramento",
+  "dek": "A 13-bill package restricts addictive platform features for users under 16, bars AI companion toys for four years and expands protections against synthetic abuse material.",
+  "developing": false,
+  "featured": false,
+  "headline": "California enacts new child safeguards for social media and AI toys",
+  "id": "tech-california-child-social-media-ai-laws-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "California",
+  "publishedAt": "2026-09-10T22:42:00-04:00",
+  "slug": "california-enacts-new-child-safeguards-for-social-media-and-ai-toys",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/legal/litigation/california-enacts-new-curbs-social-media-children-2026-09-11/",
+  "state": "CA",
+  "tags": [
+    "California",
+    "social media",
+    "AI",
+    "child safety"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-10T22:42:00-04:00",
+  "visualLabel": "Technology policy"
+}

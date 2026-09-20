@@ -1,0 +1,41 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Confirmed Ebola infections in the Democratic Republic of the Congo have surpassed 7,000, with 3,398 deaths reported as the outbreak reaches seven provinces. The totals make it the country’s largest and deadliest Ebola outbreak and the second-largest recorded globally after the 2014-2016 West Africa epidemic.",
+    "The outbreak involves the Bundibugyo species of the virus. Health officials confirmed a case in South Ubangi province far from the original center: a 23-year-old man who had traveled from South Kivu and later died. Contact tracing is underway to identify people who may have been exposed during his travel or treatment, a priority because long-distance movement can establish new transmission chains.",
+    "The World Health Organization has warned that the response is constrained by shortages of staff, partners and funding. Rapidly rising figures also show how quickly the official picture is changing; a European disease tracker had listed 6,942 cases and 3,349 deaths one day earlier. Authorities are trying to expand surveillance, isolation and contact monitoring while preventing additional provinces from becoming sustained centers of transmission."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "breaking",
+  "city": "Kinshasa",
+  "dek": "The Bundibugyo-virus outbreak has spread to seven provinces as health teams confront personnel, supply and funding shortages.",
+  "developing": false,
+  "featured": false,
+  "headline": "Congo Ebola outbreak passes 7,000 confirmed infections",
+  "id": "breaking-congo-ebola-seven-thousand-infections-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Democratic Republic of the Congo",
+  "publishedAt": "2026-09-12T00:40:00-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "breaking-congo-ebola-seven-thousand-infections",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/healthcare-pharmaceuticals/ebola-infections-top-7000-congo-virus-spreads-new-province-2026-09-11/",
+  "state": "Democratic Republic of the Congo",
+  "tags": [
+    "Ebola",
+    "Democratic Republic of the Congo",
+    "WHO",
+    "public health",
+    "outbreak"
+  ],
+  "topic": "breaking",
+  "topicLabel": "Breaking / Developing",
+  "trending": false,
+  "updatedAt": "2026-09-12T00:40:00-04:00",
+  "visualLabel": "Health Emergency"
+}

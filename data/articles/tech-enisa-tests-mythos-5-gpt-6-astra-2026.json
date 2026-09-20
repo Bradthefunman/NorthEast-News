@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "The European Union’s cybersecurity agency has been granted access to two advanced artificial-intelligence models and has begun testing one of them, the European Commission said Thursday.",
+    "ENISA is testing Anthropic’s Mythos 5 and has also received access to OpenAI’s GPT-6 Astra, according to a Commission spokesperson quoted by Reuters. The brief announcement did not specify the test methods, timetable or results.",
+    "Access gives the agency an opportunity to examine how frontier systems behave in security-sensitive scenarios. That can include evaluating whether a model strengthens defensive analysis, generates risky technical guidance or resists attempts to bypass safeguards. Reuters’ report did not say that either model had failed a test or caused an incident.",
+    "The review comes as European regulators and security officials seek a clearer picture of rapidly improving model capabilities. Independent access matters because evaluations performed by public agencies can complement testing conducted by developers. ENISA’s findings could inform how institutions assess emerging cyber risks, but the Commission did not announce any enforcement action or policy change. Until results are released, the development is best understood as a new stage of official technical scrutiny rather than a judgment about either company’s model."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "Brussels",
+  "dek": "ENISA has received access to Anthropic’s Mythos 5 and OpenAI’s GPT-6 Astra as European officials examine advanced models’ cyber capabilities.",
+  "developing": false,
+  "featured": false,
+  "headline": "EU cybersecurity agency tests Anthropic and OpenAI frontier models",
+  "id": "tech-enisa-tests-mythos-5-gpt-6-astra-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "European Union",
+  "publishedAt": "2026-09-10T12:45:00-04:00",
+  "slug": "eu-cybersecurity-agency-tests-anthropic-and-openai-frontier-models",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/technology/eus-cybersecurity-agency-granted-access-mythos-5-ai-model-commission-says-2026-09-10/",
+  "state": "International",
+  "tags": [
+    "ENISA",
+    "Anthropic",
+    "OpenAI",
+    "cybersecurity"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-10T12:45:00-04:00",
+  "visualLabel": "AI Safety"
+}

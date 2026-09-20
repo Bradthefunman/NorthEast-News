@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Manchester is headed for a warm, cloudy Wednesday followed by a wet and windy night, according to the National Weather Service forecast updated early September 9. The daytime high is expected to reach about 80 degrees, with a south wind increasing to 5 to 10 mph during the afternoon.",
+    "Showers are likely Wednesday night, when the chance of precipitation rises to 80%. Forecasters expect a low near 67, south winds of 10 to 20 mph and gusts as high as 35 mph. Rainfall totals of one-tenth to one-quarter inch are possible.",
+    "Showers may continue into early Thursday morning before skies begin to clear. Thursday’s high is forecast near 83, and gusts could again reach 35 mph before winds ease later in the day.",
+    "Residents should secure lightweight outdoor objects and allow extra stopping distance on wet roads. The forecast may change as the system approaches, so travelers and anyone with outdoor plans should check the latest National Weather Service update before heading out."
+  ],
+  "breaking": false,
+  "category": "new-hampshire",
+  "city": "Manchester",
+  "dek": "The National Weather Service expects showers Wednesday night, with south winds gusting as high as 35 mph before conditions improve Thursday.",
+  "developing": false,
+  "featured": false,
+  "headline": "Showers and 35 mph gusts forecast for Manchester tonight",
+  "id": "nh-manchester-showers-wind-forecast-september-9-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Manchester, NH",
+  "publishedAt": "2026-09-09T08:43:00-04:00",
+  "slug": "showers-and-35-mph-gusts-forecast-for-manchester-tonight",
+  "sourceName": "National Weather Service",
+  "sourceUrl": "https://forecast.weather.gov/MapClick.php?lat=42.92964&lon=-71.43559",
+  "state": "NH",
+  "tags": [
+    "Manchester",
+    "weather",
+    "showers",
+    "wind"
+  ],
+  "topic": "new-hampshire",
+  "topicLabel": "New Hampshire",
+  "trending": false,
+  "updatedAt": "2026-09-09T08:43:00-04:00",
+  "visualLabel": "Weather"
+}

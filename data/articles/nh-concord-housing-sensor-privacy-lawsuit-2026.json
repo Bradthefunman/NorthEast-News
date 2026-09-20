@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "The Concord Housing and Redevelopment Authority is facing a lawsuit over electronic monitoring devices installed inside tenants’ apartments. The case was filed in Merrimack County Superior Court by the ACLU of New Hampshire and New Hampshire Legal Assistance, according to reporting shared by the Concord Monitor and Manchester Ink Link.",
+    "The complaint alleges that Minut-branded sensors collect information beyond smoke, noise and humidity readings. It says the devices can detect nearby Apple devices and motion, creating data that could reveal occupancy patterns. The plaintiffs are asking the court to require deletion of collected data and block lease penalties tied to the monitors while the case proceeds.",
+    "The housing authority disputes the surveillance allegations. Its executive director said the equipment is used for health, safety and property-compliance purposes, does not record audio or video, and has not led to fines or evictions. The authority also said it does not use crowd-monitoring capabilities.",
+    "The dispute puts emerging property-management technology against expectations of privacy inside a home, particularly for residents receiving public housing assistance. The court has not ruled on the plaintiffs’ claims, and the allegations remain contested."
+  ],
+  "breaking": false,
+  "category": "new-hampshire",
+  "city": "Concord",
+  "dek": "The ACLU of New Hampshire and New Hampshire Legal Assistance are challenging monitoring devices installed inside subsidized apartments.",
+  "developing": false,
+  "featured": false,
+  "headline": "Concord public-housing sensors face privacy lawsuit",
+  "id": "nh-concord-housing-sensor-privacy-lawsuit-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Concord, NH",
+  "publishedAt": "2026-09-09T22:44:00-04:00",
+  "slug": "concord-public-housing-sensors-face-privacy-lawsuit",
+  "sourceName": "Manchester Ink Link / Concord Monitor",
+  "sourceUrl": "https://manchester.inklink.news/concord-housing-faces-lawsuit-over-in-home-surveillance-devices/",
+  "state": "NH",
+  "tags": [
+    "Concord",
+    "public housing",
+    "privacy",
+    "lawsuit"
+  ],
+  "topic": "new-hampshire",
+  "topicLabel": "New Hampshire",
+  "trending": false,
+  "updatedAt": "2026-09-09T22:44:00-04:00",
+  "visualLabel": "Housing"
+}

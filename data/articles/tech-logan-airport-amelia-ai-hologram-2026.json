@@ -1,0 +1,34 @@
+{
+  "analysis": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Boston Logan International Airport has deployed a multilingual AI-powered hologram named Amelia at nine locations across its four terminals, giving travelers another way to ask for directions and local information.",
+    "WHDH reported that Amelia can guide passengers around the airport and identify about 400 points of interest in Boston. The system is intended to remain available during overnight and other hours when fewer staff members may be present.",
+    "Proto Hologram, the company behind the system, describes it as a first-of-its-kind airport deployment. Related technology is already used at the Patriots Hall of Fame at Gillette Stadium in Foxborough.",
+    "The rollout will test whether an AI avatar can reduce routine wayfinding pressure without confusing travelers who need human help. Airports are complex, frequently changing environments, so accuracy about gates, ground transportation and accessibility services will be essential. The report did not specify the project’s cost, data-retention rules or whether Amelia connects directly to live flight systems. Those details will shape how useful and trustworthy the service becomes."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "dek": "The multilingual digital assistant is designed to help travelers navigate terminals and find hundreds of Boston destinations, including after staffed hours.",
+  "developing": false,
+  "featured": false,
+  "headline": "Logan Airport deploys ‘Amelia’ AI holograms at nine locations",
+  "id": "tech-logan-airport-amelia-ai-hologram-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Boston, Massachusetts",
+  "publishedAt": "2026-09-08T21:45:00-04:00",
+  "slug": "logan-airport-deploys-amelia-ai-holograms-across-nine-locations",
+  "sourceName": "WHDH 7News",
+  "sourceUrl": "https://whdh.com/news/meet-amelia-the-new-ai-hologram-that-can-help-travelers-navigate-logan-airport/",
+  "state": "MA",
+  "tags": [
+    "Boston Logan",
+    "artificial intelligence",
+    "travel",
+    "holograms"
+  ],
+  "trending": false,
+  "updatedAt": "2026-09-08T21:45:00-04:00",
+  "visualLabel": "Travel tech"
+}

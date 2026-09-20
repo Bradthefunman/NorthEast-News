@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Twenty-five people died Thursday in a fire aboard a cargo vessel undergoing repairs at a state-owned shipyard in Qingdao, eastern China, state media reported.",
+    "The fire began at about 11:15 a.m. local time during repair and inspection work at the Qingdao Beihai shipyard. Of 42 people aboard, 12 were evacuated safely and five were injured and hospitalized, according to Xinhua figures reported by Reuters. Firefighters extinguished the blaze by early afternoon.",
+    "Images identified the vessel as the Ocean Melody. LSEG ship-tracking data described it as a 20-year-old, Liberia-flagged dry bulk carrier that arrived at the yard on August 31 and remained there for repairs.",
+    "China’s leadership called for intensified rescue work, a rapid investigation and accountability measures. The shipyard is controlled by China State Shipbuilding Corporation, a major state-owned shipbuilder. The cause of the fire had not been announced. Investigators will need to establish where the blaze started, what work was underway and whether fire-control systems and evacuation procedures operated as intended. The casualty count and investigation remain developing."
+  ],
+  "breaking": false,
+  "category": "breaking",
+  "city": "Qingdao",
+  "dek": "The Ocean Melody was undergoing repairs when fire broke out Thursday; 12 people escaped and five were hospitalized.",
+  "developing": false,
+  "featured": false,
+  "headline": "Cargo-ship fire at Qingdao shipyard kills 25",
+  "id": "breaking-qingdao-cargo-ship-fire-25-dead-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Qingdao, China",
+  "publishedAt": "2026-09-10T12:45:00-04:00",
+  "slug": "cargo-ship-fire-at-qingdao-shipyard-kills-25",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/asia-pacific/fire-cargo-vessel-china-shipyard-causes-major-casualties-state-media-reports-2026-09-10/",
+  "state": "International",
+  "tags": [
+    "Qingdao",
+    "cargo ship",
+    "shipyard fire",
+    "Ocean Melody"
+  ],
+  "topic": "breaking",
+  "topicLabel": "Breaking / Developing",
+  "trending": false,
+  "updatedAt": "2026-09-10T12:45:00-04:00",
+  "visualLabel": "Developing"
+}

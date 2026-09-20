@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "A federal appeals court in Boston declined Thursday to let the U.S. Postal Service implement new mail-ballot requirements while litigation continues, leaving a lower-court injunction in place ahead of the November election.",
+    "The rule would require states to provide lists of mail-ballot recipients and place unique barcodes on ballot envelopes. The Postal Service could refuse ballots that did not meet the requirements. A three-judge First Circuit panel said election regulation belongs primarily to states and Congress and cited the risk that voters could be disenfranchised if ballots were rejected.",
+    "The Justice Department argued that the requirements were modest mail-processing regulations and asked the court to pause the injunction. The Postal Service has said it acted lawfully. States challenging the rule contend that the executive branch lacks authority to impose the conditions and that election systems cannot be reworked safely so close to voting.",
+    "The administration has separately asked the Supreme Court to lift the injunction. Thursday’s ruling does not resolve the underlying lawsuit; it determines which rules apply while the case proceeds. All 50 states permit mail voting in at least some circumstances."
+  ],
+  "breaking": false,
+  "category": "breaking",
+  "city": "Boston",
+  "dek": "The Boston-based appeals court declined to pause an injunction against federal requirements involving voter lists and ballot barcodes before the November election.",
+  "developing": false,
+  "featured": false,
+  "headline": "First Circuit keeps block on new USPS mail-ballot rule",
+  "id": "breaking-first-circuit-usps-mail-ballot-rule-block-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Boston, MA",
+  "publishedAt": "2026-09-10T20:43:00-04:00",
+  "slug": "first-circuit-keeps-block-on-new-usps-mail-ballot-rule",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/us-appeals-court-rejects-trump-bid-implement-mail-in-voting-restrictions-2026-09-10/",
+  "state": "United States",
+  "tags": [
+    "First Circuit",
+    "USPS",
+    "mail ballots",
+    "elections"
+  ],
+  "topic": "breaking",
+  "topicLabel": "Breaking / Developing",
+  "trending": false,
+  "updatedAt": "2026-09-10T20:43:00-04:00",
+  "visualLabel": "Developing"
+}

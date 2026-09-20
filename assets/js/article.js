@@ -18,7 +18,7 @@
       if (Math.abs(new Date(item.updatedAt || item.publishedAt || 0).getTime() - anchor) < 14 * 86400000) score += 1;
       return { item: item, score: score };
     }).filter(function (row) { return row.score > 0; }).sort(function (a, b) {
-      return b.score - a.score || new Date(b.item.publishedAt) - new Date(a.item.publishedAt);
+      return b.score - a.score || api().compareArticles(a.item, b.item);
     }).slice(0, 5).map(function (row) { return row.item; });
   }
   function setMeta(kind, key, value) {
@@ -86,6 +86,20 @@
     });
   }
   function missing() { var loading = document.getElementById('article-loading'); if (loading) loading.hidden = true; var shell = document.getElementById('article-shell'); if (shell) shell.hidden = true; var target = document.getElementById('article-missing'); if (target) target.hidden = false; }
-  function load() { var slug = new URLSearchParams(window.location.search).get('slug'); if (!slug || !api().state || !api().state.articles.length) return; var article = api().state.articles.find(function (item) { return item.slug === slug; }); if (article) render(article, api().state.articles); else missing(); }
+  function load() {
+    var slug = new URLSearchParams(window.location.search).get('slug');
+    if (!slug || !api().state || !api().state.ready) return;
+    api().loadArticleBySlug(slug).then(function (article) { render(article, api().state.articles); }).catch(function (error) {
+      if (error && error.kind === 'network') {
+        var loading = document.getElementById('article-loading'); if (loading) loading.innerHTML = '<p class="empty-state">This story could not be loaded right now. Please try again.</p>';
+        return;
+      }
+      if (error && error.kind === 'malformed-data') {
+        var loading = document.getElementById('article-loading'); if (loading) loading.innerHTML = '<p class="empty-state">This story is temporarily unavailable.</p>';
+        return;
+      }
+      missing();
+    });
+  }
   document.addEventListener('DOMContentLoaded', load); document.addEventListener('ne-news-ready', load);
 }());

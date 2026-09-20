@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "IBM and NASA released an open-source artificial-intelligence model Thursday that is designed to help scientists analyze decades of lunar observations and prepare for longer-term exploration of the Moon.",
+    "The NASA-IBM Lunar Foundation Model was trained on more than 30 layers of data collected by nine instruments across four NASA missions, including the Lunar Reconnaissance Orbiter. It joins the partners’ Prithvi family of foundation models for geospatial, weather and other scientific work.",
+    "Researchers can use the system to identify possible ice deposits in permanently shadowed regions, map craters that may affect landing safety and study volcanic features. IBM and NASA said benchmark tests showed accuracy improvements of as much as 23% over widely used methods for certain lunar features.",
+    "Water ice is especially important because it could support drinking water, oxygen production and rocket fuel for future missions. The model does not replace scientific review or mission planning, but it can help teams sort large volumes of observation data more efficiently. NASA’s Artemis program currently plans to return astronauts to the Moon in 2028 as part of preparations for sustained lunar operations and eventual Mars missions."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "Washington",
+  "dek": "The open-source Lunar Foundation Model combines data from four NASA missions to help researchers identify resources, landing hazards and volcanic features.",
+  "developing": false,
+  "featured": false,
+  "headline": "IBM and NASA launch AI model to map lunar ice and craters",
+  "id": "tech-ibm-nasa-lunar-foundation-model-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Washington, DC",
+  "publishedAt": "2026-09-10T10:45:00-04:00",
+  "slug": "ibm-and-nasa-launch-ai-model-to-map-lunar-ice-and-craters",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/science/ibm-nasa-launch-ai-model-help-map-ice-craters-moon-2026-09-10/",
+  "state": "INTL",
+  "tags": [
+    "IBM",
+    "NASA",
+    "artificial intelligence",
+    "Moon"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-10T10:45:00-04:00",
+  "visualLabel": "Space AI"
+}

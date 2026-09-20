@@ -1,0 +1,32 @@
+{
+  "analysis": true,
+  "archive": true,
+  "author": "NorthEast News Archive Desk",
+  "body": [
+    "Archive explainer: New England startups navigate the distance between demo and business.",
+    "Backdated context piece; recheck current records before republishing as live news."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "dek": "Backdated archive brief: New England startups navigate the distance between demo and business.",
+  "developing": false,
+  "featured": false,
+  "headline": "New England startups navigate the distance between demo and business",
+  "id": "archive-026",
+  "image": null,
+  "imageAlt": "",
+  "location": "New England tech watch",
+  "publishedAt": "2026-09-01T14:00:00-04:00",
+  "slug": "tech-new-england-startups-navigate-the-distance-between-demo-and-business",
+  "state": "MA",
+  "tags": [
+    "tech",
+    "archive",
+    "new england"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-01T14:00:00-04:00",
+  "visualLabel": "Tech"
+}

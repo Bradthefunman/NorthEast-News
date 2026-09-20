@@ -1,0 +1,34 @@
+{
+  "analysis": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Indian space startup GalaxEye has received a U.S. patent for satellite-imaging technology that synchronizes optical and radar sensors.",
+    "The system is designed to capture both types of data at the same time and location. Optical cameras can produce familiar, detailed images but are limited by darkness and clouds, while radar can operate at night and through many weather conditions. Combining them can make Earth-observation data more consistent.",
+    "GalaxEye says possible uses include disaster response, agriculture, insurance and security. The company, founded by engineers from the Indian Institute of Technology Madras, has raised about $21 million and plans a constellation of 30 satellites over five years. It also acquired Bengaluru spacecraft-engineering company StarOps.",
+    "A patent protects the covered invention in the United States but does not by itself prove commercial adoption or performance at constellation scale. GalaxEye still must build, launch and operate the planned satellites. The award is nevertheless a concrete step as private space companies compete to deliver more frequent and weather-resilient imagery."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "dek": "The Indian space startup says its technology synchronizes two sensor types to capture more consistent Earth-observation data through darkness and clouds.",
+  "developing": false,
+  "featured": false,
+  "headline": "GalaxEye wins U.S. patent for combined radar-optical satellite imaging",
+  "id": "tech-galaxeye-us-imaging-patent-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Bengaluru, India",
+  "publishedAt": "2026-09-09T02:41:00-04:00",
+  "slug": "galaxeye-wins-us-patent-for-combined-radar-optical-satellite-imaging",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/science/indian-space-startup-galaxeye-wins-us-patent-satellite-imaging-technology-2026-09-08/",
+  "state": "International",
+  "tags": [
+    "GalaxEye",
+    "satellite imaging",
+    "space technology",
+    "patent"
+  ],
+  "trending": false,
+  "updatedAt": "2026-09-09T02:41:00-04:00",
+  "visualLabel": "Space technology"
+}

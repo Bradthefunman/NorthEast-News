@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Chinese artificial-intelligence chipmakers are raising indicated prices for current and next-generation processors as high-bandwidth memory becomes more expensive and harder to obtain, three people familiar with the discussions told Reuters.",
+    "Huawei increased the indicated price of its Ascend 950DT accelerator card to more than 250,000 yuan, about $37,255, according to two sources. That is 20% to 50% above quotes given two months earlier, depending on contract terms. Huawei has said the card is scheduled for availability in the fourth quarter of 2026.",
+    "Cambricon raised the indicated price of a planned chip tentatively called the 690 by 20% to 30%, two sources said. Smaller competitors MetaX and Iluvatar CoreX have made similar adjustments. The sources were not identified because the pricing discussions are private.",
+    "High-bandwidth memory is crucial for moving large quantities of data through AI accelerators. Export restrictions and reliance on gray-market supplies have increased pressure on Chinese producers seeking domestic alternatives to Nvidia. The new quotes may raise deployment costs for buyers and complicate efforts to expand locally produced AI computing capacity."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "Shanghai",
+  "dek": "Reuters sources say Huawei, Cambricon and smaller rivals are repricing accelerators as high-bandwidth memory costs rise.",
+  "developing": false,
+  "featured": false,
+  "headline": "Chinese AI chipmakers raise prices as memory shortage bites",
+  "id": "tech-china-ai-chip-prices-hbm-shortage-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "China",
+  "publishedAt": "2026-09-10T02:43:00-04:00",
+  "slug": "chinese-ai-chipmakers-raise-prices-as-memory-shortage-bites",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/asia-pacific/chinas-ai-chipmakers-raise-prices-high-bandwidth-memory-shortage-bites-2026-09-10/",
+  "state": "INTL",
+  "tags": [
+    "AI chips",
+    "Huawei",
+    "Cambricon",
+    "high-bandwidth memory"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-10T02:43:00-04:00",
+  "visualLabel": "Semiconductors"
+}

@@ -1,0 +1,40 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "South Korea’s expanded espionage law took effect Sunday, broadening the offense beyond acts involving North Korea to include activity tied to any foreign country or equivalent organization. The change is intended to strengthen protection for semiconductors and other strategic technologies as international competition intensifies.",
+    "The revised law establishes a minimum three-year prison sentence for espionage offenses. Lawmakers passed it on February 26, and it was promulgated on March 12 before a six-month transition period. South Korea’s National Intelligence Service has identified semiconductors, displays, batteries and artificial intelligence among the sectors that could receive greater protection.",
+    "Under the previous framework, prosecutors often relied on trade-secret or industrial-technology statutes when alleged leaks involved countries other than North Korea. The broader definition gives investigators another national-security route, though cases will still depend on evidence connecting conduct to a foreign state or organization. The law arrives after several high-profile investigations involving alleged transfers of sensitive manufacturing knowledge."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "tech",
+  "city": "Seoul",
+  "dek": "The revised statute broadens offenses beyond North Korea to cover conduct involving any foreign country or equivalent organization.",
+  "developing": false,
+  "featured": false,
+  "headline": "South Korea expands espionage law to protect strategic technology",
+  "id": "tech-south-korea-expanded-espionage-law-chips-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Seoul, South Korea",
+  "publishedAt": "2026-09-12T20:43:00-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "tech-south-korea-expanded-espionage-law-chips",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/china/south-koreas-expanded-espionage-law-takes-effect-amid-push-protect-chip-2026-09-13/",
+  "state": "South Korea",
+  "tags": [
+    "South Korea",
+    "semiconductors",
+    "technology security",
+    "espionage law"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-12T20:43:00-04:00",
+  "visualLabel": "Technology security"
+}

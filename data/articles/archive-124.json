@@ -1,0 +1,32 @@
+{
+  "analysis": true,
+  "archive": true,
+  "author": "NorthEast News Archive Desk",
+  "body": [
+    "Archive explainer: The new economics of building with large language models.",
+    "Backdated context piece; recheck current records before republishing as live news."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "dek": "Backdated archive brief: The new economics of building with large language models.",
+  "developing": false,
+  "featured": false,
+  "headline": "The new economics of building with large language models",
+  "id": "archive-124",
+  "image": null,
+  "imageAlt": "",
+  "location": "New England tech watch",
+  "publishedAt": "2026-08-08T08:00:00-04:00",
+  "slug": "tech-the-new-economics-of-building-with-large-language-models",
+  "state": "MA",
+  "tags": [
+    "tech",
+    "archive",
+    "new england"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-08-08T08:00:00-04:00",
+  "visualLabel": "Tech"
+}

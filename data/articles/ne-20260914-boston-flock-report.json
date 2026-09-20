@@ -1,0 +1,40 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Boston’s 2025 Surveillance Technology Report says Flock Safety distributed data in a way that conflicted with promises made to the city, WBUR reported Monday. The Boston Police Department’s pilot ran for 156 days, from April 1 through Sept. 4, 2025, and used 45 license-plate and vehicle-recognition cameras at no cost.",
+    "Within three days of the pilot’s start, Boston police learned that other agencies could access license-plate and vehicle information because of a Flock configuration error. The city’s report does not establish which agencies accessed the information or how many drivers were affected.",
+    "After the system was secured, Boston police received 77 access requests from agencies including the State Department, ATF, DEA and police departments in Massachusetts and Maine. The department and city said they will not continue using Flock. The episode underscores the importance of access controls and clear data-sharing limits in public surveillance programs."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "massachusetts",
+  "city": "Boston",
+  "dek": "A city review says a Flock Safety error briefly allowed outside agencies to access vehicle information collected during Boston’s camera pilot.",
+  "developing": false,
+  "featured": false,
+  "headline": "Boston report details Flock data-sharing failure during police pilot",
+  "id": "ne-20260914-boston-flock-report",
+  "image": null,
+  "imageAlt": null,
+  "location": "Boston, Massachusetts",
+  "publishedAt": "2026-09-14T18:52:33-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "ma-boston-flock-data-sharing-report",
+  "sourceName": "WBUR",
+  "sourceUrl": "https://www.wbur.org/news/2026/09/14/flock-boston-police-pilot-surveillance-technology-report",
+  "state": "MA",
+  "tags": [
+    "Massachusetts",
+    "Boston",
+    "policing",
+    "surveillance",
+    "privacy"
+  ],
+  "topic": "massachusetts",
+  "topicLabel": "Massachusetts",
+  "trending": false,
+  "updatedAt": "2026-09-14T18:52:33-04:00"
+}

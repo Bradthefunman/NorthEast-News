@@ -1,0 +1,40 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Users located in Houthi-held northern Yemen attempted to use Anthropic’s Claude artificial-intelligence system to develop advanced missile technology, the company said in a new threat report. Anthropic did not identify the users or say they were members of the armed group, so the attribution is based on location and the activity the company observed.",
+    "The accounts sought assistance involving hypersonic missiles and guided warheads. Anthropic said the effort appeared unsuccessful: after a failed rocket test, the users returned to Claude with questions about what had gone wrong. They had nonetheless assembled an offline simulation toolkit before Anthropic detected and blocked the activity.",
+    "The episode illustrates how general-purpose AI can lower the barrier to organizing complex technical work even when it does not produce a functioning weapon. Anthropic said it shared its findings with public- and private-sector partners. The disclosure arrives as the Houthis expand their regional reach and as AI developers face pressure to demonstrate that monitoring systems can identify high-risk military and dual-use requests."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "tech",
+  "city": "Sanaa",
+  "dek": "The company said accounts in Houthi-held territory tried to develop missile technology but appeared unsuccessful and were blocked.",
+  "developing": false,
+  "featured": false,
+  "headline": "Anthropic says Yemen-based users sought advanced weapons help from Claude",
+  "id": "tech-anthropic-yemen-ai-weapons-attempt-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Houthi-held northern Yemen",
+  "publishedAt": "2026-09-12T12:41:00-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "tech-anthropic-yemen-ai-weapons-attempt",
+  "sourceName": "Associated Press",
+  "sourceUrl": "https://apnews.com/article/9b20934e031ff3d99dd8bb49d85d97a9",
+  "state": "International",
+  "tags": [
+    "Anthropic",
+    "Claude",
+    "Artificial Intelligence",
+    "Yemen"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-12T12:41:00-04:00",
+  "visualLabel": "AI Security"
+}

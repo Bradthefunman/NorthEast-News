@@ -1,0 +1,39 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "More U.S. lawmakers are calling for rules governing advanced artificial-intelligence systems after two Anthropic researchers publicly warned about the possibility of catastrophic harm. The responses came from members of both parties, Reuters reported.",
+    "Anthropic researcher Jacob Coxon said he had resigned and believed the technology could become an extinction risk before the decade ends. Anthropic scientist Evan Hubinger backed the broader warning. Their statements are forecasts, not documented outcomes, but they intensified an existing policy debate over fast-improving AI agents.",
+    "Senate Majority Leader John Thune and Senator Amy Klobuchar are working on legislation addressing high-impact risks. Klobuchar said developers should work with government experts to verify and test systems. A bipartisan House group has separately proposed independent security audits for the most powerful models, with accreditation overseen by the Commerce Department.",
+    "President Donald Trump said Thursday that he was not concerned about AI causing human extinction and emphasized competition with China. Anthropic said it would continue testing models for dangerous capabilities in areas including cybersecurity and biology. The competing positions leave Congress debating both the scope and timing of oversight."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "Washington",
+  "dek": "Members of both parties cited catastrophic-risk concerns as Senate and House proposals focus on testing and independent audits.",
+  "developing": false,
+  "featured": false,
+  "headline": "U.S. lawmakers renew AI-rule push after Anthropic researchers’ warnings",
+  "id": "tech-us-lawmakers-ai-rules-anthropic-warnings-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Washington, D.C.",
+  "publishedAt": "2026-09-11T10:42:00-04:00",
+  "slug": "tech-us-lawmakers-ai-rules-anthropic-warnings",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/openai-faces-senate-probe-into-hugging-face-incident-axios-reports-2026-09-10/",
+  "state": "District of Columbia",
+  "tags": [
+    "artificial intelligence",
+    "Anthropic",
+    "Congress",
+    "AI safety",
+    "audits"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-11T10:42:00-04:00",
+  "visualLabel": "AI Policy"
+}

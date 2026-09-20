@@ -1,0 +1,40 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Hyundai Motor Group plans to launch vehicles using its proprietary driver-assistance software in late 2029, two years later than originally scheduled. In the meantime, the South Korean automaker will work with Nvidia to introduce Level 2+ and Level 2++ assistance systems in 2028.",
+    "Hyundai says it will co-design the interim technology and use data gathered from it to train and refine its own platform, called Atria. Vehicles using Nvidia’s Hyperion 10 platform will initially rely on cameras, ultrasonic sensors and radar instead of more expensive lidar. Level 2 systems can automate more driving tasks, but still require a driver to supervise the vehicle.",
+    "The schedule change illustrates the difficulty of building automated-driving software internally while established automakers compete with Tesla and Chinese rivals. Hyundai and Kia together sell more than 7 million vehicles annually, giving the group a large fleet from which to collect training data. Hyundai’s Nvidia collaboration also extends beyond vehicles to AI data centers and humanoid robotics through Boston Dynamics."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "tech",
+  "city": "Seoul",
+  "dek": "The automaker will use Nvidia technology for advanced assistance in 2028 while training its proprietary Atria platform.",
+  "developing": false,
+  "featured": false,
+  "headline": "Hyundai delays in-house driver-assist system to late 2029",
+  "id": "tech-hyundai-driver-assist-atria-delay-2029-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Seoul, South Korea",
+  "publishedAt": "2026-09-12T20:43:00-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "tech-hyundai-driver-assist-atria-delay-2029",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/autos-transportation/hyundai-motor-roll-out-in-house-driver-assist-system-2029-2026-09-13/",
+  "state": "South Korea",
+  "tags": [
+    "Hyundai",
+    "Nvidia",
+    "driver assistance",
+    "automotive technology"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-12T20:43:00-04:00",
+  "visualLabel": "Autonomous driving"
+}
