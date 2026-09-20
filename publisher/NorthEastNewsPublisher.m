@@ -153,7 +153,7 @@ static NSString * const NENErrorDomain = @"com.northeastnews.publisher";
 }
 
 - (void)emitRepoState:(NSString *)message {
-    NSMutableDictionary *payload = [@{ @"type": @"repo", @"repoPath": self.repositoryPath ?: @"", @"config": [self readConfig], @"articles": [self readArticles], @"drafts": [self loadDrafts], @"states": [self stateValues] } mutableCopy];
+    NSMutableDictionary *payload = [@{ @"type": @"repo", @"repoPath": self.repositoryPath ?: @"", @"config": [self readConfig], @"articles": [self readArticles], @"drafts": [self loadDrafts], @"states": [self stateValues], @"runtime": [self runtimeReadiness] } mutableCopy];
     if (message) payload[@"message"] = message;
     [self emit:payload];
 }
@@ -190,8 +190,16 @@ static NSString * const NENErrorDomain = @"com.northeastnews.publisher";
     return record;
 }
 - (void)loadArticleForEditing:(NSString *)articleId {
+    NSDictionary *catalogRecord = nil;
+    for (NSDictionary *record in [self readArticles]) if ([[self text:record[@"id"]] isEqualToString:[self text:articleId]]) { catalogRecord = record; break; }
+    if (!catalogRecord) { [self sendError:[NSString stringWithFormat:@"The catalog entry for article %@ is missing. Refresh the repository and try again.", [self text:articleId]] action:nil]; return; }
     NSDictionary *article = [self readArticleById:articleId];
-    if (!article) { [self sendError:@"That article file could not be loaded." action:nil]; return; }
+    if (!article) { [self sendError:[NSString stringWithFormat:@"The article file for %@ is missing or malformed.", [self text:articleId]] action:nil]; return; }
+    NSString *catalogSlug = [self text:catalogRecord[@"slug"]], *articleSlug = [self text:article[@"slug"]];
+    if (![[self text:article[@"id"]] isEqualToString:[self text:articleId]] || !catalogSlug.length || ![articleSlug isEqualToString:catalogSlug]) {
+        [self sendError:[NSString stringWithFormat:@"The article file for %@ does not match its catalog record (expected slug %@, found %@).", [self text:articleId], catalogSlug.length ? catalogSlug : @"missing", articleSlug.length ? articleSlug : @"missing"] action:nil];
+        return;
+    }
     [self emit:@{ @"type": @"article-loaded", @"article": article }];
 }
 
@@ -306,7 +314,10 @@ static NSString * const NENErrorDomain = @"com.northeastnews.publisher";
     if (!self.repositoryPath.length) NEN_FAIL(@"Choose the NorthEast News repository before publishing.");
     if (![[NSFileManager defaultManager] fileExistsAtPath:[self.repositoryPath stringByAppendingPathComponent:@".git"]]) NEN_FAIL(@"The selected folder is not a Git repository.");
     NSString *git = [self resolveCommand:@"git"], *node = [self resolveCommand:@"node"];
-    if (!git || !node) NEN_FAIL(@"Git and Node.js are required to publish the generated article catalog and search shards.");
+    if (!git) NEN_FAIL(@"Git is unavailable. Install Git or set NEN_NEWS_GIT to an executable Git binary.");
+    if (!node) NEN_FAIL(@"Publishing is unavailable because the bundled Node.js runtime is missing. Rebuild the app with NEN_NEWS_NODE set to a compatible arm64 Node binary.");
+    NSDictionary *nodeVersion = [self run:node arguments:@[@"--version"] cwd:self.repositoryPath];
+    if ([nodeVersion[@"status"] intValue] != 0) NEN_FAIL(([NSString stringWithFormat:@"Publishing is unavailable because the Node.js runtime could not start. %@", [self commandError:nodeVersion]]));
     [self status:@"Checking repository…" detail:@"Looking for unrelated local changes."];
     NSDictionary *gitStatus=[self run:git arguments:@[@"status",@"--porcelain"] cwd:self.repositoryPath];
     if ([gitStatus[@"status"] intValue]!=0) NEN_FAIL([self commandError:gitStatus]);
@@ -329,8 +340,8 @@ static NSString * const NENErrorDomain = @"com.northeastnews.publisher";
     if (priorFeatured) [publishPaths addObject:[NSString stringWithFormat:@"data/articles/%@.json",[self text:priorFeatured[@"id"]]]];
     NSString *publishedMonth=[[self text:article[@"publishedAt"]] length]>=7?[[self text:article[@"publishedAt"]] substringToIndex:7]:@"";
     if (publishedMonth.length==7) [publishPaths addObject:[NSString stringWithFormat:@"data/search/%@.json",publishedMonth]];
-    NSString *searchFolder=[self.repositoryPath stringByAppendingPathComponent:@"data/search"];
-    for (NSString *name in [[NSFileManager defaultManager] contentsOfDirectoryAtPath:searchFolder error:nil] ?: @[]) if ([name.pathExtension isEqualToString:@"json"]) { NSString *relative=[@"data/search/" stringByAppendingString:name]; if (![publishPaths containsObject:relative]) [publishPaths addObject:relative]; }
+    NSString *existingMonth=[[self text:existing[@"publishedAt"]] length]>=7?[[self text:existing[@"publishedAt"]] substringToIndex:7]:@"";
+    if (existingMonth.length==7) [publishPaths addObject:[NSString stringWithFormat:@"data/search/%@.json",existingMonth]];
     NSMutableDictionary *backups=[NSMutableDictionary dictionary];
     for (NSString *relative in publishPaths) { NSData *data=[NSData dataWithContentsOfURL:[repoURL URLByAppendingPathComponent:relative]]; backups[relative]=data?:[NSNull null]; }
     NSString *createdImagePath=nil; BOOL commitCreated=NO;
@@ -367,7 +378,7 @@ static NSString * const NENErrorDomain = @"com.northeastnews.publisher";
         NSDictionary *publishStatus=[self run:git arguments:@[@"status",@"--porcelain"] cwd:self.repositoryPath]; NSString *statusText=[self text:publishStatus[@"output"]];
         for (NSString *line in [statusText componentsSeparatedByCharactersInSet:NSCharacterSet.newlineCharacterSet]) {
             if (line.length<4) continue; NSString *relative=[line substringFromIndex:3];
-            BOOL allowed=[publishPaths containsObject:relative] || [relative hasPrefix:@"data/search/"];
+            BOOL allowed=[publishPaths containsObject:relative];
             if (!allowed) { NSString *message=[NSString stringWithFormat:@"Unexpected file changed during publish: %@",relative]; NEN_FAIL_AFTER_BACKUP(message); }
             if (![allow containsObject:relative]) [allow addObject:relative];
         }
@@ -512,12 +523,24 @@ static NSString * const NENErrorDomain = @"com.northeastnews.publisher";
 
 - (NSString *)resolveCommand:(NSString *)name {
     NSString *envKey = [name isEqualToString:@"node"] ? @"NEN_NEWS_NODE" : @"NEN_NEWS_GIT";
+    if ([name isEqualToString:@"node"]) {
+        NSString *bundled = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"runtime/node"];
+        if ([[NSFileManager defaultManager] isExecutableFileAtPath:bundled]) return bundled;
+    }
     NSString *envPath = NSProcessInfo.processInfo.environment[envKey];
     if (envPath.length && [[NSFileManager defaultManager] isExecutableFileAtPath:envPath]) return envPath;
     NSArray *candidates = [name isEqualToString:@"git"] ? @[@"/usr/bin/git", @"/opt/homebrew/bin/git", @"/usr/local/bin/git"] : @[@"/opt/homebrew/bin/node", @"/usr/local/bin/node", @"/usr/bin/node"];
     for (NSString *path in candidates) if ([[NSFileManager defaultManager] isExecutableFileAtPath:path]) return path;
     NSDictionary *which = [self run:@"/usr/bin/which" arguments:@[name] cwd:NSFileManager.defaultManager.currentDirectoryPath]; NSString *path = [self text:which[@"output"]];
     return [which[@"status"] intValue] == 0 && [[NSFileManager defaultManager] isExecutableFileAtPath:path] ? path : nil;
+}
+
+- (NSDictionary *)runtimeReadiness {
+    NSString *node = [self resolveCommand:@"node"];
+    if (!node) return @{ @"ready": @NO, @"message": @"Bundled Node.js runtime unavailable" };
+    NSDictionary *version = [self run:node arguments:@[@"--version"] cwd:NSFileManager.defaultManager.currentDirectoryPath];
+    if ([version[@"status"] intValue] != 0) return @{ @"ready": @NO, @"message": [NSString stringWithFormat:@"Node.js could not start: %@", [self commandError:version]] };
+    return @{ @"ready": @YES, @"version": [self text:version[@"output"]], @"path": node };
 }
 
 - (NSString *)commandError:(NSDictionary *)result { NSString *value = [self text:result[@"error"]]; return value.length ? value : [self text:result[@"output"]]; }

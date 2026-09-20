@@ -26,7 +26,7 @@ The publisher:
 5. writes one stable-id article file, updates only the prior featured article when needed, then regenerates the catalog, affected search shard(s), sitemap and robots;
 6. stages only the dynamic transaction allowlist and commits and pushes through the repository's configured Git remote.
 
-If Node is unavailable on the Mac, the app uses a small fallback that mirrors the repository's current sitemap/robots generation and performs the same core validation. GitHub Pages still runs the canonical Node scripts on deployment.
+The release app bundles a compatible arm64 Node.js runtime inside the application bundle and verifies it with `node --version` before publishing. `NEN_NEWS_NODE` is available as an explicit build-time override for `publisher/build-app.sh`; the finished app does not depend on the build machine's runtime path.
 
 Drafts are local-only files under `~/Library/Application Support/NorthEast News Publisher/drafts/`; they are never written to the repository or published automatically.
 
