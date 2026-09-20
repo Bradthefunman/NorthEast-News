@@ -326,6 +326,8 @@ static NSString * const NENErrorDomain = @"com.northeastnews.publisher";
     NSString *target=[NSString stringWithFormat:@"data/articles/%@.json",[self text:article[@"id"]]];
     NSMutableArray *publishPaths=[NSMutableArray arrayWithObjects:target,@"data/article-index.json",@"data/search/manifest.json",@"sitemap.xml",@"robots.txt",nil];
     if (priorFeatured) [publishPaths addObject:[NSString stringWithFormat:@"data/articles/%@.json",[self text:priorFeatured[@"id"]]]];
+    NSString *publishedMonth=[[self text:article[@"publishedAt"]] length]>=7?[[self text:article[@"publishedAt"]] substringToIndex:7]:@"";
+    if (publishedMonth.length==7) [publishPaths addObject:[NSString stringWithFormat:@"data/search/%@.json",publishedMonth]];
     NSString *searchFolder=[self.repositoryPath stringByAppendingPathComponent:@"data/search"];
     for (NSString *name in [[NSFileManager defaultManager] contentsOfDirectoryAtPath:searchFolder error:nil] ?: @[]) if ([name.pathExtension isEqualToString:@"json"]) { NSString *relative=[@"data/search/" stringByAppendingString:name]; if (![publishPaths containsObject:relative]) [publishPaths addObject:relative]; }
     NSMutableDictionary *backups=[NSMutableDictionary dictionary];
