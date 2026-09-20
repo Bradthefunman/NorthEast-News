@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Everett City Hall will remain closed to the public through Thursday while the city responds to a cybersecurity incident affecting its internal network and technology systems.",
+    "Basic municipal services are being offered from 9 a.m. to 5 p.m. at the Connolly Center, 90 Chelsea Street. The temporary operation includes the treasurer and collector, assessor, city clerk, engineering, auditing, procurement, inspectional services, housing assistance and parking. Residents seeking help can call 311.",
+    "The city said the incident occurred Sunday, September 6. Cybersecurity specialists, government partners and law enforcement are investigating which systems were affected. Officials said there is no known public-safety emergency tied to the incident and did not announce whether data was accessed.",
+    "Police, fire, 911, public works, schools and libraries are continuing normal operations. Some online services, including building-permit applications and certain payments, remain available. City officials said they are working to restore systems safely and will post updates about City Hall’s reopening. Residents visiting the Connolly Center can use Spring Street parking and an accessible rear entrance."
+  ],
+  "breaking": false,
+  "category": "massachusetts",
+  "city": "Everett",
+  "dek": "City Hall remains closed through Thursday, with basic municipal services available at the Connolly Center while investigators assess affected systems.",
+  "developing": false,
+  "featured": false,
+  "headline": "Everett shifts city services during cybersecurity closure",
+  "id": "ma-everett-city-hall-cyber-services-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Everett, MA",
+  "publishedAt": "2026-09-10T02:43:00-04:00",
+  "slug": "everett-shifts-city-services-during-cybersecurity-closure",
+  "sourceName": "City of Everett",
+  "sourceUrl": "https://cityofeverett.com/city-hall-remains-closed-wednesday-thursday-cybersecurity/",
+  "state": "MA",
+  "tags": [
+    "Everett",
+    "cybersecurity",
+    "City Hall",
+    "municipal services"
+  ],
+  "topic": "massachusetts",
+  "topicLabel": "Massachusetts",
+  "trending": false,
+  "updatedAt": "2026-09-10T02:43:00-04:00",
+  "visualLabel": "Public Services"
+}

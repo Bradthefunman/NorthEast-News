@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "OpenAI says it is deepening work with Samsung Electronics on next-generation chips as the companies expand cooperation around artificial intelligence infrastructure and enterprise services.",
+    "Harrison Kim, general manager of OpenAI Korea, said at a Seoul press conference that the chip collaboration is making progress, Reuters reported. He did not provide technical specifications, a production timetable or financial terms, leaving the scope of the planned silicon unclear.",
+    "OpenAI has separately identified Samsung and SK Hynix as prospective memory suppliers for the Stargate data-center project through letters of intent. Advanced memory is a key constraint in AI systems because large models require chips that can move and store data at very high speeds.",
+    "OpenAI also said ChatGPT Enterprise usage in South Korea grew 28-fold over the past year and described Samsung as a major adopter across internal functions. Samsung declined to confirm customer-specific details in Reuters’ report. The announcement signals closer coordination, but it is not yet a product launch; manufacturing commitments, chip design and deployment milestones remain to be disclosed."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "Seoul",
+  "dek": "OpenAI says the companies are advancing joint semiconductor work and expanding enterprise AI cooperation in South Korea.",
+  "developing": false,
+  "featured": false,
+  "headline": "OpenAI and Samsung deepen work on next-generation chips",
+  "id": "tech-openai-samsung-next-generation-chips-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Seoul, South Korea",
+  "publishedAt": "2026-09-09T03:41:00-04:00",
+  "slug": "openai-and-samsung-deepen-work-on-next-generation-chips",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/asia-pacific/openai-says-working-with-samsung-next-generation-chips-deepening-cooperation-2026-09-09/",
+  "state": "International",
+  "tags": [
+    "OpenAI",
+    "Samsung",
+    "semiconductors",
+    "South Korea"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-09T03:41:00-04:00",
+  "visualLabel": "AI chips"
+}

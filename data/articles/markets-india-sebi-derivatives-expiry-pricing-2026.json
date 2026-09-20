@@ -1,0 +1,41 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "India’s market regulator has proposed changing how settlement prices are set for derivatives on expiry days after sharp closing moves raised concerns about the new auction process. The Securities and Exchange Board of India is seeking public comment on two alternatives for calculating the final value used to settle expiring contracts.",
+    "One option would blend prices from the final 30 minutes of regular trading with those from the 10-minute Closing Auction Session. The other would return, for at least a year, to using only the final 30 minutes of normal trading and exclude the auction. SEBI also proposed limiting cancellation of orders placed more than 1% away from the indicative price and shortening the post-close window from 10 minutes to five.",
+    "The regulator said the auction has generated volatility around expiry and is considering withholding an indicative index close during that period. The consultation does not immediately change settlement rules, and market participants have until October 3 to submit comments. The final approach will matter to exchanges, brokers and investors because small closing-price moves can materially affect large derivatives positions."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "markets",
+  "city": "Mumbai",
+  "dek": "SEBI is consulting on two alternatives after sharp end-of-day swings raised concerns about how expiring contracts are settled.",
+  "developing": false,
+  "featured": false,
+  "headline": "India proposes overhaul of derivatives expiry pricing",
+  "id": "markets-india-sebi-derivatives-expiry-pricing-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Mumbai, India",
+  "publishedAt": "2026-09-12T04:43:00-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "markets-india-sebi-derivatives-expiry-pricing",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/india/india-regulator-plans-changes-set-expiry-days-settlement-prices-derivatives-2026-09-12/",
+  "state": "India",
+  "tags": [
+    "SEBI",
+    "India",
+    "Derivatives",
+    "Market Regulation",
+    "Settlement Prices"
+  ],
+  "topic": "markets",
+  "topicLabel": "Markets / Stocks",
+  "trending": false,
+  "updatedAt": "2026-09-12T04:43:00-04:00",
+  "visualLabel": "Regulation"
+}

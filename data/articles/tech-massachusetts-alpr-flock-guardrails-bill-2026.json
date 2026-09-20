@@ -1,0 +1,40 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Massachusetts lawmakers are considering new limits on automated license-plate readers as municipalities reconsider contracts with Flock Safety and residents raise privacy concerns. The ACLU of Massachusetts says 25 communities have canceled contracts or ended pilot programs during the past 18 months.",
+    "A bill filed by Watertown Rep. Steve Owens would establish driver-privacy rules for law-enforcement use of plate-reader data. A legislative summary says it would generally require a warrant to access data held by another entity, cap routine retention at 14 days and prohibit government use of the systems to monitor constitutionally protected activity. House members of the Transportation Committee endorsed the measure 11-0 in March, but it remains before Ways and Means.",
+    "The debate intensified after a Suffolk Superior Court judge ordered State Police to release camera-location records and audit logs sought by the ACLU. State Police says fewer than 2% of department members can query its system and that searches require training, a case reference and documented purpose. Flock says it supports privacy and accountability guardrails while preserving legitimate public-safety uses."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "tech",
+  "city": "Boston",
+  "dek": "A pending bill would limit data retention and require warrants for some outside database access as communities reconsider Flock contracts.",
+  "developing": false,
+  "featured": false,
+  "headline": "Massachusetts lawmakers weigh guardrails for license-plate readers",
+  "id": "tech-massachusetts-alpr-flock-guardrails-bill-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Boston, Massachusetts",
+  "publishedAt": "2026-09-12T12:41:00-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "tech-massachusetts-license-plate-reader-guardrails",
+  "sourceName": "NBC10 Boston / State House News Service",
+  "sourceUrl": "https://www.nbcboston.com/news/local/massachusetts-flock-camera-legislation/4011878/",
+  "state": "Massachusetts",
+  "tags": [
+    "Flock Safety",
+    "License Plate Readers",
+    "Privacy",
+    "Massachusetts Legislature"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-12T12:41:00-04:00",
+  "visualLabel": "Privacy Technology"
+}

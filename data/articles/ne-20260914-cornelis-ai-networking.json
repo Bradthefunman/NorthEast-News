@@ -1,0 +1,40 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Cornelis, an AI infrastructure company developing networking technology for AI chips, announced a $205 million funding round Monday, TechCrunch reported. The round was led by IAG Capital Partners.",
+    "Cornelis is working on the connections between processors that power large AI systems. Those links can affect how quickly data moves through a cluster and how efficiently companies can use expensive computing hardware. The company is positioning its technology as an alternative source of infrastructure as demand for AI servers grows.",
+    "The financing adds to a broader push by startups to challenge established suppliers around the AI hardware stack, including networking, memory and specialized processors. The announcement does not mean Cornelis will displace Nvidia or other incumbents; it signals investor interest in the supporting technology needed to build and operate larger AI systems."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "tech",
+  "city": null,
+  "dek": "The AI infrastructure company says its new funding will support networking technology designed to help AI chips communicate more efficiently.",
+  "developing": false,
+  "featured": false,
+  "headline": "Cornelis raises $205 million for AI chip networking technology",
+  "id": "ne-20260914-cornelis-ai-networking",
+  "image": null,
+  "imageAlt": null,
+  "location": "Santa Clara, California",
+  "publishedAt": "2026-09-14T18:52:33-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "tech-cornelis-ai-chip-networking-funding",
+  "sourceName": "TechCrunch",
+  "sourceUrl": "https://techcrunch.com/2026/09/14/ai-infrastructure-company-cornelis-raises-205m-to-chip-away-at-nvidias-dominance/",
+  "state": null,
+  "tags": [
+    "Tech",
+    "artificial intelligence",
+    "semiconductors",
+    "networking",
+    "funding"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-14T18:52:33-04:00"
+}

@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "U.S. Bancorp completed a live cross-border pilot using its proprietary dollar-backed USBDC stablecoin, Reuters reported Wednesday. The transaction moved value between the bank’s entities in North America and Europe over the Stellar blockchain.",
+    "The test covered functions that regulated financial institutions would need before using tokenized deposits or stablecoins more broadly. Those included minting and redeeming the digital token, as well as freezing assets and clawing them back when required by compliance or risk controls.",
+    "Stablecoins are digital tokens designed to maintain a fixed value, commonly by being backed with dollars or dollar-equivalent assets. Banks are exploring whether the technology can make certain transfers faster while preserving the identity checks, recordkeeping and controls expected in traditional payment systems.",
+    "The pilot does not amount to a broad public launch. It shows that U.S. Bancorp is testing how a bank-issued token could work across jurisdictions and internal systems. A separate consortium of large banks has said it plans a dollar stablecoin in the first half of 2027, adding momentum to competition over regulated digital payments."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "Minneapolis",
+  "dek": "The bank moved value between North American and European entities while testing compliance controls on the Stellar blockchain.",
+  "developing": false,
+  "featured": false,
+  "headline": "U.S. Bancorp tests dollar-backed stablecoin in cross-border transfer",
+  "id": "tech-us-bancorp-usbdc-stablecoin-pilot-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "United States",
+  "publishedAt": "2026-09-09T08:43:00-04:00",
+  "slug": "us-bancorp-tests-dollar-backed-stablecoin-in-cross-border-transfer",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/legal/transactional/us-bancorp-executes-first-live-transaction-using-dollar-backed-usbdc-stablecoin-2026-09-09/",
+  "state": "National",
+  "tags": [
+    "U.S. Bancorp",
+    "stablecoin",
+    "blockchain",
+    "payments"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-09T08:43:00-04:00",
+  "visualLabel": "Digital payments"
+}

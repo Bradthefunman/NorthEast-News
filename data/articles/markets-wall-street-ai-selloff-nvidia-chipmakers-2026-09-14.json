@@ -1,0 +1,41 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "U.S. stocks were lower in midday trading Monday as concerns about artificial-intelligence spending weighed on technology shares, Reuters reported. At 11:40 a.m. Eastern, the Dow Jones Industrial Average was down 0.23%, the S&P 500 had fallen 0.42% and the Nasdaq Composite was down 0.44%.",
+    "Nvidia was down about 3%, while Amazon fell more than 1%. Intel, AMD and Marvell were each down roughly 5% to 6% in the snapshot. The moves showed how quickly investor expectations around AI demand and competition can spread across both chipmakers and the large companies buying or building AI capacity.",
+    "Oil prices were also higher in the report, adding another variable for investors to weigh. The figures are a mid-session reading from Reuters and are not closing prices or a live quote after publication; markets can move materially before the trading day ends.",
+    "The session’s direction was not a final verdict on the technology sector, but it showed how concentrated AI exposure can amplify a market pullback."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "markets",
+  "city": "New York",
+  "dek": "U.S. stocks were lower in a midday snapshot as Nvidia and several semiconductor names fell amid renewed concern about the pace and payoff of AI investment.",
+  "developing": false,
+  "featured": false,
+  "headline": "Wall Street slides as AI anxiety pressures Nvidia and chip stocks",
+  "id": "markets-wall-street-ai-selloff-nvidia-chipmakers-2026-09-14",
+  "image": null,
+  "imageAlt": null,
+  "location": "Wall Street, New York",
+  "publishedAt": "2026-09-14T12:42:00-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "markets-wall-street-ai-selloff-nvidia-chipmakers",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/ai-warnings-knock-nasdaq-futures-pressure-tech-stocks-2026-09-14/",
+  "state": "New York",
+  "tags": [
+    "Wall Street",
+    "Nvidia",
+    "semiconductor stocks",
+    "AI investing"
+  ],
+  "topic": "markets",
+  "topicLabel": "Markets / Stocks",
+  "trending": false,
+  "updatedAt": "2026-09-14T12:42:00-04:00",
+  "visualLabel": "Market selloff"
+}

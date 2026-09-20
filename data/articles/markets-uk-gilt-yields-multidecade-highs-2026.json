@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "British government borrowing costs climbed to multi-decade highs Thursday as rising oil prices, firm U.S. inflation data and expectations for tighter monetary policy drove a broad bond-market selloff.",
+    "The 10-year gilt yield rose to 5.378%, its highest since July 2007, Reuters reported. Yields on 20- and 30-year debt reached 5.895% and 5.948%, respectively, their highest levels since 1998. Bond yields move inversely to prices.",
+    "Shorter maturities also sold off. The five-year yield recorded its largest one-day increase since May 15 and reached a three-year high near 4.95%, while the two-year yield rose to its highest since October 2023.",
+    "The Bank of England is expected to hold rates at its next meeting, but futures markets moved toward a greater likelihood of an increase in November as energy costs added to inflation concerns. These figures describe Thursday’s market levels and are not live quotes. The jump matters beyond trading desks because government yields influence mortgage pricing, corporate borrowing and the cost of servicing public debt. Investors will be watching whether energy prices stabilize and whether incoming inflation data validate expectations for additional central-bank tightening."
+  ],
+  "breaking": false,
+  "category": "markets",
+  "city": "London",
+  "dek": "Ten-year borrowing costs touched levels last seen in 2007, while 20- and 30-year yields reached their highest points since 1998.",
+  "developing": false,
+  "featured": false,
+  "headline": "UK bond yields reach multi-decade highs amid global selloff",
+  "id": "markets-uk-gilt-yields-multidecade-highs-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "United Kingdom",
+  "publishedAt": "2026-09-10T12:45:00-04:00",
+  "slug": "uk-bond-yields-reach-multi-decade-highs-amid-global-selloff",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/uk/uk-10-year-gilt-yield-hits-new-19-year-high-2026-09-10/",
+  "state": "International",
+  "tags": [
+    "UK gilts",
+    "bond yields",
+    "Bank of England",
+    "fixed income"
+  ],
+  "topic": "markets",
+  "topicLabel": "Markets / Stocks",
+  "trending": false,
+  "updatedAt": "2026-09-10T12:45:00-04:00",
+  "visualLabel": "Bond Markets"
+}

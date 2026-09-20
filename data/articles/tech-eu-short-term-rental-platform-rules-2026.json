@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "The European Commission proposed a common framework Wednesday that could allow cities to impose additional restrictions on Airbnb and other short-term rental platforms in areas facing acute housing pressure, Reuters reported.",
+    "The plan would use indicators such as high home-price-to-income ratios or sustained increases in housing costs to identify affected areas. Local restrictions would need to be supported by evidence, necessary for the stated goal, limited to specific geographic areas and non-retroactive.",
+    "European destinations including Paris, Barcelona and Venice have already adopted their own limits, producing a patchwork of rules and legal disputes. A shared framework is intended to give national and local governments clearer standards while addressing concerns that short-term rentals reduce the supply of homes available to residents.",
+    "Airbnb said Europe should also focus on increasing supply through construction and renovation. Technology trade group CCIA Europe raised concerns about oversight of local restrictions. The proposal is not yet law: it still requires approval from European Union member states and the European Parliament, and its practical effect will depend on the final text and how authorities apply it."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "Brussels",
+  "dek": "The plan would let cities target platforms such as Airbnb under evidence-based, geographically limited housing measures.",
+  "developing": false,
+  "featured": false,
+  "headline": "EU proposes common framework for tighter short-term rental rules",
+  "id": "tech-eu-short-term-rental-platform-rules-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Brussels, Belgium",
+  "publishedAt": "2026-09-09T09:41:00-04:00",
+  "slug": "eu-proposes-common-framework-for-tighter-short-term-rental-rules",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/airbnb-set-face-more-restrictions-eu-proposes-rules-tackle-housing-crunch-2026-09-09/",
+  "state": "International",
+  "tags": [
+    "Airbnb",
+    "European Union",
+    "short-term rentals",
+    "platform regulation"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-09T09:41:00-04:00",
+  "visualLabel": "Platform rules"
+}

@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Australian shares closed at their lowest level in more than two months Friday as a sharp decline in mining companies outweighed gains in financial stocks. The S&P/ASX 200 ended 0.9% lower at 8,741.20, its weakest close since July 2, according to Reuters.",
+    "The benchmark lost 2.1% for the week, its steepest weekly decline since mid-March. Mining stocks fell 3.7%, with BHP down 4.1% and Rio Tinto down 3.5%. Lithium producers were also hit: Liontown Resources dropped 8.6% and PLS fell 7.4%. These are closing figures from Friday’s session, not live prices.",
+    "Investors were balancing commodity-company weakness against higher energy costs and rising interest-rate expectations. Oil above $100 a barrel added to concern that inflation could remain elevated. Australian government bond yields moved above 5%, their highest level since mid-2011, increasing the pressure on rate-sensitive valuations.",
+    "Financial shares provided a partial offset, gaining 1.1%. The split session showed how the current oil and bond-market shock can affect sectors differently: banks may benefit from parts of the rate environment, while resource shares remain exposed to commodity demand, currency moves and shifts in global risk appetite."
+  ],
+  "breaking": false,
+  "category": "markets",
+  "city": "Sydney",
+  "dek": "The S&P/ASX 200 ended Friday down 0.9%, with mining stocks leading losses as elevated oil prices and bond yields weighed on sentiment.",
+  "developing": false,
+  "featured": false,
+  "headline": "Australian shares close at two-month low as miners retreat",
+  "id": "markets-australian-shares-two-month-low-miners-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Sydney, Australia",
+  "publishedAt": "2026-09-11T04:43:00-04:00",
+  "slug": "australian-shares-close-at-two-month-low-as-miners-retreat",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/finance/australian-shares-slump-two-month-low-miners-fall-2026-09-11/",
+  "state": "Australia",
+  "tags": [
+    "Australia",
+    "ASX 200",
+    "mining stocks",
+    "bond yields"
+  ],
+  "topic": "markets",
+  "topicLabel": "Markets / Stocks",
+  "trending": false,
+  "updatedAt": "2026-09-11T04:43:00-04:00",
+  "visualLabel": "Market Close"
+}

@@ -8,11 +8,11 @@ From the repository root run:
 
     python3 -m http.server 8080
 
-Open http://localhost:8080. The site reads articles from data/articles.json.
+Open http://localhost:8080. The site reads a lightweight catalog from data/article-index.json and loads full article records only on article pages.
 
 ## Architecture
 
-index.html is the homepage shell. article.html is the canonical article shell; normal stories are data objects, not hand-coded pages. assets/js/app.js owns shared navigation, data loading, homepage/archive rendering, search, breaking/developing logic, footer, forms and path handling. assets/js/article.js owns article rendering, metadata, NewsArticle JSON-LD, sharing and scored related stories. assets/js/landing.js renders state pages and assets/js/category.js renders category pages from the same article data. data/site-config.json centralizes the site URL, data paths and form endpoints. data/businesses.json is intentionally empty until legitimate listings are reviewed. scripts/generate-sitemap.js generates sitemap.xml and robots.txt from the URL and every article slug.
+index.html is the homepage shell. article.html is the canonical article shell; normal stories are data objects, not hand-coded pages. assets/js/app.js owns shared navigation, data loading, homepage/archive rendering, search, breaking/developing logic, footer, forms and path handling. assets/js/article.js owns article rendering, metadata, NewsArticle JSON-LD, sharing and scored related stories. assets/js/landing.js renders state pages and assets/js/category.js renders category pages from the same article data. data/site-config.json centralizes the site URL, article catalog/search paths and form endpoints. `scripts/article-store.js` owns the storage contract; individual article files live under `data/articles/`, and `data/article-index.json` is generated from them. data/businesses.json is intentionally empty until legitimate listings are reviewed. scripts/generate-sitemap.js generates sitemap.xml and robots.txt from the URL and every article slug.
 
 templates/business-listing.json documents the directory record shape: name, category, city, state, description, website, phone, address, logo and featured. It is not a public listing.
 
@@ -22,7 +22,7 @@ templates/business-listing.json documents the directory record shape: name, cate
 
 ## Automated publishing
 
-Copy templates/new-story.json, replace placeholders with verified original story data, append it to data/articles.json, and do not manually add article HTML. Set breaking, developing, featured and archive only when editorially true. Run the JSON check, node --check commands, node scripts/validate-site.js and node scripts/generate-sitemap.js. The site automatically supplies responsive article presentation, dates, source attribution, share buttons, Web Share support, related stories, search visibility, canonical URL, Open Graph metadata and NewsArticle schema.
+Copy templates/new-story.json into `data/articles/<stable-id>.json`, replace placeholders with verified original story data, and do not manually add article HTML. Set breaking, developing, featured and archive only when editorially true. Then run `node scripts/generate-catalog.js`, `node scripts/generate-search.js`, `node scripts/validate-site.js` and `node scripts/generate-sitemap.js`. The catalog is generated output, not a hand-edited source of truth. The site automatically supplies responsive article presentation, dates, source attribution, share buttons, Web Share support, related stories, search visibility, canonical URL, Open Graph metadata and NewsArticle schema.
 
 ## Desktop publisher
 
@@ -38,4 +38,4 @@ Change siteUrl once in data/site-config.json, then run node scripts/generate-sit
 
 ## Deployment and checks
 
-The GitHub Pages workflow validates the article data and generates crawl files before upload. Run node scripts/validate-site.js locally. Do not commit passwords, API keys, subscriber data or submissions.
+The GitHub Pages workflow validates the individual article files, generated catalog and search shards, then generates crawl files before upload. Run node scripts/validate-site.js locally. Do not commit passwords, API keys, subscriber data or submissions.

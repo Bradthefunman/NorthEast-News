@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "At least 14 people were killed and 11 injured Wednesday in an explosion at a temporary weapons depot near Sarmada in Syria’s Idlib province, state television reported, according to Reuters.",
+    "The depot contained weapons and remnants of war materials, the report said. Authorities had not disclosed the cause of the blast in the first public accounts, leaving unclear whether it resulted from an accident, unstable munitions or another event.",
+    "Casualty figures can change during the first hours after a major explosion as rescue teams search the site and hospitals update patient information. The initial toll and description came from Syrian state television; independent details from the location remained limited at the time of publication.",
+    "The incident underscores the continuing danger posed by stored weapons and explosive remnants in areas affected by years of conflict. Investigators will need to determine what material was kept at the temporary facility, how it was secured and what triggered the detonation. This article will be updated when emergency officials or other verified sources provide additional information."
+  ],
+  "breaking": false,
+  "category": "breaking",
+  "city": "Sarmada",
+  "dek": "State television reported 11 others injured near Sarmada as officials had not yet disclosed a cause.",
+  "developing": false,
+  "featured": false,
+  "headline": "At least 14 killed in explosion at weapons depot in Syria’s Idlib",
+  "id": "breaking-syria-idlib-weapons-depot-explosion-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Sarmada, Syria",
+  "publishedAt": "2026-09-09T09:41:00-04:00",
+  "slug": "at-least-14-killed-in-explosion-at-weapons-depot-in-syrias-idlib",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/least-14-killed-explosion-weapons-depot-syrias-idlib-state-tv-says-2026-09-09/",
+  "state": "International",
+  "tags": [
+    "Syria",
+    "Idlib",
+    "explosion",
+    "Sarmada"
+  ],
+  "topic": "breaking",
+  "topicLabel": "Breaking / Developing",
+  "trending": false,
+  "updatedAt": "2026-09-09T09:41:00-04:00",
+  "visualLabel": "Syria explosion"
+}

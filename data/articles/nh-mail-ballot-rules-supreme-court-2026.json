@@ -1,0 +1,40 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "New Hampshire Secretary of State David Scanlan has joined election officials from five other Republican-led states in asking the U.S. Supreme Court to keep new federal mail-ballot rules from taking effect during the 2026 election. Their filing focuses on the disruption that late procedural changes could create, not on the underlying policy dispute.",
+    "The officials represent New Hampshire, Kentucky, North Dakota, South Dakota, Georgia and Kansas. They argue that election administrators are already carrying out the midterm calendar and that new requirements could confuse voters and local officials. Some absentee ballots have already been issued, while federal law requires ballots for military and overseas voters to be sent by September 19.",
+    "The dispute follows a March executive order and related U.S. Postal Service rules. The proposed changes include sharing voter information with the Postal Service and procedures that officials say could cause mailed ballots to be rejected over processing errors. A federal court in Massachusetts blocked part of the rules, prompting the administration to seek Supreme Court intervention. The state officials told the court they were taking no position on the rules’ legality or goals while urging stability this close to voting."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "new-hampshire",
+  "city": "Concord",
+  "dek": "David Scanlan and election officials from five other states say late federal changes could disrupt voting already underway.",
+  "developing": false,
+  "featured": false,
+  "headline": "New Hampshire joins states seeking pause on new mail-ballot rules",
+  "id": "nh-mail-ballot-rules-supreme-court-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Concord, New Hampshire",
+  "publishedAt": "2026-09-12T14:42:00-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "nh-mail-ballot-rules-supreme-court",
+  "sourceName": "New Hampshire Public Radio",
+  "sourceUrl": "https://www.nhpr.org/politics/2026-09-11/newhampshire-gop-mail-ballots-mailin-voting-trump",
+  "state": "New Hampshire",
+  "tags": [
+    "Mail voting",
+    "David Scanlan",
+    "U.S. Supreme Court",
+    "2026 election"
+  ],
+  "topic": "new-hampshire",
+  "topicLabel": "New Hampshire",
+  "trending": false,
+  "updatedAt": "2026-09-12T14:42:00-04:00",
+  "visualLabel": "Election rules"
+}

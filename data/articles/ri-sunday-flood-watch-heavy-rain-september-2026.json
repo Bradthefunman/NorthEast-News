@@ -1,0 +1,41 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "The National Weather Service has issued a Flood Watch for Rhode Island and southeastern Massachusetts on Sunday as a warm front and weak area of low pressure approach Southern New England. Forecasters say showers may arrive around sunrise and produce pockets of torrential rain through the morning and into the afternoon.",
+    "A few thunderstorms are possible, and the heaviest downpours could overwhelm urban drainage or flood other low-lying, poorly drained locations. The Weather Service’s Saturday morning discussion emphasized that conditions may vary over short distances, making the placement of the most intense rain important for local impacts. Storm Team 10 said at least an inch of rain was possible across much of Connecticut and parts of Rhode Island.",
+    "Saturday remains the better day for outdoor plans, with sunshine, low humidity and afternoon temperatures in the 70s. Clouds increase overnight before humidity rises sharply Sunday. Rain should taper later Sunday, with any lingering showers departing early Monday. Residents traveling during the watch period should monitor updated forecasts and avoid driving through water covering a roadway."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "rhode-island",
+  "city": "Providence",
+  "dek": "Forecasters expect showers, possible thunderstorms and pockets of torrential rain from early Sunday into the afternoon.",
+  "developing": false,
+  "featured": false,
+  "headline": "Flood Watch covers Rhode Island for Sunday downpours",
+  "id": "ri-sunday-flood-watch-heavy-rain-september-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Rhode Island",
+  "publishedAt": "2026-09-12T08:43:00-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "ri-sunday-flood-watch-heavy-rain-downpours",
+  "sourceName": "National Weather Service",
+  "sourceUrl": "https://forecast.weather.gov/product.php?format=txt&glossary=1&highlight=off&issuedby=BOX&product=AFD&site=BOX&version=1",
+  "state": "Rhode Island",
+  "tags": [
+    "Rhode Island",
+    "Flood Watch",
+    "Weather",
+    "Heavy Rain",
+    "Sunday Forecast"
+  ],
+  "topic": "rhode-island",
+  "topicLabel": "Rhode Island",
+  "trending": false,
+  "updatedAt": "2026-09-12T08:43:00-04:00",
+  "visualLabel": "Flood Watch"
+}

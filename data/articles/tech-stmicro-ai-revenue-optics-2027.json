@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "STMicroelectronics expects chips used in fiber-optic data links to account for about 80% of the more than $2 billion in AI data-center revenue it is targeting for 2027.",
+    "Chief Financial Officer Lorenzo Grandi provided the breakdown Wednesday at Citi’s Global TMT Conference in New York, Reuters reported. The remaining 20% is expected to come from chips used for server cooling and power conversion.",
+    "The forecast shows that the company’s near-term AI opportunity is concentrated in connectivity: the components that move large amounts of data quickly between processors and across data-center networks. Grandi said STMicro’s current position in server power remains limited and is not expected to generate meaningful revenue before 2028.",
+    "The new detail adds specificity to a revenue target the European chipmaker raised in July. It also illustrates how the AI infrastructure boom reaches beyond graphics processors, creating demand for optical links, power-management components and cooling controls throughout increasingly dense server systems."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "Geneva",
+  "dek": "The chipmaker expects fiber-optic data-link products to contribute about 80% of a data-center AI target exceeding $2 billion.",
+  "developing": false,
+  "featured": false,
+  "headline": "STMicro says optics will drive most of its 2027 AI revenue",
+  "id": "tech-stmicro-ai-revenue-optics-2027",
+  "image": null,
+  "imageAlt": "",
+  "location": "Geneva, Switzerland",
+  "publishedAt": "2026-09-09T22:44:00-04:00",
+  "slug": "stmicro-says-optics-will-drive-most-of-its-2027-ai-revenue",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/retail-consumer/stmicros-2027-ai-revenue-be-four-fifths-optics-cfo-says-2026-09-09/",
+  "state": "Switzerland",
+  "tags": [
+    "STMicroelectronics",
+    "AI data centers",
+    "fiber optics",
+    "semiconductors"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-09T22:44:00-04:00",
+  "visualLabel": "Semiconductors"
+}

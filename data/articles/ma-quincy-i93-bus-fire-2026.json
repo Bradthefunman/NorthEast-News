@@ -1,0 +1,39 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "A bus fire shut two lanes of Interstate 93 northbound in Quincy during the Friday morning commute, according to the Massachusetts Department of Transportation. The closure was reported near the Route 3 merge on the Expressway, a heavily traveled approach toward Boston.",
+    "Video from the scene showed the burned bus near the beginning of the high-occupancy-vehicle lane, NBC10 Boston reported. Transportation crews were working at the site while traffic was forced around the two closed left lanes. The initial report did not identify the bus operator or say whether passengers had been aboard.",
+    "There was also no immediate information about injuries or what caused the fire. NBC10 said it had requested additional details from Massachusetts State Police. Those unanswered questions make the early account provisional while emergency and transportation officials complete their response.",
+    "Drivers using I-93 north from the South Shore faced a likely bottleneck at the split because the closure reduced capacity where Route 3 and the interstate converge. Travelers should rely on current MassDOT advisories before entering the corridor, since lane status can change as crews remove the vehicle and inspect the roadway."
+  ],
+  "breaking": false,
+  "category": "massachusetts",
+  "city": "Quincy",
+  "dek": "MassDOT reported a Friday morning vehicle fire near the Route 3 merge; the cause and any injuries were not immediately known.",
+  "developing": false,
+  "featured": false,
+  "headline": "Bus fire closes two northbound I-93 lanes in Quincy",
+  "id": "ma-quincy-i93-bus-fire-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Quincy, Massachusetts",
+  "publishedAt": "2026-09-11T08:41:00-04:00",
+  "slug": "bus-fire-closes-two-northbound-i93-lanes-in-quincy",
+  "sourceName": "NBC10 Boston",
+  "sourceUrl": "https://www.nbcboston.com/news/local/quincy-expressway-bus-fire-i-93-lanes-closed/4013061/",
+  "state": "Massachusetts",
+  "tags": [
+    "Quincy",
+    "I-93",
+    "bus fire",
+    "MassDOT",
+    "traffic"
+  ],
+  "topic": "massachusetts",
+  "topicLabel": "Massachusetts",
+  "trending": false,
+  "updatedAt": "2026-09-11T08:41:00-04:00",
+  "visualLabel": "Traffic"
+}

@@ -1,0 +1,40 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Ukrainian military personnel embedded with U.S. Army units during Saber Junction exercises in Germany, sharing battlefield lessons on how drones are deployed, defended against and integrated into small-unit operations. The annual training near Nuremberg used about 1,900 drones, reflecting how quickly unmanned systems have become a routine part of modern military planning.",
+    "The drills included one-way attack drones placed as far down the command structure as company level. American soldiers have also traveled to Ukraine to study how units adapt inexpensive aircraft, electronic warfare and rapid field innovation under combat conditions. Ukraine created a dedicated Unmanned Systems Forces branch, while the U.S. Army is still deciding how much capability should sit in specialized formations and how much should be spread across ordinary units.",
+    "That debate sharpened after a dedicated drone unit in the 173rd Airborne Brigade was disbanded. Army leaders say distributing expertise more broadly can make every formation more capable, but dedicated units can concentrate testing and technical knowledge. The exercise showed that the immediate challenge is organizational as much as technological: buying drones is only one step; troops also need doctrine, training and defenses that can change as quickly as the systems themselves."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "tech",
+  "city": "Nuremberg",
+  "dek": "Saber Junction exercises used about 1,900 drones as the U.S. Army studies battlefield lessons from Ukraine.",
+  "developing": false,
+  "featured": false,
+  "headline": "Ukrainian troops teach U.S. forces drone tactics in Germany",
+  "id": "tech-ukrainian-us-forces-drone-tactics-germany-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Nuremberg, Germany",
+  "publishedAt": "2026-09-12T18:41:00-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "tech-ukrainian-us-forces-drone-tactics-germany",
+  "sourceName": "Associated Press",
+  "sourceUrl": "https://apnews.com/article/e5e754608f13831463e42cb7f8346369",
+  "state": "Germany",
+  "tags": [
+    "drones",
+    "U.S. Army",
+    "Ukraine",
+    "Saber Junction"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-12T18:41:00-04:00",
+  "visualLabel": "Drone warfare"
+}

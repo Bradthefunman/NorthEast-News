@@ -1,0 +1,35 @@
+{
+  "analysis": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Boston Scientific said Tuesday that it is unlikely to meet previously issued third-quarter and full-year 2026 sales and adjusted-profit forecasts after a cyberattack disrupted global operations.",
+    "Reuters reported that the unauthorized activity was identified August 25 and caused network outages that affected manufacturing and order processing. The company said major distribution and manufacturing operations have resumed, while the full financial impact remains uncertain.",
+    "The company had previously forecast 2026 adjusted earnings of $3.28 to $3.32 per share and sales growth of 5.5% to 6.5%. It plans to provide an updated outlook with third-quarter results in October.",
+    "The incident is a reminder that cybersecurity risk can move quickly from an information-technology problem into a supply-chain and earnings issue for Massachusetts manufacturers."
+  ],
+  "breaking": false,
+  "category": "new-england",
+  "city": "Marlborough",
+  "dek": "The Marlborough-based medical-device maker said an August incident disrupted parts of its global operations and made its prior forecast harder to meet.",
+  "developing": false,
+  "featured": false,
+  "headline": "Boston Scientific says cyberattack could hit its 2026 outlook",
+  "id": "boston-scientific-cyberattack",
+  "image": null,
+  "imageAlt": "",
+  "location": "Marlborough, MA",
+  "publishedAt": "2026-09-08T10:20:00-04:00",
+  "slug": "boston-scientific-cyberattack-could-hit-2026-outlook",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/technology/boston-scientific-says-cyberattack-likely-hurt-2026-sales-profit-2026-09-08/",
+  "state": "MA",
+  "tags": [
+    "Massachusetts",
+    "cybersecurity",
+    "business",
+    "healthcare"
+  ],
+  "trending": false,
+  "updatedAt": "2026-09-08T14:05:00-04:00",
+  "visualLabel": "Massachusetts business"
+}

@@ -1,0 +1,39 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Chinese artificial-intelligence developer Z.AI has launched concurrent share and convertible-bond sales that could raise $5 billion, according to term sheets reviewed by Reuters. The package includes a $2 billion Hong Kong share placement and $3 billion of zero-coupon, yuan-denominated convertible bonds.",
+    "The Beijing company, formerly known as Zhipu AI, is offering about 21.97 million new shares at HK$714 each, a 10% discount to its previous close. The bonds mature in September 2027 and carry an initial conversion price of HK$892.50, representing a 25% premium.",
+    "Z.AI said proceeds would support research and development, computing infrastructure, international expansion, strategic investments, acquisitions and general operations. The two transactions are being marketed together but are not conditional on one another, according to the documents.",
+    "The financing illustrates the capital intensity of competing in advanced AI, where model development requires expensive chips, data centers and specialized staff. Z.AI listed in Hong Kong in January and completed another large offering in July. Its latest transaction would give the company additional resources while also increasing the amount of capital investors have committed to China’s AI sector."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "Hong Kong",
+  "dek": "The Chinese AI developer is seeking $2 billion from a share placement and $3 billion from convertible bonds for infrastructure and research.",
+  "developing": false,
+  "featured": false,
+  "headline": "Z.AI launches $5 billion Hong Kong financing package",
+  "id": "tech-zai-five-billion-hong-kong-financing-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Hong Kong",
+  "publishedAt": "2026-09-11T08:41:00-04:00",
+  "slug": "zai-launches-5-billion-hong-kong-financing-package",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/asia-pacific/china-ai-developer-zai-launches-5-billion-hong-kong-share-convertible-bond-sales-2026-09-11/",
+  "state": "China",
+  "tags": [
+    "Z.AI",
+    "artificial intelligence",
+    "Hong Kong",
+    "convertible bonds",
+    "fundraising"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-11T08:41:00-04:00",
+  "visualLabel": "Artificial Intelligence"
+}

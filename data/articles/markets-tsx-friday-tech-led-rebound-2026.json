@@ -1,0 +1,41 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Canada's benchmark S&P/TSX Composite Index gained 191.21 points, or 0.5%, to close Friday at 35,697.49, according to Reuters. Technology shares led the rebound as the market recovered part of the week's decline. The advance followed Thursday's close at the index's lowest level in nearly six weeks.",
+    "The Friday move came as oil prices eased from recent highs, reducing some of the immediate inflation pressure that had weighed on global markets. Expectations for tighter U.S. monetary policy remained an important influence for Canadian investors because higher American rates can affect currencies, borrowing costs and valuations across North America.",
+    "The gain should be read as a closing snapshot rather than a live price. It did not erase the week's losses, and the underlying backdrop remained unsettled after sharp moves in energy and bond markets. Canada's large financial, mining and energy sectors can leave the TSX especially sensitive to changes in commodity prices and interest-rate expectations. Friday's technology-led recovery showed selective buying returning after the prior session's slide, but the weekly result still reflected investor caution."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "markets",
+  "city": "Toronto",
+  "dek": "Canada's benchmark index gained 191.21 points at Friday's close, recovering part of its weekly decline after a six-week low.",
+  "developing": false,
+  "featured": false,
+  "headline": "TSX rebounds 0.5% as technology shares lead Friday recovery",
+  "id": "markets-tsx-friday-tech-led-rebound-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Toronto, Canada",
+  "publishedAt": "2026-09-11T20:44:00-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "markets-tsx-friday-tech-led-rebound",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/tsx-futures-rebound-oil-prices-ease-2026-09-11/",
+  "state": "Canada",
+  "tags": [
+    "TSX",
+    "Canadian stocks",
+    "technology shares",
+    "market close",
+    "oil prices"
+  ],
+  "topic": "markets",
+  "topicLabel": "Markets / Stocks",
+  "trending": false,
+  "updatedAt": "2026-09-11T20:44:00-04:00",
+  "visualLabel": "Market close"
+}

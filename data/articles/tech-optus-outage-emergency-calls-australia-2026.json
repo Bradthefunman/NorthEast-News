@@ -1,0 +1,41 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Australian telecommunications provider Optus apologized after a 76-minute network outage disrupted voice calls, including some attempts to reach emergency services. The Friday glitch affected customers in Victoria, South Australia, Tasmania and the Northern Territory, with calls dropping intermittently before service was restored.",
+    "Victoria Police conducted about 40 welfare checks connected to the disruption and reported no adverse outcomes. Optus said it had opened an investigation into the cause. Emergency-call reliability receives particular scrutiny because callers may have no alternative during fires, medical crises or threats to personal safety, even when a network problem lasts little more than an hour.",
+    "The incident renews questions about resilience at the Singtel-owned carrier. A much larger Optus outage in 2023 prevented some customers from reaching emergency services, and Australia’s communications regulator imposed a A$12 million penalty in 2024 over those failures. The company also suffered a 2022 cyberattack that exposed data associated with roughly 9.5 million people. Friday’s disruption was shorter, but its effect on emergency access makes the technical review consequential."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "tech",
+  "city": "Sydney",
+  "dek": "The Australian carrier said a network glitch caused intermittent voice failures across four regions, including problems reaching emergency services.",
+  "developing": false,
+  "featured": false,
+  "headline": "Optus apologizes after 76-minute outage disrupts emergency calls",
+  "id": "tech-optus-outage-emergency-calls-australia-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Australia",
+  "publishedAt": "2026-09-12T00:40:00-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "tech-optus-outage-emergency-calls-australia",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/asia-pacific/australias-optus-apologises-outage-that-disrupted-emergency-calls-2026-09-12/",
+  "state": "Australia",
+  "tags": [
+    "Optus",
+    "telecommunications",
+    "outage",
+    "emergency calls",
+    "Australia"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-12T00:40:00-04:00",
+  "visualLabel": "Network Outage"
+}

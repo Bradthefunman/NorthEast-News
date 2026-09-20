@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "U.S. stocks moved lower Thursday as rising Treasury yields, higher oil prices and August producer-price data increased concern that the Federal Reserve could raise interest rates next week.",
+    "Reuters reported that the S&P 500, Nasdaq and Dow were each down around six-tenths of a percent during the session. Nvidia and Micron fell, while Apple advanced a day after introducing its folding phone. The figures describe intraday trading and are not live prices.",
+    "The 10-year Treasury yield reached its highest level in nearly three years, while the 30-year yield touched a more than 19-year high. Brent crude’s jump to about $107 a barrel added to inflation pressure as disruptions affected major energy routes.",
+    "Producer prices rose in line with expectations on a monthly basis, with energy costs rebounding. Futures markets increased the implied chance of a quarter-point Fed increase at the coming meeting. Investors now turn to Friday’s consumer-price report for a broader read on inflation. Higher yields can pressure stock valuations by raising borrowing costs and improving returns available from bonds."
+  ],
+  "breaking": false,
+  "category": "markets",
+  "city": "New York",
+  "dek": "Major U.S. indexes declined Thursday as higher energy costs and producer-price data strengthened expectations for tighter Federal Reserve policy.",
+  "developing": false,
+  "featured": false,
+  "headline": "Wall Street falls as Treasury yields and inflation fears rise",
+  "id": "markets-wall-street-yields-inflation-sept-10-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "New York, NY",
+  "publishedAt": "2026-09-10T14:45:00-04:00",
+  "slug": "wall-street-falls-as-treasury-yields-and-inflation-fears-rise",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/sp-500-dow-futures-attempt-recovery-ahead-inflation-report-2026-09-10/",
+  "state": "US",
+  "tags": [
+    "Wall Street",
+    "Treasury yields",
+    "inflation",
+    "Federal Reserve"
+  ],
+  "topic": "markets",
+  "topicLabel": "Markets / Stocks",
+  "trending": false,
+  "updatedAt": "2026-09-10T14:45:00-04:00",
+  "visualLabel": "Wall Street"
+}

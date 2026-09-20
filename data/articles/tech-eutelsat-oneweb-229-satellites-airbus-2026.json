@@ -1,0 +1,39 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Eutelsat has placed a €1 billion order with Airbus for 229 low-Earth-orbit satellites, expanding a replenishment plan intended to keep its OneWeb broadband network operating through 2034. The new spacecraft add to 440 satellites ordered in 2024 and 2025.",
+    "OneWeb operates more than 600 satellites and competes with SpaceX’s much larger Starlink network, which has more than 11,000. Eutelsat’s constellation flies at a higher orbit and is focused heavily on business, government and telecommunications customers rather than relying mainly on direct consumer service.",
+    "The order is designed to maintain service continuity until Europe’s planned IRIS² secure communications network becomes available near the end of the decade. Eutelsat has also booked two launches on Europe’s Ariane rocket for 2027 and 2028, Reuters reported.",
+    "For Europe, the purchase has strategic as well as commercial significance. OneWeb is the region’s primary operational low-orbit alternative to Starlink, and keeping the network refreshed reduces the risk of a capacity gap before IRIS² is deployed. The long timetable also underscores how satellite internet systems require continual replacement: spacecraft have finite operating lives, while demand, cybersecurity requirements and launch schedules keep changing."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "Paris",
+  "dek": "The €1 billion Airbus order will replenish the low-orbit constellation as Europe’s Starlink rival bridges toward the planned IRIS² system.",
+  "developing": false,
+  "featured": false,
+  "headline": "Eutelsat orders 229 satellites to extend OneWeb network through 2034",
+  "id": "tech-eutelsat-oneweb-229-satellites-airbus-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Paris, France",
+  "publishedAt": "2026-09-11T04:43:00-04:00",
+  "slug": "eutelsat-orders-229-satellites-to-extend-oneweb-network-through-2034",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/media-telecom/starlink-rival-eutelsat-plans-oneweb-expansion-after-1-billion-satellite-order-2026-09-10/",
+  "state": "France",
+  "tags": [
+    "Eutelsat",
+    "OneWeb",
+    "Airbus",
+    "satellites",
+    "IRIS2"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-11T04:43:00-04:00",
+  "visualLabel": "Satellite Internet"
+}

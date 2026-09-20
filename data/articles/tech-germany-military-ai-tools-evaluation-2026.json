@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Germany’s military is evaluating 30 artificial-intelligence tools intended to speed battlefield decision-making, with an initial system targeted for introduction beginning in 2027, Reuters reported Thursday.",
+    "Vice Admiral Thomas Daum, head of the military’s cyber command, told Handelsblatt that he was optimistic a prototype would be available in the second quarter of 2027. Full implementation is expected in 2028. Most products under review come from German companies, while France’s ChapsVision is among the foreign participants.",
+    "Modern drones and satellites generate large volumes of imagery and other data that can overwhelm human analysts. The military is examining whether AI can organize that information quickly enough to improve situational awareness while commanders retain responsibility for operational decisions.",
+    "The review also reflects European concerns about data control and dependence on overseas suppliers. Daum said in April that Germany was not then planning to buy Palantir’s Maven Smart System, which is used by the United States, NATO commands and several allies. The current evaluation does not guarantee any individual vendor a contract."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "Berlin",
+  "dek": "Germany’s cyber-command chief said a prototype could be ready in the second quarter of 2027, with broader implementation targeted for 2028.",
+  "developing": false,
+  "featured": false,
+  "headline": "German military evaluates 30 AI tools for battlefield decisions",
+  "id": "tech-germany-military-ai-tools-evaluation-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Berlin, Germany",
+  "publishedAt": "2026-09-10T04:43:00-04:00",
+  "slug": "german-military-evaluates-30-ai-tools-for-battlefield-decisions",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/technology/german-military-evaluating-30-ai-tools-introduction-2027-2026-09-10/",
+  "state": "INTL",
+  "tags": [
+    "Germany",
+    "military AI",
+    "battlefield data",
+    "defense technology"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-10T04:43:00-04:00",
+  "visualLabel": "Defense technology"
+}

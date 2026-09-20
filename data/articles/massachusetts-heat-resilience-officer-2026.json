@@ -1,0 +1,38 @@
+{
+  "analysis": true,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Massachusetts is building a new government response to extreme heat, a hazard that can strain public health, schools and workplaces even when it leaves little visible damage, Axios reported Tuesday.",
+    "The state announced in August that it had become the first on the East Coast to appoint a heat resilience officer, following Arizona. The role reflects a broader shift as states write heat plans, add worker protections and invest in cooling infrastructure.",
+    "Axios reported that Massachusetts’ early goals include reducing heat-related school closures, improving workplace safety and expanding urban greenery. Those efforts put more emphasis on preparation before dangerous conditions arrive, rather than treating heat only as a weather forecast.",
+    "The policy question is how the state will turn a new position into measurable local support. That could include coordination with cities, employers, public-health agencies and schools as hotter periods become a more regular planning concern.",
+    "It also raises practical questions about who receives warnings, cooling help and workplace guidance when temperatures become dangerous."
+  ],
+  "breaking": false,
+  "category": "new-england",
+  "dek": "The state is among the first to build a dedicated government response around a hazard that often causes serious health risks without obvious property damage.",
+  "developing": false,
+  "featured": false,
+  "headline": "Massachusetts’ new heat-resilience role puts extreme heat on state agenda",
+  "id": "massachusetts-heat-resilience-officer-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Massachusetts",
+  "publishedAt": "2026-09-08T16:54:00-04:00",
+  "slug": "massachusetts-heat-resilience-role-tests-new-state-response",
+  "sourceName": "Axios",
+  "sourceUrl": "https://www.axios.com/2026/09/08/extreme-heat-state-government-policy",
+  "state": "MA",
+  "tags": [
+    "Massachusetts",
+    "extreme heat",
+    "climate",
+    "public health"
+  ],
+  "topic": "massachusetts",
+  "topicLabel": "Massachusetts",
+  "trending": false,
+  "updatedAt": "2026-09-08T16:54:00-04:00",
+  "visualLabel": "Heat resilience"
+}

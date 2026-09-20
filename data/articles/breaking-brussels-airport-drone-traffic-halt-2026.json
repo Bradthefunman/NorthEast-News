@@ -1,0 +1,40 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Air traffic at Brussels Airport was interrupted for about 30 minutes Friday evening after a drone sighting, according to Belgian air-traffic-control operator Skeyes. Runway operations resumed after the airport followed its established safety procedure for unauthorized aircraft near the airfield.",
+    "The procedure pauses operations until 30 minutes after the most recent sighting, giving controllers and security authorities time to assess whether the airspace is clear. Officials did not immediately disclose how many flights were delayed or diverted, and they released no details about the drone or its operator.",
+    "The incident comes amid heightened concern in Belgium over repeated unauthorized drone activity near airports and sensitive sites, including military facilities and a nuclear power plant. Earlier episodes prompted the government to invest in counter-drone equipment. Authorities have previously raised the possibility of foreign involvement in some sightings, but no evidence connecting Friday’s event to any state or group was announced. Although the immediate disruption ended, the lack of information about the drone leaves the security investigation open and underscores how even a short sighting can halt operations at a major international airport."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "breaking",
+  "city": "Brussels",
+  "dek": "Runway operations paused under a safety procedure that keeps traffic stopped until 30 minutes after the last sighting.",
+  "developing": false,
+  "featured": false,
+  "headline": "Drone sighting halts Brussels Airport traffic for about 30 minutes",
+  "id": "breaking-brussels-airport-drone-traffic-halt-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Brussels, Belgium",
+  "publishedAt": "2026-09-12T16:43:00-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "breaking-brussels-airport-drone-traffic-halt",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/brussels-airport-traffic-disrupted-friday-evening-after-drone-sighting-2026-09-12/",
+  "state": "Belgium",
+  "tags": [
+    "Brussels Airport",
+    "Drones",
+    "Aviation",
+    "Belgium"
+  ],
+  "topic": "breaking",
+  "topicLabel": "Breaking / Developing",
+  "trending": false,
+  "updatedAt": "2026-09-12T16:43:00-04:00",
+  "visualLabel": "Aviation"
+}

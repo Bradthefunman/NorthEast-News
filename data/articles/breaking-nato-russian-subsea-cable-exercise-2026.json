@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "NATO allies tracked and confronted Russian vessels near Norway’s Svalbard archipelago during a secret undersea exercise this spring, according to two Western officials who described the operation to Reuters.",
+    "The officials said Russia’s Main Directorate for Deep Sea Research, known as GUGI, used deep-sea submersibles to simulate deploying technology intended to disable critical subsea cables while obscuring responsibility. Britain, Norway and the United States participated in the response, and the Russian vessels left after being prevented from completing the exercise, Reuters reported.",
+    "Britain and Norway disclosed in April that they had uncovered a covert Russian operation in Arctic waters. Reuters said the specific technology, the location near Svalbard and the U.S. role had not previously been reported.",
+    "Subsea communications and energy cables carry essential international traffic, making suspected interference a major security concern for governments and network operators. The new report is based on unnamed officials because of the operation’s sensitivity. The disclosure may prompt further responses from NATO governments and Russia as authorities assess the capability and the protection of infrastructure across Arctic waters."
+  ],
+  "breaking": false,
+  "category": "breaking",
+  "city": "Svalbard",
+  "dek": "A Reuters investigation says British, Norwegian and U.S. forces confronted vessels near Svalbard during a secret Russian undersea operation.",
+  "developing": false,
+  "featured": false,
+  "headline": "Western officials say NATO disrupted Russian subsea-cable exercise",
+  "id": "breaking-nato-russian-subsea-cable-exercise-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Svalbard, Norway",
+  "publishedAt": "2026-09-10T02:43:00-04:00",
+  "slug": "western-officials-say-nato-disrupted-russian-subsea-cable-exercise",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/europe/nato-allies-foil-russian-subsea-cable-sabotage-plot-2026-09-10/",
+  "state": "INTL",
+  "tags": [
+    "NATO",
+    "Russia",
+    "subsea cables",
+    "Svalbard"
+  ],
+  "topic": "breaking",
+  "topicLabel": "Breaking / Developing",
+  "trending": false,
+  "updatedAt": "2026-09-10T02:43:00-04:00",
+  "visualLabel": "Security"
+}

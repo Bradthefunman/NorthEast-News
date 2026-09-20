@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Some Providence polling places experienced delays shortly after opening Wednesday because a significant share of scheduled poll workers called out or did not arrive, according to city election officials.",
+    "A line formed at a polling place on Pitman Street, though conditions appeared to return to normal by about 8:30 a.m. Delays were also reported at another location. Officials assigned replacement workers and moved some entry-level staff into higher-responsibility roles to keep voting operations moving.",
+    "Providence voters are selecting a Democratic nominee for mayor in a contest between incumbent Brett Smiley and state Rep. David Morales. The staffing disruption affected the start of voting but did not produce a reported closure in the initial update.",
+    "Voters encountering problems can confirm their assigned polling place and current hours through the Rhode Island secretary of state’s election portal. Election officials had not yet provided a final count of the callouts, and the operational response remained in progress."
+  ],
+  "breaking": false,
+  "category": "rhode-island",
+  "city": "Providence",
+  "dek": "Election officials reassigned staff after several polling places opened with fewer workers than expected Wednesday morning.",
+  "developing": false,
+  "featured": false,
+  "headline": "Providence poll-worker callouts cause early voting delays",
+  "id": "ri-providence-poll-worker-delays-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Providence, RI",
+  "publishedAt": "2026-09-09T14:46:00-04:00",
+  "slug": "providence-poll-worker-callouts-cause-early-voting-delays",
+  "sourceName": "NBC 10 WJAR",
+  "sourceUrl": "https://turnto10.com/news/local/polling-places-in-providence-experience-delays-due-to-significant-callouts-by-poll-workers-sept-9-2026",
+  "state": "RI",
+  "tags": [
+    "Providence",
+    "elections",
+    "poll workers",
+    "voting"
+  ],
+  "topic": "rhode-island",
+  "topicLabel": "Rhode Island",
+  "trending": false,
+  "updatedAt": "2026-09-09T14:46:00-04:00",
+  "visualLabel": "Elections"
+}

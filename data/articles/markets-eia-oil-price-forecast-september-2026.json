@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "The U.S. Energy Information Administration raised its oil-price forecasts Wednesday, citing rapidly declining global inventories and persistent disruptions to Middle Eastern supply.",
+    "In its latest Short-Term Energy Outlook, the agency projected that Brent crude will average about $91 a barrel in 2026, nearly 5% above its prior forecast. It put the West Texas Intermediate average at $84.65. Those figures are annual forecasts, not live market prices.",
+    "The EIA estimated that global oil inventories have fallen by roughly 400 million barrels this year and will continue declining through year-end. Middle Eastern production shut-ins reached about 6.7 million barrels per day in August, with an average of 5.7 million barrels per day expected to remain offline during the fourth quarter.",
+    "The outlook assumes some recovery through Strait of Hormuz shipments and ship-to-ship transfers, but the agency does not expect regional production and exports to normalize before the second quarter of 2027. That leaves prices sensitive to further infrastructure or shipping disruptions."
+  ],
+  "breaking": false,
+  "category": "markets",
+  "city": "Washington",
+  "dek": "The agency now expects Brent crude to average about $91 a barrel in 2026 after conflict-driven supply losses reduced stockpiles.",
+  "developing": false,
+  "featured": false,
+  "headline": "EIA raises oil-price forecasts as global inventories shrink",
+  "id": "markets-eia-oil-price-forecast-september-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Washington, DC",
+  "publishedAt": "2026-09-09T14:46:00-04:00",
+  "slug": "eia-raises-oil-price-forecasts-as-global-inventories-shrink",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/energy/us-eia-hikes-oil-price-forecasts-iran-war-drains-global-stockpile-2026-09-09/",
+  "state": "DC",
+  "tags": [
+    "EIA",
+    "oil",
+    "Brent crude",
+    "energy markets"
+  ],
+  "topic": "markets",
+  "topicLabel": "Markets / Stocks",
+  "trending": false,
+  "updatedAt": "2026-09-09T14:46:00-04:00",
+  "visualLabel": "Energy"
+}

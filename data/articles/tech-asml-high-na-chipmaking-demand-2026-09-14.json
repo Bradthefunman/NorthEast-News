@@ -1,0 +1,41 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "ASML’s newest high-numerical-aperture extreme-ultraviolet machines are becoming a larger part of chipmakers’ plans, Reuters reported Monday. The Dutch company’s standard EUV systems, which cost about $200 million, were described as sold out through 2027.",
+    "TSMC, Samsung, SK Hynix and Intel have committed roughly $400 million to High NA tools, according to the report. The machines can print features about 40% smaller than the previous generation, but their price is roughly twice as high. Intel has processed more than one million wafers on its High NA system.",
+    "The equipment matters because smaller features can support denser and more powerful chips, but adoption also raises the cost of building advanced manufacturing capacity. ASML remains the key supplier of EUV lithography equipment, giving its delivery schedule and customer commitments importance across the semiconductor industry.",
+    "The transition also places pressure on chipmakers to justify more expensive tools as they race to secure capacity for advanced processors."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "tech",
+  "city": "Veldhoven",
+  "dek": "ASML’s next-generation lithography tools are drawing commitments from major chipmakers even as the machines cost roughly twice as much as standard EUV systems.",
+  "developing": false,
+  "featured": false,
+  "headline": "ASML extends chipmaking lead as customers embrace High NA",
+  "id": "tech-asml-high-na-chipmaking-demand-2026-09-14",
+  "image": null,
+  "imageAlt": null,
+  "location": "Veldhoven, Netherlands",
+  "publishedAt": "2026-09-14T12:42:00-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "tech-asml-high-na-chipmaking-demand",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/asia-pacific/asml-extends-chipmaking-dominance-customers-embrace-high-na-2026-09-14/",
+  "state": "Netherlands",
+  "tags": [
+    "ASML",
+    "semiconductors",
+    "EUV",
+    "High NA"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-14T12:42:00-04:00",
+  "visualLabel": "Semiconductor equipment"
+}

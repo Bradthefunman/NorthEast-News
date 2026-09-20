@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Nvidia plans to help build as much as 2 gigawatts of artificial-intelligence computing capacity in Australia by 2027 through partnerships with several local cloud and data-center operators.",
+    "The chipmaker said it is working with Firmus, CDC, NEXTDC and AirTrunk. The partners would use Nvidia’s DSX platform as Australia seeks to position itself as a hub for data-center investment and high-performance computing.",
+    "Australia currently has about 1.6 gigawatts of computing capacity, according to Data Centres Australia research cited by Reuters. Nvidia said the planned expansion would more than double the nation’s current load, giving local developers more capacity to train and run models, applications and AI agents.",
+    "The buildout will also intensify questions about electricity, water use and environmental oversight. Data centers require large, reliable power supplies, and Nvidia said the projects would be paired with additional power-generation investment. Australian policymakers have faced calls for tougher rules as the sector expands, leaving permitting and infrastructure planning central to how much of the target can be delivered on schedule."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "Sydney",
+  "dek": "The chipmaker is working with local cloud and data-center companies on as much as 2 gigawatts of AI capacity by 2027.",
+  "developing": false,
+  "featured": false,
+  "headline": "Nvidia plans major expansion of Australia AI data-center capacity",
+  "id": "tech-nvidia-australia-ai-data-centers-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Sydney, Australia",
+  "publishedAt": "2026-09-10T00:41:00-04:00",
+  "slug": "nvidia-plans-major-expansion-of-australia-ai-data-center-capacity",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/asia-pacific/nvidia-teams-up-with-australian-partners-build-ai-factory-capacity-2026-09-10/",
+  "state": "International",
+  "tags": [
+    "Nvidia",
+    "Australia",
+    "data centers",
+    "AI infrastructure"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-10T00:41:00-04:00",
+  "visualLabel": "Infrastructure"
+}

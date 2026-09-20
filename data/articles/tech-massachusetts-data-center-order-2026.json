@@ -1,0 +1,40 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Massachusetts Gov. Maura Healey signed an executive order Tuesday requiring proposed data-center projects to receive local approval before developers can move into state permitting, WBUR reported.",
+    "Pending projects must negotiate community-benefits agreements that meet state standards with their host communities. The order also blocks nondisclosure agreements between state agencies and data-center developers, which Healey’s office said would make the process more transparent.",
+    "The policy is the latest step in the state’s effort to set conditions around facilities that can bring jobs and investment but also require substantial electricity, water and land. Massachusetts halted tax breaks for data centers earlier this summer.",
+    "Local approval requirements could give cities and towns more leverage over noise, traffic, utility demand and economic benefits before a project reaches the state level. The order makes those local negotiations an early gate in the development process.",
+    "The approach could become a model for how other states balance local control with demand for computing capacity."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "Boston",
+  "dek": "Gov. Maura Healey’s new order requires community agreements and bars state-agency nondisclosure deals with proposed facilities.",
+  "developing": false,
+  "featured": false,
+  "headline": "Massachusetts data centers face local approval before state permits",
+  "id": "tech-massachusetts-data-center-order-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Massachusetts",
+  "publishedAt": "2026-09-08T16:45:00-04:00",
+  "slug": "massachusetts-data-centers-face-local-approval-before-state-permits",
+  "sourceName": "WBUR / State House News Service",
+  "sourceUrl": "https://www.wbur.org/news/2026/09/08/proposed-data-centers-local-approvals-healey-massachusetts",
+  "state": "MA",
+  "tags": [
+    "Tech",
+    "Massachusetts",
+    "data centers",
+    "energy",
+    "policy"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-08T16:45:00-04:00",
+  "visualLabel": "Data center policy"
+}

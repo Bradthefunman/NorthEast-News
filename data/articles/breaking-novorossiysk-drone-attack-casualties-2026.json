@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "A Ukrainian drone attack on the Russian Black Sea port city of Novorossiysk killed four people, including a child, regional Governor Veniamin Kondratyev said Wednesday.",
+    "Kondratyev said 29 people were injured, according to Reuters. The casualty figures and attribution came from Russian authorities and had not been independently verified in the initial report. Ukraine did not immediately provide a response in the account.",
+    "Novorossiysk is a major hub for Russian oil and grain exports, giving any attack there potential significance beyond the immediate damage. Early reporting did not establish whether port operations or export flows were disrupted.",
+    "The situation remains developing as local authorities assess damage and identify victims. Casualty totals can change after emergency crews complete searches and hospitals update patient conditions. Any claims about the target, the drones’ origin or the effect on shipping should be treated as preliminary until supported by additional evidence or official operational notices."
+  ],
+  "breaking": false,
+  "category": "breaking",
+  "city": "Novorossiysk",
+  "dek": "Russian authorities reported four deaths and 29 injuries in an attack on the Black Sea city, a major oil and grain export hub.",
+  "developing": false,
+  "featured": false,
+  "headline": "Four killed in drone attack on Russian port city, governor says",
+  "id": "breaking-novorossiysk-drone-attack-casualties-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Novorossiysk, Russia",
+  "publishedAt": "2026-09-09T04:45:00-04:00",
+  "slug": "four-killed-in-drone-attack-on-russian-port-city-governor-says",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/europe/russia-says-ukrainian-drone-attack-killed-four-novorossiysk-2026-09-09/",
+  "state": "International",
+  "tags": [
+    "Novorossiysk",
+    "Russia",
+    "Ukraine",
+    "drone attack"
+  ],
+  "topic": "breaking",
+  "topicLabel": "Breaking / Developing",
+  "trending": false,
+  "updatedAt": "2026-09-09T04:45:00-04:00",
+  "visualLabel": "Developing"
+}

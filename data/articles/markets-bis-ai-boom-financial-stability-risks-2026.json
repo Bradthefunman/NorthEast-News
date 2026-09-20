@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "The global AI investment boom has become large enough to influence economic conditions and deserves closer financial-stability scrutiny, Bank for International Settlements chief Pablo Hernández de Cos said Thursday.",
+    "The BIS estimates that the five largest technology companies will invest more than $1 trillion in AI across 2025 and 2026. Industry projections cited by the central-bank organization put global AI investment at about $500 billion now and as much as $4 trillion by 2030.",
+    "Hernández de Cos said high valuations, concentrated markets and less transparent financing could create vulnerabilities if corporate profits fail to meet expectations. A growing share of AI infrastructure spending is being financed with debt and private credit instead of current earnings, increasing links between technology investment and financial markets.",
+    "The warning was not a forecast of a crash. The BIS chief also cited studies finding productivity gains of 10% to 65% in particular tasks, including coding and professional writing. For investors and policymakers, the central issue is whether those task-level gains spread across the economy quickly enough to justify the scale and financing cost of current spending."
+  ],
+  "breaking": false,
+  "category": "markets",
+  "city": "Basel",
+  "dek": "Pablo Hernández de Cos pointed to concentrated valuations and increasingly opaque debt financing while acknowledging AI’s productivity potential.",
+  "developing": false,
+  "featured": false,
+  "headline": "BIS chief warns AI investment boom is creating financial-stability risks",
+  "id": "markets-bis-ai-boom-financial-stability-risks-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Basel, Switzerland",
+  "publishedAt": "2026-09-10T16:43:00-04:00",
+  "slug": "bis-chief-warns-ai-investment-boom-is-creating-financial-stability-risks",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/finance/ai-boom-poses-new-financial-stability-risks-bis-head-says-2026-09-10/",
+  "state": "International",
+  "tags": [
+    "BIS",
+    "artificial intelligence",
+    "financial stability",
+    "private credit"
+  ],
+  "topic": "markets",
+  "topicLabel": "Markets / Stocks",
+  "trending": false,
+  "updatedAt": "2026-09-10T16:43:00-04:00",
+  "visualLabel": "Financial stability"
+}

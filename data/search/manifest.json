@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "shards": [
+    {
+      "count": 810,
+      "file": "data/search/2026-09.json",
+      "month": "2026-09"
+    },
+    {
+      "count": 112,
+      "file": "data/search/2026-08.json",
+      "month": "2026-08"
+    }
+  ]
+}

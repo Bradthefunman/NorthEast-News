@@ -1,0 +1,41 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Authorities in Mexico’s Puebla state are investigating a clandestine cryptocurrency-mining operation discovered near hydroelectric infrastructure in the Sierra Norte mountains. Reuters reports that investigators found 300 graphics processing units, 80 medium-voltage terminals and eight satellite antennas inside a remote building in Tlaola.",
+    "The power demand and mechanical noise helped draw attention to the site. Authorities suspect the operation may have drawn electricity without authorization from infrastructure linked to a nearby dam and may have been used to generate virtual assets for laundering illicit funds. Mexico’s federal attorney general’s office declined to comment because the investigation remains active, so responsibility for the site has not been established publicly.",
+    "The Tlaola site is the fourth crypto farm uncovered in that area since early 2025, according to Reuters. The case illustrates how specialized computing hardware, satellite connectivity and stolen energy can be combined in financial crime schemes far from conventional data centers. Blockchain analytics firm Chainalysis estimated that addresses tied to illicit activity received $154 billion globally in 2025, more than double the prior year, with sanctions evasion accounting for much of the increase."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "tech",
+  "city": "Tlaola",
+  "dek": "Investigators found 300 GPUs, medium-voltage equipment and satellite antennas at a remote site suspected of taking power from nearby infrastructure.",
+  "developing": false,
+  "featured": false,
+  "headline": "Mexican crypto-mining raid uncovers 300 GPUs near hydro system",
+  "id": "tech-mexico-hidden-crypto-farm-gpus-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Tlaola, Puebla, Mexico",
+  "publishedAt": "2026-09-12T08:43:00-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "tech-mexico-hidden-crypto-mining-farm-300-gpus",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/americas/hidden-crypto-farm-mexican-mountains-puts-spotlight-cartel-funding-2026-09-12/",
+  "state": "Puebla",
+  "tags": [
+    "Cryptocurrency",
+    "Mexico",
+    "Cybercrime",
+    "Energy Theft",
+    "GPU Mining"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-12T08:43:00-04:00",
+  "visualLabel": "Crypto Mining"
+}

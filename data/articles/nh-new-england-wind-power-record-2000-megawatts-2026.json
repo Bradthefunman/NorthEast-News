@@ -1,0 +1,41 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Wind farms across New England generated more than 2,000 megawatts of electricity at the same time Thursday night, setting a regional record, the Concord Monitor reported Friday. The milestone was reached at about 8:30 p.m., according to data from ISO New England, which manages the six-state power grid.",
+    "The peak was roughly 30% higher than the previous record set in October. The increase reflects new offshore generation now connected to the grid, including the Revolution Wind project serving Rhode Island and Connecticut and the Vineyard Wind project off Massachusetts. Onshore wind facilities in northern New England also contributed to the total.",
+    "A megawatt can supply hundreds of homes, although actual output and demand vary by hour and season. Wind remains one part of a regional mix that also includes natural gas, nuclear, hydroelectric power, solar and imports. Because wind output changes with weather, the grid operator must continuously balance it against other sources. The record nevertheless shows how quickly recently completed projects can alter New England's power supply, particularly during windy off-peak hours when demand is lower."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "new-hampshire",
+  "city": "Concord",
+  "dek": "ISO New England data show regional wind output passed a new threshold Thursday night, helped by recently added offshore projects.",
+  "developing": false,
+  "featured": false,
+  "headline": "New England wind generation crosses 2,000 megawatts for first time",
+  "id": "nh-new-england-wind-power-record-2000-megawatts-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Concord, NH",
+  "publishedAt": "2026-09-11T16:42:00-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "nh-new-england-wind-power-record-2000-megawatts",
+  "sourceName": "Concord Monitor",
+  "sourceUrl": "https://www.concordmonitor.com/2026/09/11/new-england-sets-another-wind-power-record/",
+  "state": "NH",
+  "tags": [
+    "New Hampshire",
+    "wind power",
+    "ISO New England",
+    "renewable energy",
+    "electric grid"
+  ],
+  "topic": "new-hampshire",
+  "topicLabel": "New Hampshire",
+  "trending": false,
+  "updatedAt": "2026-09-11T16:42:00-04:00",
+  "visualLabel": "Energy"
+}

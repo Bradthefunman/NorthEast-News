@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Oracle reported quarterly results above Wall Street estimates Thursday as demand for artificial-intelligence computing added more than $30 billion in new cloud contracts.",
+    "The company’s remaining performance obligations, a measure of contracted future revenue, reached $664 billion. That exceeded the $639.89 billion estimate compiled by Visible Alpha. Oracle said it expects roughly half of the backlog to convert into sales within 36 months.",
+    "Heavy data-center investment remains central to the outlook. Oracle projected annual spending of $90 billion to $95 billion, while noting that many customers prepay or bring their own hardware. Free cash flow was negative $5.40 billion, a smaller outflow than the negative $9.56 billion analysts had expected.",
+    "Oracle forecast adjusted fiscal 2027 earnings of $8.10 per share, slightly above the $8.05 consensus cited by Reuters. Reuters reported that the shares rose about 4% in extended trading after having fallen more than 21% during the year. The results eased some concerns about cash burn, but the large spending plan still makes the pace of contract conversion a key test."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "Austin",
+  "dek": "The company reported more than $30 billion in new AI-cloud contracts and a smaller-than-expected free-cash-flow outflow.",
+  "developing": false,
+  "featured": false,
+  "headline": "Oracle beats estimates as AI cloud contracts expand backlog",
+  "id": "tech-oracle-ai-cloud-demand-estimates-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Austin, TX",
+  "publishedAt": "2026-09-10T18:40:00-04:00",
+  "slug": "oracle-beats-estimates-as-ai-cloud-contracts-expand-backlog",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/technology/oracles-quarterly-revenue-beats-estimates-ai-boom-drives-cloud-demand-2026-09-10/",
+  "state": "United States",
+  "tags": [
+    "Oracle",
+    "cloud computing",
+    "AI infrastructure",
+    "earnings"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-10T18:40:00-04:00",
+  "visualLabel": "Cloud earnings"
+}

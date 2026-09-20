@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Rhode Island health and environmental officials are keeping the statewide West Nile virus risk level at high after the virus was detected in mosquito samples collected in Providence. The positive samples were taken August 24, according to a state notice issued September 3.",
+    "Other samples tested in the same statewide surveillance update were negative for Eastern Equine Encephalitis, Jamestown Canyon virus and additional West Nile virus detections. Mosquito testing is used to identify where infected insects are circulating and to guide public-health messaging.",
+    "Most people infected with West Nile virus do not become sick, but about one in five develops fever or other symptoms. A smaller share can develop severe illness. There is no human vaccine or specific medication that prevents or cures the infection.",
+    "Officials continue to recommend reducing exposure by using insect repellent, wearing long sleeves when practical and removing standing water around homes. The risk designation can change as new samples are tested, but the Providence finding means precautions remain warranted even as summer moves toward fall."
+  ],
+  "breaking": false,
+  "category": "rhode-island",
+  "city": "Providence",
+  "dek": "Mosquitoes collected August 24 tested positive for West Nile virus, while other samples were negative for several monitored diseases.",
+  "developing": false,
+  "featured": false,
+  "headline": "Rhode Island keeps West Nile risk high after Providence detection",
+  "id": "ri-providence-west-nile-high-risk-september-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Providence, RI",
+  "publishedAt": "2026-09-09T08:43:00-04:00",
+  "slug": "rhode-island-keeps-west-nile-risk-high-after-providence-detection",
+  "sourceName": "Rhode Island DEM",
+  "sourceUrl": "https://dem.ri.gov/press-releases/west-nile-virus-detected-providence-0",
+  "state": "RI",
+  "tags": [
+    "Providence",
+    "West Nile virus",
+    "mosquitoes",
+    "public health"
+  ],
+  "topic": "rhode-island",
+  "topicLabel": "Rhode Island",
+  "trending": false,
+  "updatedAt": "2026-09-09T08:43:00-04:00",
+  "visualLabel": "Public health"
+}

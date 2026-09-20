@@ -1,0 +1,40 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Financial technology company Revolut confirmed that sensitive customer information was disclosed after fraudulent data requests arrived from an email domain belonging to a legitimate government agency. The company said the requests were not authentic, even though they appeared to come through an official channel.",
+    "The exposed information included birth dates, contact details and identity documents such as passports and driver’s licenses, according to TechCrunch reporting cited by Reuters. Revolut did not disclose how many customers were affected. It said its own systems and customer funds were not compromised.",
+    "Revolut blocked the address used in the requests and notified the agency, law enforcement and regulators. The incident illustrates a difficult security problem for companies that regularly respond to lawful government requests: attackers may exploit trust in a real agency’s infrastructure without directly breaking into the company holding the customer data. That makes verification of the requester, not only the message’s domain, a critical control. Customers affected by an identity-document leak may face longer-term fraud risks even when accounts and balances remain secure, because exposed credentials can be reused in later impersonation attempts."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "tech",
+  "city": "London",
+  "dek": "The fintech said its systems and customer funds were unaffected, but identity and contact records were disclosed through fraudulent requests.",
+  "developing": false,
+  "featured": false,
+  "headline": "Revolut confirms customer-data leak after spoofed government requests",
+  "id": "tech-revolut-data-leak-government-requests-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "London, United Kingdom",
+  "publishedAt": "2026-09-12T14:42:00-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "tech-revolut-data-leak-government-requests",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/legal/litigation/revolut-confirms-sensitive-customer-data-breach-falling-fake-government-requests-2026-09-12/",
+  "state": "United Kingdom",
+  "tags": [
+    "Revolut",
+    "Data breach",
+    "Identity documents",
+    "Cybersecurity"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-12T14:42:00-04:00",
+  "visualLabel": "Cybersecurity"
+}

@@ -1,0 +1,37 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "The United Arab Emirates is revising the design of a planned 5-gigawatt artificial-intelligence data-center project after the Iran war exposed risks to concentrated infrastructure, six people familiar with the discussions told Reuters. The original concept called for a roughly 10-square-mile campus in Abu Dhabi.",
+    "The project is now likely to become a network of facilities distributed across the country, four of the sources said. Authorities are also considering air defenses and placing some infrastructure underground to reduce vulnerability to drone and missile attacks. A final master plan and its effect on costs or construction schedules remain unclear.",
+    "The UAE-U.S. AI Campus is led by Emirati technology company G42 and involves American partners including Nvidia and OpenAI. The agreement was designed to give the UAE access to advanced U.S. chips and systems while expanding investment in American AI infrastructure and reducing technology ties with China.",
+    "Distributing capacity can improve physical resilience, but it also adds complexity to power delivery, networking and operations. The review shows how data centers have become strategic infrastructure: their location is now shaped not only by electricity, land and cooling requirements, but also by military risk and the ability to keep computing services available during a regional crisis."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "dek": "The proposed 5-gigawatt campus is likely to become a network of sites, with planners weighing air defenses and underground construction.",
+  "developing": false,
+  "featured": false,
+  "headline": "UAE disperses giant AI data-center plan after Iranian attacks",
+  "id": "tech-uae-ai-data-center-plan-revised-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "United Arab Emirates",
+  "publishedAt": "2026-09-11T06:43:00-04:00",
+  "slug": "uae-disperses-giant-ai-data-center-plan-after-iranian-attacks",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/middle-east/uae-revises-ai-data-center-plan-after-iranian-attacks-sources-say-2026-09-11/",
+  "state": "United Arab Emirates",
+  "tags": [
+    "United Arab Emirates",
+    "data centers",
+    "artificial intelligence",
+    "G42"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-11T06:43:00-04:00",
+  "visualLabel": "AI Infrastructure"
+}

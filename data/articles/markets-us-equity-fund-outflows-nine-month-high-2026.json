@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Investors pulled a net $32.27 billion from U.S. equity funds in the week through September 9, the largest weekly withdrawal in nine months, according to LSEG Lipper data reported by Reuters. Rising oil prices and persistent inflation readings increased concern that interest rates could move higher.",
+    "Large-cap funds accounted for a record $40.44 billion in outflows, while mid-cap products lost $682 million. The pattern was not uniform: multi-cap funds attracted $3.52 billion and small-cap funds added $274 million. Sector funds also received a combined $1.46 billion, led by $1.71 billion for technology strategies.",
+    "Money also moved toward fixed income. U.S. bond funds collected $6.56 billion, extending their inflow streak to 21 weeks, with demand concentrated in short-to-intermediate investment-grade and government or Treasury products. Money-market funds, however, recorded $10.41 billion in withdrawals after a much larger intake the week before.",
+    "The report captures completed weekly flows rather than real-time market positioning. It nevertheless shows investors reducing broad equity exposure while selectively adding technology and bonds. Upcoming inflation data and the Federal Reserve’s next decision could determine whether that defensive shift persists."
+  ],
+  "breaking": false,
+  "category": "markets",
+  "dek": "Investors withdrew $32.27 billion in the week through September 9 as oil-driven inflation fears lifted expectations for higher rates.",
+  "developing": false,
+  "featured": false,
+  "headline": "U.S. equity funds record largest outflow in nine months",
+  "id": "markets-us-equity-fund-outflows-nine-month-high-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "United States",
+  "publishedAt": "2026-09-11T08:41:00-04:00",
+  "slug": "us-equity-funds-record-largest-outflow-in-nine-months",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/us-equity-funds-record-nine-month-high-outflows-oil-stokes-inflation-fears-2026-09-11/",
+  "state": "United States",
+  "tags": [
+    "U.S. equity funds",
+    "fund flows",
+    "inflation",
+    "oil prices",
+    "bond funds"
+  ],
+  "topic": "markets",
+  "topicLabel": "Markets / Stocks",
+  "trending": false,
+  "updatedAt": "2026-09-11T08:41:00-04:00",
+  "visualLabel": "Fund Flows"
+}

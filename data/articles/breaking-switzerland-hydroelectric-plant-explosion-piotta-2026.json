@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Two people were seriously injured Wednesday morning in an explosion at a hydroelectric power station in southern Switzerland, according to local authorities.",
+    "Police in the canton of Ticino described the incident as a workplace accident in the village of Piotta. Police officers, firefighters and emergency responders were sent to the site, Reuters reported.",
+    "Authorities had not determined the cause or released the exact circumstances in the initial update. The report also did not identify the injured people or provide further details about their conditions beyond saying the injuries were serious.",
+    "The lack of an established cause makes this a developing incident. Officials will need to assess the plant, interview witnesses and determine whether operations or nearby communities face any continuing risk. Readers should rely on later police and emergency-management updates for confirmed changes, including any revised injury count, operational disruption or safety guidance. The plant operator had not yet announced the extent of any service interruption."
+  ],
+  "breaking": false,
+  "category": "breaking",
+  "city": "Piotta",
+  "dek": "Police, firefighters and emergency crews responded in Piotta as investigators worked to determine the cause of the workplace accident.",
+  "developing": false,
+  "featured": false,
+  "headline": "Two seriously injured in explosion at Swiss hydroelectric plant",
+  "id": "breaking-switzerland-hydroelectric-plant-explosion-piotta-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Piotta, Switzerland",
+  "publishedAt": "2026-09-09T07:42:00-04:00",
+  "slug": "two-seriously-injured-in-explosion-at-swiss-hydroelectric-plant",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/several-injured-explosion-hydroelectric-station-switzerland-20min-reports-2026-09-09/",
+  "state": "International",
+  "tags": [
+    "Switzerland",
+    "hydroelectric plant",
+    "explosion",
+    "Piotta"
+  ],
+  "topic": "breaking",
+  "topicLabel": "Breaking / Developing",
+  "trending": false,
+  "updatedAt": "2026-09-09T07:42:00-04:00",
+  "visualLabel": "Breaking"
+}

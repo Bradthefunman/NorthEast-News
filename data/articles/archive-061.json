@@ -1,0 +1,32 @@
+{
+  "analysis": true,
+  "archive": true,
+  "author": "NorthEast News Archive Desk",
+  "body": [
+    "Archive explainer: Privacy-by-design is becoming a competitive advantage.",
+    "Backdated context piece; recheck current records before republishing as live news."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "dek": "Backdated archive brief: Privacy-by-design is becoming a competitive advantage.",
+  "developing": false,
+  "featured": false,
+  "headline": "Privacy-by-design is becoming a competitive advantage",
+  "id": "archive-061",
+  "image": null,
+  "imageAlt": "",
+  "location": "New England tech watch",
+  "publishedAt": "2026-08-23T17:00:00-04:00",
+  "slug": "tech-privacy-by-design-is-becoming-a-competitive-advantage",
+  "state": "MA",
+  "tags": [
+    "tech",
+    "archive",
+    "new england"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-08-23T17:00:00-04:00",
+  "visualLabel": "Tech"
+}

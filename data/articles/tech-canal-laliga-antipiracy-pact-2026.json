@@ -1,0 +1,39 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Canal+ and Spain’s LaLiga have signed an anti-piracy agreement covering nearly 50 countries where the media company carries league matches. Reuters reported that the partners will combine technical capabilities, coordinate investigations and work together on policy aimed at illegal streaming networks.",
+    "The territory spans Europe, sub-Saharan Africa and Haiti. Financial terms were not disclosed. The arrangement extends beyond removing individual streams: both organizations described piracy as a cross-border business supported by increasingly sophisticated distribution systems.",
+    "LaLiga said Spanish clubs’ broadcast income fell 5.2% in the 2024-25 season to 1.43 billion euros, even as commercial revenue increased. Canal+ estimated that piracy destroys about 1.5 billion euros of value annually in France, including losses to public tax revenue.",
+    "The partnership matters technologically because rights holders increasingly need automated detection, platform cooperation and evidence collection that works across jurisdictions. Illegal services can blend licensed and unlicensed programming and shift infrastructure quickly. Sharing tools and case information could make enforcement faster, though success will still depend on local law, internet providers and courts in each market."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "Paris",
+  "dek": "The broadcasters will combine technical tools, investigations and policy work against illegal soccer streams in their shared markets.",
+  "developing": false,
+  "featured": false,
+  "headline": "Canal+ and LaLiga expand anti-piracy partnership across nearly 50 countries",
+  "id": "tech-canal-laliga-antipiracy-pact-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Paris, France",
+  "publishedAt": "2026-09-11T08:41:00-04:00",
+  "slug": "canal-plus-and-laliga-expand-antipiracy-partnership-across-nearly-50-countries",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/sports/soccer/canal-laliga-sign-anti-piracy-pact-spanning-nearly-50-countries-2026-09-11/",
+  "state": "France",
+  "tags": [
+    "Canal+",
+    "LaLiga",
+    "streaming piracy",
+    "sports media",
+    "cybersecurity"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-11T08:41:00-04:00",
+  "visualLabel": "Digital Media"
+}

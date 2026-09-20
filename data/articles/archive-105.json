@@ -1,0 +1,32 @@
+{
+  "analysis": true,
+  "archive": true,
+  "author": "NorthEast News Archive Desk",
+  "body": [
+    "Archive explainer: What makes a useful local weather update.",
+    "Backdated context piece; recheck current records before republishing as live news."
+  ],
+  "breaking": false,
+  "category": "more",
+  "dek": "Backdated archive brief: What makes a useful local weather update.",
+  "developing": false,
+  "featured": false,
+  "headline": "What makes a useful local weather update",
+  "id": "archive-105",
+  "image": null,
+  "imageAlt": "",
+  "location": "New England",
+  "publishedAt": "2026-08-12T17:00:00-04:00",
+  "slug": "misc-what-makes-a-useful-local-weather-update",
+  "state": "",
+  "tags": [
+    "misc.",
+    "archive",
+    "new england"
+  ],
+  "topic": "misc",
+  "topicLabel": "Misc.",
+  "trending": false,
+  "updatedAt": "2026-08-12T17:00:00-04:00",
+  "visualLabel": "Misc."
+}

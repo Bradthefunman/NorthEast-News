@@ -1,0 +1,41 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Nvidia is in discussions to become an anchor investor in Anthropic's planned initial public offering, people familiar with the matter told Reuters. Anthropic is considering raising as much as $100 billion at a valuation around $2 trillion, while one source said Nvidia's commitment could reach $10 billion. The terms could still change.",
+    "An anchor investment would deepen the relationship between a leading AI-model developer and the dominant supplier of advanced graphics processors used to train and run those models. Anthropic is a major Nvidia customer even as it works with other infrastructure and chip partners. A large pre-IPO commitment can also signal institutional support to other investors before shares begin trading.",
+    "Neither company confirmed the discussions. Reuters reported that Anthropic is aiming to list before the U.S. midterm elections in November, but the timing, valuation and offering size are not final. The proposed deal illustrates how tightly the AI funding boom is linked to computing capacity: money raised by model companies is often routed back into data centers, cloud contracts and accelerators supplied by firms including Nvidia."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "tech",
+  "city": "San Francisco",
+  "dek": "Sources say the chipmaker is discussing a potentially large commitment as Anthropic prepares what could become a record public offering.",
+  "developing": false,
+  "featured": false,
+  "headline": "Nvidia considers anchor investment in Anthropic mega-IPO",
+  "id": "tech-nvidia-anthropic-ipo-anchor-talks-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "San Francisco, California",
+  "publishedAt": "2026-09-11T22:45:00-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "tech-nvidia-anthropic-ipo-anchor-talks",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/legal/transactional/nvidia-talks-invest-anthropics-mega-ipo-sources-say-2026-09-11/",
+  "state": "California",
+  "tags": [
+    "Nvidia",
+    "Anthropic",
+    "artificial intelligence",
+    "IPO",
+    "semiconductors"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-11T22:45:00-04:00",
+  "visualLabel": "AI"
+}

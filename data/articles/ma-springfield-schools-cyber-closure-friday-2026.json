@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Springfield Public Schools will remain closed to students Thursday and Friday as the district continues responding to a cyber incident that has limited technology systems needed for school operations.",
+    "The city said students are scheduled to return Monday, September 14. Friday will be used as a professional-development day so teachers can prepare for the reopening and for temporary operating procedures. That session will replace a previously scheduled professional-development day.",
+    "The closure extends a disruption that also kept students home Wednesday. District officials have not publicly detailed the nature of the intrusion, the systems involved or whether any personal information was accessed. Their announcement focused on restoring operations safely and preparing staff to continue instruction while some technology remains constrained.",
+    "Springfield is also providing grab-and-go meals for students Thursday and Friday. Packages can be picked up between 11:30 a.m. and 1 p.m., according to the city. Officials said they would add information to the district’s frequently asked questions as recovery work continues. Families should rely on district notices for any change to Monday’s planned return."
+  ],
+  "breaking": false,
+  "category": "massachusetts",
+  "city": "Springfield",
+  "dek": "Students are scheduled to return Monday as the district prepares temporary procedures while technology systems remain limited.",
+  "developing": false,
+  "featured": false,
+  "headline": "Springfield schools stay closed through Friday after cyber incident",
+  "id": "ma-springfield-schools-cyber-closure-friday-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Springfield, MA",
+  "publishedAt": "2026-09-10T02:43:00-04:00",
+  "slug": "springfield-schools-stay-closed-through-friday-after-cyber-incident",
+  "sourceName": "City of Springfield",
+  "sourceUrl": "https://www.springfield-ma.gov/cos/news-story?cHash=7cfecd228a463b9b5578e907cce52fd9&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=17926",
+  "state": "MA",
+  "tags": [
+    "Springfield Public Schools",
+    "cybersecurity",
+    "school closure",
+    "Springfield"
+  ],
+  "topic": "massachusetts",
+  "topicLabel": "Massachusetts",
+  "trending": false,
+  "updatedAt": "2026-09-10T02:43:00-04:00",
+  "visualLabel": "Education"
+}

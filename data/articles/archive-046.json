@@ -1,0 +1,32 @@
+{
+  "analysis": true,
+  "archive": true,
+  "author": "NorthEast News Archive Desk",
+  "body": [
+    "Archive explainer: Breaking desk guide: what readers should expect from an update.",
+    "Backdated context piece; recheck current records before republishing as live news."
+  ],
+  "breaking": false,
+  "category": "more",
+  "dek": "Backdated archive brief: Breaking desk guide: what readers should expect from an update.",
+  "developing": false,
+  "featured": false,
+  "headline": "Breaking desk guide: what readers should expect from an update",
+  "id": "archive-046",
+  "image": null,
+  "imageAlt": "",
+  "location": "New England",
+  "publishedAt": "2026-08-27T14:00:00-04:00",
+  "slug": "breaking-breaking-desk-guide-what-readers-should-expect-from-an-update",
+  "state": "",
+  "tags": [
+    "breaking / developing",
+    "archive",
+    "new england"
+  ],
+  "topic": "breaking",
+  "topicLabel": "Breaking / Developing",
+  "trending": false,
+  "updatedAt": "2026-08-27T14:00:00-04:00",
+  "visualLabel": "Breaking / Developing"
+}

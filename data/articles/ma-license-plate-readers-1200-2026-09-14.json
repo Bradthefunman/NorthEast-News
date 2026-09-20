@@ -1,0 +1,39 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "More than 1,200 automated license-plate readers are operating across Massachusetts, according to an Axios Boston tally that maps the technology’s growing footprint and the debate around how vehicle data is collected.",
+    "The count includes roughly 990 cameras made by Flock Safety. Middlesex County has about 252 cameras, followed by Norfolk County with 220 and Essex County with 173, the report found. The systems can alert agencies when they detect plates associated with stolen or wanted vehicles.",
+    "Supporters say the cameras can help investigators locate vehicles and respond to crimes more quickly. Privacy advocates and some local officials have raised concerns about retention, access, possible misuse and the tracking of people who are not suspected of wrongdoing.",
+    "Several communities have taken different approaches. Abington, Ayer, Stow and Groton voted to ban Flock cameras, while New Bedford paused its use after an allegation involving the system. The varying responses leave municipalities to balance investigative tools with local rules and public oversight."
+  ],
+  "breaking": false,
+  "canonicalUrl": null,
+  "category": "massachusetts",
+  "city": null,
+  "dek": "A new tally finds automated license-plate readers operating across Massachusetts, renewing questions about how police technology is deployed and overseen.",
+  "developing": false,
+  "featured": false,
+  "headline": "Massachusetts has more than 1,200 automated license-plate readers, Axios finds",
+  "id": "ma-license-plate-readers-1200-2026-09-14",
+  "image": null,
+  "imageAlt": null,
+  "location": "Massachusetts",
+  "publishedAt": "2026-09-14T18:41:00-04:00",
+  "seoDescription": null,
+  "seoTitle": null,
+  "slug": "ma-license-plate-readers-1200",
+  "sourceName": "Axios Boston",
+  "sourceUrl": "https://www.axios.com/local/boston/2026/09/14/flock-cameras-massachusetts",
+  "state": "Massachusetts",
+  "tags": [
+    "Massachusetts",
+    "Public Safety",
+    "Privacy"
+  ],
+  "topic": "massachusetts",
+  "topicLabel": "Massachusetts",
+  "trending": false,
+  "updatedAt": "2026-09-14T18:41:00-04:00"
+}

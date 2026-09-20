@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Nottingham voters approved a 12-month moratorium on data-center development, giving the town time to examine how large computing facilities could affect local land use and public resources. New Hampshire Public Radio reported that Tuesday’s vote was 1,335 in favor and 143 opposed.",
+    "The pause directs the town to study environmental, infrastructure and fiscal effects and consider whether zoning changes are needed. It does not permanently ban data centers. Instead, it creates a defined review period before proposals can move through the local approval process.",
+    "Interest in the issue followed a data-center proposal that was later withdrawn amid community opposition. NHPR reported that New Hampshire currently has no hyperscale data centers, placing Nottingham’s decision in a broader statewide debate over how communities should prepare for potential projects.",
+    "Over the next year, residents and town officials will have opportunities to weigh development rules against possible economic benefits and demands on land, electricity, water and roads. Any permanent restrictions would require separate action after the study period, making the moratorium a first step rather than a final policy."
+  ],
+  "breaking": false,
+  "category": "new-hampshire",
+  "city": "Nottingham",
+  "dek": "Voters gave the town a year to study land-use, infrastructure, environmental and fiscal questions before new data-center proposals can advance.",
+  "developing": false,
+  "featured": false,
+  "headline": "Nottingham approves 12-month moratorium on data centers",
+  "id": "nh-nottingham-data-center-moratorium-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Nottingham, NH",
+  "publishedAt": "2026-09-09T12:43:00-04:00",
+  "slug": "nottingham-approves-12-month-moratorium-on-data-centers",
+  "sourceName": "New Hampshire Public Radio",
+  "sourceUrl": "https://www.nhpr.org/politics/2026-09-09/nottingham-voters-approve-moratorium-data-centers-nh-newhampshire",
+  "state": "NH",
+  "tags": [
+    "Nottingham",
+    "data centers",
+    "zoning",
+    "local government"
+  ],
+  "topic": "new-hampshire",
+  "topicLabel": "New Hampshire",
+  "trending": false,
+  "updatedAt": "2026-09-09T12:43:00-04:00",
+  "visualLabel": "New Hampshire"
+}

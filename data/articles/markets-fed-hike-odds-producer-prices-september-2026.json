@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Interest-rate futures shifted toward a Federal Reserve increase next week after new data showed U.S. producer prices rose 5.4% in the 12 months through August.",
+    "Reuters reported that traders placed the probability of a quarter-point increase at the Fed’s September 15–16 meeting near 70%, up from roughly 65% before Thursday’s reports. The central bank has held its policy rate in a 3.50% to 3.75% range since December.",
+    "The overall wholesale-price increase matched economists’ expectations, but details suggested inflation pressure may be broadening. Transportation and warehousing costs rose, along with hospital-service prices and airfares. Reuters also noted that disrupted oil distribution from the Middle East conflict and heavy electronics demand linked to AI investment are adding pressure.",
+    "Friday’s consumer-price report is likely to shape the final market view before the meeting. Futures probabilities are not a guarantee of Federal Reserve action and can change quickly as new data arrive. Investors are watching whether inflation remains too persistent for policymakers to keep rates unchanged while the labor market appears stable."
+  ],
+  "breaking": false,
+  "category": "markets",
+  "city": "Washington",
+  "dek": "Futures markets put the chance of a quarter-point move near 70% after August wholesale inflation, with consumer prices still due Friday.",
+  "developing": false,
+  "featured": false,
+  "headline": "Traders raise odds of September Fed rate increase after producer-price data",
+  "id": "markets-fed-hike-odds-producer-prices-september-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Washington, DC",
+  "publishedAt": "2026-09-10T16:43:00-04:00",
+  "slug": "traders-raise-odds-of-september-fed-rate-increase-after-producer-price-data",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/markets/us/fed-eyeing-inflation-data-may-lean-toward-hike-traders-bet-2026-09-10/",
+  "state": "United States",
+  "tags": [
+    "Federal Reserve",
+    "interest rates",
+    "producer prices",
+    "inflation"
+  ],
+  "topic": "markets",
+  "topicLabel": "Markets / Stocks",
+  "trending": false,
+  "updatedAt": "2026-09-10T16:43:00-04:00",
+  "visualLabel": "Rate outlook"
+}

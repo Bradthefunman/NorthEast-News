@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Russian air strikes injured two people and started a fire in a nine-story apartment building in Kyiv early Friday, city authorities said.",
+    "Officials posted the preliminary account on Telegram after air-raid warnings urged residents to take shelter from drones. Emergency crews were responding to the residential fire, and authorities had not yet provided a full assessment of damage or whether additional people were trapped or displaced.",
+    "Separately, the governor of Russia’s Saratov region said Ukrainian drones damaged civilian infrastructure there but caused no casualties. Saratov is home to a Rosneft refinery as well as industrial and military facilities. The precise targets and extent of the damage were not immediately clear.",
+    "Reuters said it could not independently verify the battlefield accounts. Russia and Ukraine both deny deliberately targeting civilians, although residential areas and civilian infrastructure have repeatedly been damaged during the war. Casualty and damage figures may change as emergency teams complete searches and local authorities release additional information."
+  ],
+  "breaking": false,
+  "category": "breaking",
+  "city": "Kyiv",
+  "dek": "Kyiv authorities reported a fire in a nine-story residential building after overnight air attacks, while Russia’s Saratov region reported infrastructure damage.",
+  "developing": false,
+  "featured": false,
+  "headline": "Russian strikes injure two and ignite Kyiv apartment fire, officials say",
+  "id": "breaking-kyiv-apartment-fire-russian-strikes-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Kyiv, Ukraine",
+  "publishedAt": "2026-09-10T22:42:00-04:00",
+  "slug": "russian-strikes-injure-two-and-ignite-kyiv-apartment-fire-officials-say",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/russian-air-strikes-injure-two-cause-fire-9-storey-apartment-building-kyiv-2026-09-11/",
+  "state": "Ukraine",
+  "tags": [
+    "Ukraine",
+    "Russia",
+    "Kyiv",
+    "air strikes"
+  ],
+  "topic": "breaking",
+  "topicLabel": "Breaking / Developing",
+  "trending": false,
+  "updatedAt": "2026-09-10T22:42:00-04:00",
+  "visualLabel": "Developing"
+}

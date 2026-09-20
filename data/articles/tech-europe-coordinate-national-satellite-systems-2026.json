@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Europe’s top space official is calling for greater coordination among national satellite programs as governments invest in sovereign communications networks. European Space Agency Director General Josef Aschbacher said the systems should be interoperable and warned against creating isolated projects that duplicate capabilities.",
+    "The issue has become more prominent as Germany develops a separate military communications network while the European Union advances IRIS², its planned secure satellite constellation. Initial IRIS² launches are targeted for 2029. Aschbacher said Europe needs a shared approach that still allows countries to pursue their own security requirements.",
+    "Industrial work is already accelerating. Thales Alenia Space has a deal to supply payloads for 330 low-Earth-orbit satellites, an order valued at about €500 million within a broader contract worth more than €3 billion. Airbus is expected to provide an initial layer of at least 66 satellites.",
+    "Aschbacher also proposed spending about €1 billion a year for a decade, beginning in 2029, to strengthen Europe’s space autonomy. A decision on that proposal is expected in 2028. The coordination debate will shape whether national constellations and EU-backed infrastructure operate as complementary layers or become costly parallel systems."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "Paris",
+  "dek": "European Space Agency leader Josef Aschbacher says new sovereign networks should work together as the region builds communications capacity and prepares IRIS².",
+  "developing": false,
+  "featured": false,
+  "headline": "ESA chief urges Europe to link national satellite systems",
+  "id": "tech-europe-coordinate-national-satellite-systems-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Paris, France",
+  "publishedAt": "2026-09-11T04:43:00-04:00",
+  "slug": "esa-chief-urges-europe-to-link-national-satellite-systems",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/media-telecom/europes-space-chief-raises-need-region-coordinate-its-satellite-plans-2026-09-10/",
+  "state": "France",
+  "tags": [
+    "European Space Agency",
+    "satellites",
+    "IRIS2",
+    "space infrastructure"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-11T04:43:00-04:00",
+  "visualLabel": "Space Technology"
+}

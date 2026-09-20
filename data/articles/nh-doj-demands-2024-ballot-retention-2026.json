@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "The U.S. Justice Department has directed New Hampshire to preserve paper ballots and electronic records from the 2024 election beyond the state’s normal retention period, according to a letter reported by New Hampshire Public Radio.",
+    "The September 4 letter instructed Secretary of State David Scanlan to retain all hard-copy ballots, citing ongoing litigation without identifying a case. New Hampshire municipalities ordinarily may destroy paper ballots 22 months after an election. Similar federal instructions have reportedly gone to at least 30 states.",
+    "Scanlan subsequently told local election officials to preserve all 2024 ballots and related records. He said the federal government had supplied no factual or legal basis for the demand and emphasized that the ballots remain confidential. Any future request to inspect or copy them would be evaluated individually, he said.",
+    "The federal letter also sought preservation of electronic election records and referred to potential Civil Rights Act violations without presenting evidence. State officials said they had no basis to believe New Hampshire violated election law. The request arrives just after the state primary, which officials said proceeded without significant problems."
+  ],
+  "breaking": false,
+  "category": "new-hampshire",
+  "city": "Concord",
+  "dek": "The state says the request cites unspecified litigation and provides no factual or legal basis for suggesting New Hampshire violated election law.",
+  "developing": false,
+  "featured": false,
+  "headline": "Federal Justice Department tells New Hampshire to retain 2024 ballots",
+  "id": "nh-doj-demands-2024-ballot-retention-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Concord, NH",
+  "publishedAt": "2026-09-10T18:40:00-04:00",
+  "slug": "federal-justice-department-demands-new-hampshire-retain-2024-ballots",
+  "sourceName": "New Hampshire Public Radio",
+  "sourceUrl": "https://www.nhpr.org/nh-news/2026-09-10/trump-administration-demands-nh-continue-storing-old-ballots-citing-potential-lawsuit",
+  "state": "New Hampshire",
+  "tags": [
+    "2024 election",
+    "ballots",
+    "New Hampshire",
+    "Justice Department"
+  ],
+  "topic": "new-hampshire",
+  "topicLabel": "New Hampshire",
+  "trending": false,
+  "updatedAt": "2026-09-10T18:40:00-04:00",
+  "visualLabel": "Ballot retention"
+}

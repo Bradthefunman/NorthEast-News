@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Booking Holdings lost its challenge to the European Union’s veto of its €1.63 billion acquisition of flight-booking company ETraveli, leaving the blocked technology deal intact.",
+    "The General Court in Luxembourg sided with the European Commission, which rejected the transaction in 2023. Judges said the purchase would have strengthened Booking’s already dominant position in the online travel-agency market for hotels.",
+    "Regulators argued that adding ETraveli’s flight-booking services could create a broader travel ecosystem that rivals would struggle to match. Booking’s brands include Booking.com, Rentalcars, Priceline and Agoda. ETraveli, owned by CVC Capital Partners, operates Gotogate, Mytrip and the airline-content service TripStack.",
+    "The ruling underscores Europe’s tougher scrutiny of technology acquisitions that may reinforce an incumbent’s position rather than simply add a direct competitor. It does not necessarily end the case: Booking can appeal on points of law to the Court of Justice of the European Union. Until any successful appeal, the Commission’s prohibition remains in force."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "Luxembourg",
+  "dek": "Europe’s second-highest court backed regulators who said the €1.63 billion deal would strengthen Booking’s dominant online-travel position.",
+  "developing": false,
+  "featured": false,
+  "headline": "EU court upholds veto of Booking’s ETraveli acquisition",
+  "id": "tech-eu-court-booking-etraveli-acquisition-veto-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Luxembourg",
+  "publishedAt": "2026-09-09T06:43:00-04:00",
+  "slug": "eu-court-upholds-veto-of-bookings-etraveli-acquisition",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/eu-court-upholds-eu-antitrust-veto-bookings-etraveli-deal-2026-09-09/",
+  "state": "International",
+  "tags": [
+    "Booking Holdings",
+    "ETraveli",
+    "European Union",
+    "antitrust"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-09T06:43:00-04:00",
+  "visualLabel": "Antitrust"
+}

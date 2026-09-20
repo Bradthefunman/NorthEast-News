@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Anthropic said Thursday that it disrupted several malicious campaigns involving its Claude models, including suspected Russian cyberespionage and efforts by China-based AI companies to extract or replicate the system’s capabilities.",
+    "The company said the activity unfolded over eight months and increasingly used multiple AI agents to divide and automate tasks. Anthropic alleged that seven China-based laboratories, including Alibaba, Moonshot, DeepSeek and Xiaomi, accessed Claude through deceptive accounts or intermediaries.",
+    "One operation attributed to Alibaba generated 151 million exchanges from May through July and peaked at about 3 million in a day across more than 3,500 allegedly fraudulent accounts, Anthropic said. It also accused Moonshot and DeepSeek of routing some live customer conversations through Claude for training, including potentially sensitive material.",
+    "Anthropic separately said tradecraft consistent with the Russia-linked group known as Midnight Blizzard used AI in phishing, hotel Wi-Fi compromise and WhatsApp account takeover attempts targeting Ukrainian officials. The organizations named in the report did not all provide immediate responses. The findings are Anthropic’s account of its own enforcement work and should be read as company allegations, not independent legal determinations."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "San Francisco",
+  "dek": "The company described alleged cyberespionage and large-scale attempts to extract Claude’s capabilities over an eight-month period.",
+  "developing": false,
+  "featured": false,
+  "headline": "Anthropic says it disrupted Russian and Chinese AI-abuse campaigns",
+  "id": "tech-anthropic-russian-chinese-claude-campaigns-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "San Francisco, CA",
+  "publishedAt": "2026-09-10T18:40:00-04:00",
+  "slug": "anthropic-says-it-disrupted-russian-and-chinese-ai-abuse-campaigns",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/legal/litigation/anthropic-disrupts-russian-chinese-ai-campaigns-targeting-its-claude-models-2026-09-10/",
+  "state": "International",
+  "tags": [
+    "Anthropic",
+    "Claude",
+    "cybersecurity",
+    "AI models"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-10T18:40:00-04:00",
+  "visualLabel": "AI security"
+}

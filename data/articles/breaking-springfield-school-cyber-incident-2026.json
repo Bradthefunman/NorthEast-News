@@ -1,0 +1,40 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "All public schools in Springfield, Massachusetts, were closed Tuesday after a cyber incident interrupted systems needed for essential school operations, New England Public Media reported.",
+    "The district also canceled after-school activities and directed staff to stay off district network systems. Students with district-issued laptops were told to do the same while officials worked to determine what happened.",
+    "The incident’s scope remained under investigation. The district’s Central Office stayed open, although officials warned that some services, including phone lines, could be affected. The closure was described as a step to give technology and school leaders time to address the disruption.",
+    "Officials had not publicly identified the cause, the systems affected or a timetable for full restoration in the report. Those details will determine whether the closure remains a one-day response or expands into a larger operational problem.",
+    "School officials said the closure was intended to protect essential operations while the district worked through the immediate response."
+  ],
+  "breaking": false,
+  "category": "more",
+  "city": "Springfield",
+  "dek": "All public schools and after-school activities were canceled Tuesday while officials investigated an incident affecting systems used for essential operations.",
+  "developing": false,
+  "featured": false,
+  "headline": "Springfield public schools close after cyber incident",
+  "id": "breaking-springfield-school-cyber-incident-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Springfield, MA",
+  "publishedAt": "2026-09-08T16:45:00-04:00",
+  "slug": "springfield-public-schools-close-after-cyber-incident",
+  "sourceName": "New England Public Media / WBUR",
+  "sourceUrl": "https://www.wbur.org/news/2026/09/08/springfield-public-schools-closed-cyber-incident",
+  "state": "MA",
+  "tags": [
+    "Massachusetts",
+    "Springfield",
+    "cybersecurity",
+    "schools",
+    "developing"
+  ],
+  "topic": "breaking",
+  "topicLabel": "Breaking / Developing",
+  "trending": false,
+  "updatedAt": "2026-09-08T16:45:00-04:00",
+  "visualLabel": "Cybersecurity alert"
+}

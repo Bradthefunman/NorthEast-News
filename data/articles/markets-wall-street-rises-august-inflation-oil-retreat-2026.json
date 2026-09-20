@@ -1,0 +1,39 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "U.S. stocks rose Friday morning even after government data showed consumer inflation accelerated in August. At 9:38 a.m. Eastern time, Reuters reported the Dow up 1.23%, the S&P 500 ahead 1.05% and the Nasdaq Composite gaining 1.08%.",
+    "The Consumer Price Index increased 0.4% in August after a 0.1% rise in July. Prices were up 3.4% from a year earlier, matching July’s annual rate. The report pushed traders toward higher expectations for a Federal Reserve rate increase, according to futures-market pricing cited by Reuters.",
+    "Energy offered some relief to risk sentiment. Brent crude futures fell more than 3%, though they remained above $104 a barrel at the time of the report, while U.S. crude hovered near $100. Elevated oil and Treasury yields had weighed on markets earlier in the week.",
+    "All 11 major S&P 500 sectors were positive in early trading, led by technology. The figures are a timestamped market snapshot rather than closing prices. Investors still face uncertainty over inflation, monetary policy and Middle East supply risks as they assess whether the Friday rebound can hold through the session."
+  ],
+  "breaking": false,
+  "category": "markets",
+  "city": "New York",
+  "dek": "Major U.S. indexes gained Friday morning after August consumer prices rose 0.4%, while crude futures pulled back.",
+  "developing": false,
+  "featured": false,
+  "headline": "Wall Street rises as oil retreats despite hotter inflation",
+  "id": "markets-wall-street-rises-august-inflation-oil-retreat-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "New York, New York",
+  "publishedAt": "2026-09-11T10:42:00-04:00",
+  "slug": "markets-wall-street-rises-august-inflation-oil-retreat",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/wall-st-futures-recover-oil-slides-ahead-inflation-test-2026-09-11/",
+  "state": "New York",
+  "tags": [
+    "Wall Street",
+    "consumer prices",
+    "Federal Reserve",
+    "oil",
+    "stocks"
+  ],
+  "topic": "markets",
+  "topicLabel": "Markets / Stocks",
+  "trending": false,
+  "updatedAt": "2026-09-11T10:42:00-04:00",
+  "visualLabel": "Markets"
+}

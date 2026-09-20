@@ -1,0 +1,32 @@
+{
+  "analysis": true,
+  "archive": true,
+  "author": "NorthEast News Archive Desk",
+  "body": [
+    "Archive explainer: What investors should watch in a volatile trading week.",
+    "Backdated context piece; recheck current records before republishing as live news."
+  ],
+  "breaking": false,
+  "category": "markets",
+  "dek": "Backdated archive brief: What investors should watch in a volatile trading week.",
+  "developing": false,
+  "featured": false,
+  "headline": "What investors should watch in a volatile trading week",
+  "id": "archive-062",
+  "image": null,
+  "imageAlt": "",
+  "location": "Markets",
+  "publishedAt": "2026-08-23T14:00:00-04:00",
+  "slug": "markets-what-investors-should-watch-in-a-volatile-trading-week",
+  "state": "MA",
+  "tags": [
+    "markets / stocks",
+    "archive",
+    "new england"
+  ],
+  "topic": "markets",
+  "topicLabel": "Markets / Stocks",
+  "trending": false,
+  "updatedAt": "2026-08-23T14:00:00-04:00",
+  "visualLabel": "Markets / Stocks"
+}

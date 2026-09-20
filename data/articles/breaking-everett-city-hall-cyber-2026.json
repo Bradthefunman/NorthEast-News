@@ -1,0 +1,39 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Everett City Hall closed Tuesday after the city announced a cybersecurity incident affecting its internal network and technology systems, Boston 25 News reported.",
+    "City officials said Everett police, the fire department, the Department of Public Works, public schools and libraries would operate as normal. Online bill payments and third-party online transactions were not affected, according to the report.",
+    "The city did not publicly identify the cause, the systems involved or whether information was accessed. Everett officials said they were continuing to assess the incident and share updates as details emerged.",
+    "The closure is a developing municipal disruption rather than a declaration about the incident’s ultimate scope. Residents should rely on city updates for service changes while officials work to restore normal City Hall operations and determine what protections are needed.",
+    "Municipal cyber incidents can affect routine services even when emergency response and public-facing operations continue, making clear status updates important for residents."
+  ],
+  "breaking": false,
+  "category": "more",
+  "city": "Everett",
+  "dek": "The city said its internal network and technology systems were affected Tuesday, while police, fire, schools, libraries and online payments continued operating.",
+  "developing": false,
+  "featured": false,
+  "headline": "Everett City Hall closes after cybersecurity incident",
+  "id": "breaking-everett-city-hall-cyber-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Everett, MA",
+  "publishedAt": "2026-09-08T16:54:00-04:00",
+  "slug": "everett-city-hall-closes-after-cybersecurity-incident",
+  "sourceName": "Boston 25 News",
+  "sourceUrl": "https://www.boston25news.com/news/local/everett-city-hall-closed-tuesday-after-cybersecurity-incident/KOUAMZDVIFHEBPTLZWSMN6PNVI/",
+  "state": "MA",
+  "tags": [
+    "Massachusetts",
+    "Everett",
+    "cybersecurity",
+    "municipal government"
+  ],
+  "topic": "breaking",
+  "topicLabel": "Breaking / Developing",
+  "trending": false,
+  "updatedAt": "2026-09-08T16:54:00-04:00",
+  "visualLabel": "Cybersecurity incident"
+}

@@ -1,0 +1,32 @@
+{
+  "analysis": true,
+  "archive": true,
+  "author": "NorthEast News Archive Desk",
+  "body": [
+    "Archive explainer: The questions behind every market-moving alert.",
+    "Backdated context piece; recheck current records before republishing as live news."
+  ],
+  "breaking": false,
+  "category": "markets",
+  "dek": "Backdated archive brief: The questions behind every market-moving alert.",
+  "developing": false,
+  "featured": false,
+  "headline": "The questions behind every market-moving alert",
+  "id": "archive-139",
+  "image": null,
+  "imageAlt": "",
+  "location": "Markets",
+  "publishedAt": "2026-08-04T11:00:00-04:00",
+  "slug": "markets-the-questions-behind-every-market-moving-alert",
+  "state": "MA",
+  "tags": [
+    "markets / stocks",
+    "archive",
+    "new england"
+  ],
+  "topic": "markets",
+  "topicLabel": "Markets / Stocks",
+  "trending": false,
+  "updatedAt": "2026-08-04T11:00:00-04:00",
+  "visualLabel": "Markets / Stocks"
+}

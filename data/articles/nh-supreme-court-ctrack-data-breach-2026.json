@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Files associated with the New Hampshire Supreme Court were accessed during a cybersecurity incident involving C-Track, a case-management platform used by courts in multiple jurisdictions.",
+    "NHPR reported that the state Judicial Branch reviewed the affected material in mid-August and found that names and addresses of people connected to cases filed from 2002 through 2015 had been accessed. The branch said it had not identified exposed Social Security numbers, driver’s-license numbers, birth dates, medical details or health-insurance information in the New Hampshire files.",
+    "West Publishing, which operates C-Track, discovered the unauthorized activity on June 30. Its investigation found that an outside party obtained certain files in March. Court systems in 11 states, the U.S. Virgin Islands and Canada were included in the broader incident.",
+    "New Hampshire’s Superior and Circuit courts do not use C-Track, limiting the state exposure identified so far to Supreme Court data. The platform continued operating, according to notices about the breach. People whose names appeared in older cases should rely on direct notices or official updates before assuming their sensitive information was involved."
+  ],
+  "breaking": false,
+  "category": "new-hampshire",
+  "city": "Concord",
+  "dek": "A review found names and addresses in 2002–2015 case files were accessed, while the Judicial Branch said it had not identified exposed sensitive identifiers.",
+  "developing": false,
+  "featured": false,
+  "headline": "New Hampshire Supreme Court files were accessed in multi-state C-Track breach",
+  "id": "nh-supreme-court-ctrack-data-breach-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Concord, New Hampshire",
+  "publishedAt": "2026-09-09T07:42:00-04:00",
+  "slug": "new-hampshire-supreme-court-files-accessed-in-multi-state-ctrack-breach",
+  "sourceName": "NHPR",
+  "sourceUrl": "https://www.nhpr.org/nh-news/2026-09-03/nh-supreme-court-data-breached-in-north-american-cybersecurity-incident",
+  "state": "NH",
+  "tags": [
+    "New Hampshire Supreme Court",
+    "C-Track",
+    "cybersecurity",
+    "court records"
+  ],
+  "topic": "new-hampshire",
+  "topicLabel": "New Hampshire",
+  "trending": false,
+  "updatedAt": "2026-09-09T07:42:00-04:00",
+  "visualLabel": "Cybersecurity"
+}

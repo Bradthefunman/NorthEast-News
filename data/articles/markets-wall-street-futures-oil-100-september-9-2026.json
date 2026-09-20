@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "U.S. stock-index futures were subdued early Wednesday as investors weighed a renewed oil shock against modest strength in semiconductor shares.",
+    "At 5:05 a.m. Eastern, Reuters reported Dow futures down 0.16%, S&P 500 futures flat and Nasdaq 100 futures up 0.04%. Brent crude had briefly crossed $100 a barrel before trading near $99.94, keeping attention on the inflation effects of the widening Middle East conflict.",
+    "Qualcomm, Arm and Nvidia gained between 0.16% and 1.73% in premarket trading, offering some support to technology benchmarks. Investors were also waiting for U.S. inflation data later in the week and a Treasury announcement about bond buybacks.",
+    "The figures are time-stamped premarket indications, not live prices or closing levels, and can change quickly after trading begins. The setup shows competing pressures: enthusiasm for AI-linked companies remains a source of demand, while higher energy costs and expectations for tighter monetary policy can weigh on valuations across the broader market."
+  ],
+  "breaking": false,
+  "category": "markets",
+  "city": "New York",
+  "dek": "Early Wednesday futures were subdued after Brent briefly topped $100, with investors also awaiting inflation data and a Treasury buyback announcement.",
+  "developing": false,
+  "featured": false,
+  "headline": "Wall Street futures hold near flat as oil shock tests risk appetite",
+  "id": "markets-wall-street-futures-oil-100-september-9-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "New York, New York",
+  "publishedAt": "2026-09-09T07:42:00-04:00",
+  "slug": "wall-street-futures-hold-near-flat-as-oil-shock-tests-risk-appetite",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/wall-st-futures-muted-oil-tops-100-first-time-since-july-2026-09-09/",
+  "state": "US",
+  "tags": [
+    "Wall Street",
+    "stock futures",
+    "oil prices",
+    "inflation"
+  ],
+  "topic": "markets",
+  "topicLabel": "Markets / Stocks",
+  "trending": false,
+  "updatedAt": "2026-09-09T07:42:00-04:00",
+  "visualLabel": "Wall Street"
+}

@@ -1,0 +1,34 @@
+{
+  "analysis": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Major British airports were working through a travel backlog early Wednesday after a technical failure in the United Kingdom’s air-traffic control system disrupted roughly 1,000 flights.",
+    "NATS, the country’s air-navigation service, said the fault affected flight-data processing and had been resolved. It said safety was not compromised. Heathrow, Gatwick, Manchester and Stansted were among the airports reporting delays or cancellations while airlines rebuilt schedules and repositioned aircraft and crews.",
+    "Ryanair said more than 65,000 of its passengers were affected and that it canceled more than 50 flights. Those figures are the airline’s account of its own operation, while the broader effects varied by carrier and airport.",
+    "The technical fault is over, but the travel disruption remains a developing story because delays can carry into later departure waves even after air-traffic capacity returns. Passengers due to fly Wednesday should check directly with their airline before traveling and allow for changes to gates or departure times. Britain’s aviation regulator expects a full report on the incident, which will be central to understanding the cause and preventing a repeat."
+  ],
+  "breaking": false,
+  "category": "more",
+  "dek": "NATS said a flight-data processing fault was resolved, but cancellations and delays continued across major British airports as airlines repositioned aircraft and crews.",
+  "developing": false,
+  "featured": false,
+  "headline": "UK airports work through backlog after air-traffic system failure",
+  "id": "breaking-uk-air-traffic-failure-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "United Kingdom",
+  "publishedAt": "2026-09-09T00:43:00-04:00",
+  "slug": "uk-airports-work-through-backlog-after-air-traffic-system-failure",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/uk/some-uk-departing-flights-disrupted-by-nats-technical-issue-heathrow-says-2026-09-08/",
+  "state": "International",
+  "tags": [
+    "United Kingdom",
+    "air travel",
+    "NATS",
+    "flight delays"
+  ],
+  "trending": false,
+  "updatedAt": "2026-09-09T00:43:00-04:00",
+  "visualLabel": "Developing"
+}

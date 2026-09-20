@@ -1,0 +1,39 @@
+{
+  "analysis": true,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "HSBC raised its year-end target for the S&P 500 to 8,100 from 7,650, citing stronger corporate earnings and continued investment in AI infrastructure, Reuters reported Tuesday.",
+    "The new target implies a potential 4.9% gain from the index’s latest close. HSBC expects earnings per share growth to accelerate in the second half of 2026, while Reuters said 86% of 492 S&P 500 companies reporting so far had exceeded analyst estimates.",
+    "The bank also listed risks, including possible Federal Reserve rate increases, geopolitical tension, the November midterm elections and the liquidity demands of new stock offerings and AI investment.",
+    "An index target is an analyst forecast, not a live market price or guarantee. Investors are still weighing whether strong earnings can offset higher energy costs, uncertain rates and the narrow valuation range in which technology stocks have been trading.",
+    "The forecast is therefore best read as a view on earnings and capital spending, not as a promise that the broad market will follow a straight line higher."
+  ],
+  "breaking": false,
+  "category": "markets",
+  "dek": "The bank cited stronger corporate earnings and AI-infrastructure investment while warning that inflation, rates and geopolitics could still unsettle markets.",
+  "developing": false,
+  "featured": false,
+  "headline": "HSBC raises S&P 500 year-end target to 8,100",
+  "id": "markets-hsbc-sp500-target-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Markets",
+  "publishedAt": "2026-09-08T16:54:00-04:00",
+  "slug": "hsbc-raises-sp500-year-end-target-to-8100",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/asia-pacific/hsbc-lifts-sp-500s-year-end-target-8100-earnings-strength-2026-09-08/",
+  "state": "MA",
+  "tags": [
+    "markets",
+    "stocks",
+    "S&P 500",
+    "AI",
+    "Federal Reserve"
+  ],
+  "topic": "markets",
+  "topicLabel": "Markets / Stocks",
+  "trending": false,
+  "updatedAt": "2026-09-08T16:54:00-04:00",
+  "visualLabel": "Market outlook"
+}

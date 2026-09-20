@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Rhode Island voters will cast primary ballots Wednesday, one day later than the state’s usual Tuesday schedule. Polling places across the state open at 7 a.m., except in New Shoreham, where voting begins at 9 a.m.",
+    "All polling places close at 8 p.m. The Secretary of State’s voter information site says anyone who is in line at their assigned polling location by 8 p.m. will still be allowed to vote.",
+    "The early-voting and emergency mail-ballot period ended Tuesday at 4 p.m. Voters can use the state’s online voter record tool to confirm their polling place and review election information before leaving home. Primary ballots select party nominees for federal, state and local offices.",
+    "The Wednesday election date was adopted because the previously scheduled Tuesday fell immediately after Labor Day. Election officials advise voters to verify their location rather than assume it is the same as in a prior election. Results will be reported after polls close; this article does not project any race."
+  ],
+  "breaking": false,
+  "category": "rhode-island",
+  "city": "Providence",
+  "dek": "Most polling places open at 7 a.m. and close at 8 p.m. for the state’s unusually scheduled Wednesday primary.",
+  "developing": false,
+  "featured": false,
+  "headline": "Rhode Island primary voting starts Wednesday morning",
+  "id": "ri-primary-voting-hours-september-9-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Rhode Island",
+  "publishedAt": "2026-09-09T04:45:00-04:00",
+  "slug": "rhode-island-primary-voting-starts-wednesday-morning",
+  "sourceName": "Rhode Island Secretary of State",
+  "sourceUrl": "https://vote.sos.ri.gov/Elections/PollingPlaceHours",
+  "state": "RI",
+  "tags": [
+    "Rhode Island primary",
+    "voting",
+    "polling places",
+    "elections"
+  ],
+  "topic": "rhode-island",
+  "topicLabel": "Rhode Island",
+  "trending": false,
+  "updatedAt": "2026-09-09T04:45:00-04:00",
+  "visualLabel": "Election day"
+}

@@ -1,0 +1,39 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Oracle shares were up about 6% in Friday trading after the company reported stronger quarterly results and a $26 billion increase in its revenue backlog, Reuters reported. The reaction reflected renewed investor confidence that demand for AI cloud capacity can support the company’s large data-center buildout.",
+    "Oracle’s total backlog reached $664 billion. The company expects roughly half of that amount to convert into revenue over the next three years. Customer prepayments and chips supplied by clients are helping fund some projects, reducing how much capital Oracle must provide directly.",
+    "Investors are still watching financing risk. Oracle expects debt to reach about $40 billion this fiscal year, while component costs, project delays and local opposition to new data centers could complicate expansion. The shares had fallen more than 21% in 2026 before Friday’s move.",
+    "Reuters said Oracle traded at about 16.9 times expected earnings, below comparable multiples for Microsoft and Amazon. That gap may offer room for recovery if cloud contracts become sales on schedule, but the backlog is not the same as recognized revenue. Execution and funding remain central to the stock’s outlook."
+  ],
+  "breaking": false,
+  "category": "markets",
+  "city": "Austin",
+  "dek": "The Friday move followed stronger results and a larger order book, easing some concern about the cost of Oracle’s data-center expansion.",
+  "developing": false,
+  "featured": false,
+  "headline": "Oracle shares rise as AI cloud backlog adds $26 billion",
+  "id": "markets-oracle-shares-ai-backlog-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Austin, Texas",
+  "publishedAt": "2026-09-11T08:41:00-04:00",
+  "slug": "oracle-shares-rise-as-ai-cloud-backlog-adds-26-billion",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/retail-consumer/oracle-shares-rise-ai-cloud-backlog-beats-estimates-2026-09-11/",
+  "state": "Texas",
+  "tags": [
+    "Oracle",
+    "cloud computing",
+    "AI infrastructure",
+    "earnings",
+    "stocks"
+  ],
+  "topic": "markets",
+  "topicLabel": "Markets / Stocks",
+  "trending": false,
+  "updatedAt": "2026-09-11T08:41:00-04:00",
+  "visualLabel": "Stocks"
+}

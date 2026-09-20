@@ -1,0 +1,34 @@
+{
+  "analysis": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "ASML plans to work with major chipmakers on larger masks for its newest High-NA extreme-ultraviolet lithography tools, aiming to make the systems suitable for large data-center processors.",
+    "Reuters reported that widely used EUV machines can print chips up to about 800 square millimeters. High-NA tools can create finer features, but their smaller masks currently limit the size of chips they can produce.",
+    "ASML said a larger mask format could remove that constraint and expand adoption beyond Intel, which already uses the new tools for some production. TSMC plans High-NA use in advanced-node high-volume manufacturing from 2030, while Samsung and SK Hynix are targeting memory production earlier.",
+    "The timetable is long: ASML expects a pilot line around 2031 and technology ready for high-volume production by 2033. Chief Technology Officer Marco Pieters told Reuters the change could raise system productivity by 40%. Those are company plans, not guaranteed manufacturing outcomes, and success will require equipment makers, chip foundries and mask suppliers to align on a new standard."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "dek": "The chip-equipment maker says an industry consortium could adapt its most advanced lithography systems for today’s largest AI processors.",
+  "developing": false,
+  "featured": false,
+  "headline": "ASML plans larger masks for High-NA tools and data-center chips",
+  "id": "tech-asml-large-mask-high-na-euv-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Netherlands",
+  "publishedAt": "2026-09-08T21:45:00-04:00",
+  "slug": "asml-plans-larger-masks-for-high-na-tools-and-data-center-chips",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/asia-pacific/asml-work-with-major-chipmakers-to-use-latest-tools-larger-chips-2026-09-08/",
+  "state": "NL",
+  "tags": [
+    "ASML",
+    "semiconductors",
+    "EUV",
+    "AI chips"
+  ],
+  "trending": false,
+  "updatedAt": "2026-09-08T21:45:00-04:00",
+  "visualLabel": "Semiconductors"
+}

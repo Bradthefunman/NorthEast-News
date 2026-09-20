@@ -1,0 +1,32 @@
+{
+  "analysis": true,
+  "archive": true,
+  "author": "NorthEast News Archive Desk",
+  "body": [
+    "Archive explainer: Developing: When a developing story should be updated or closed.",
+    "Backdated context piece; recheck current records before republishing as live news."
+  ],
+  "breaking": false,
+  "category": "more",
+  "dek": "Backdated archive brief: Developing: When a developing story should be updated or closed.",
+  "developing": false,
+  "featured": false,
+  "headline": "Developing: When a developing story should be updated or closed",
+  "id": "archive-081",
+  "image": null,
+  "imageAlt": "",
+  "location": "New England",
+  "publishedAt": "2026-08-18T17:00:00-04:00",
+  "slug": "breaking-developing-when-a-developing-story-should-be-updated-or-closed",
+  "state": "",
+  "tags": [
+    "breaking / developing",
+    "archive",
+    "new england"
+  ],
+  "topic": "breaking",
+  "topicLabel": "Breaking / Developing",
+  "trending": false,
+  "updatedAt": "2026-08-18T17:00:00-04:00",
+  "visualLabel": "Breaking / Developing"
+}

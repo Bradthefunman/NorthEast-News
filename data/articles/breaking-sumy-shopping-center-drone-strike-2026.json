@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "A Russian drone strike hit a shopping center in Ukraine’s northern Sumy region on Wednesday, killing three people and injuring two, according to regional governor Oleh Hryhorov.",
+    "Emergency crews were responding to a fire at the site. Images released by regional authorities showed a heavily damaged building and rubble spread across the area. Officials had not published a fuller accounting of the victims in the initial report. The governor’s published image also showed emergency vehicles positioned outside the structure.",
+    "Sumy lies near the Russian border and has faced repeated attacks during the war. Moscow has said it wants to create a buffer zone in the region, while Ukrainian officials have reported sustained pressure on communities and infrastructure close to the frontier.",
+    "The casualty count and damage assessment could change as rescue work continues. This report relies on statements from Ukrainian regional authorities carried by Reuters; Russia had not provided an immediate public account of the strike in the first update."
+  ],
+  "breaking": false,
+  "category": "breaking",
+  "city": "Sumy",
+  "dek": "Regional officials said two other people were injured as rescuers responded to a fire and heavy damage at the site.",
+  "developing": false,
+  "featured": false,
+  "headline": "Russian drone strike on Sumy shopping center kills three",
+  "id": "breaking-sumy-shopping-center-drone-strike-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Sumy, Ukraine",
+  "publishedAt": "2026-09-09T14:46:00-04:00",
+  "slug": "russian-drone-strike-on-sumy-shopping-center-kills-three",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/strike-shopping-centre-sumy-northern-ukraine-kills-three-governor-says-2026-09-09/",
+  "state": "Ukraine",
+  "tags": [
+    "Ukraine",
+    "Sumy",
+    "Russia",
+    "drone strike"
+  ],
+  "topic": "breaking",
+  "topicLabel": "Breaking / Developing",
+  "trending": false,
+  "updatedAt": "2026-09-09T14:46:00-04:00",
+  "visualLabel": "Breaking"
+}

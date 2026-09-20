@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "The average U.S. diesel price moved above $6 a gallon Thursday for the first time, according to fuel-tracking service GasBuddy, intensifying pressure on freight operators and supply chains.",
+    "GasBuddy said the national average was roughly $2.30 higher than a year earlier. The increase has followed supply disruptions tied to the Iran war and Ukrainian attacks on Russian refineries, both of which have tightened availability of the middle distillates used in trucking and industrial activity.",
+    "U.S. diesel inventories stood at 106.3 million barrels, about 13% below the five-year average, Energy Information Administration data showed. Crude prices also remained elevated Thursday: Brent settled at $107.63 a barrel and U.S. West Texas Intermediate at $102.48, Reuters reported.",
+    "Diesel costs matter beyond the pump because they feed into shipping, agriculture and construction expenses. The reported national average is a broad benchmark and local prices can differ substantially by taxes and supply conditions. With inventories below normal, businesses and inflation watchers will be focused on whether refinery output and international flows can rebuild stocks."
+  ],
+  "breaking": false,
+  "category": "markets",
+  "city": "Washington",
+  "dek": "Tight inventories and disruptions linked to the Iran war and attacks on Russian refineries have pushed freight fuel costs sharply higher.",
+  "developing": false,
+  "featured": false,
+  "headline": "U.S. average diesel price crosses $6, GasBuddy reports",
+  "id": "markets-us-diesel-price-above-six-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Washington, DC",
+  "publishedAt": "2026-09-10T18:40:00-04:00",
+  "slug": "us-average-diesel-price-crosses-six-dollars-gasbuddy-reports",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/business/energy/us-average-diesel-prices-cross-6-gallon-first-time-gasbuddy-says-2026-09-10/",
+  "state": "United States",
+  "tags": [
+    "diesel",
+    "fuel prices",
+    "inflation",
+    "freight"
+  ],
+  "topic": "markets",
+  "topicLabel": "Markets / Stocks",
+  "trending": false,
+  "updatedAt": "2026-09-10T18:40:00-04:00",
+  "visualLabel": "Fuel costs"
+}

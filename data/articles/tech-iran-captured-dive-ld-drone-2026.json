@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Iran’s recovery of a U.S. military underwater drone could allow engineers to examine and copy parts of the vessel, creating a technology setback for the Pentagon and manufacturer Anduril.",
+    "Reuters identified the vessel as a Dive-LD autonomous underwater vehicle used for long-range surveillance and other undersea missions. The Navy said the older-model drone malfunctioned before Iranian forces recovered it near the Strait of Hormuz.",
+    "Analysts cited by Reuters said Iran could study the hardware and reverse-engineer mechanical systems, although the capture is unlikely to produce an immediate, decisive military advantage. The larger value may lie in understanding design choices, materials and how the autonomous craft is assembled.",
+    "The episode recalls Iran’s 2011 recovery of an RQ-170 Sentinel reconnaissance drone, after which Tehran displayed aircraft it said drew on the captured system. Autonomous underwater vehicles are designed to operate for extended periods with little human intervention, making reliable recovery and data protection part of their security model. The loss will likely sharpen attention on safeguards for future deployments."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "city": "Strait of Hormuz",
+  "dek": "Analysts say the recovered Dive-LD may expose hardware and mechanical systems even if it does not deliver a decisive military advantage.",
+  "developing": false,
+  "featured": false,
+  "headline": "Captured U.S. underwater drone could give Iran design clues",
+  "id": "tech-iran-captured-dive-ld-drone-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Strait of Hormuz",
+  "publishedAt": "2026-09-10T14:45:00-04:00",
+  "slug": "captured-us-underwater-drone-could-give-iran-design-clues",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/middle-east/iran-likely-reverse-engineer-captured-us-underwater-drone-2026-09-09/",
+  "state": "International",
+  "tags": [
+    "underwater drones",
+    "Anduril",
+    "Iran",
+    "defense technology"
+  ],
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "trending": false,
+  "updatedAt": "2026-09-10T14:45:00-04:00",
+  "visualLabel": "Defense technology"
+}

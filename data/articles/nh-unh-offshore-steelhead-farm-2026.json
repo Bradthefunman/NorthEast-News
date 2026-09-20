@@ -1,0 +1,38 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "A University of New Hampshire-led aquaculture project is producing about 20,000 pounds of steelhead trout at a floating research facility off Portsmouth, offering a local test of how offshore fish farming could increase the domestic seafood supply.",
+    "Boston 25 News reported that the roughly 50-by-30-foot facility is operated by UNH’s Center for Sustainable Seafood Systems. The fish begin their lives at an inland site in New Hampshire’s Lakes Region before being transferred to salt water and raised offshore. Harvest typically comes when each fish reaches about five or six pounds.",
+    "The operation also grows mussels, kelp and other seaweed around the fish. Those species can absorb nutrients released by the farm, while researchers monitor the surrounding water to measure environmental effects and refine the system. The work is intended to test production methods rather than assume that every coastal site will perform the same way.",
+    "UNH was selected for a broader federal effort to develop sustainable aquaculture in several U.S. regions. Related work is underway in Alabama, with projects planned for Hawaii and California. For New Hampshire, the Portsmouth farm links marine science, food production and the region’s long-running effort to build a resilient coastal economy."
+  ],
+  "breaking": false,
+  "category": "new-hampshire",
+  "city": "Portsmouth",
+  "dek": "A floating research facility off the New Hampshire coast is testing whether domestic seafood production can expand while monitoring water quality and managing nutrients.",
+  "developing": false,
+  "featured": false,
+  "headline": "UNH offshore fish farm raises 20,000 pounds of steelhead near Portsmouth",
+  "id": "nh-unh-offshore-steelhead-farm-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "Portsmouth, NH",
+  "publishedAt": "2026-09-10T10:45:00-04:00",
+  "slug": "unh-offshore-fish-farm-raises-20000-pounds-of-steelhead-near-portsmouth",
+  "sourceName": "Boston 25 News",
+  "sourceUrl": "https://www.boston25news.com/news/local/farming-ocean-unh-led-aquaculture-project-aims-boost-domestic-seafood-production/DEDIR3VZFZFLXNCDWPG2C4GSHQ/",
+  "state": "NH",
+  "tags": [
+    "UNH",
+    "aquaculture",
+    "Portsmouth",
+    "steelhead"
+  ],
+  "topic": "new-hampshire",
+  "topicLabel": "New Hampshire",
+  "trending": false,
+  "updatedAt": "2026-09-10T10:45:00-04:00",
+  "visualLabel": "Aquaculture"
+}

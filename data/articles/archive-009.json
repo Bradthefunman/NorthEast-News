@@ -1,0 +1,32 @@
+{
+  "analysis": true,
+  "archive": true,
+  "author": "NorthEast News Archive Desk",
+  "body": [
+    "Archive explainer: Worcester’s growth raises familiar questions about infrastructure.",
+    "Backdated context piece; recheck current records before republishing as live news."
+  ],
+  "breaking": false,
+  "category": "new-england",
+  "dek": "Backdated archive brief: Worcester’s growth raises familiar questions about infrastructure.",
+  "developing": false,
+  "featured": false,
+  "headline": "Worcester’s growth raises familiar questions about infrastructure",
+  "id": "archive-009",
+  "image": null,
+  "imageAlt": "",
+  "location": "Massachusetts",
+  "publishedAt": "2026-09-05T17:00:00-04:00",
+  "slug": "massachusetts-worcester-s-growth-raises-familiar-questions-about-infrastructure",
+  "state": "MA",
+  "tags": [
+    "massachusetts",
+    "archive",
+    "new england"
+  ],
+  "topic": "massachusetts",
+  "topicLabel": "Massachusetts",
+  "trending": false,
+  "updatedAt": "2026-09-05T17:00:00-04:00",
+  "visualLabel": "Massachusetts"
+}

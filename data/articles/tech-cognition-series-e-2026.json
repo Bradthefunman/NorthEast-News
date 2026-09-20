@@ -1,0 +1,34 @@
+{
+  "analysis": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "AI coding startup Cognition AI said Tuesday that it raised $2 billion in a Series E financing that values the company at $48 billion, nearly double its valuation from a May funding round.",
+    "Reuters reported that new investors Andreessen Horowitz and Accel led the round, with Founders Fund, General Catalyst and Avenir also participating. Cognition said its run-rate revenue increased from $492 million to nearly $900 million since May, when it raised $1 billion at a $26 billion valuation.",
+    "The company builds autonomous software-engineering agents designed to plan, write, test and deploy code with limited human intervention. The fresh capital gives Cognition additional resources to develop those tools and compete in a crowded market for AI-assisted programming.",
+    "The $48 billion figure is a private financing valuation, not a continuously traded public-market price. It reflects the terms accepted by investors in this round and may not translate directly into a future sale or public listing value. Even so, the rapid step-up shows that large investors continue to place sizable bets on companies selling automation for software development."
+  ],
+  "breaking": false,
+  "category": "tech",
+  "dek": "The autonomous coding-agent company says its run-rate revenue has climbed to nearly $900 million since a May financing.",
+  "developing": false,
+  "featured": false,
+  "headline": "Cognition AI raises $2 billion at $48 billion valuation",
+  "id": "tech-cognition-series-e-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "United States",
+  "publishedAt": "2026-09-08T23:46:00-04:00",
+  "slug": "cognition-ai-raises-2-billion-at-48-billion-valuation",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/technology/cognition-ai-raises-2-billion-48-billion-valuation-2026-09-08/",
+  "state": "US",
+  "tags": [
+    "Cognition AI",
+    "artificial intelligence",
+    "coding agents",
+    "venture capital"
+  ],
+  "trending": false,
+  "updatedAt": "2026-09-08T23:46:00-04:00",
+  "visualLabel": "Artificial intelligence"
+}

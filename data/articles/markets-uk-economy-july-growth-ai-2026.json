@@ -1,0 +1,37 @@
+{
+  "analysis": false,
+  "archive": false,
+  "author": "NorthEast News Desk",
+  "body": [
+    "Britain’s economy grew 0.4% in July, beating a Reuters poll in which economists expected output to be unchanged. Gross domestic product was 1.6% higher than a year earlier, the fastest annual growth rate since February 2025, according to the Office for National Statistics.",
+    "Services drove the monthly gain, with computer programming making the largest contribution. The ONS said businesses connected to software development appeared to be benefiting from the artificial-intelligence investment boom. Hot weather and activity related to the men’s soccer World Cup also supported parts of the economy.",
+    "Growth across the three months through July was 0.4%, another result above expectations. The stronger reading arrives alongside competing pressures: higher oil prices and government borrowing costs could weaken demand, while firm output may make some Bank of England officials more willing to consider another interest-rate increase.",
+    "The report is a snapshot of completed economic activity, not a forecast. Investors will now weigh whether the software-led boost can persist as energy costs filter through to households and businesses. The combination of stronger growth and inflation risk could complicate the outlook for government finances, bond markets and the central bank’s next policy decision."
+  ],
+  "breaking": false,
+  "category": "markets",
+  "dek": "Output beat forecasts for no monthly growth, while annual GDP increased at its fastest pace since February 2025.",
+  "developing": false,
+  "featured": false,
+  "headline": "UK economy grows 0.4% in July as software services expand",
+  "id": "markets-uk-economy-july-growth-ai-2026",
+  "image": null,
+  "imageAlt": "",
+  "location": "United Kingdom",
+  "publishedAt": "2026-09-11T06:43:00-04:00",
+  "slug": "uk-economy-grows-0-4-percent-in-july-as-software-services-expand",
+  "sourceName": "Reuters",
+  "sourceUrl": "https://www.reuters.com/world/uk/uk-economy-grew-04-july-2026-09-11/",
+  "state": "United Kingdom",
+  "tags": [
+    "United Kingdom",
+    "GDP",
+    "software",
+    "Bank of England"
+  ],
+  "topic": "markets",
+  "topicLabel": "Markets / Stocks",
+  "trending": false,
+  "updatedAt": "2026-09-11T06:43:00-04:00",
+  "visualLabel": "Economy"
+}
