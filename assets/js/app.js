@@ -401,7 +401,7 @@
     var script = document.createElement('script'); script.type = 'application/ld+json'; script.id = 'site-schema'; script.textContent = JSON.stringify(schema).replace(/<\/script/gi, '<\\/script'); document.head.appendChild(script);
   }
   function initDate() { var element = document.getElementById('current-date'); if (element) element.textContent = formatDate(new Date().toISOString(), { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' }); }
-  async async function loadData() {
+  async function loadData() {
     var configResponse = await fetch(rootPath('data/site-config.json')); if (configResponse.ok) Object.assign(defaults, await configResponse.json());
     updatePageMeta(); ensureSiteSchema();
     var responses = await Promise.all([fetch(rootPath(defaults.articleIndexUrl)), fetch(rootPath(defaults.marketDataUrl))]);
