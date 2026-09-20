@@ -18,7 +18,7 @@
       if (Math.abs(new Date(item.updatedAt || item.publishedAt || 0).getTime() - anchor) < 14 * 86400000) score += 1;
       return { item: item, score: score };
     }).filter(function (row) { return row.score > 0; }).sort(function (a, b) {
-      return b.score - a.score || new Date(b.item.publishedAt) - new Date(a.item.publishedAt);
+      return b.score - a.score || api().compareArticles(a.item, b.item);
     }).slice(0, 5).map(function (row) { return row.item; });
   }
   function setMeta(kind, key, value) {
