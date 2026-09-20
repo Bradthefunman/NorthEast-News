@@ -199,13 +199,6 @@
   function renderMarketSnapshot(snapshot) {
     setContent('market-snapshot', marketSnapshotMarkup(snapshot));
   }
-  function searchMatches(query) {
-    var needle = String(query || '').trim().toLowerCase();
-    if (!needle) return [];
-    return sortArticles(state.articles).filter(function (article) {
-      return [article.headline, article.dek, article.summary, Array.isArray(article.body) ? article.body.join(' ') : article.body, article.category, article.topic, article.topicLabel, article.state, article.city, article.location, (article.tags || []).join(' ')].join(' ').toLowerCase().indexOf(needle) !== -1;
-    });
-  }
   function excerpt(article, query) {
     var source = article.__searchExcerpt || article.dek || article.summary || ((article.body || [])[0]) || '';
     var index = query ? source.toLowerCase().indexOf(String(query).toLowerCase()) : -1;

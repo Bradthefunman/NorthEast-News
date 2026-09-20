@@ -313,7 +313,7 @@ static NSString * const NENErrorDomain = @"com.northeastnews.publisher";
     if ([self text:gitStatus[@"output"]].length) NEN_FAIL(@"The repository has local changes. Commit or stash them before publishing so unrelated work is not overwritten.");
     [self status:@"Downloading latest repository…" detail:@"Syncing the current branch with GitHub using a fast-forward-only pull."];
     NSDictionary *pull=[self run:git arguments:@[@"pull",@"--ff-only"] cwd:self.repositoryPath];
-    if ([pull[@"status"] intValue]!=0) NEN_FAIL([NSString stringWithFormat:@"Git could not fast-forward the repository. Resolve the branch state manually, then try again.\n%@",[self commandError:pull]]);
+    if ([pull[@"status"] intValue]!=0) { NSString *message=[NSString stringWithFormat:@"Git could not fast-forward the repository. Resolve the branch state manually, then try again.\n%@",[self commandError:pull]]; NEN_FAIL(message); }
     NSArray *latest=[self readArticles]; NSDictionary *config=[self readConfig]; NSString *editingId=[self text:form[@"editingId"]];
     NSDictionary *existing=editingId.length?[self readArticleById:editingId]:nil;
     if (editingId.length&&!existing) NEN_FAIL(@"The article changed or was removed while syncing. Reload the repository and try again.");
@@ -324,6 +324,7 @@ static NSString * const NENErrorDomain = @"com.northeastnews.publisher";
     if ([self bool:article[@"featured"]] && !priorFeatured && latest.count) { /* A missing prior featured record is safe; the validator will catch a malformed catalog. */ }
     NSURL *repoURL=[NSURL fileURLWithPath:self.repositoryPath];
     NSString *target=[NSString stringWithFormat:@"data/articles/%@.json",[self text:article[@"id"]]];
+    if (!editingId.length && [[NSFileManager defaultManager] fileExistsAtPath:[self.repositoryPath stringByAppendingPathComponent:target]]) NEN_FAIL(@"An article file already exists for that ID. Reload the repository and choose a different ID.");
     NSMutableArray *publishPaths=[NSMutableArray arrayWithObjects:target,@"data/article-index.json",@"data/search/manifest.json",@"sitemap.xml",@"robots.txt",nil];
     if (priorFeatured) [publishPaths addObject:[NSString stringWithFormat:@"data/articles/%@.json",[self text:priorFeatured[@"id"]]]];
     NSString *publishedMonth=[[self text:article[@"publishedAt"]] length]>=7?[[self text:article[@"publishedAt"]] substringToIndex:7]:@"";
@@ -359,7 +360,7 @@ static NSString * const NENErrorDomain = @"com.northeastnews.publisher";
         [self status:@"Validating site…" detail:@"Running the repository validator against every individual article and generated file."];
         if (![self validateCandidate:@[article] repository:self.repositoryPath error:error]) NEN_ABORT();
         NSDictionary *validation=[self run:node arguments:@[@"scripts/validate-site.js"] cwd:self.repositoryPath];
-        if ([validation[@"status"] intValue]!=0) NEN_FAIL_AFTER_BACKUP([NSString stringWithFormat:@"The NorthEast News site validator failed. No commit was created.\n%@",[self commandError:validation]]);
+        if ([validation[@"status"] intValue]!=0) { NSString *message=[NSString stringWithFormat:@"The NorthEast News site validator failed. No commit was created.\n%@",[self commandError:validation]]; NEN_FAIL_AFTER_BACKUP(message); }
         if (createdImagePath.length) [publishPaths addObject:[self relativePath:createdImagePath from:repoURL]];
         [self status:@"Preparing commit…" detail:@"Staging only the dynamic article, generated and selected-image allowlist."];
         NSMutableArray *allow=[NSMutableArray array];
@@ -367,7 +368,7 @@ static NSString * const NENErrorDomain = @"com.northeastnews.publisher";
         for (NSString *line in [statusText componentsSeparatedByCharactersInSet:NSCharacterSet.newlineCharacterSet]) {
             if (line.length<4) continue; NSString *relative=[line substringFromIndex:3];
             BOOL allowed=[publishPaths containsObject:relative] || [relative hasPrefix:@"data/search/"];
-            if (!allowed) NEN_FAIL_AFTER_BACKUP([NSString stringWithFormat:@"Unexpected file changed during publish: %@",relative]);
+            if (!allowed) { NSString *message=[NSString stringWithFormat:@"Unexpected file changed during publish: %@",relative]; NEN_FAIL_AFTER_BACKUP(message); }
             if (![allow containsObject:relative]) [allow addObject:relative];
         }
         [publishPaths addObjectsFromArray:allow];
@@ -383,7 +384,7 @@ static NSString * const NENErrorDomain = @"com.northeastnews.publisher";
         if ([commit[@"status"] intValue]!=0) NEN_FAIL_AFTER_BACKUP([self commandError:commit]);
         commitCreated=YES; [self status:@"Pushing to GitHub…" detail:@"Sending the verified commit to the configured remote."];
         NSDictionary *push=[self run:git arguments:@[@"push"] cwd:self.repositoryPath];
-        if ([push[@"status"] intValue]!=0) NEN_FAIL([NSString stringWithFormat:@"The article was committed locally, but GitHub rejected the push.\n%@",[self commandError:push]]);
+        if ([push[@"status"] intValue]!=0) { NSString *message=[NSString stringWithFormat:@"The article was committed locally, but GitHub rejected the push.\n%@",[self commandError:push]]; NEN_FAIL(message); }
         NSString *draftId=[self text:form[@"draftId"]]; if (draftId.length) [self deleteDraftFile:draftId];
         NSString *site=[[self text:config[@"siteUrl"]] stringByTrimmingCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"/"]]; if (!site.length) site=@"https://www.northenews.com";
         NSString *url=[NSString stringWithFormat:@"%@/article.html?slug=%@",site,[self urlEncode:[self text:article[@"slug"]]]];
@@ -525,7 +526,7 @@ static NSString * const NENErrorDomain = @"com.northeastnews.publisher";
 - (void)restoreBackups:(NSDictionary *)backups repoURL:(NSURL *)repoURL git:(NSString *)git paths:(NSArray *)paths imagePath:(NSString *)imagePath {
     if (git.length && paths.count) [self run:git arguments:[@[@"reset", @"--"] arrayByAddingObjectsFromArray:paths] cwd:repoURL.path];
     NSFileManager *fileManager = NSFileManager.defaultManager;
-    for (NSString *relativePath in backups) {
+    for (NSString *relativePath in [NSOrderedSet orderedSetWithArray:paths]) {
         NSURL *url = [repoURL URLByAppendingPathComponent:relativePath];
         id backup = backups[relativePath];
         if ([backup isKindOfClass:[NSData class]]) [backup writeToURL:url options:NSDataWritingAtomic error:nil];
