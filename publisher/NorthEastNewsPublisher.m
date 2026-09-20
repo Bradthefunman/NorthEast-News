@@ -415,7 +415,7 @@ static NSString * const NENErrorDomain = @"com.northeastnews.publisher";
     NSString *slug = [self slugify:[self text:form[@"slug"]].length ? [self text:form[@"slug"]] : headline];
     if (!slug.length) NEN_BUILD_FAIL(@"A usable slug could not be generated from the headline.");
     NSString *idValue = editing ? oldId : ([self text:form[@"articleId"]].length ? [self text:form[@"articleId"]] : [self uniqueID:slug articles:allArticles]);
-    if (!idValue.length) NEN_BUILD_FAIL(@"A unique article ID could not be generated.");
+    if (!idValue.length || [idValue rangeOfString:@"^[a-z0-9][a-z0-9._-]*$" options:NSRegularExpressionSearch].location == NSNotFound || [idValue containsString:@".."] || [idValue containsString:@"/"] || [idValue containsString:@"\\"]) NEN_BUILD_FAIL(@"Article ID must match the safe filename pattern [a-z0-9][a-z0-9._-]*.");
     for (NSDictionary *item in allArticles) {
         NSString *itemId = [self text:item[@"id"]];
         if ([itemId isEqualToString:idValue] && ![itemId isEqualToString:oldId]) NEN_BUILD_FAIL(@"That article ID is already in use.");
