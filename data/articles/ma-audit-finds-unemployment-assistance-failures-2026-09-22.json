@@ -1,0 +1,42 @@
+{
+  "id": "ma-audit-finds-unemployment-assistance-failures-2026-09-22",
+  "slug": "massachusetts-unemployment-assistance-audit-call-delays",
+  "headline": "Massachusetts audit finds long waits and missed standards at unemployment agency",
+  "dek": "The state auditor found that more than half of recorded calls took at least 30 minutes to reach an agent or prompt, while the agency says wait times have since fallen.",
+  "body": [
+    "A Massachusetts state audit released Monday found that the Department of Unemployment Assistance failed to set and monitor call-center response standards, missed federal timeliness targets for first benefit payments and did not provide the in-person help required by state law at three regional offices.",
+    "The auditor's office said 381,915 calls — 52% of the inbound calls in the records it reviewed — took at least 30 minutes to reach an agent or automated prompt. More than 173,000 callers, about 24%, waited over an hour. The department also did not retain call logs for the three years required by state records rules, limiting the auditor's review.",
+    "The report covered department operations from July 2022 through June 2024, with call-center data reviewed from August 2024 through August 2025 because older logs were unavailable. Auditors said first-payment timeliness standards were missed during the audit period, and found DUA itself was not providing required in-person assistance at its Lawrence, Brockton and Springfield offices. At least 33,000 email exchanges between the department and legislative offices involved lawmakers seeking help for constituents, the auditor said.",
+    "The department told WCVB that changes made after the audit period — including a modernized system, added adjudicators and seasonal staff, and a claimant-support pilot — have reduced call waits to 4 to 11 minutes, cleared a longstanding backlog and sped up claims. The auditor noted that those later changes do not resolve whether the agency met the standards during the period reviewed, and said it will follow up on the findings.",
+    "The audit recommends documented call-response targets, complaint tracking and required in-person services. The findings affect workers relying on unemployment benefits while they search for jobs, as well as employers that fund the state program."
+  ],
+  "category": "massachusetts",
+  "topic": "massachusetts",
+  "topicLabel": "Massachusetts",
+  "tags": [
+    "Massachusetts",
+    "Unemployment",
+    "Department of Unemployment Assistance",
+    "State audit",
+    "Labor"
+  ],
+  "state": "MA",
+  "city": "Boston",
+  "location": "Massachusetts",
+  "author": "NorthEast News Desk",
+  "publishedAt": "2026-09-22T08:59:11-04:00",
+  "updatedAt": "2026-09-22T08:59:11-04:00",
+  "breaking": false,
+  "developing": false,
+  "analysis": false,
+  "featured": false,
+  "trending": false,
+  "archive": false,
+  "image": null,
+  "imageAlt": null,
+  "seoTitle": "Massachusetts Audit Finds Unemployment Agency Failures",
+  "seoDescription": "A state audit found lengthy call waits, missed payment standards and in-person service gaps at Massachusetts' unemployment agency.",
+  "canonicalUrl": null,
+  "sourceName": "Massachusetts Office of the State Auditor; WCVB",
+  "sourceUrl": "https://www.mass.gov/news/audit-finds-violations-of-state-law-failure-to-meet-federal-standards-and-mismanagement-at-department-of-unemployment-assistance"
+}
