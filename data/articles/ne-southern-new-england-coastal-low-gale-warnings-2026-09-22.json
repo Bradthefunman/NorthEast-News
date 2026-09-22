@@ -1,0 +1,42 @@
+{
+  "id": "ne-southern-new-england-coastal-low-gale-warnings-2026-09-22",
+  "slug": "southern-new-england-coastal-storm-gale-warnings-september-2026",
+  "headline": "Gale warnings issued as coastal storm threat grows for southern New England",
+  "dek": "The National Weather Service expects hazardous marine conditions from Wednesday into Thursday and says a stronger coastal low could bring rain, high winds and erosion concerns late this week.",
+  "body": [
+    "The National Weather Service has upgraded several marine watches to Gale Warnings as northeast winds strengthen around southern New England. The warnings take effect Wednesday for waters near Cape Cod, Nantucket, Martha’s Vineyard and Rhode Island, with hazardous conditions expected to continue into Thursday evening.",
+    "The Boston/Norton forecast office expects northeast winds of 20 to 35 knots, with gusts reaching 40 to 45 knots in some marine areas. Forecast seas range from 6 to 13 feet in Nantucket, Vineyard, Buzzards and Rhode Island sounds, and 8 to 16 feet farther offshore. The agency says strong winds and rough seas could endanger vessels and reduce visibility; mariners are urged to remain in port or seek safe harbor.",
+    "Beyond Thursday, forecasters say the chance of a strong coastal low affecting the region late in the week and into the weekend is increasing. The system could bring rain, stronger winds, rough seas and coastal erosion, especially along east-facing shores during higher astronomical tides. The precise track and strength remain uncertain, and the forecast office says those details will determine how significant impacts become on land.",
+    "The immediate forecast is cool, dry and breezy through Thursday, with the strongest early gusts expected near the coast and on the Cape and Islands. Residents and boaters should follow updated National Weather Service forecasts and advisories as the coastal low develops; the current Gale Warnings apply to marine zones, not a broad land-based wind warning."
+  ],
+  "category": "new-england",
+  "topic": "new-england",
+  "topicLabel": "New England",
+  "tags": [
+    "Massachusetts",
+    "Rhode Island",
+    "Weather",
+    "Gale Warning",
+    "Coastal storm",
+    "Marine forecast"
+  ],
+  "state": "MA",
+  "city": "Boston",
+  "location": "Southern New England",
+  "author": "NorthEast News Desk",
+  "publishedAt": "2026-09-22T08:58:27-04:00",
+  "updatedAt": "2026-09-22T08:58:27-04:00",
+  "breaking": false,
+  "developing": false,
+  "analysis": false,
+  "featured": false,
+  "trending": false,
+  "archive": false,
+  "image": null,
+  "imageAlt": null,
+  "seoTitle": null,
+  "seoDescription": null,
+  "canonicalUrl": null,
+  "sourceName": "National Weather Service Boston/Norton",
+  "sourceUrl": "https://forecast.weather.gov/product.php?issuedby=BOX&product=AFD&site=BOX"
+}
