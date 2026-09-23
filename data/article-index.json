@@ -5,6 +5,40 @@
       "archive": false,
       "author": "NorthEast News Desk",
       "breaking": false,
+      "category": "massachusetts",
+      "city": "Boston",
+      "dek": "A coalition led in part by Massachusetts won a summary-judgment ruling blocking immigration-verification rules for programs including Head Start, Title X clinics and adult education.",
+      "developing": false,
+      "featured": false,
+      "file": "data/articles/ma-federal-court-protects-social-services-2026-09-23.json",
+      "headline": "Federal ruling protects Massachusetts access to social-service programs",
+      "id": "ma-federal-court-protects-social-services-2026-09-23",
+      "image": null,
+      "imageAlt": null,
+      "location": "Massachusetts",
+      "publishedAt": "2026-09-23T11:21:45-04:00",
+      "slug": "massachusetts-federal-court-protects-social-services-programs",
+      "state": "MA",
+      "summary": null,
+      "tags": [
+        "Massachusetts",
+        "Social services",
+        "Head Start",
+        "Title X",
+        "Federal court",
+        "Immigration policy"
+      ],
+      "topic": "massachusetts",
+      "topicLabel": "Massachusetts",
+      "trending": false,
+      "updatedAt": "2026-09-23T11:21:45-04:00",
+      "visualLabel": null
+    },
+    {
+      "analysis": false,
+      "archive": false,
+      "author": "NorthEast News Desk",
+      "breaking": false,
       "category": "new-england",
       "city": null,
       "dek": "The seasonal restrictions bar directed Atlantic herring fishing in two inshore spawning areas through Nov. 3, with a limited incidental-catch allowance for other fisheries.",
@@ -133,6 +167,39 @@
       "topicLabel": "Massachusetts",
       "trending": false,
       "updatedAt": "2026-09-23T08:55:00-04:00",
+      "visualLabel": null
+    },
+    {
+      "analysis": false,
+      "archive": false,
+      "author": "NorthEast News Desk",
+      "breaking": false,
+      "category": "new-hampshire",
+      "city": "Manchester",
+      "dek": "The Route 3 crossing over the Merrimack River remains closed in both directions after possible structural deficiencies were found; overnight I-293 lane restrictions are planned as engineers continue work.",
+      "developing": true,
+      "featured": false,
+      "file": "data/articles/nh-manchester-queen-city-bridge-closure-2026-09-23.json",
+      "headline": "Manchester keeps Queen City Bridge closed as inspection continues",
+      "id": "nh-manchester-queen-city-bridge-closure-2026-09-23",
+      "image": null,
+      "imageAlt": null,
+      "location": "Manchester, New Hampshire",
+      "publishedAt": "2026-09-23T08:50:37-04:00",
+      "slug": "manchester-queen-city-bridge-closure-inspection",
+      "state": "NH",
+      "summary": null,
+      "tags": [
+        "New Hampshire",
+        "Manchester",
+        "Queen City Bridge",
+        "Infrastructure",
+        "Traffic"
+      ],
+      "topic": "new-hampshire",
+      "topicLabel": "New Hampshire",
+      "trending": false,
+      "updatedAt": "2026-09-23T08:50:37-04:00",
       "visualLabel": null
     },
     {
@@ -30548,3 +30615,12 @@
         "archive",
         "new england"
       ],
+      "topic": "misc",
+      "topicLabel": "Misc.",
+      "trending": false,
+      "updatedAt": "2026-08-04T08:00:00-04:00",
+      "visualLabel": "Misc."
+    }
+  ],
+  "schemaVersion": 1
+}
