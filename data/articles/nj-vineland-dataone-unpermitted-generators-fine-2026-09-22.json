@@ -1,0 +1,42 @@
+{
+  "id": "nj-vineland-dataone-unpermitted-generators-fine-2026-09-22",
+  "slug": "new-jersey-vineland-data-center-fined-unpermitted-generators",
+  "headline": "New Jersey fines Vineland data center $1.07 million over unpermitted generators",
+  "dek": "State inspectors found 62 large natural-gas generators operating without required air permits at the DataOne site, the largest data-center enforcement penalty in New Jersey history.",
+  "body": [
+    "New Jersey environmental regulators have fined the operator of a large artificial-intelligence data center in Vineland $1.07 million after inspectors found 62 natural-gas generators operating without required state permits.",
+    "The New Jersey Department of Environmental Protection said its July 29 inspection found 1,982-kilowatt stationary generators that were not present during a December 2025 inspection. State rules require a preconstruction permit and operating certificate for generators rated at 37 kilowatts or more, according to the department’s enforcement order.",
+    "The order directs DataOne to apply for the permits immediately and obtain them within 45 days or stop operating the generators. Gov. Mikie Sherrill called the penalty the largest enforcement action against a data center in New Jersey history. DEP Commissioner Ed Potosnak said the action was intended to show that large facilities must comply with pollution laws.",
+    "DataOne told News 12 New Jersey that it disputes the state’s characterization of the temporary generators but will apply for the air permits and is discussing the site’s planned transition to fuel cells. The company is building the Cumberland County campus for Nebius, with Microsoft as a reported infrastructure partner.",
+    "The case adds a major regulatory test for New Jersey’s fast-growing data-center industry. Natural-gas generators emit carbon dioxide, nitrogen oxides and carbon monoxide, and the state has recently adopted additional reporting and utility rules aimed at tracking the sector’s energy and water demands."
+  ],
+  "category": "tech",
+  "topic": "tech",
+  "topicLabel": "Tech",
+  "tags": [
+    "New Jersey",
+    "Vineland",
+    "Data centers",
+    "Artificial intelligence",
+    "Environmental enforcement"
+  ],
+  "state": "NJ",
+  "city": "Vineland",
+  "location": "Vineland, New Jersey",
+  "author": "NorthEast News Desk",
+  "publishedAt": "2026-09-23T08:49:49-04:00",
+  "updatedAt": "2026-09-23T08:49:49-04:00",
+  "breaking": false,
+  "developing": false,
+  "analysis": false,
+  "featured": false,
+  "trending": false,
+  "archive": false,
+  "image": null,
+  "imageAlt": null,
+  "seoTitle": "New Jersey Fines Vineland Data Center $1.07 Million",
+  "seoDescription": "New Jersey regulators fined the Vineland DataOne data center $1.07 million after finding 62 natural-gas generators operating without required permits.",
+  "canonicalUrl": null,
+  "sourceName": "New Jersey Department of Environmental Protection; Governor of New Jersey; New Jersey Monitor",
+  "sourceUrl": "https://nj.gov/governor/news/2026/approved/20260922a.shtml"
+}
