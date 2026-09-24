@@ -1,14 +1,14 @@
 {
   "id": "ne-southern-new-england-coastal-low-gale-warnings-2026-09-22",
   "slug": "southern-new-england-coastal-storm-gale-warnings-september-2026",
-  "headline": "NWS confidence grows for late-week coastal storm in southern New England",
-  "dek": "Forecasters say gale-force winds are increasingly likely over southern waters Friday night into Saturday, with storm-force gusts and coastal flooding or erosion possible as the storm track takes shape.",
+  "headline": "High-wind and coastal-flood watches posted for southern New England storm",
+  "dek": "The National Weather Service says eastern Massachusetts and Rhode Island could see gusts up to 50 mph, coastal flooding and dangerous surf from Friday into Saturday.",
   "body": [
-    "The National Weather Service Boston/Norton office said Wednesday morning that confidence is increasing in an impactful coastal storm for Friday into the weekend. The immediate forecast remains dry, cool and breezy through Thursday, while Gale Warnings continue for southern coastal waters.",
-    "Forecasters say a low-pressure system could slowly move north and retrograde west into waters south of Block Island and Nantucket. The exact track remains uncertain, but the strongest winds could arrive as early as Friday evening or as late as Saturday afternoon.",
-    "The office says gale-force winds of at least 34 knots, or about 40 mph, are becoming increasingly likely across southern waters, with storm-force winds near 48 knots, or about 55 mph, possible Friday night into Saturday. The system could also bring rain and build rough seas across the region.",
-    "A prolonged period of northeasterly wind would raise the risk of coastal flooding and erosion, especially along east-facing beaches and harbors. The latest guidance identifies Nantucket Harbor as having the greatest risk for at least minor flooding around high-tide cycles Friday, Friday night and Saturday.",
-    "The National Weather Service said no additional weather headlines were being issued yet, and the storm’s track and strength will determine how far inland rain and damaging winds reach. Residents, boaters and coastal businesses should monitor updated forecasts as the system develops."
+    "The National Weather Service Boston/Norton office has a High Wind Watch in effect from Friday morning through Saturday evening for eastern, northeastern and southeastern Massachusetts and northern and southern Rhode Island. The watch covers communities including Boston, Plymouth, New Bedford, Newport, Narragansett and Nantucket.",
+    "Forecasters say north winds could run 20 to 30 mph with gusts up to 50 mph. The office warns that stronger winds could bring down trees and power lines, cause outages and make travel difficult for high-profile vehicles.",
+    "A Coastal Flood Watch is also in effect for eastern Massachusetts from Friday afternoon through Saturday afternoon, with up to one foot of inundation possible in low-lying areas near shorelines and tidal waterways. A High Surf Advisory calls for breaking waves of 6 to 17 feet from Friday morning through Sunday evening, along with dangerous swimming and surfing conditions and localized beach erosion.",
+    "The NWS says the coastal low’s exact track and timing remain uncertain, but the system is expected to strengthen as it moves north. Its marine forecast also carries a Storm Watch for much of the Massachusetts and Rhode Island coastal waters, where seas could build substantially by the weekend.",
+    "Residents in vulnerable coastal areas, boaters and weekend travelers should monitor updated forecasts and local emergency notices. The watches are forecasts of potential impacts, not a declaration that every location will experience the same conditions."
   ],
   "category": "new-england",
   "topic": "new-england",
@@ -26,7 +26,7 @@
   "location": "Southern New England",
   "author": "NorthEast News Desk",
   "publishedAt": "2026-09-22T08:58:27-04:00",
-  "updatedAt": "2026-09-23T08:50:02-04:00",
+  "updatedAt": "2026-09-24T08:30:00-04:00",
   "breaking": false,
   "developing": false,
   "analysis": false,
