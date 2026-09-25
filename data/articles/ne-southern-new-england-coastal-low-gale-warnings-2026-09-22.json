@@ -1,10 +1,10 @@
 {
   "id": "ne-southern-new-england-coastal-low-gale-warnings-2026-09-22",
   "slug": "southern-new-england-coastal-storm-gale-warnings-september-2026",
-  "headline": "High Wind Warning issued as southern New England storm arrives",
-  "dek": "The National Weather Service expects 45-to-60-mph gusts, power outages and coastal flooding across eastern Massachusetts and Rhode Island through the weekend.",
+  "headline": "High Wind and Coastal Flood Warnings remain posted across southern New England",
+  "dek": "The National Weather Service's Boston/Norton office still lists high-wind, coastal-flood, gale and high-surf alerts as the storm moves along the coast this weekend.",
   "body": [
-    "The National Weather Service Boston/Norton office has upgraded the coastal storm threat to a High Wind Warning for eastern, northeastern and southeastern Massachusetts and northern and southern Rhode Island. The warning runs from 8 a.m. Friday to 2 a.m. Sunday and includes Boston, Plymouth, New Bedford, Newport, Narragansett and Nantucket.",
+    "As of 4:30 p.m. Friday, the National Weather Service Boston/Norton office's current hazards page listed High Wind, Storm, Coastal Flood, Gale, Coastal Flood Advisory, High Surf and Wind alerts across its forecast area. The active alert mix varies by community as the coastal storm moves north.",
     "Forecasters expect northeast winds of 25 to 35 mph, with gusts of 45 to 60 mph. The NWS says damaging winds could bring down branches and power lines, with power outages expected and travel potentially difficult for high-profile vehicles.",
     "Coastal hazards are also escalating. The NWS lists coastal-flood warnings, advisories or watches for parts of Massachusetts and Rhode Island, depending on location, and a High Surf Advisory remains in effect through Sunday evening. Breaking waves could reach 6 to 17 feet, creating dangerous swimming and surfing conditions and localized beach erosion.",
     "The long duration of the winds, heavy rain and fully leafed trees could increase the risk of tree damage and outages, according to the NWS. Conditions and alert levels may differ by community as the storm moves north along the coast.",
@@ -26,7 +26,7 @@
   "location": "Southern New England",
   "author": "NorthEast News Desk",
   "publishedAt": "2026-09-22T08:58:27-04:00",
-  "updatedAt": "2026-09-25T09:18:00-04:00",
+  "updatedAt": "2026-09-25T16:36:28-04:00",
   "breaking": false,
   "developing": true,
   "analysis": false,
@@ -39,5 +39,5 @@
   "seoDescription": null,
   "canonicalUrl": null,
   "sourceName": "National Weather Service Boston/Norton",
-  "sourceUrl": "https://forecast.weather.gov/product.php?issuedby=BOX&product=npw&site=BOX"
+  "sourceUrl": "https://www.weather.gov/box/"
 }
