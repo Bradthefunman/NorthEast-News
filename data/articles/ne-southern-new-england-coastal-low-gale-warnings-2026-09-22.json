@@ -1,14 +1,14 @@
 {
   "id": "ne-southern-new-england-coastal-low-gale-warnings-2026-09-22",
   "slug": "southern-new-england-coastal-storm-gale-warnings-september-2026",
-  "headline": "High-wind and coastal-flood watches posted for southern New England storm",
-  "dek": "The National Weather Service says eastern Massachusetts and Rhode Island could see gusts up to 50 mph, coastal flooding and dangerous surf from Friday into Saturday.",
+  "headline": "High Wind Warning issued as southern New England storm arrives",
+  "dek": "The National Weather Service expects 45-to-60-mph gusts, power outages and coastal flooding across eastern Massachusetts and Rhode Island through the weekend.",
   "body": [
-    "The National Weather Service Boston/Norton office has a High Wind Watch in effect from Friday morning through Saturday evening for eastern, northeastern and southeastern Massachusetts and northern and southern Rhode Island. The watch covers communities including Boston, Plymouth, New Bedford, Newport, Narragansett and Nantucket.",
-    "Forecasters say north winds could run 20 to 30 mph with gusts up to 50 mph. The office warns that stronger winds could bring down trees and power lines, cause outages and make travel difficult for high-profile vehicles.",
-    "A Coastal Flood Watch is also in effect for eastern Massachusetts from Friday afternoon through Saturday afternoon, with up to one foot of inundation possible in low-lying areas near shorelines and tidal waterways. A High Surf Advisory calls for breaking waves of 6 to 17 feet from Friday morning through Sunday evening, along with dangerous swimming and surfing conditions and localized beach erosion.",
-    "The NWS says the coastal low’s exact track and timing remain uncertain, but the system is expected to strengthen as it moves north. Its marine forecast also carries a Storm Watch for much of the Massachusetts and Rhode Island coastal waters, where seas could build substantially by the weekend.",
-    "Residents in vulnerable coastal areas, boaters and weekend travelers should monitor updated forecasts and local emergency notices. The watches are forecasts of potential impacts, not a declaration that every location will experience the same conditions."
+    "The National Weather Service Boston/Norton office has upgraded the coastal storm threat to a High Wind Warning for eastern, northeastern and southeastern Massachusetts and northern and southern Rhode Island. The warning runs from 8 a.m. Friday to 2 a.m. Sunday and includes Boston, Plymouth, New Bedford, Newport, Narragansett and Nantucket.",
+    "Forecasters expect northeast winds of 25 to 35 mph, with gusts of 45 to 60 mph. The NWS says damaging winds could bring down branches and power lines, with power outages expected and travel potentially difficult for high-profile vehicles.",
+    "Coastal hazards are also escalating. The NWS lists coastal-flood warnings, advisories or watches for parts of Massachusetts and Rhode Island, depending on location, and a High Surf Advisory remains in effect through Sunday evening. Breaking waves could reach 6 to 17 feet, creating dangerous swimming and surfing conditions and localized beach erosion.",
+    "The long duration of the winds, heavy rain and fully leafed trees could increase the risk of tree damage and outages, according to the NWS. Conditions and alert levels may differ by community as the storm moves north along the coast.",
+    "Residents in vulnerable coastal areas, boaters and weekend travelers should secure loose objects and monitor updated forecasts and local emergency notices. The warnings describe expected hazards, but impacts will not be identical everywhere."
   ],
   "category": "new-england",
   "topic": "new-england",
@@ -26,9 +26,9 @@
   "location": "Southern New England",
   "author": "NorthEast News Desk",
   "publishedAt": "2026-09-22T08:58:27-04:00",
-  "updatedAt": "2026-09-24T08:30:00-04:00",
+  "updatedAt": "2026-09-25T09:18:00-04:00",
   "breaking": false,
-  "developing": false,
+  "developing": true,
   "analysis": false,
   "featured": false,
   "trending": false,
@@ -39,5 +39,5 @@
   "seoDescription": null,
   "canonicalUrl": null,
   "sourceName": "National Weather Service Boston/Norton",
-  "sourceUrl": "https://forecast.weather.gov/product.php?issuedby=BOX&product=AFD&site=BOX"
+  "sourceUrl": "https://forecast.weather.gov/product.php?issuedby=BOX&product=npw&site=BOX"
 }
