@@ -5,6 +5,7 @@
   "marketDataUrl": "data/market-snapshot.json",
   "businessesUrl": "data/businesses.json",
   "timezone": "America/New_York",
+  "sponsorshipEmail": "bradleymminnich@gmail.com",
   "forms": {
     "newsletter": "",
     "tips": "",
