@@ -1,14 +1,13 @@
 {
   "id": "ne-southern-new-england-coastal-low-gale-warnings-2026-09-22",
   "slug": "southern-new-england-coastal-storm-gale-warnings-september-2026",
-  "headline": "High Wind and Coastal Flood Warnings remain posted across southern New England",
-  "dek": "The National Weather Service's Boston/Norton office still lists high-wind, coastal-flood, gale and high-surf alerts as the storm moves along the coast this weekend.",
+  "headline": "Nor’easter’s worst wind passes, but rain and flooding concerns remain",
+  "dek": "The National Weather Service says the strongest winds have eased across southern New England, while rain, minor coastal flooding and localized street flooding remain possible into Monday.",
   "body": [
-    "As of 4:30 p.m. Friday, the National Weather Service Boston/Norton office's current hazards page listed High Wind, Storm, Coastal Flood, Gale, Coastal Flood Advisory, High Surf and Wind alerts across its forecast area. The active alert mix varies by community as the coastal storm moves north.",
-    "Forecasters expect northeast winds of 25 to 35 mph, with gusts of 45 to 60 mph. The NWS says damaging winds could bring down branches and power lines, with power outages expected and travel potentially difficult for high-profile vehicles.",
-    "Coastal hazards are also escalating. The NWS lists coastal-flood warnings, advisories or watches for parts of Massachusetts and Rhode Island, depending on location, and a High Surf Advisory remains in effect through Sunday evening. Breaking waves could reach 6 to 17 feet, creating dangerous swimming and surfing conditions and localized beach erosion.",
-    "The long duration of the winds, heavy rain and fully leafed trees could increase the risk of tree damage and outages, according to the NWS. Conditions and alert levels may differ by community as the storm moves north along the coast.",
-    "Residents in vulnerable coastal areas, boaters and weekend travelers should secure loose objects and monitor updated forecasts and local emergency notices. The warnings describe expected hazards, but impacts will not be identical everywhere."
+    "The worst of the nor’easter’s wind has moved through southern New England, but the National Weather Service Boston/Norton office says unsettled weather will continue. Its Sunday morning discussion says windswept rain, minor coastal flooding and beach erosion remain possible, along with localized urban and street flooding, through Monday.",
+    "The office canceled High Wind Warnings and Wind Advisories for eastern Massachusetts and Rhode Island as conditions eased. A Flood Watch remains in effect for parts of the region, and forecasters continue to warn that repeated downpours could overwhelm urban drainage and other low-lying areas.",
+    "The Boston-area forecast calls for more showers Sunday and Monday, with some periods of heavy rain. Northeast winds remain strong enough to make travel difficult in exposed locations, even though the most damaging gusts are no longer expected to dominate the event.",
+    "Residents should monitor the latest local alerts, avoid driving through water covering a roadway and use caution near the coast. The exact combination of rain, wind and coastal impacts will vary by community as the low gradually weakens."
   ],
   "category": "new-england",
   "topic": "new-england",
@@ -26,7 +25,7 @@
   "location": "Southern New England",
   "author": "NorthEast News Desk",
   "publishedAt": "2026-09-22T08:58:27-04:00",
-  "updatedAt": "2026-09-25T16:36:28-04:00",
+  "updatedAt": "2026-09-27T12:11:18-04:00",
   "breaking": false,
   "developing": true,
   "analysis": false,
@@ -39,5 +38,5 @@
   "seoDescription": null,
   "canonicalUrl": null,
   "sourceName": "National Weather Service Boston/Norton",
-  "sourceUrl": "https://www.weather.gov/box/"
+  "sourceUrl": "https://forecast.weather.gov/product.php?format=CI&glossary=0&issuedby=BOX&product=AFD&site=CYS&version=2"
 }
