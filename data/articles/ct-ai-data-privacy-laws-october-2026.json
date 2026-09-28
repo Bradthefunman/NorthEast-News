@@ -1,0 +1,43 @@
+{
+  "id": "ct-ai-data-privacy-laws-october-2026",
+  "slug": "connecticut-ai-data-privacy-laws-october-2026",
+  "headline": "Connecticut AI and data-privacy rules expand Oct. 1",
+  "dek": "A new phase of state laws will add requirements for AI disclosures and data-broker oversight while limiting the sale and use of some sensitive information.",
+  "body": [
+    "Connecticut will begin enforcing another set of artificial-intelligence and data-privacy provisions Oct. 1, putting new obligations on some businesses and additional protections in place for residents as the state phases in laws passed this year.",
+    "The Connecticut Artificial Intelligence Responsibility and Transparency Act, known as the CART Act or Public Act 26-15, takes a targeted approach to AI. The next phase includes disclosures for some AI subscriptions, whistleblower protections for people working on large frontier models and definitions intended to clarify which technologies fall under the law, according to a Sept. 28 explainer from CT Mirror.",
+    "A companion measure, Public Act 26-64, expands the Connecticut Data Privacy Act. The changes include restrictions on facial-recognition technology and surveillance pricing, a ban on selling residents' genetic data and a requirement for the Department of Consumer Protection to build a system for tracking and regulating data brokers. The attorney general's office has also said the new laws limit the sale of precise geolocation data and add deletion rights tied to certain consumer profiles.",
+    "Employers have a longer runway for one of the law's most consequential requirements. Companies that use automated systems in employment decisions must have a framework to explain when and how AI is used by Oct. 1, 2027, and using an automated tool will not shield an employer from a discrimination claim.",
+    "The rollout will continue after October. Rules for AI companion chatbots, including disclosures that they are not human and protocols aimed at detecting self-harm risks, are scheduled for Jan. 1, 2027. Youth social-media provisions are scheduled for Jan. 1, 2028, so residents and businesses should not assume every part of the package is active at once."
+  ],
+  "category": "new-england",
+  "topic": "new-england",
+  "topicLabel": "New England",
+  "tags": [
+    "Connecticut",
+    "Artificial Intelligence",
+    "Data Privacy",
+    "Consumer Protection",
+    "Facial Recognition",
+    "Data Brokers"
+  ],
+  "state": "CT",
+  "city": "Hartford",
+  "location": "Connecticut",
+  "author": "NorthEast News Desk",
+  "publishedAt": "2026-09-28T10:05:00-04:00",
+  "updatedAt": "2026-09-28T10:05:00-04:00",
+  "breaking": false,
+  "developing": false,
+  "analysis": false,
+  "featured": false,
+  "trending": false,
+  "archive": false,
+  "image": null,
+  "imageAlt": null,
+  "seoTitle": "Connecticut AI and Data-Privacy Rules Expand Oct. 1",
+  "seoDescription": "Connecticut will phase in new AI and data-privacy requirements covering disclosures, data brokers, genetic data, facial recognition and surveillance pricing.",
+  "canonicalUrl": null,
+  "sourceName": "CT Mirror",
+  "sourceUrl": "https://ctmirror.org/2026/09/28/artificial-intelligence-data-privacy-laws-october-ct/"
+}
