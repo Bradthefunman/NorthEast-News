@@ -1,13 +1,13 @@
 {
   "id": "ne-southern-new-england-coastal-low-gale-warnings-2026-09-22",
   "slug": "southern-new-england-coastal-storm-gale-warnings-september-2026",
-  "headline": "Nor’easter’s worst wind passes, but rain and flooding concerns remain",
-  "dek": "The National Weather Service says the strongest winds have eased across southern New England, while rain, minor coastal flooding and localized street flooding remain possible into Monday.",
+  "headline": "Nor’easter leaves more than 100,000 without power as storm lingers",
+  "dek": "The slow-moving storm has caused a fatal falling-tree incident in Brooklyn and widespread outages while rain, coastal flooding and localized street flooding remain possible into Monday.",
   "body": [
-    "The worst of the nor’easter’s wind has moved through southern New England, but the National Weather Service Boston/Norton office says unsettled weather will continue. Its Sunday morning discussion says windswept rain, minor coastal flooding and beach erosion remain possible, along with localized urban and street flooding, through Monday.",
-    "The office canceled High Wind Warnings and Wind Advisories for eastern Massachusetts and Rhode Island as conditions eased. A Flood Watch remains in effect for parts of the region, and forecasters continue to warn that repeated downpours could overwhelm urban drainage and other low-lying areas.",
-    "The Boston-area forecast calls for more showers Sunday and Monday, with some periods of heavy rain. Northeast winds remain strong enough to make travel difficult in exposed locations, even though the most damaging gusts are no longer expected to dominate the event.",
-    "Residents should monitor the latest local alerts, avoid driving through water covering a roadway and use caution near the coast. The exact combination of rain, wind and coastal impacts will vary by community as the low gradually weakens."
+    "A slow-moving nor’easter continued to affect the Northeast on Sunday, with more than 100,000 customers without power across the region and mid-Atlantic, according to Associated Press reporting that cited PowerOutage.us. The storm was expected to linger near the coast before gradually weakening.",
+    "The storm also turned deadly in New York City. A 56-year-old New York City Housing Authority employee died after a falling tree struck him in Brooklyn on Saturday, according to the Associated Press and New York City storm reports. The incident came as saturated ground and strong winds increased the risk of falling trees and limbs.",
+    "In southern New England, the National Weather Service Boston/Norton office says windswept rain, minor coastal flooding and beach erosion remain possible, along with localized urban and street flooding, through Monday. Some coastal wind warnings have eased, but repeated downpours can still overwhelm drainage and low-lying roads.",
+    "Residents should monitor the latest local alerts, avoid driving through water covering a roadway and use caution near the coast. Outage and travel conditions may change quickly as the low shifts and communities clear downed trees, wires and debris."
   ],
   "category": "new-england",
   "topic": "new-england",
@@ -25,7 +25,7 @@
   "location": "Southern New England",
   "author": "NorthEast News Desk",
   "publishedAt": "2026-09-22T08:58:27-04:00",
-  "updatedAt": "2026-09-27T12:11:18-04:00",
+  "updatedAt": "2026-09-27T16:34:30-04:00",
   "breaking": false,
   "developing": true,
   "analysis": false,
@@ -37,6 +37,6 @@
   "seoTitle": null,
   "seoDescription": null,
   "canonicalUrl": null,
-  "sourceName": "National Weather Service Boston/Norton",
-  "sourceUrl": "https://forecast.weather.gov/product.php?format=CI&glossary=0&issuedby=BOX&product=AFD&site=CYS&version=2"
+  "sourceName": "Associated Press; National Weather Service Boston/Norton",
+  "sourceUrl": "https://apnews.com/article/123cd2e8-ba75-11f1-81fc-9b76f8343b6c"
 }

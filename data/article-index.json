@@ -7,11 +7,11 @@
       "breaking": false,
       "category": "new-england",
       "city": "Boston",
-      "dek": "The National Weather Service says the strongest winds have eased across southern New England, while rain, minor coastal flooding and localized street flooding remain possible into Monday.",
+      "dek": "The slow-moving storm has caused a fatal falling-tree incident in Brooklyn and widespread outages while rain, coastal flooding and localized street flooding remain possible into Monday.",
       "developing": true,
       "featured": false,
       "file": "data/articles/ne-southern-new-england-coastal-low-gale-warnings-2026-09-22.json",
-      "headline": "Nor’easter’s worst wind passes, but rain and flooding concerns remain",
+      "headline": "Nor’easter leaves more than 100,000 without power as storm lingers",
       "id": "ne-southern-new-england-coastal-low-gale-warnings-2026-09-22",
       "image": null,
       "imageAlt": null,
@@ -31,7 +31,7 @@
       "topic": "new-england",
       "topicLabel": "New England",
       "trending": false,
-      "updatedAt": "2026-09-27T12:11:18-04:00",
+      "updatedAt": "2026-09-27T16:34:30-04:00",
       "visualLabel": null
     },
     {
