@@ -336,11 +336,7 @@
   function enhanceFooter() {
     var grid = document.querySelector('.footer-grid'); if (!grid) return;
     var about = grid.lastElementChild;
-    if (about) about.innerHTML = '<h2>NorthEast News</h2>' + [['About', rootPath('about/')], ['Editorial standards', rootPath('editorial-standards/')], ['Corrections', rootPath('corrections/')], ['Privacy', rootPath('privacy/')], ['Terms', rootPath('terms/')], ['Contact', rootPath('contact/')], ['News tips', rootPath('tips/')], ['Advertise', rootPath('advertise/')], ['Business directory', rootPath('business-directory/')]].map(function (item) { return '<a href="' + item[1] + '">' + item[0] + '</a>'; }).join('');
-    if (!grid.querySelector('.footer-newsletter')) {
-      var first = grid.firstElementChild;
-      if (first) { var wrap = document.createElement('div'); wrap.className = 'footer-newsletter'; var id = 'footer-email-' + Math.random().toString(36).slice(2); wrap.innerHTML = '<span class="newsletter-kicker">NorthEast News Brief</span><p>Useful regional headlines, when there is something worth knowing.</p><form data-form-type="newsletter"><label class="visually-hidden" for="' + id + '">Email address</label><input id="' + id + '" name="email" type="email" placeholder="you@example.com" required><button type="submit">Subscribe</button><small data-form-message aria-live="polite"></small></form>'; first.appendChild(wrap); }
-    }
+    if (about) about.innerHTML = '<h2>NorthEast News</h2>' + [['About', rootPath('about/')], ['Editorial standards', rootPath('editorial-standards/')], ['Corrections', rootPath('corrections/')], ['Privacy', rootPath('privacy/')], ['Terms', rootPath('terms/')], ['Contact', rootPath('contact/')], ['News tips', rootPath('tips/')], ['Advertise', rootPath('advertise/')]].map(function (item) { return '<a href="' + item[1] + '">' + item[0] + '</a>'; }).join('');
   }
   function ensureFeatureStyles() {
     if (document.querySelector('link[data-feature-styles]')) return;
@@ -353,7 +349,7 @@
     section.id = 'home-utility-links';
     section.className = 'home-utility-links';
     section.setAttribute('aria-labelledby', 'home-utility-heading');
-    section.innerHTML = '<div><p class="eyebrow">Stay connected</p><h2 id="home-utility-heading">Keep following the region.</h2><p>Search the file, send a tip or explore local businesses as reviewed listings become available.</p></div><div class="home-utility-actions"><a class="button-link" href="' + rootPath('search/') + '">Search the news →</a><a class="button-link secondary" href="' + rootPath('tips/') + '">Submit a news tip</a><a class="button-link secondary" href="' + rootPath('business-directory/') + '">Business directory</a><a class="button-link secondary" href="' + rootPath('advertise/') + '">Advertise</a></div>';
+    section.innerHTML = '<div><p class="eyebrow">Stay connected</p><h2 id="home-utility-heading">Keep following the region.</h2><p>Search the file or send a news tip.</p></div><div class="home-utility-actions"><a class="button-link" href="' + rootPath('search/') + '">Search the news →</a><a class="button-link secondary" href="' + rootPath('tips/') + '">Submit a news tip</a><a class="button-link secondary" href="' + rootPath('advertise/') + '">Advertise</a></div>';
     main.appendChild(section);
   }
   function submitForm(form, type) {

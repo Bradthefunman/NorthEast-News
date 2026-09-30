@@ -53,6 +53,18 @@
     var config = api().CONFIG || {};
     return article.canonicalUrl || (config.siteUrl ? config.siteUrl.replace(/\/$/, '') + '/article.html?slug=' + encodeURIComponent(article.slug) : window.location.href);
   }
+  function loadAds() {
+    if (document.querySelector('script[data-article-ads]')) return;
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2976233413120261';
+    script.crossOrigin = 'anonymous';
+    script.dataset.articleAds = 'true';
+    script.addEventListener('load', function () {
+      try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch (error) { /* Ads may be unavailable. */ }
+    });
+    document.head.appendChild(script);
+  }
   function render(article, all) {
     var site = api(), url = canonical(article), description = article.seoDescription || article.dek || article.summary || '';
     var image = article.image ? site.absoluteUrl(article.image) : site.absoluteUrl((site.CONFIG.organization && site.CONFIG.organization.logo) || 'assets/og-default.svg');
@@ -72,7 +84,7 @@
     var shell = document.getElementById('article-shell');
     shell.innerHTML = '<div class="article-layout"><div><header class="article-header"><span class="story-type">' + site.escapeHTML(site.typeLabel(article)) + '</span><h1>' + site.escapeHTML(article.headline) + '</h1><p class="article-dek">' + site.escapeHTML(description) + '</p><div class="article-byline"><span>By ' + site.escapeHTML(article.author || 'NorthEast News Desk') + '</span><span><a href="' + stateHref(article, site) + '">' + site.escapeHTML(place) + '</a></span><span>Published ' + site.escapeHTML(site.formatDateTime(article.publishedAt)) + '</span>' + (article.updatedAt && article.updatedAt !== article.publishedAt ? '<span>Updated ' + site.escapeHTML(site.formatDateTime(article.updatedAt)) + '</span>' : '') + '</div></header>' + site.visualArticle(article) + '<div class="article-share" aria-label="Share this story"><span class="share-label">Share</span><button class="share-button" data-share="native" type="button" hidden>Share</button><button class="share-button" data-share="facebook" type="button">Facebook</button><button class="share-button" data-share="x" type="button">X</button><button class="share-button" data-share="linkedin" type="button">LinkedIn</button><a class="share-button" data-share="email" href="mailto:?subject=' + encodeURIComponent(article.headline) + '&body=' + encodeURIComponent(url) + '">Email</a><button class="share-button" data-share="copy" type="button">Copy link</button><small class="share-feedback" aria-live="polite"></small></div><div class="article-body">' + bodyHtml + '</div>' + (article.tags && article.tags.length ? '<div class="article-tags" aria-label="Story tags">' + tags + '</div>' : '') + source + '<div class="article-tools"><a class="share-button" href="' + site.rootPath('archive.html') + '">← Back to all news</a></div></div><aside class="article-side"><div class="ad-slot ad-rectangle" aria-label="Advertisement"><span class="ad-label">ADVERTISEMENT</span><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2976233413120261" data-ad-slot="8819023789" data-ad-format="auto" data-full-width-responsive="true"></ins></div>' + relatedMarkup + '</aside></div><script type="application/ld+json" id="article-schema">' + JSON.stringify(schema).replace(/<\/script/gi, '<\\/script') + '</script>';
     shell.hidden = false;
-    try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch (error) { /* Ad blockers or delayed script loading may prevent a request. */ }
+    loadAds();
     var loading = document.getElementById('article-loading'); if (loading) loading.hidden = true; var missing = document.getElementById('article-missing'); if (missing) missing.hidden = true; bindShare(url, article.headline);
   }
   function bindShare(url, title) {
@@ -85,10 +97,11 @@
       if (action === 'linkedin') button.addEventListener('click', function () { window.open('https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(url), '_blank', 'noopener,noreferrer'); });
     });
   }
-  function missing() { var loading = document.getElementById('article-loading'); if (loading) loading.hidden = true; var shell = document.getElementById('article-shell'); if (shell) shell.hidden = true; var target = document.getElementById('article-missing'); if (target) target.hidden = false; }
+  function missing() { var loading = document.getElementById('article-loading'); if (loading) loading.hidden = true; var shell = document.getElementById('article-shell'); if (shell) shell.hidden = true; var target = document.getElementById('article-missing'); if (target) target.hidden = false; var robots = document.querySelector('meta[name="robots"]'); if (!robots) { robots = document.createElement('meta'); robots.name = 'robots'; document.head.appendChild(robots); } robots.content = 'noindex, follow'; }
   function load() {
     var slug = new URLSearchParams(window.location.search).get('slug');
-    if (!slug || !api().state || !api().state.ready) return;
+    if (!slug) { missing(); return; }
+    if (!api().state || !api().state.ready) return;
     api().loadArticleBySlug(slug).then(function (article) { render(article, api().state.articles); }).catch(function (error) {
       if (error && error.kind === 'network') {
         var loading = document.getElementById('article-loading'); if (loading) loading.innerHTML = '<p class="empty-state">This story could not be loaded right now. Please try again.</p>';
