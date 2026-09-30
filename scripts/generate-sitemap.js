@@ -2,7 +2,7 @@
 'use strict';
 const fs=require('fs'),path=require('path'),store=require('./article-store'),root=store.ROOT;
 const config=JSON.parse(fs.readFileSync(path.join(root,'data/site-config.json'),'utf8')),articles=store.loadArticles(),base=String(config.siteUrl||'').replace(/\/$/,'');
-const routes=[['/','1.0'],['/new-hampshire/','0.9'],['/massachusetts/','0.8'],['/rhode-island/','0.8'],['/breaking/','0.7'],['/tech/','0.7'],['/markets/','0.7'],['/misc/','0.5'],['/search/','0.6'],['/archive.html','0.7'],['/business-directory/','0.6'],['/about/','0.4'],['/editorial-standards/','0.4'],['/corrections/','0.4'],['/privacy/','0.3'],['/terms/','0.3'],['/advertise/','0.6'],['/tips/','0.6'],['/contact/','0.4']];
+const routes=[['/','1.0'],['/new-hampshire/','0.9'],['/massachusetts/','0.8'],['/rhode-island/','0.8'],['/breaking/','0.7'],['/tech/','0.7'],['/markets/','0.7'],['/misc/','0.5'],['/archive.html','0.7'],['/about/','0.4'],['/editorial-standards/','0.4'],['/corrections/','0.4'],['/privacy/','0.3'],['/terms/','0.3'],['/advertise/','0.6'],['/tips/','0.6'],['/contact/','0.4']];
 function xml(v){return String(v).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&apos;');}
 function entry(loc,lastmod,priority){return '<url><loc>'+xml(base+loc)+'</loc>'+(lastmod?'<lastmod>'+xml(String(lastmod).slice(0,10))+'</lastmod>':'')+'<priority>'+priority+'</priority></url>';}
 const newest=articles[0]?(articles[0].updatedAt||articles[0].publishedAt):null,entries=routes.map(item=>entry(item[0],newest,item[1]));

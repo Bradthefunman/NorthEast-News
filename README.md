@@ -18,7 +18,7 @@ templates/business-listing.json documents the directory record shape: name, cate
 
 ## Public routes
 
-/, /new-hampshire/, /massachusetts/, /rhode-island/, /breaking/, /tech/, /markets/, /misc/, /search/, /archive.html, /business-directory/, /tips/, /advertise/, /about/, /editorial-standards/, /corrections/, /privacy/, /terms/ and /contact/. Older .html pages remain available for compatibility.
+/, /new-hampshire/, /massachusetts/, /rhode-island/, /breaking/, /tech/, /markets/, /misc/, /search/, /archive.html, /tips/, /advertise/, /about/, /editorial-standards/, /corrections/, /privacy/, /terms/ and /contact/. Older .html pages remain available for compatibility. The empty /business-directory/ route is removed from navigation and redirects to the archive until reviewed listings are available.
 
 ## Automated publishing
 
@@ -30,7 +30,7 @@ The optional macOS publisher in `publisher/` edits the same article schema, show
 
 ## Forms and newsletter
 
-Static hosting cannot safely store submissions by itself. Newsletter, tips, sponsorship and contact forms use HTTPS JSON endpoint keys in data/site-config.json and never commit submissions or subscriber emails. Until an endpoint is supplied, forms explicitly say delivery is inactive and do not pretend to store information. Honeypot fields and browser validation are included. Configure the endpoints with a secure form provider or serverless function.
+Static hosting cannot safely store submissions by itself. Tips, sponsorship and contact forms use HTTPS JSON endpoint keys in data/site-config.json and never commit submissions. Until an endpoint is supplied, forms explicitly say delivery is inactive and do not pretend to store information. The newsletter signup has been removed until its endpoint is configured and tested. Configure the endpoints with a secure form provider or serverless function.
 
 ## Custom domain
 
