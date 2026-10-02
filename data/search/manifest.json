@@ -1,1 +1,20 @@
-m«ëˆ§½©buªàºg§µÖ­kûj·!şf§‰÷¬¶;(KæÚ±î¸Ø[é¢Šwâ•ê(º×â•æÛ­æ¤n·š‘éÜ¡×¢ëiºÛ©Š{h–)Ş²‡åzx-†{¦×^r‡^uç(uè§¦ëa…éiv+)•¬­†+&zËè¢›­Šznµø¥y×Ÿjém~ŠìµØ§¢‹­¦ëhºÚnµø¥y×Ÿjém~ŠìµÚ.
+{
+  "schemaVersion": 1,
+  "shards": [
+    {
+      "count": 34,
+      "file": "data/search/2026-10.json",
+      "month": "2026-10"
+    },
+    {
+      "count": 896,
+      "file": "data/search/2026-09.json",
+      "month": "2026-09"
+    },
+    {
+      "count": 112,
+      "file": "data/search/2026-08.json",
+      "month": "2026-08"
+    }
+  ]
+}
