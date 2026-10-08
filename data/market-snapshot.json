@@ -1,22 +1,22 @@
 {
-  "asOf": "2026-10-07T23:33:27Z",
+  "asOf": "2026-10-08T19:02:27Z",
   "items": [
     {
       "name": "Dow Jones",
-      "value": 51179.87,
-      "change": "\u2212341.41 (\u22120.66%)",
+      "value": 51150.84,
+      "change": "\u221229.03 (\u22120.06%)",
       "direction": "down"
     },
     {
       "name": "S&P 500",
-      "value": 7801.77,
-      "change": "\u221217.16 (\u22120.22%)",
+      "value": 7757.07,
+      "change": "\u221244.70 (\u22120.57%)",
       "direction": "down"
     },
     {
       "name": "Nasdaq",
-      "value": 27538.69,
-      "change": "\u221261.20 (\u22120.22%)",
+      "value": 27169.91,
+      "change": "\u2212368.78 (\u22121.34%)",
       "direction": "down"
     }
   ],
