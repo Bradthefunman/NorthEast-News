@@ -1,3 +1,6 @@
+Warning: truncated output (original token count: 52167)
+Total output lines: 1185
+
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://www.northenews.com/</loc><lastmod>2026-10-14</lastmod><priority>1.0</priority></url>
@@ -17,6 +20,7 @@
   <url><loc>https://www.northenews.com/advertise/</loc><lastmod>2026-10-14</lastmod><priority>0.6</priority></url>
   <url><loc>https://www.northenews.com/tips/</loc><lastmod>2026-10-14</lastmod><priority>0.6</priority></url>
   <url><loc>https://www.northenews.com/contact/</loc><lastmod>2026-10-14</lastmod><priority>0.4</priority></url>
+  <url><loc>https://www.northenews.com/article.html?slug=massachusetts-racial-profiling-traffic-stop-reports-delayed-2026</loc><lastmod>2026-10-14</lastmod><priority>0.7</priority></url>
   <url><loc>https://www.northenews.com/article.html?slug=hasbro-targets-january-for-boston-headquarters-as-pawtucket-exit-nears</loc><lastmod>2026-10-14</lastmod><priority>0.7</priority></url>
   <url><loc>https://www.northenews.com/article.html?slug=connecticut-revolution-wind-federal-permit-review-2026</loc><lastmod>2026-10-14</lastmod><priority>0.7</priority></url>
   <url><loc>https://www.northenews.com/article.html?slug=massachusetts-early-voting-october-17-30-2026</loc><lastmod>2026-10-14</lastmod><priority>0.7</priority></url>
@@ -595,54 +599,7 @@
   <url><loc>https://www.northenews.com/article.html?slug=iea-says-saudi-crude-supply-fell-to-three-decade-low-after-attacks</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://www.northenews.com/article.html?slug=uk-economy-grows-0-4-percent-in-july-as-software-services-expand</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://www.northenews.com/article.html?slug=ultimate-championship-debuts-with-record-prize-money-for-track</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=western-athletes-join-3000-competitors-at-kyrgyzstans-nomad-games</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=nhpr-explainer-warns-bone-conduction-headphones-can-still-damage-hearing</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=fisher-cats-strike-out-13-but-fall-8-0-to-harrisburg</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=rhode-island-energy-app-gives-customers-real-time-usage-view</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=tivertons-west-place-marks-20-years-rescuing-farm-animals</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=openai-is-open-to-slowing-ai-development-report-says</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=uae-disperses-giant-ai-data-center-plan-after-iranian-attacks</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=china-and-india-arrange-xi-modi-meeting-ahead-of-brics-summit</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=houthis-reach-dhubab-on-strategic-bab-el-mandeb-strait-sources-say</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=long-island-homicide-suspect-killed-by-police-in-erving-authorities-say</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=lynn-family-raises-safety-concerns-after-special-needs-school-bus-delay</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=australian-shares-close-at-two-month-low-as-miners-retreat</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=kioxias-planned-us-listing-could-widen-ai-investor-access</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=sian-heders-being-heumann-opens-toronto-film-festival</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=first-new-gruffalo-story-in-more-than-20-years-reaches-shelves</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=dover-prepares-to-unveil-september-11-memorial-honoring-four-local-lives</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=manchester-says-it-has-effectively-ended-veteran-homelessness</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=driver-charged-with-fatal-dui-after-middletown-crash-kills-child</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=warmer-season-could-delay-rhode-island-peak-foliage-into-november</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=esa-chief-urges-europe-to-link-national-satellite-systems</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=eutelsat-orders-229-satellites-to-extend-oneweb-network-through-2034</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=indonesian-parents-file-first-legal-challenge-over-free-school-meals</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=mi5-chief-warns-next-strategic-shock-may-emerge-beyond-current-focus</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=lexington-woman-pleads-guilty-in-11-million-ponzi-scheme</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=salem-police-chief-recalls-september-11-work-as-nypd-detective</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=novartis-investors-scrutinize-deal-strategy-after-clinical-setbacks</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=gasoline-expected-to-lift-august-u-s-inflation-reading</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=49ers-beat-rams-27-7-in-first-nfl-regular-season-game-in-australia</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=como-wins-4-1-in-dream-champions-league-debut</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=nashua-community-college-opens-new-enrichment-classes-to-teens-and-adults</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=rundlett-students-adapt-as-new-middle-school-construction-ramps-up</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=rhode-island-blaze-orange-rule-begins-as-archery-season-opens</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=rhode-island-weekend-offers-comedy-folk-music-and-polka</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=texas-judge-says-tiktok-misled-users-about-child-safety-controls</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=ukraine-expands-battlefield-use-of-unmanned-ground-vehicles</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=hong-kong-court-gives-tiananmen-vigil-leaders-seven-year-terms</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=hormuz-vessel-traffic-falls-to-seven-transits-tracking-data-shows</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=jurors-describe-split-that-produced-lindsay-clancy-mistrial</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=oak-bluffs-police-search-state-barracks-in-sexual-assault-investigation</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=enflame-shares-triple-in-shanghai-debut-after-912-million-ipo</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=jetblue-raises-seat-revenue-outlook-as-fuel-and-disruption-costs-climb</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=anthony-volpe-returns-with-grand-slam-as-yankees-sweep-rockies</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=rybakina-rallies-past-gauff-to-reach-us-open-final</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=concord-library-receives-book-overdue-by-more-than-132-years</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=loudon-pentagon-survivor-marks-25-years-since-september-11</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=regent-seaglider-completes-first-crewed-flight-on-narragansett-bay</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=rhode-island-communities-hold-september-11-remembrance-ceremonies</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.northenews.com/article.html?slug=china-targets-large-scale-autonomous-vehicle-deployment-by-2030</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.northenews.com/article.html?slug=western-athletes-join-3000-competitors-at-kyrgyzstans-nomad-games</loc><lastmod>2026-…2167 tokens truncated…nt-by-2030</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://www.northenews.com/article.html?slug=microsoft-plans-to-triple-data-center-capacity-by-2032-report-says</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://www.northenews.com/article.html?slug=generator-failures-deepen-power-crisis-at-gaza-hospitals</loc><lastmod>2026-09-10</lastmod><priority>0.7</priority></url>
   <url><loc>https://www.northenews.com/article.html?slug=russian-strikes-injure-two-and-ignite-kyiv-apartment-fire-officials-say</loc><lastmod>2026-09-10</lastmod><priority>0.7</priority></url>
