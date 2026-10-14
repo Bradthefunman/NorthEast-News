@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "shards": [
     {
-      "count": 158,
+      "count": 159,
       "file": "data/search/2026-10.json",
       "month": "2026-10"
     },
