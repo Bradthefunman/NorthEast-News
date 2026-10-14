@@ -1,13 +1,15 @@
 {
   "id": "ma-lawrence-mayor-wiretap-indictment-2026-09-25",
   "slug": "lawrence-mayor-wiretap-indictment",
-  "headline": "Lawrence mayor indicted on wiretap and witness-intimidation charges",
-  "dek": "A statewide grand jury returned 15 indictments against Brian DePeña over alleged secret recordings at City Hall; his arraignment has not been scheduled.",
+  "headline": "Lawrence mayor pleads not guilty to wiretap charges as council advances no-confidence vote",
+  "dek": "Brian DePeña entered a not-guilty plea in Essex Superior Court and was released on personal recognizance; a council committee voted to send a no-confidence resolution to the full council.",
   "body": [
-    "A Massachusetts statewide grand jury has indicted Lawrence Mayor Brian DePeña on 15 charges tied to alleged secret recordings made inside City Hall, Attorney General Andrea Campbell's office announced Thursday. The indictment includes 14 counts of distributing a wiretapped communication and one count of witness intimidation.",
-    "According to the attorney general's office, DePeña requested and installed a private security system for his office in 2023, separate from the city's existing cameras. In March, one of those cameras allegedly recorded audio and video of a hallway conversation between two public employees, at least one of whom did not know the conversation was being recorded.",
-    "Prosecutors allege that DePeña later distributed copies of the recording to 14 people. The attorney general's office said the city's own security cameras do not record audio and that there was no public notice that the mayor's private system captured sound. Massachusetts State Police and Lawrence police assisted with the investigation, according to the office.",
-    "The arraignment on the state charges will be scheduled later. The case is separate from federal charges filed in August alleging that DePeña obtained more than $1.5 million in pandemic-era small-business loans and used some of the money for personal expenses and his mayoral campaign. DePeña has pleaded not guilty to those federal charges, according to court coverage. The new indictment contains allegations, not findings of guilt."
+    "Lawrence Mayor Brian DePeña pleaded not guilty Tuesday in Essex Superior Court to 14 counts of distributing a wiretapped communication and one count of witness intimidation. The arraignment in Salem moved the case from a grand-jury accusation into active state-court proceedings. [CBS Boston](https://www.cbsnews.com/boston/news/lawrence-massachusetts-mayor-brian-depena-wiretapping-arraignment/) reported that DePeña was released on personal recognizance and that his next hearing is scheduled for Dec. 9.",
+    "The charges stem from allegations first announced by the [Massachusetts Attorney General's Office](https://www.mass.gov/news/ags-office-announces-indictments-against-lawrence-mayor-for-wiretap-statute-violations-and-witness-intimidation). Prosecutors say DePeña asked for a private security system in his City Hall office, separate from the city's cameras, and that a hallway conversation between two municipal employees was captured on audio and video in March without at least one participant's knowledge. The attorney general's office said DePeña later distributed copies to 14 people. Those are allegations in the charging documents, not findings that he committed the offenses.",
+    "DePeña's lawyer, Neil Faigel, disputed the premise that the mayor controlled the system. In comments outside court reported by CBS Boston, Faigel said the cameras were installed by the city's information-technology department, that DePeña did not have passcodes and that he could not access the recordings. The defense position does not resolve the factual dispute; the state case will turn on evidence presented through the court process. DePeña did not answer questions about whether he would resign, according to the same report.",
+    "The court appearance coincided with a separate political response in Lawrence. The City Council's Committee of the Whole voted 5–2 to forward a no-confidence resolution to the full council, which is expected to take a final vote at its next regular meeting, [The Boston Globe reported](https://www.bostonglobe.com/2026/10/13/metro/lawrence-mayor-brain-depena-no-confidence/). The committee's action is symbolic: the council cannot force the mayor out through a no-confidence vote. Council President Jeovanny Rodriguez said the resolution concerns public trust and leadership, while opponents argued that a recall process would give residents the formal decision.",
+    "The council has also hired CliftonLarsonAllen for a comprehensive governance assessment, adding an administrative review to the criminal and political pressure surrounding City Hall. The Globe reported that DePeña intends to remain in office while the cases proceed. That means Lawrence residents are facing two separate questions: how the state prosecution develops, and how the mayor and council maintain day-to-day municipal services while the allegations remain unresolved.",
+    "The state case is separate from the federal case filed in August, in which prosecutors allege DePeña misused pandemic-relief loans for personal and campaign-related expenses. He has pleaded not guilty in that matter as well. The [Boston 25 report on Tuesday's arraignment](https://www.boston25news.com/news/local/lawrence-mayor-pleads-not-guilty-wiretapping-witness-intimidation-charges/ZSAVRE2E3VAC3IA6SZP3JJYCHQ/) said DePeña's attorney maintained that the mayor had no knowledge of how the City Hall cameras operated. Neither case has produced a conviction, and the next scheduled state-court date is the Dec. 9 hearing."
   ],
   "category": "massachusetts",
   "topic": "massachusetts",
@@ -25,7 +27,7 @@
   "location": "Lawrence, Massachusetts",
   "author": "NorthEast News Desk",
   "publishedAt": "2026-09-25T09:19:30-04:00",
-  "updatedAt": "2026-09-25T09:19:30-04:00",
+  "updatedAt": "2026-10-14T09:56:05-04:00",
   "breaking": false,
   "developing": true,
   "analysis": false,
@@ -34,9 +36,9 @@
   "archive": false,
   "image": null,
   "imageAlt": null,
-  "seoTitle": "Lawrence mayor indicted on wiretap and witness-intimidation charges",
-  "seoDescription": "A Massachusetts grand jury indicted Lawrence Mayor Brian DePeña on 15 charges tied to alleged secret recordings at City Hall.",
+  "seoTitle": "Lawrence mayor pleads not guilty as no-confidence vote advances",
+  "seoDescription": "Brian DePeña pleaded not guilty to Massachusetts wiretap and witness-intimidation charges as Lawrence councilors advanced a no-confidence resolution.",
   "canonicalUrl": "https://www.northenews.com/article.html?slug=lawrence-mayor-wiretap-indictment",
-  "sourceName": "Massachusetts Attorney General's Office",
-  "sourceUrl": "https://www.mass.gov/news/ags-office-announces-indictments-against-lawrence-mayor-for-wiretap-statute-violations-and-witness-intimidation"
+  "sourceName": "CBS Boston",
+  "sourceUrl": "https://www.cbsnews.com/boston/news/lawrence-massachusetts-mayor-brian-depena-wiretapping-arraignment/"
 }
