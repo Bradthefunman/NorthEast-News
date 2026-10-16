@@ -33,7 +33,7 @@
   "breaking": false,
   "developing": false,
   "analysis": false,
-  "featured": false,
+  "featured": true,
   "trending": false,
   "archive": false,
   "image": null,
