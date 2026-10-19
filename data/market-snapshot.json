@@ -1,23 +1,23 @@
 {
-  "asOf": "2026-10-16T22:16:24Z",
+  "asOf": "2026-10-19T18:51:46Z",
   "items": [
     {
       "name": "Dow Jones",
-      "value": 52002.41,
-      "change": "\u2212175.28 (\u22120.34%)",
-      "direction": "down"
+      "value": 52046.87,
+      "change": "+44.46 (+0.09%)",
+      "direction": "up"
     },
     {
       "name": "S&P 500",
-      "value": 7659.44,
-      "change": "\u221284.62 (\u22121.09%)",
-      "direction": "down"
+      "value": 7702.48,
+      "change": "+43.04 (+0.56%)",
+      "direction": "up"
     },
     {
       "name": "Nasdaq",
-      "value": 26140.03,
-      "change": "\u2212572.99 (\u22122.15%)",
-      "direction": "down"
+      "value": 26461.65,
+      "change": "+321.61 (+1.23%)",
+      "direction": "up"
     }
   ],
   "disclaimer": "Yahoo Finance chart feed; quotes may be delayed and can show the last market close when markets are closed."
